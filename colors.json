@@ -1,0 +1,67 @@
+[
+  { "name": "Normal Item Color"            , "hex": "#c8c8c8" },
+  { "name": "Magic Item Color"             , "hex": "#8888ff" },
+  { "name": "Rare Item Color"              , "hex": "#ffff77" },
+  { "name": "Unique Item Color"            , "hex": "#af6025" },
+
+  { "name": "Gem Color"                    , "hex": "#1ba29b" },
+  { "name": "Currency Color"               , "hex": "#b8b667" },
+  { "name": "Quest Item Color"             , "hex": "#4ae63a" },
+  { "name": "Divination Card Color"        , "hex": "#0ebaff" },
+  { "name": "Utility Flask Color"          , "hex": "#4bff84" },
+  { "name": "Flask Color"                  , "hex": "#4bc6ff" },
+  { "name": "Map Color"                    , "hex": "#ffffff" },
+  { "name": "Jewel Color"                  , "hex": "#22d99e" },
+  { "name": "Vaal Fragment Color"          , "hex": "#5d1300" },
+  { "name": "Advanced Vaal Fragment Color" , "hex": "#700027" },
+  { "name": "Sextant Color"                , "hex": "#c8bcb4" },
+  { "name": "Jewelry Color"                , "hex": "#51631e" },
+  { "name": "Belt Color"                   , "hex": "#41631f" },
+  { "name": "Weapon Color"                 , "hex": "#1f6427" },
+  { "name": "Gear Color"                   , "hex": "#458d2c" },
+
+  { "name": "Fire Color"                   , "hex": "#960000" },
+  { "name": "Cold Color"                   , "hex": "#366492" },
+  { "name": "Lightning Color"              , "hex": "#ffd700" },
+  { "name": "Chaos Color"                  , "hex": "#d02090" },
+  { "name": "Physical Color"               , "hex": "#1f191d" },
+
+  { "name": "Crafted Mod Color"            , "hex": "#b8daf2" },
+
+  { "name": "Corrupted Color"              , "hex": "#d20000" },
+
+  { "name": "Labyrinth Color"              , "hex": "#288b16" },
+  { "name": "Atlas Color"                  , "hex": "#9a66d4" },
+  { "name": "Oriath Color"                 , "hex": "#ff8e28" },
+
+  { "name": "Hammer Color"                 , "hex": "#400b00" },
+  { "name": "Regal/Choas Orb Recipe Color" , "hex": "#022714" },
+  { "name": "Chromatic Orb Recipe Color"   , "hex": "#7676d0" },
+
+  { "name": "High Item Level Color"        , "hex": "#ff0000" },
+
+  { "name": "Talisman Color"               , "hex": "#3d5a0c" },
+  { "name": "Prophecy Color"               , "hex": "#a82dc7" },
+  { "name": "Essence Color"                , "hex": "#5670d1" },
+  { "name": "Breach Color"                 , "hex": "#4b00ba" },
+  { "name": "Harbinger Color"              , "hex": "#0086bd" },
+  { "name": "Abyss Color"                  , "hex": "#2c5b12" },
+  { "name": "Bestiary Color"               , "hex": "#9f2600" },
+  { "name": "Incursion Color"              , "hex": "#c80000" },
+  { "name": "Delve Color"                  , "hex": "#4c50d8" },
+  { "name": "Betrayal Color"               , "hex": "#2f5311" },
+  { "name": "Synthesis Color"              , "hex": "#e2c23c" },
+
+  { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
+
+  { "name": "Sublime BG Color"             , "hex": "#ffffff" },
+  { "name": "Lofty BG Color"               , "hex": "#7a7a7a" },
+  { "name": "Precious BG Color"            , "hex": "#444444" },
+  { "name": "Trivial BG Color"             , "hex": "#252525" },
+  { "name": "Cheap BG Color"               , "hex": "#000000" },
+
+  { "name": "Tier1 BG Color"               , "hex": "#e59495" },
+  { "name": "Tier2 BG Color"               , "hex": "#960000" },
+  { "name": "Tier3 BG Color"               , "hex": "#707000" },
+  { "name": "Tier4 BG Color"               , "hex": "#000046" }
+]

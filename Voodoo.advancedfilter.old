@@ -1,0 +1,1026 @@
+# Voodoo Filter
+
+# DONE
+Hide "Currency"
+    Class "Currency"
+    BaseType Var("Currencies")
+    SetTextColor Var("Currency Color")
+
+    Mixin "Rareness"
+        Show "Sublime"
+            BaseType Var("Sublime Currencies")
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 0 0 0
+            SetBackgroundColor Var("Currency Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Currency Item Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+
+            Mixin "BaseType"
+                Show "Mirror of Kalandra"
+                    BaseType "Mirror of Kalandra"
+                    PlayAlertSound ShMirror 300
+                Show "Divine Orb"
+                    BaseType "Divine Orb"
+                    PlayAlertSound ShDivine 300
+        Show "Lofty"
+            BaseType Var("Lofty Currencies")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Currency Item Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+
+            Mixin "BaseType"
+                Show "Chaos Orb"
+                    BaseType "Chaos Orb"
+                    PlayAlertSound ShChaos 300
+        Show "Precious"
+            BaseType Var("Precious Currencies")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Currency Item Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Prop("Trivial Currency Activity") "Trivial"
+            BaseType Var("Trivial Currencies")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+        Prop("Cheap Currency Activity") "Cheap"
+            BaseType Var("Cheap Currencies")
+            SetFontSize Var("Small Font Size")
+            SetBackgroundColor Var("Cheap BG Color") 60
+            SetBorderColor Var("Cheap Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            PlayAlertSoundPositional Var("Cheap Sound Id")
+
+            Mixin "Stack Size"
+                Show "High Stack Size"
+                    StackSize >= 15
+                    SetBackgroundColor Var("Cheap BG Color")
+                    MinimapIcon Small Var("Precious Minimap Icon Color") Var("Currency Item Minimap Icon Shape")
+                    PlayEffect Var("Trivial PlayEffect Color") Temp
+                    # PlayAlertSound 3 300
+
+# DONE
+Hide "Shard"
+    Class "Currency"
+    BaseType Var("Shards")
+    SetTextColor Var("Currency Color")
+
+    Mixin "Rareness"
+        Show "Sublime"
+            BaseType Var("Sublime Shards")
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 0 0 0
+            SetBackgroundColor Var("Currency Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Currency Item Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+
+            Mixin "BaseType"
+                Show "Mirror Shard"
+                    BaseType "Mirror Shard"
+                    PlayAlertSound ShMirror 300
+        Show "Lofty"
+            BaseType Var("Lofty Shards")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Currency Item Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+        Hide "Precious"
+            BaseType Var("Precious Shards")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Currency Item Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Hide "Trivial"
+            BaseType Var("Trivial Shards")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Precious Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+        Hide "Cheap"
+            BaseType Var("Cheap Shards")
+            SetBorderColor Var("Cheap Color")
+            SetFontSize Var("Small Font Size")
+            SetBackgroundColor Var("Cheap BG Color") 60
+            SetBorderColor Var("Precious Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            PlayAlertSoundPositional Var("Cheap Sound Id")
+
+# DONE
+Prop("Gem Activity") "Gem"
+    Class "Gem"
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Skill Gem Color")
+    SetBackgroundColor Var("Cheap BG Color") 60
+    SetBorderColor Var("Skill Gem Color")
+
+    Mixin "Corrupted"
+        Show "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
+    Mixin "Quality"
+        Show "High"
+            Quality > 10
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+        Show "Middle"
+            Quality > 0
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+
+    Mixin "Level"
+        Show "High"
+            GemLevel >= 18
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+
+    Mixin "Special"
+        Show "'E' Series Gem"
+            BaseType Var("'E' Series Gems")
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+        Show "Added Chaos Damage Support"
+            BaseType "Added Chaos Damage Support"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Show "Vaal"
+            BaseType "Vall"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Show "White Gem"
+            BaseType Var("White Gems")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Show "Vendor Only Gem"
+            BaseType Var("Vendor Only Gems")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Skill Gem Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+
+    Mixin "Over Quality"
+        Show "True"
+            Quality > 20
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Skill Gem Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+
+    Mixin "Over Level"
+        Show "True"
+            GemLevel > 20
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Skill Gem Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+
+# DONE
+Show "Unique Flask"
+    Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
+    Rarity Unique
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Flask Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Unique Item Color")
+    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Flask Minimap Icon Shape")
+    PlayEffect Var("Lofty PlayEffect Color")
+    PlayAlertSoundPositional Var("Lofty Sound Id")
+
+# DONE
+Hide "Flask"
+    Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Flask Color")
+    SetBackgroundColor Var("Cheap BG Color") 60
+    SetBorderColor Var("Flask Color")
+    CustomAlertSound "./Sounds/Flask.wav"
+
+    Mixin "Class"
+        Prop("Utility Flask Activity") "Utility"
+            Class "Utility Flask"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Flask Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            # PlayAlertSoundPositional NONE
+        Show "Life/Mana/Hybrid"
+            Class "Life Flask" "Mana Flask" "Hybrid Flask"
+
+            Mixin "Size"
+                Prop("Flask 1 Activity") "Small/Medium"
+                    DropLevel >= 0
+                    SetBackgroundColor Var("Cheap BG Color") 60
+                Prop("Flask 2 Activity") "Large/Greater/Grand/Giant/Colossal"
+                    DropLevel >= 3
+                    SetBackgroundColor Var("Trivial BG Color")
+                Prop("Flask 3 Activity") "Sacred/Hallowed/Sanctified"
+                    DropLevel >= 30
+                    SetBackgroundColor Var("Precious BG Color")
+                Prop("Flask 4 Activity") "Divine/Eternal"
+                    DropLevel >= 60
+                    SetBackgroundColor Var("Lofty BG Color")
+
+    Mixin "Quality"
+        Prop("Quality Flask Activity") "High"
+            Quality > 10
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Flask Color")
+            SetBackgroundColor Var("Tier2 BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+        Prop("Quality Flask Activity") "Middle"
+            Quality > 0
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Flask Color")
+            SetBackgroundColor Var("Tier1 BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+
+    Mixin "Over Quality"
+        Show "True"
+            Quality > 20
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Flask Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Flask Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+
+# DONE
+Show "Map Fragment"
+    Class "Map Fragment"
+    CustomAlertSound "./Sounds/MapFragment.wav"
+
+    Mixin "BaseType"
+        Show "Vaal Fragment"
+            BaseType "Sacrifice"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Vaal Fragment Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Vaal Fragment Color")
+            MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Brown
+
+            Mixin "Rareness"
+                Show "Lofty"
+                    BaseType "Sacrifice at Midnight"
+                    SetFontSize Var("Large Font Size")
+                    SetTextColor Var("Vaal Fragment Color")
+                    SetBackgroundColor Var("Lofty BG Color")
+                    SetBorderColor Var("Lofty Color")
+                    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Map Fragment Minimap Icon Shape")
+                    PlayEffect Var("Lofty PlayEffect Color")
+                    PlayAlertSoundPositional Var("Lofty Sound Id")
+
+        Show "Advanced Vaal Fragment"
+            BaseType "Mortal"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Advanced Vaal Fragment Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Vaal Fragment Color")
+            MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Brown
+
+            Mixin "Rareness"
+                Show "Sublime"
+                    BaseType "Mortal Ignorance"
+                    SetFontSize Var("Extra Large Font Size")
+                    SetTextColor 255 255 255
+                    SetBackgroundColor Var("Advanced Vaal Fragment Color")
+                    SetBorderColor Var("Sublime Color")
+                    MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Map Fragment Minimap Icon Shape")
+                    PlayEffect Var("Sublime PlayEffect Color")
+                    PlayAlertSoundPositional Var("Sublime Sound Id")
+
+        Show "Prophecy Fragment"
+            BaseType "Volkuur's Key" "Eber's Key" "Yriel's Key" "Inya's Key"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Prophecy Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Prophecy Color")
+            MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Brown
+
+        Show "Atlas Fragment"
+            BaseType "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Atlas Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Atlas Color")
+            MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Brown
+
+        Show "Divine Vessel"
+            BaseType "Divine Vessel"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Oriath Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Oriath Color")
+            MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Brown
+
+        Show "Scarab"
+            BaseType "Scarab"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Betrayal Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Betrayal Color")
+            MinimapIcon Medium Green Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Green
+
+# TODO
+Show "Unique Map"
+    Class "Map"
+    Rarity Unique
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Map Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Unique Item Color")
+    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Map Minimap Icon Shape")
+    PlayEffect Var("Lofty PlayEffect Color")
+    PlayAlertSoundPositional Var("Lofty Sound Id")
+
+    Mixin "BaseType"
+        Show "Sublime"
+            BaseType "Chateau Map" "Maze Map" "Harbinger Map" "Museum Map"
+            SetFontSize Var("Extra Large Font Size")
+
+            SetTextColor 0 0 0
+            SetBackgroundColor Var("Map Color")
+            SetBorderColor Var("Sublime Color")
+
+            MinimapIcon Largest Brown Var("Map Minimap Icon Shape")
+        Show "Lofty"
+            BaseType "Courtyard Map" "Moon Temple Map" "Shore Map"
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            MinimapIcon Medium Brown Var("Map Minimap Icon Shape")
+
+# DONE
+Show "Map"
+    Class "Map"
+
+    Mixin "Corrupted"
+        Show "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
+    Mixin "Tire"
+        Show "Very High"
+            MapTier >= 16
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Map Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Map Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+        Show "High"
+            MapTier >= 11
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Map Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Map Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Show "Middle"
+            MapTier >= 6
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Map Color")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+        Show "Low"
+            MapTier < 6
+            SetFontSize Var("Small Font Size")
+            SetTextColor Var("Map Color")
+            SetBackgroundColor Var("Cheap BG Color") 60
+            SetBorderColor Var("Cheap Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            PlayAlertSoundPositional Var("Cheap Sound Id")
+
+    Mixin "Over Quality"
+        Show "True"
+            Quality > 20
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 0 0 0
+            SetBackgroundColor Var("Map Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Map Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+
+# DONE
+Show "Unique Jewel"
+    Class "Jewel"
+    Rarity Unique
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Jewel Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Unique Item Color")
+    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Jewel Minimap Icon Shape")
+    PlayEffect Var("Lofty PlayEffect Color")
+    PlayAlertSoundPositional Var("Lofty Sound Id")
+
+# DONE
+Hide "Jewel"
+    Class "Jewel"
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Jewel Color")
+    # SetBackgroundColor Var("Cheap BG Color") 60
+    # SetBorderColor Var("Jewel Color")
+    PlayEffect Var("Precious PlayEffect Color")
+    MinimapIcon Small Var("Precious Minimap Icon Color") Var("Jewel Minimap Icon Shape")
+
+    Mixin "Rarity"
+        Show "Rare"
+            Rarity Rare
+            SetBorderColor Var("Rare Item Color")
+            SetBackgroundColor Var("Precious BG Color")
+        Show "Magic"
+            Rarity Magic
+            SetBorderColor Var("Magic Item Color")
+            SetBackgroundColor Var("Precious BG Color")
+
+    Mixin "Special"
+        Show "Abyss"
+            Class "Abyss Jewel"
+            SetBackgroundColor Var("Abyss Color")
+            MinimapIcon Small Green Var("Jewel Minimap Icon Shape")
+
+# DONE
+Show "Divination Card"
+    Class "Divination Card"
+    SetFontSize Var("Default Font Size")
+    SetTextColor Var("Divination Card Color")
+    SetBackgroundColor Var("Trivial BG Color")
+    SetBorderColor Var("Trivial Color")
+    # MinimapIcon NONE
+    PlayEffect Var("Trivial PlayEffect Color") Temp
+    PlayAlertSoundPositional Var("Trivial Sound Id")
+
+    Mixin "Rareness"
+        Show "Sublime"
+            BaseType Var("Sublime Divination Cards")
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Divination Card Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+        Show "Lofty"
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Divination Card Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+        Show "Precious"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Divination Card Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Hide "Cheap"
+            BaseType Var("Cheap Divination Cards")
+            SetFontSize Var("Small Font Size")
+            SetTextColor Var("Divination Card Color")
+            SetBackgroundColor Var("Cheap BG Color") 60
+            SetBorderColor Var("Cheap Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            PlayAlertSoundPositional Var("Cheap Sound Id")
+
+# DONE
+Show "Stacked Deck"
+    BaseType "Stacked Deck"
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Divination Card Color")
+    SetBorderColor Var("Sublime Color")
+    MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
+    PlayEffect Var("Sublime PlayEffect Color")
+    PlayAlertSoundPositional Var("Sublime Sound Id")
+
+# TODO
+Show "Unique Piece"
+    Class "Piece"
+
+# TODO
+Show "Unique Equipment"
+    Class Var("Equipments")
+    Rarity Unique
+
+# TODO
+Show "Labyrinth"
+    BaseType Var("Labyrinth Items")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Labyrinth Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Green Var("League Minimap Icon Shape")
+    PlayEffect Green
+    # PlayAlertSoundPositional TODO
+
+# TODO
+Show "Pantheon Soul"
+    Class "Pantheon Soul"
+    SetFontSize Var("Default Font Size")
+    SetTextColor Var("Oriath Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Oriath Color")
+    MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
+    PlayEffect Brown
+    # PlayAlertSoundPositional TODO
+
+# TODO
+Show "Prophecy"
+    BaseType "Prophecy"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Prophecy Color")
+    # SetBorderColor Var("AAA Color")
+    MinimapIcon Medium Red Var("League Minimap Icon Shape")
+    PlayEffect Red
+    # PlayAlertSoundPositional TODO
+
+# DONE
+Show "Essence"
+    BaseType "Essence"
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Essence Color")
+    SetBackgroundColor Var("Cheap BG Color") 60
+    SetBorderColor Var("Essence Color")
+
+    Mixin "Tier"
+        Show "6"
+            BaseType Var("Tier6 Essence Item")
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Essence Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+        Show "5"
+            BaseType Var("Tier5 Essence Item")
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Essence Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+        Show "4"
+            BaseType Var("Tier4 Essence Item")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Essence Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Show "3"
+            BaseType Var("Tier3 Essence Item")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Essence Color")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+        Show "2"
+            BaseType Var("Tier2 Essence Item")
+            SetFontSize Var("Small Font Size")
+            SetTextColor Var("Essence Color")
+            SetBackgroundColor Var("Cheap BG Color") 120
+            SetBorderColor Var("Cheap Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            PlayAlertSoundPositional Var("Cheap Sound Id")
+        Show "1"
+            BaseType Var("Tier1 Essence Item")
+            SetFontSize Var("Small Font Size")
+            SetTextColor Var("Essence Color")
+            SetBackgroundColor Var("Cheap BG Color") 60
+            SetBorderColor Var("Cheap Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            PlayAlertSoundPositional Var("Cheap Sound Id")
+        Show "Remnant of Corruption"
+            BaseType "Remnant of Corruption"
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Essence Color")
+            SetBorderColor Var("Corrupted Color")
+            MinimapIcon Largest Red Var("League Minimap Icon Shape")
+            PlayEffect Red
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+
+# DONE
+Show "Breach"
+    BaseType Var("Breach Items")
+
+    Mixin "Base Type"
+        Show "Splinters"
+            BaseType "Splinter"
+            SetFontSize Var("Small Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Breach Color")
+            MinimapIcon Small Brown Var("League Minimap Icon Shape")
+            PlayEffect Brown
+
+            Mixin "Color"
+                Show "Black"
+                    BaseType "Splinter of Uul-Netol"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+                Show "Purple"
+                    BaseType "Splinter of Chayula"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+
+        Show "Blessings"
+            BaseType "Blessing"
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Breach Color")
+            MinimapIcon Medium Brown Var("League Minimap Icon Shape")
+            PlayEffect Brown
+
+            Mixin "Color"
+                Show "Black"
+                    BaseType "Blessing of Uul-Netol"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+                Show "Purple"
+                    BaseType "Blessing of Chayula"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+
+        Show "Breachstone"
+            BaseType "Breachstone"
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Breach Color")
+            MinimapIcon Medium Brown Var("League Minimap Icon Shape")
+            PlayEffect Brown
+
+            Mixin "Color"
+                Show "Black"
+                    BaseType "Uul-Netol's Breachstone"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+                Show "Purple"
+                    BaseType "Chayula's Breachstone"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+
+            Mixin "Tier"
+                Show "Pure"
+                    BaseType "Pure"
+                    SetFontSize Var("Extra Large Font Size")
+                    SetBorderColor Var("Sublime Color")
+                Show "Charged"
+                    BaseType "Charged"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+                Show "Enriched"
+                    BaseType "Enriched"
+                    SetFontSize Var("Large Font Size")
+                    SetBorderColor Var("Lofty Color")
+
+# TODO
+Show "Harbinger"
+    BaseType Var("Harbinger Items")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Harbinger Color")
+    # SetBorderColor Var("AAA Color")
+    MinimapIcon Small Blue Var("League Minimap Icon Shape")
+    PlayEffect Blue
+    # PlayAlertSoundPositional TODO
+
+    Mixin "Base Type"
+        Show "Harbinger's Orb"
+            BaseType "Harbinger's Orb"
+            SetFontSize Var("Extra Large Font Size")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Blue Var("League Minimap Icon Shape")
+            PlayEffect Blue
+        Show "Harbinger's Shard"
+            BaseType "Harbinger's Shard"
+            SetFontSize Var("Extra Large Font Size")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Blue Var("League Minimap Icon Shape")
+            PlayEffect Blue
+        Show "Orb of Horizons"
+            BaseType "Orb of Horizons"
+            SetFontSize Var("Large Font Size")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Blue Var("League Minimap Icon Shape")
+            PlayEffect Blue
+        Show "Horizon Shard"
+            BaseType "Horizon Shard"
+            SetFontSize Var("Large Font Size")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Blue Var("League Minimap Icon Shape")
+            PlayEffect Blue
+
+# TODO
+Show "Bestiary"
+    BaseType Var("Bestiary Items")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Bestiary Color")
+    # SetBorderColor Var("AAA Color")
+    MinimapIcon Medium Brown Var("League Minimap Icon Shape")
+    PlayEffect Brown
+    # PlayAlertSoundPositional TODO
+
+# TODO
+Show "Incursio1"
+    BaseType Var("Incursion Items1")
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Incursion Color")
+    # SetBorderColor Var("AAA Color")
+    MinimapIcon Largest Red Var("League Minimap Icon Shape")
+    PlayEffect Red
+    # PlayAlertSoundPositional TODO
+
+Show "Incursio2"
+    BaseType Var("Incursion Items2")
+    SetFontSize Var("Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Incursion Color")
+    # SetBorderColor Var("AAA Color")
+    MinimapIcon Medium Red Var("League Minimap Icon Shape")
+    PlayEffect Red
+    # PlayAlertSoundPositional TODO
+
+# DONE
+Hide "Fossil"
+    BaseType "Fossil"
+
+    Mixin "Rareness"
+        Show "Sublime"
+            BaseType Var("Sublime Fossils")
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Delve Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+        Show "Lofty"
+            BaseType Var("Lofty Fossils")
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Delve Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+        Show "Precious"
+            BaseType Var("Precious Fossils")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Delve Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Show "Trivial"
+            BaseType Var("Trivial Fossils")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Delve Color")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+
+# DONE
+Hide "Resonator"
+    BaseType "Resonator"
+
+    Mixin "Rareness"
+        Show "Sublime"
+            BaseType Var("Sublime Resonators")
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Delve Color")
+            SetBorderColor Var("Sublime Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound Id")
+        Show "Lofty"
+            BaseType Var("Lofty Resonators")
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Delve Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Lofty Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound Id")
+        Show "Precious"
+            BaseType Var("Precious Resonators")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Delve Color")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Precious Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound Id")
+        Show "Trivial"
+            BaseType Var("Trivial Resonators")
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Delve Color")
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("Trivial Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound Id")
+
+# DONE
+Show "Quest"
+    Class "Quest Items"
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor Var("Quest Item Color")
+    SetBackgroundColor 0 0 0
+    SetBorderColor Var("Quest Item Color")
+
+# TODO
+Hide "Equipment"
+    Class Var("Equipments")
+    SetFontSize Var("Small Font Size")
+    SetBackgroundColor Var("Cheap BG Color") 60
+
+    Mixin "Class 0"
+        Hide "Accessory"
+            Class Var("Accessories")
+
+            Mixin "Class 1"
+                Hide "Jewelry"
+                    Class Var("Jewelries")
+
+                    Mixin "BaseType"
+                        Show "Atlas Base Accessories"
+                            BaseType Var("Atlas Base Accessories")
+                        Hide "Breach Ring"
+                            BaseType "Breach Ring"
+                Hide "Belt"
+                    Class "Belt"
+
+                    Mixin "BaseType"
+                        Show "Atlas Base Accessories"
+                            BaseType Var("Atlas Base Accessories")
+                        Show "Abyss"
+                            BaseType "Stygian Vise"
+
+        Hide "Weapon and Gear"
+            Class Var("Weapons") Var("Gears")
+
+            Mixin "Class 1"
+                Hide "Weapon"
+                    Class Var("Weapons")
+                Hide "Gear"
+                    Class Var("Gears")
+
+                    Mixin "BaseType"
+                        Show "Atlas Base Gears"
+                            BaseType Var("Atlas Base Gears")
+                        Show "Atziri Gears"
+                            BaseType Var("Atziri Gears")
+
+            Mixin "Socket"
+                Show "6L"
+                    LinkedSockets = 6
+                Show "6S"
+                    Sockets = 6
+                Show "5L"
+                    LinkedSockets = 5
+
+            Mixin "Vender Recipe"
+                Show "Chromatic Orb"
+                    SocketGroup RGB
+
+    Mixin "Identified"
+        Show "True"
+            Identified True
+
+            Mixin "Mods"
+                Show "Benche Craft"
+                    HasExplicitMod Var("Bench Craft Mods")
+                Show "Incursion"
+                    HasExplicitMod Var("Incursion Mods")
+                Show "Delve"
+                    HasExplicitMod Var("Delve Mods")
+                Show "Betrayal"
+                    HasExplicitMod Var("Betrayal Mods")
+
+    Mixin "Rarity"
+        Hide "Rare"
+            Rarity Rare
+            SetTextColor Var("Rare Item Color")
+
+            Mixin "Shaper/Elder"
+                Show "Shaper"
+                    ShaperItem True
+                Show "Elder"
+                    ElderItem True
+        Hide "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Hide "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+
+# DONE
+Show "Error"
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    MinimapIcon Largest Red Star
+    PlayEffect Red
+    PlayAlertSound 12 300

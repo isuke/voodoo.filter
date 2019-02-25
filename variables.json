@@ -1,0 +1,1004 @@
+[
+  {
+    "name": "Currencies",
+    "items": [
+      "Albino Rhoa Feather",
+      "Armourer's Scrap",
+      "Blacksmith's Whetstone",
+      "Blessed Orb",
+      "Cartographer's Chisel",
+      "Chaos Orb",
+      "Chromatic Orb",
+      "Divine Orb",
+      "Exalted Orb",
+      "Gemcutter's Prism",
+      "Glassblower's Bauble",
+      "Jeweller's Orb",
+      "Mirror of Kalandra",
+      "Orb of Alchemy",
+      "Orb of Alteration",
+      "Orb of Annulment",
+      "Orb of Augmentation",
+      "Orb of Chance",
+      "Orb of Fusing",
+      "Orb of Regret",
+      "Orb of Scouring",
+      "Orb of Transmutation",
+      "Perandus Coin",
+      "Portal Scroll",
+      "Regal Orb",
+      "Scroll of Wisdom",
+      "Silver Coin",
+      "Vaal Orb"
+    ]
+  },
+  {
+    "name": "Shards",
+    "items": [
+      "Alchemy Shard",
+      "Alteration Shard",
+      "Annulment Shard",
+      "Chaos Shard",
+      "Exalted Shard",
+      "Mirror Shard",
+      "Regal Shard",
+      "Scroll Fragment",
+      "Transmutation Shard"
+    ]
+  },
+
+
+
+  {
+    "name": "'E' Series Gems",
+    "items": [
+      "Enhance Support",
+      "Enlighten Support",
+      "Empower Support"
+    ]
+  },
+  {
+    "name": "White Gems",
+    "items": [
+      "Portal",
+      "Detonate Mines"
+    ]
+  },
+  {
+    "name": "Drop Only Gems",
+    "items": [
+      "#'E' Series Gems",
+      "#White Gems",
+      "Added Chaos Damage Support",
+      "Vaal"
+    ]
+  },
+  {
+    "name": "Vendor Only Gems",
+    "items": [
+      "Block Chance Reduction Support",
+      "Mirror Arrow"
+    ]
+  },
+
+
+
+  {
+    "name": "Equipments",
+    "items": [
+      "#Weapons",
+      "#Gears",
+      "#Accessories"
+    ]
+  },
+  {
+    "name": "Weapons",
+    "items": [
+      "#One Hand Weapons",
+      "#Two Hand Weapons"
+    ]
+  },
+  {
+    "name": "One Hand Weapons",
+    "items": [
+      "Claws",
+      "Daggers",
+      "Wands",
+      "One Hand Swords",
+      "Thrusting One Hand Swords",
+      "One Hand Axes",
+      "One Hand Maces",
+      "Sceptres"
+    ]
+  },
+  {
+    "name": "Two Hand Weapons",
+    "items": [
+      "Bows",
+      "Staves",
+      "Two Hand Swords",
+      "Two Hand Axes",
+      "Two Hand Maces",
+      "Fishing Rods"
+    ]
+  },
+  {
+    "name": "Gears",
+    "items": [
+      "Gloves",
+      "Boots",
+      "Body Armours",
+      "Helmets",
+      "Shields",
+      "Quivers"
+    ]
+  },
+  {
+    "name": "Jewelries",
+    "items": [
+      "Amulets",
+      "Rings"
+    ]
+  },
+  {
+    "name": "Accessories",
+    "items": [
+      "#Jewelries",
+      "Belts"
+    ]
+  },
+  {
+    "name": "Six Sockets Equipments",
+    "items": [
+      "#Two Hand Weapons",
+      "Body Armours"
+    ]
+  },
+  {
+    "name": "Four Sockets Equipments",
+    "items": [
+      "Gloves",
+      "Boots",
+      "Helmets"
+    ]
+  },
+  {
+    "name": "Three Sockets Equipments",
+    "items": [
+      "#One Hand Weapons",
+      "Shields"
+    ]
+  },
+
+
+
+  {
+    "name": "Atlas Base Items",
+    "items": [
+      "#Atlas Base Gears",
+      "#Atlas Base Accessories"
+    ]
+  },
+  {
+    "name": "Atlas Base Gears",
+    "items": [
+      "Bone Helmet",
+      "Spiked Gloves",
+      "Gripped Gloves",
+      "Fingerless Silk Gloves",
+      "Two-Toned Boots"
+    ]
+  },
+  {
+    "name": "Atlas Base Accessories",
+    "items": [
+      "Marble Amulet",
+      "Blue Pearl Amulet",
+      "Opal Ring",
+      "Steel Ring",
+      "Vanguard Belt",
+      "Crystal Belt"
+    ]
+  },
+  {
+    "name": "Atziri Gears",
+    "items": [
+      "Sacrificial Garb"
+    ]
+  },
+
+  {
+    "name": "Good Amulets",
+    "items": [
+      "Amber Amulet",
+      "Jade Amulet",
+      "Lapis Amulet",
+      "Agate Amulet",
+      "Citrine Amulet",
+      "Turquoise Amulet",
+      "Onyx Amulet"
+    ]
+  },
+  {
+    "name": "Good Rings",
+    "items": [
+      "Coral Ring",
+      "Diamond Ring",
+      "Two-Stone Ring",
+      "Prismatic Ring"
+    ]
+  },
+  {
+    "name": "Good Belts",
+    "items": [
+      "Rustic Sash",
+      "Heavy Belt",
+      "Leather Belt"
+    ]
+  },
+  {
+    "name": "Good Weapons",
+    "items": [
+      "Despot Axe",
+      "Siege Axe",
+      "Harbinger Bow",
+      "Gemini Claw",
+      "Imperial Claw",
+      "Demon Dagger",
+      "Ambusher",
+      "Skean",
+      "Coronal Maul",
+      "Exquisite Blade",
+      "Spiraled Foil",
+      "Jewelled Foil",
+      "Harpy Rapier",
+      "Copper Kris",
+      "Golden Kris",
+      "Profane Wand",
+      "Sambar Sceptre",
+      "Void Sceptre"
+    ]
+  },
+  {
+    "name": "Good Gears",
+    "items": [
+      "Pinnacle Tower Shield",
+      "Astral Plate",
+      "Assassin's Garb",
+      "Vaal Regalia",
+      "Saintly Chainmail",
+      "Sorcerer Boots",
+      "Sorcerer Gloves",
+      "Titanium Spirit Shield",
+      "Harmonic Spirit Shield",
+      "Fossilised Spirit Shield"
+    ]
+  },
+
+
+
+  {
+    "name": "Sublime Currencies",
+    "items": [
+      "Albino Rhoa Feather",
+      "Divine Orb",
+      "Exalted Orb",
+      "Mirror of Kalandra",
+      "Orb of Annulment"
+    ]
+  },
+  {
+    "name": "Lofty Currencies",
+    "items": [
+      "Blessed Orb",
+      "Cartographer's Chisel",
+      "Chaos Orb",
+      "Gemcutter's Prism",
+      "Orb of Alchemy",
+      "Orb of Fusing",
+      "Orb of Regret",
+      "Orb of Scouring",
+      "Regal Orb",
+      "Vaal Orb",
+      "Perandus Coin"
+    ]
+  },
+  {
+    "name": "Precious Currencies",
+    "items": [
+      "Chromatic Orb",
+      "Glassblower's Bauble",
+      "Jeweller's Orb",
+      "Orb of Alteration",
+      "Orb of Chance",
+      "Silver Coin"
+    ]
+  },
+  {
+    "name": "Trivial Currencies",
+    "items": [
+      "Armourer's Scrap",
+      "Blacksmith's Whetstone",
+      "Orb of Augmentation",
+      "Orb of Transmutation"
+    ]
+  },
+  {
+    "name": "Cheap Currencies",
+    "items": [
+      "Portal Scroll",
+      "Scroll of Wisdom"
+    ]
+  },
+
+
+
+  {
+    "name": "Sublime Minimap Icon Color",
+    "items": ["Red"]
+  },
+  {
+    "name": "Lofty Minimap Icon Color",
+    "items": ["Yellow"]
+  },
+  {
+    "name": "Precious Minimap Icon Color",
+    "items": ["Blue"]
+  },
+
+
+
+  {
+    "name": "Currency Minimap Icon Shape",
+    "items": ["Circle"]
+  },
+  {
+    "name": "Gem Minimap Icon Shape",
+    "items": ["Triangle"]
+  },
+  {
+    "name": "Map Fragment Minimap Icon Shape",
+    "items": ["Hexagon"]
+  },
+  {
+    "name": "Map Minimap Icon Shape",
+    "items": ["Hexagon"]
+  },
+  {
+    "name": "Accessory Minimap Icon Shape",
+    "items": ["Diamond"]
+  },
+  {
+    "name": "Equipment Minimap Icon Shape",
+    "items": ["Square"]
+  },
+  {
+    "name": "League Minimap Icon Shape",
+    "items": ["Star"]
+  },
+  {
+    "name": "Flask Minimap Icon Shape",
+    "items": ["Triangle"]
+  },
+  {
+    "name": "Jewel Minimap Icon Shape",
+    "items": ["Triangle"]
+  },
+  {
+    "name": "Divination Card Minimap Icon Shape",
+    "items": ["Square"]
+  },
+  {
+    "name": "Error Minimap Icon Shape",
+    "items": ["Star"]
+  },
+
+
+  {
+    "name": "Sublime PlayEffect Color",
+    "items": ["Red"]
+  },
+  {
+    "name": "Lofty PlayEffect Color",
+    "items": ["Yellow"]
+  },
+  {
+    "name": "Precious PlayEffect Color",
+    "items": ["Blue"]
+  },
+  {
+    "name": "Trivial PlayEffect Color",
+    "items": ["White"]
+  },
+
+
+
+  {
+    "name": "Extra Large Font Size",
+    "items": [45]
+  },
+  {
+    "name": "Large Font Size",
+    "items": [40]
+  },
+  {
+    "name": "Default Font Size",
+    "items": [37]
+  },
+  {
+    "name": "Small Font Size",
+    "items": [32]
+  },
+
+
+
+  {
+    "name": "Sublime Shards",
+    "items": [
+      "Exalted Shard",
+      "Mirror Shard",
+      "Annulment Shard"
+    ]
+  },
+  {
+    "name": "Lofty Shards",
+    "items": [
+      "Chaos Shard",
+      "Alchemy Shard",
+      "Regal Shard"
+    ]
+  },
+  {
+    "name": "Precious Shards",
+    "items": [
+      "Alteration Shard"
+    ]
+  },
+  {
+    "name": "Trivial Shards",
+    "items": [
+      "Transmutation Shard"
+    ]
+  },
+  {
+    "name": "Cheap Shards",
+    "items": [
+      "Scroll Fragment"
+    ]
+  },
+
+
+
+  {
+    "name": "New Divination Cards",
+    "items": []
+  },
+  {
+    "name": "Sublime Divination Cards",
+    "items": [
+      "A Dab of Ink",
+      "Abandoned Wealth",
+      "Beauty Through Death",
+      "House of Mirrors",
+      "Hunter's Reward",
+      "Immortal Resolve",
+      "Mawr Blaidd",
+      "Pride Before the Fall",
+      "The Artist",
+      "The Brittle Emperor",
+      "The Celestial Stone",
+      "The Doctor",
+      "The Dragon's Heart",
+      "The Ethereal",
+      "The Fiend",
+      "The Hoarder",
+      "The Immortal",
+      "The Iron Bard",
+      "The King's Heart",
+      "The Mayor",
+      "The Nurse",
+      "The Professor",
+      "The Queen",
+      "The Risk",
+      "The Saint's Treasure",
+      "The Samurai's Eye",
+      "The Spark and the Flame",
+      "The Undaunted",
+      "The Wolven King's Bite",
+      "Wealth and Power"
+    ]
+  },
+  {
+    "name": "Lofty Divination Cards",
+    "items": [
+      "Boon of the First Ones",
+      "Bowyer's Dream",
+      "Chaotic Disposition",
+      "Glimmer of Hope",
+      "Heterochromia",
+      "Humility",
+      "Last Hope",
+      "Left to Fate",
+      "Lingering Remnants",
+      "Lucky Deck",
+      "Perfection",
+      "Rebirth",
+      "Scholar of the Seas",
+      "The Body",
+      "The Breach",
+      "The Cartographer",
+      "The Celestial Justicar",
+      "The Dapper Prodigy",
+      "The Dreamer",
+      "The Enlightened",
+      "The Fletcher",
+      "The Hale Heart",
+      "The Hunger",
+      "The Innocent",
+      "The Inventor",
+      "The Jeweller's Boon",
+      "The Last One Standing",
+      "The Lion",
+      "The Master",
+      "The Obscured",
+      "The Offering",
+      "The Polymath",
+      "The Porcupine",
+      "The Price of Protection",
+      "The Sacrifice",
+      "The Sephirot",
+      "The Thaumaturgist",
+      "The Throne",
+      "The Undisputed",
+      "The Valkyrie",
+      "The Valley of Steel Boxes",
+      "The Vast",
+      "The Void",
+      "The Warlord",
+      "The Wilted Rose",
+      "The Wind",
+      "The Wolf",
+      "The World Eater",
+      "The Wretched",
+      "Time-Lost Relic"
+    ]
+  },
+  {
+    "name": "Precious Divination Cards",
+    "items": [
+      "A Mother's Parting Gift",
+      "Assassin's Favour",
+      "Atziri's Arsenal",
+      "Audacity",
+      "Blessing of God",
+      "Blind Venture",
+      "Boundless Realms",
+      "Call to the First Ones",
+      "Cartographer's Delight",
+      "Coveted Possession",
+      "Destined to Crumble",
+      "Dialla's Subjugation",
+      "Doedre's Madness",
+      "Earth Drinker",
+      "Emperor of Purity",
+      "Emperor's Luck",
+      "Forbidden Power",
+      "Gemcutter's Promise",
+      "Gift of the Gemling Queen",
+      "Grave Knowledge",
+      "Harmony of Souls",
+      "Her Mask",
+      "Hope",
+      "Hubris",
+      "Hunter's Resolve",
+      "Jack in the Box",
+      "Lantador's Lost Love",
+      "Light and Truth",
+      "Lost Worlds",
+      "Loyalty",
+      "Lucky Connections",
+      "Lysah's Respite",
+      "Merciless Armament",
+      "Might is Right",
+      "No Traces",
+      "Rats",
+      "Shard of Fate",
+      "The Admirer",
+      "The Aesthete",
+      "The Arena Champion",
+      "The Army of Blood",
+      "The Avenger",
+      "The Battle Born",
+      "The Beast",
+      "The Betrayal",
+      "The Blazing Fire",
+      "The Cacophony",
+      "The Cataclysm",
+      "The Chains that Bind",
+      "The Cursed King",
+      "The Dark Mage",
+      "The Darkest Dream",
+      "The Demoness",
+      "The Encroaching Darkness",
+      "The Endless Darkness",
+      "The Fathomless Depths",
+      "The Feast",
+      "The Formless Sea",
+      "The Forsaken",
+      "The Garish Power",
+      "The Gentleman",
+      "The Gladiator",
+      "The Harvester",
+      "The Insatiable",
+      "The Jester",
+      "The Lord in Black",
+      "The Master Artisan",
+      "The Mercenary",
+      "The One With All",
+      "The Pack Leader",
+      "The Penitent",
+      "The Poet",
+      "The Rite of Elements",
+      "The Road to Power",
+      "The Scavenger",
+      "The Siren",
+      "The Soul",
+      "The Spoiled Prince",
+      "The Surveyor",
+      "The Survivalist",
+      "The Traitor",
+      "The Trial",
+      "The Twilight Moon",
+      "The Tyrant",
+      "The Union",
+      "The Web",
+      "The Wolverine",
+      "The Wrath",
+      "Treasure Hunter",
+      "Vinia's Token"
+    ]
+  },
+  {
+    "name": "Cheap Divination Cards",
+    "items": [
+      "A Mother's Parting Gift",
+      "Death",
+      "Destined to Crumble",
+      "Lantador's Lost Love",
+      "Struck by Lightning",
+      "The Betrayal",
+      "The Carrion Crow",
+      "The Flora's Gift",
+      "The Incantation",
+      "The King's Blade",
+      "The Lich",
+      "The Lunaris Priestess",
+      "The Metalsmith's Gift",
+      "The Ruthless Ceinture",
+      "The Sigil",
+      "The Surgeon",
+      "The Warden",
+      "Thunderous Skies",
+      "Turn the Other Cheek"
+    ]
+  },
+
+
+
+  {
+    "name": "Bench Craft Mods",
+    "items": [
+      "of Weaponcraft",
+      "of Spellcraft",
+      "of Crafting"
+    ]
+  },
+  {
+    "name": "Incursion Mods",
+    "items": [
+      "Tacati's",
+      "Citaqualotl's",
+      "Matatl's",
+      "Topotante's",
+      "Xopec's",
+      "Guatelitzi's",
+      "of Tacati",
+      "of Citaqualotl",
+      "of Matatl",
+      "of Puhuarte",
+      "of Guatelitzi"
+    ]
+  },
+  {
+    "name": "Delve Mods",
+    "items": [
+      "Subterranean",
+      "of the Underground"
+    ]
+  },
+  {
+    "name": "Betrayal Mods",
+    "items": [
+      "Veiled",
+      "Leo's Veiled",
+      "Catarina's Veiled",
+      "Elreon's Veiled",
+      "Vorici's Veiled",
+      "Haku's Veiled",
+      "Tora's Veiled",
+      "Vagan's Veiled",
+      "Guff's Veiled",
+      "It That Fled's Veiled",
+      "Gravicius' Veiled",
+      "Korell's Veiled",
+      "Rin's Veiled",
+      "of the Veil",
+      "of Janus' Veil",
+      "of Hillock's Veil",
+      "of Jorgin's Veil",
+      "of Cameria's Veil",
+      "of Aisling's Veil",
+      "of Riker's Veil"
+    ]
+  },
+
+
+
+  {
+    "name": "Labyrinth Items",
+    "items": [
+      "Offering to the Goddess",
+      "Bane of the Loyal",
+      "Orb of Elemental Dispersion",
+      "Sand of Eternity",
+      "Portal Shredder",
+      "Heart of the Gargoyle",
+      "Cogs of Disruption",
+      "Absorption",
+      "Rod of Detonation",
+      "Golden Key",
+      "Silver Key",
+      "Treasure Key"
+    ]
+  },
+  {
+    "name": "Atlas Items",
+    "items": [
+      "Shaper's Orb",
+      "Cartographer's Sextant",
+      "Cartographer's Seal",
+      "Timeworn Reliquary Key"
+    ]
+  },
+  {
+    "name": "Oriath Items",
+    "items": [
+      "Divine Vessel"
+    ]
+  },
+
+
+
+  {
+    "name": "Tire1 Talisman Items",
+    "items": [
+      "Ashscale Talisman",
+      "Black Maw Talisman",
+      "Bonespire Talisman",
+      "Breakrib Talisman",
+      "Chrysalis Talisman",
+      "Deadhand Talisman",
+      "Deep One Talisman",
+      "Lone Antler Talisman",
+      "Mandible Talisman",
+      "Rot Head Talisman",
+      "Undying Flesh Talisman",
+      "Writhing Talisman"
+    ]
+  },
+  {
+    "name": "Tire2 Talisman Items",
+    "items": [
+      "Avian Twins Talisman",
+      "Clutching Talisman",
+      "Fangjaw Talisman",
+      "Hexclaw Talisman",
+      "Horned Talisman",
+      "Primal Skull Talisman",
+      "Splitnewt Talisman",
+      "Wereclaw Talisman"
+    ]
+  },
+  {
+    "name": "Tire3 Talisman Items",
+    "items": [
+      "Longtooth Talisman",
+      "Monkey Paw Talisman",
+      "Monkey Twins Talisman",
+      "Rotfeather Talisman",
+      "Spinefuse Talisman",
+      "Three Hands Talisman",
+      "Three Rat Talisman"
+    ]
+  },
+  {
+    "name": "Tire4 Talisman Items",
+    "items": [
+      "Greatwolf Talisman"
+    ]
+  },
+
+
+
+  {
+    "name": "Breach Items",
+    "items": [
+      "Splinter of Xoph",
+      "Splinter of Tul",
+      "Splinter of Esh",
+      "Splinter of Uul-Netol",
+      "Splinter of Chayula",
+      "Blessing of Xoph",
+      "Blessing of Tul",
+      "Blessing of Esh",
+      "Blessing of Uul-Netol",
+      "Blessing of Chayula",
+      "Xoph's Breachstone",
+      "Tul's Breachstone",
+      "Esh's Breachstone",
+      "Uul-Netol's Breachstone",
+      "Chayula's Breachstone"
+    ]
+  },
+  {
+    "name": "Harbinger Items",
+    "items": [
+      "Orb of Binding",
+      "Orb of Horizons",
+      "Harbinger's Orb",
+      "Engineer's Orb",
+      "Ancient Orb",
+      "Binding Shard",
+      "Horizon Shard",
+      "Harbinger's Shard",
+      "Engineer's Shard",
+      "Ancient Shard"
+    ]
+  },
+  {
+    "name": "Bestiary Items",
+    "items": [
+      "Bestiary Orb",
+      "Imprinted Bestiary Orb"
+    ]
+  },
+  {
+    "name": "Incursion Items1",
+    "items": [
+      "Stone of Passage",
+      "Flashpowder Keg"
+    ]
+  },
+  {
+    "name": "Incursion Items2",
+    "items": [
+      "Vial of Dominance",
+      "Vial of Summoning",
+      "Vial of Awakening",
+      "Vial of the Ritual",
+      "Vial of Fate",
+      "Vial of Consequence",
+      "Vial of the Ghost",
+      "Vial of Transcendence",
+      "Vial of Sacrifice"
+    ]
+  },
+  {
+    "name": "Sublime Fossils",
+    "items": [
+      "Faceted Fossil",
+      "Fractured Fossil"
+    ]
+  },
+  {
+    "name": "Lofty Fossils",
+    "items": [
+      "Hollow Fossil",
+      "Shuddering Fossil",
+      "Glyphic Fossil",
+      "Bloodstained Fossil",
+      "Tangled Fossil"
+    ]
+  },
+  {
+    "name": "Precious Fossils",
+    "items": [
+      "Gilded Fossil",
+      "Sanctified Fossil",
+      "Lucent Fossil"
+    ]
+  },
+  {
+    "name": "Trivial Fossils",
+    "items": [
+      "Aberrant Fossil",
+      "Aetheric Fossil",
+      "Bound Fossil",
+      "Corroded Fossil",
+      "Dense Fossil",
+      "Enchanted Fossil",
+      "Encrusted Fossil",
+      "Frigid Fossil",
+      "Jagged Fossil",
+      "Metallic Fossil",
+      "Perfect Fossil",
+      "Prismatic Fossil",
+      "Pristine Fossil",
+      "Scorched Fossil",
+      "Serrated Fossil"
+    ]
+  },
+  {
+    "name": "Sublime Resonators",
+    "items": [
+      "Prime Alchemical Resonator",
+      "Prime Chaotic Resonator"
+    ]
+  },
+  {
+    "name": "Lofty Resonators",
+    "items": [
+      "Powerful Chaotic Resonator"
+    ]
+  },
+  {
+    "name": "Precious Resonators",
+    "items": [
+      "Powerful Alchemical Resonator",
+      "Potent Alchemical Resonator",
+      "Potent Chaotic Resonator"
+    ]
+  },
+  {
+    "name": "Trivial Resonators",
+    "items": [
+      "Primitive Alchemical Resonator",
+      "Primitive Chaotic Resonator"
+    ]
+  },
+
+
+
+  {
+    "name": "Sublime Sound",
+    "items": ["1 300"]
+  },
+  {
+    "name": "Lofty Sound",
+    "items": ["6 300"]
+  },
+  {
+    "name": "Precious Sound",
+    "items": ["3 300"]
+  },
+  {
+    "name": "Trivial Sound",
+    "items": ["7 300"]
+  },
+  {
+    "name": "Cheap Sound",
+    "items": ["9 170"]
+  },
+  {
+    "name": "Tier1 Sound",
+    "items": ["10 300"]
+  },
+  {
+    "name": "Tier2 Sound",
+    "items": ["14 170"]
+  },
+  {
+    "name": "Error Sound",
+    "items": ["12 300"]
+  }
+]
