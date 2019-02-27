@@ -50,7 +50,7 @@
   { "name": "Bestiary Color"               , "hex": "#9f2600" },
   { "name": "Incursion Color"              , "hex": "#c80000" },
   { "name": "Delve Color"                  , "hex": "#4c50d8" },
-  { "name": "Betrayal Color"               , "hex": "#2f5311" },
+  { "name": "Betrayal Color"               , "hex": "#599e20" },
   { "name": "Synthesis Color"              , "hex": "#e2c23c" },
 
   { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },

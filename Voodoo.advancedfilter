@@ -1,6 +1,6 @@
 # Voodoo Filter
 
-Unset "Equipments"
+Unset "Equipment"
     Class Var("Equipments")
     SetFontSize Var("Small Font Size")
 
@@ -18,12 +18,19 @@ Unset "Equipments"
                             BaseType Var("Atlas Base Accessories")
                             SetFontSize Var("Extra Large Font Size")
                             SetBackgroundColor Var("Atlas Color")
+                            MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
+                            PlayEffect Red
+                            PlayAlertSoundPositional Var("Lofty Sound")
                         Show "Talisman"
                             BaseType "Talisman"
                             SetBackgroundColor Var("Talisman Color")
+                            MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+                            PlayEffect Yellow
+                            PlayAlertSoundPositional Var("Lofty Sound")
                         Hide "Breach Ring"
                             BaseType "Breach Ring"
-                            SetBackgroundColor Var("Breach Color") 200
+                            SetFontSize Var("Small Font Size")
+                            SetBackgroundColor Var("Breach Color") 160
                         Unset "Good"
                             BaseType Var("Good Amulets") Var("Good Rings")
                             SetFontSize Var("Large Font Size")
@@ -43,10 +50,17 @@ Unset "Equipments"
                             BaseType Var("Atlas Base Accessories")
                             SetFontSize Var("Large Font Size")
                             SetBackgroundColor Var("Atlas Color")
+                            MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
+                            PlayEffect Red
+                            PlayAlertSoundPositional Var("Lofty Sound")
                         Show "Abyss"
                             BaseType "Stygian Vise"
                             SetFontSize Var("Large Font Size")
                             SetBackgroundColor Var("Abyss Color")
+                            MinimapIcon Medium Green Var("Accessory Minimap Icon Shape")
+                            PlayEffect Green
+                            PlayAlertSoundPositional Var("Lofty Sound")
+
                         Unset "Good"
                             BaseType Var("Good Belts")
                             SetFontSize Var("Large Font Size")
@@ -85,6 +99,9 @@ Unset "Equipments"
                             BaseType Var("Atlas Base Gears") Var("Atziri Gears")
                             SetFontSize Var("Large Font Size")
                             SetBackgroundColor Var("Atlas Color") 200
+                            MinimapIcon Medium Red Var("Equipment Minimap Icon Shape")
+                            PlayEffect Red
+                            PlayAlertSoundPositional Var("Lofty Sound")
                         Unset "Good"
                             BaseType Var("Good Gears")
                             SetFontSize Var("Large Font Size")
@@ -139,10 +156,18 @@ Unset "Equipments"
             Mixin "Shaper/Elder"
                 Show "Shaper"
                     ShaperItem True
+                    SetFontSize Var("Large Font Size")
                     SetBackgroundColor Var("Shaper/Elder Color")
+                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Elder"
                     ElderItem True
+                    SetFontSize Var("Large Font Size")
                     SetBackgroundColor Var("Shaper/Elder Color")
+                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Magic"
             Rarity Magic
             SetTextColor Var("Magic Item Color")
@@ -161,15 +186,27 @@ Unset "Equipments"
                 Show "Benche Craft"
                     HasExplicitMod Var("Bench Craft Mods")
                     SetBackgroundColor Var("Crafted Mod Color")
+                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Incursion"
                     HasExplicitMod Var("Incursion Mods")
                     SetBackgroundColor Var("Incursion Color")
+                    MinimapIcon Medium Red Var("Equipment Minimap Icon Shape")
+                    PlayEffect Red
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Delve"
                     HasExplicitMod Var("Delve Mods")
                     SetBackgroundColor Var("Delve Color")
+                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Betrayal"
                     HasExplicitMod Var("Betrayal Mods")
                     SetBackgroundColor Var("Betrayal Color")
+                    MinimapIcon Medium Green Var("Equipment Minimap Icon Shape")
+                    PlayEffect Green
+                    PlayAlertSoundPositional Var("Lofty Sound")
 
 Unset "Cartographer's Chisel Recipe"
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
@@ -207,7 +244,7 @@ Unset "Regal/Choas Orb Recipe"
     Fork "Class 0"
         Unset "Weapon"
             Class Var("Weapons")
-            SetBackgroundColor Var("Weapon Color") 200
+            SetBackgroundColor Var("Weapon Color") 160
 
             Fork "Size"
                 Prop("Regal/Choas Orb Recipe Activity") "Small"
@@ -215,7 +252,7 @@ Unset "Regal/Choas Orb Recipe"
                     Width <= 1
         Prop("Regal/Choas Orb Recipe Activity") "Gear"
             Class "Gloves" "Boots" "Body Armours" "Helmets"
-            SetBackgroundColor Var("Gear Color") 200
+            SetBackgroundColor Var("Gear Color") 160
 
             Mixin "Class 1"
                 Unset "Glove and Boot"
