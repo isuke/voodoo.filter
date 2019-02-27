@@ -757,7 +757,7 @@ Show "Labyrinth"
     # PlayAlertSoundPositional TODO
 
 Show "Pantheon Soul"
-    BaseType "Prophecy"
+    Class "Pantheon Soul"
     SetFontSize Var("Default Font Size")
     SetTextColor 255 255 255
     SetBackgroundColor Var("Oriath Color")
