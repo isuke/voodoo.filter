@@ -461,10 +461,10 @@ Prop("Gem Activity") "Gem"
             GemLevel >= 18
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")
-            SetBackgroundColor Var("Precious BG Color")
-            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
-            PlayEffect Var("Precious PlayEffect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
+            SetBackgroundColor Var("Tier2 BG Color") 240
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Trivial Sound")
 
     Mixin "Special"
         Show "'E' Series Gem"
@@ -479,7 +479,7 @@ Prop("Gem Activity") "Gem"
             BaseType Var("Drop Only Gems")
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")
-            SetBackgroundColor Var("Precious BG Color")
+            # SetBackgroundColor NONE
             MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Precious PlayEffect Color")
             PlayAlertSoundPositional Var("Precious Sound")
