@@ -334,6 +334,43 @@
 
 
   {
+    "name": "Sublime Shards",
+    "items": [
+      "Exalted Shard",
+      "Mirror Shard",
+      "Annulment Shard"
+    ]
+  },
+  {
+    "name": "Lofty Shards",
+    "items": [
+      "Chaos Shard",
+      "Alchemy Shard",
+      "Regal Shard"
+    ]
+  },
+  {
+    "name": "Precious Shards",
+    "items": [
+      "Alteration Shard"
+    ]
+  },
+  {
+    "name": "Trivial Shards",
+    "items": [
+      "Transmutation Shard"
+    ]
+  },
+  {
+    "name": "Cheap Shards",
+    "items": [
+      "Scroll Fragment"
+    ]
+  },
+
+
+
+  {
     "name": "Sublime Minimap Icon Color",
     "items": ["Red"]
   },
@@ -428,43 +465,6 @@
   {
     "name": "Small Font Size",
     "items": [32]
-  },
-
-
-
-  {
-    "name": "Sublime Shards",
-    "items": [
-      "Exalted Shard",
-      "Mirror Shard",
-      "Annulment Shard"
-    ]
-  },
-  {
-    "name": "Lofty Shards",
-    "items": [
-      "Chaos Shard",
-      "Alchemy Shard",
-      "Regal Shard"
-    ]
-  },
-  {
-    "name": "Precious Shards",
-    "items": [
-      "Alteration Shard"
-    ]
-  },
-  {
-    "name": "Trivial Shards",
-    "items": [
-      "Transmutation Shard"
-    ]
-  },
-  {
-    "name": "Cheap Shards",
-    "items": [
-      "Scroll Fragment"
-    ]
   },
 
 
