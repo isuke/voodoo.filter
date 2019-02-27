@@ -364,26 +364,28 @@ Show "Map"
             MapTier >= 16
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Tier1 BG Color")
-            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Map Minimap Icon Shape")
-            PlayEffect Var("Lofty PlayEffect Color")
+            MinimapIcon Medium Red Var("Map Minimap Icon Shape")
+            PlayEffect Red
             PlayAlertSoundPositional Var("Lofty Sound")
         Show "High"
             MapTier >= 11
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Tier2 BG Color")
-            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Map Minimap Icon Shape")
-            PlayEffect Var("Precious PlayEffect Color")
+            MinimapIcon Small Red Var("Map Minimap Icon Shape")
+            PlayEffect Red
             PlayAlertSoundPositional Var("Precious Sound")
         Prop("Middle Tier Map Activity") "Middle"
             MapTier >= 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Tier3 BG Color")
-            PlayEffect Var("Trivial PlayEffect Color") Temp
+            MinimapIcon Small Yellow Var("Map Minimap Icon Shape")
+            PlayEffect Yellow Temp
             PlayAlertSoundPositional Var("Trivial Sound")
         Prop("Low Tier Map Activity") "Low"
             MapTier < 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Cheap BG Color") 200
+            MinimapIcon Small White Var("Map Minimap Icon Shape")
             PlayAlertSoundPositional Var("Cheap Sound")
 
     Mixin "Over Quality"
