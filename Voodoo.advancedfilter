@@ -867,7 +867,7 @@ Show "Breach"
     Fork "Base Type"
         Show "Splinters"
             BaseType "Splinter"
-            SetFontSize Var("Small Font Size")
+            SetFontSize Var("Default Font Size")
             SetTextColor 255 255 255
             SetBackgroundColor Var("Breach Color")
             MinimapIcon Small Brown Var("League Minimap Icon Shape")
