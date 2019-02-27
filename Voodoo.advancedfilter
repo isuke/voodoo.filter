@@ -792,7 +792,7 @@ Show "Essence"
             PlayEffect Var("Sublime PlayEffect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "6, 7"
-            BaseType "Deafening"
+            BaseType "Shrieking" "Deafening"
             SetFontSize Var("Large Font Size")
             SetTextColor Var("Essence Color")
             SetBackgroundColor Var("Lofty BG Color")
@@ -800,7 +800,7 @@ Show "Essence"
             PlayEffect Var("Lofty PlayEffect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
         Show "5"
-            BaseType "Shrieking"
+            BaseType "Screaming"
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Essence Color")
             SetBackgroundColor Var("Precious BG Color")
@@ -808,7 +808,7 @@ Show "Essence"
             PlayEffect Var("Precious PlayEffect Color")
             PlayAlertSoundPositional Var("Precious Sound")
         Show "3, 4"
-            BaseType "Screaming"
+            BaseType "Weeping" "Wailing"
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Essence Color")
             SetBackgroundColor Var("Trivial BG Color") 240
@@ -816,7 +816,7 @@ Show "Essence"
             PlayEffect Var("Trivial PlayEffect Color") Temp
             PlayAlertSoundPositional Var("Trivial Sound")
         Show "1, 2"
-            BaseType "Wailing"
+            BaseType "Whispering" "Muttering"
             SetFontSize Var("Small Font Size")
             SetTextColor Var("Essence Color")
             SetBackgroundColor Var("Cheap BG Color") 180
