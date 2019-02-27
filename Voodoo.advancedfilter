@@ -1003,27 +1003,34 @@ Unset "Regal/Choas Orb Recipe"
     Rarity Rare
     Identified False
     SetFontSize Var("Small Font Size")
-    SetTextColor Var("Regal/Choas Orb Recipe Color")
-    SetBorderColor Var("Regal/Choas Orb Recipe Color")
 
     Fork "Item Level"
         Unset "Regal"
             ItemLevel >= 75
-            SetBackgroundColor Var("Tier2 BG Color") 200
+            SetTextColor Var("Regal Orb Recipe Color")
+            SetBorderColor Var("Regal Orb Recipe Color")
         Unset "Chaos"
             ItemLevel >= 60
-            SetBackgroundColor Var("Tier3 BG Color") 200
+            SetTextColor Var("Choas Orb Recipe Color")
+            SetBorderColor Var("Choas Orb Recipe Color")
 
-    Fork "Class"
+    Fork "Class 0"
         Unset "Weapon"
             Class Var("Weapons")
+            SetBackgroundColor Var("Weapon Color") 200
 
             Fork "Size"
                 Prop("Regal/Choas Orb Recipe Activity") "Small"
                     Height <= 3
                     Width <= 1
         Prop("Regal/Choas Orb Recipe Activity") "Gear"
-            Class Var("Gears")
+            Class "Gloves" "Boots" "Body Armours" "Helmets"
+            SetBackgroundColor Var("Gear Color") 200
+
+            Mixin "Class 1"
+                Unset "Glove and Boot"
+                    Class "Gloves" "Boots"
+                    SetBackgroundColor Lighten(50%)
 
 Unset "Chromatic Orb Recipe"
     Class Var("Weapons") Var("Gears")
