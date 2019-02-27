@@ -1,0 +1,34 @@
+type:
+  type: enum
+  required: true
+  description: commit type
+  values:
+    - name: feat
+      description: when implementing function
+    - name: fix
+      description: when fixing a bug
+    - name: docs
+      description: when writing docs
+    - name: chore
+      description: when change other that don't modify code or test files
+    - name: remove
+      description: when removing function
+    - name: tada
+      description: when celebrating
+subject:
+  type: string
+  required: true
+  description: The subject contains succinct description of the change
+  rules:
+    firstLatter: lower
+    dotAtEnd: false
+    nonAscii: false
+body:
+  type: text
+  default: ''
+  required: false
+  description: The body contains details of the change
+  rules:
+    firstLatter: upper
+    dotAtEnd: true
+    nonAscii: false
