@@ -1,5 +1,248 @@
 # Voodoo Filter
 
+Unset "Equipments"
+    Class Var("Equipments")
+    SetFontSize Var("Small Font Size")
+
+    Fork "Class 0"
+        Unset "Accessory"
+            Class Var("Accessories")
+
+            Fork "Class 1"
+                Unset "Jewelry"
+                    Class Var("Jewelries")
+                    SetBackgroundColor Var("Jewelry Color") 200
+
+                    Mixin "Base Type"
+                        Show "Atlas Base Accessories"
+                            BaseType Var("Atlas Base Accessories")
+                            SetFontSize Var("Extra Large Font Size")
+                            SetBackgroundColor Var("Atlas Color")
+                        Show "Talisman"
+                            BaseType "Talisman"
+                            SetBackgroundColor Var("Talisman Color")
+                        Hide "Breach Ring"
+                            BaseType "Breach Ring"
+                            SetBackgroundColor Var("Breach Color") 200
+                        Unset "Good"
+                            BaseType Var("Good Amulets") Var("Good Rings")
+                            SetFontSize Var("Large Font Size")
+                            SetBackgroundColor Lighten(50%)
+
+                            Mixin "Item Level"
+                                Show "High"
+                                    ItemLevel >= Prop("High Item Level")
+                                    SetBorderColor Var("High Item Level Color")
+
+                Unset "Belt"
+                    Class "Belt"
+                    SetBackgroundColor Var("Belt Color") 200
+
+                    Mixin "Base Type"
+                        Show "Atlas Base Accessories"
+                            BaseType Var("Atlas Base Accessories")
+                            SetFontSize Var("Large Font Size")
+                            SetBackgroundColor Var("Atlas Color")
+                        Show "Abyss"
+                            BaseType "Stygian Vise"
+                            SetFontSize Var("Large Font Size")
+                            SetBackgroundColor Var("Abyss Color")
+                        Unset "Good"
+                            BaseType Var("Good Belts")
+                            SetFontSize Var("Large Font Size")
+                            SetBackgroundColor Lighten(50%)
+
+                            Mixin "Item Level"
+                                Show "High"
+                                    ItemLevel >= Prop("High Item Level")
+                                    SetBorderColor Var("High Item Level Color")
+
+        Unset "Weapon and Gear"
+            Class Var("Weapons") Var("Gears")
+
+            Fork "Class 1"
+                Unset "Weapon"
+                    Class Var("Weapons")
+                    SetBackgroundColor Var("Weapon Color") 200
+
+                    Mixin "Base Type"
+                        Unset "Good"
+                            BaseType Var("Good Weapons")
+                            SetFontSize Var("Large Font Size")
+                            SetBackgroundColor Lighten(50%)
+
+                            Mixin "Item Level"
+                                Show "High"
+                                    ItemLevel >= Prop("High Item Level")
+                                    SetBorderColor Var("High Item Level Color")
+
+                Unset "Gear"
+                    Class Var("Gears")
+                    SetBackgroundColor Var("Gear Color") 200
+
+                    Mixin "Base Type"
+                        Show "Atlas Base Gears"
+                            BaseType Var("Atlas Base Gears") Var("Atziri Gears")
+                            SetFontSize Var("Large Font Size")
+                            SetBackgroundColor Var("Atlas Color") 200
+                        Unset "Good"
+                            BaseType Var("Good Gears")
+                            SetFontSize Var("Large Font Size")
+                            SetBackgroundColor Lighten(50%)
+
+                            Mixin "Item Level"
+                                Show "High"
+                                    ItemLevel >= Prop("High Item Level")
+                                    SetBorderColor Var("High Item Level Color")
+
+            Mixin "Socket"
+                Show "6L"
+                    LinkedSockets = 6
+                    SetFontSize Var("Extra Large Font Size")
+                    SetTextColor Var("Weapon Color")
+                    SetBackgroundColor Var("Sublime BG Color")
+                    MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+                    PlayEffect Var("Sublime PlayEffect Color")
+                    PlayAlertSoundPositional Var("Sublime Sound")
+                Show "6S"
+                    Sockets = 6
+                    SetFontSize Var("Large Font Size")
+                    SetTextColor Var("Weapon Color")
+                    SetBackgroundColor Var("Lofty BG Color")
+                    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+                    PlayEffect Var("Lofty PlayEffect Color")
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Prop("5L Activity") "5L"
+                    LinkedSockets = 5
+                    SetFontSize Var("Default Font Size")
+                    SetTextColor Var("Weapon Color")
+                    SetBackgroundColor Var("Precious BG Color")
+                    MinimapIcon Small Var("Precious Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+                    PlayEffect Var("Precious PlayEffect Color")
+                    PlayAlertSoundPositional Var("Precious Sound")
+    Fork "Rarity"
+        Show "Unique"
+            Rarity Unique
+            SetTextColor Var("Unique Item Color")
+        Unset "Rare"
+            Rarity Rare
+            SetTextColor Var("Rare Item Color")
+
+            Mixin "Rare BaseType"
+                Prop("Rare Jewelry Activity") "Jewelry"
+                    Class Var("Jewelries")
+                Prop("Rare Belt Activity") "Belt"
+                    Class "Belt"
+                Prop("Rare Weapon and Gear Activity") "Weapon and Gear"
+                    Class Var("Weapons") Var("Gears")
+
+            Mixin "Shaper/Elder"
+                Show "Shaper"
+                    ShaperItem True
+                    SetBackgroundColor Var("Shaper/Elder Color")
+                Show "Elder"
+                    ElderItem True
+                    SetBackgroundColor Var("Shaper/Elder Color")
+        Unset "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+    Mixin "Corrupted"
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+    Mixin "Identified"
+        Unset "True"
+            Identified True
+
+            Mixin "Mods"
+                Show "Benche Craft"
+                    HasExplicitMod Var("Bench Craft Mods")
+                    SetBackgroundColor Var("Crafted Mod Color")
+                Show "Incursion"
+                    HasExplicitMod Var("Incursion Mods")
+                    SetBackgroundColor Var("Incursion Color")
+                Show "Delve"
+                    HasExplicitMod Var("Delve Mods")
+                    SetBackgroundColor Var("Delve Color")
+                Show "Betrayal"
+                    HasExplicitMod Var("Betrayal Mods")
+                    SetBackgroundColor Var("Betrayal Color")
+
+Unset "Cartographer's Chisel Recipe"
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    Rarity Normal
+    Corrupted False
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Hammer Color")
+    SetBackgroundColor 0 0 0 100
+    SetBorderColor Var("Hammer Color")
+
+    Mixin "Quality"
+        Prop("Cartographer's Chisel Recipe Activity") "High"
+            Quality > 10
+            SetBackgroundColor Var("Tier2 BG Color") 240
+        Prop("Cartographer's Chisel Recipe Activity") "Middle"
+            Quality > 0
+            SetBackgroundColor Var("Tier3 BG Color") 200
+
+Unset "Regal/Choas Orb Recipe"
+    Class Var("Weapons") Var("Gears")
+    Rarity Rare
+    Identified False
+    SetFontSize Var("Small Font Size")
+
+    Fork "Item Level"
+        Unset "Regal"
+            ItemLevel >= 75
+            SetTextColor Var("Regal Orb Recipe Color")
+            SetBorderColor Var("Regal Orb Recipe Color")
+        Unset "Chaos"
+            ItemLevel >= 60
+            SetTextColor Var("Choas Orb Recipe Color")
+            SetBorderColor Var("Choas Orb Recipe Color")
+
+    Fork "Class 0"
+        Unset "Weapon"
+            Class Var("Weapons")
+            SetBackgroundColor Var("Weapon Color") 200
+
+            Fork "Size"
+                Prop("Regal/Choas Orb Recipe Activity") "Small"
+                    Height <= 3
+                    Width <= 1
+        Prop("Regal/Choas Orb Recipe Activity") "Gear"
+            Class "Gloves" "Boots" "Body Armours" "Helmets"
+            SetBackgroundColor Var("Gear Color") 200
+
+            Mixin "Class 1"
+                Unset "Glove and Boot"
+                    Class "Gloves" "Boots"
+                    SetBackgroundColor Lighten(50%)
+
+Unset "Chromatic Orb Recipe"
+    Class Var("Weapons") Var("Gears")
+    SocketGroup RGB
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Chromatic Orb Recipe Color")
+    SetBackgroundColor 0 0 0 200
+    SetBorderColor Var("Chromatic Orb Recipe Color")
+
+    Fork "Size"
+        Prop("Regal/Choas Orb Recipe Activity") "Small1"
+            Height <= 3
+            Width <= 1
+        Prop("Regal/Choas Orb Recipe Activity") "Small2"
+            Height <= 2
+            Width <= 2
+
+Hide "Other Equipments"
+    Class Var("Equipments")
+    SetFontSize Var("Small Font Size")
+    SetBackgroundColor 0 0 0 180
+
 Hide "Currency"
     Class "Currency"
     BaseType Var("Currencies")
@@ -809,249 +1052,6 @@ Show "Quest"
     SetTextColor Var("Quest Item Color")
     SetBackgroundColor 0 0 0
     SetBorderColor Var("Quest Item Color")
-
-Unset "Equipments"
-    Class Var("Equipments")
-    SetFontSize Var("Small Font Size")
-
-    Fork "Class 0"
-        Unset "Accessory"
-            Class Var("Accessories")
-
-            Fork "Class 1"
-                Unset "Jewelry"
-                    Class Var("Jewelries")
-                    SetBackgroundColor Var("Jewelry Color") 200
-
-                    Mixin "Base Type"
-                        Show "Atlas Base Accessories"
-                            BaseType Var("Atlas Base Accessories")
-                            SetFontSize Var("Extra Large Font Size")
-                            SetBackgroundColor Var("Atlas Color")
-                        Show "Talisman"
-                            BaseType "Talisman"
-                            SetBackgroundColor Var("Talisman Color")
-                        Hide "Breach Ring"
-                            BaseType "Breach Ring"
-                            SetBackgroundColor Var("Breach Color") 200
-                        Unset "Good"
-                            BaseType Var("Good Amulets") Var("Good Rings")
-                            SetFontSize Var("Large Font Size")
-                            SetBackgroundColor Lighten(50%)
-
-                            Mixin "Item Level"
-                                Show "High"
-                                    ItemLevel >= Prop("High Item Level")
-                                    SetBorderColor Var("High Item Level Color")
-
-                Unset "Belt"
-                    Class "Belt"
-                    SetBackgroundColor Var("Belt Color") 200
-
-                    Mixin "Base Type"
-                        Show "Atlas Base Accessories"
-                            BaseType Var("Atlas Base Accessories")
-                            SetFontSize Var("Large Font Size")
-                            SetBackgroundColor Var("Atlas Color")
-                        Show "Abyss"
-                            BaseType "Stygian Vise"
-                            SetFontSize Var("Large Font Size")
-                            SetBackgroundColor Var("Abyss Color")
-                        Unset "Good"
-                            BaseType Var("Good Belts")
-                            SetFontSize Var("Large Font Size")
-                            SetBackgroundColor Lighten(50%)
-
-                            Mixin "Item Level"
-                                Show "High"
-                                    ItemLevel >= Prop("High Item Level")
-                                    SetBorderColor Var("High Item Level Color")
-
-        Unset "Weapon and Gear"
-            Class Var("Weapons") Var("Gears")
-
-            Fork "Class 1"
-                Unset "Weapon"
-                    Class Var("Weapons")
-                    SetBackgroundColor Var("Weapon Color") 200
-
-                    Mixin "Base Type"
-                        Unset "Good"
-                            BaseType Var("Good Weapons")
-                            SetFontSize Var("Large Font Size")
-                            SetBackgroundColor Lighten(50%)
-
-                            Mixin "Item Level"
-                                Show "High"
-                                    ItemLevel >= Prop("High Item Level")
-                                    SetBorderColor Var("High Item Level Color")
-
-                Unset "Gear"
-                    Class Var("Gears")
-                    SetBackgroundColor Var("Gear Color") 200
-
-                    Mixin "Base Type"
-                        Show "Atlas Base Gears"
-                            BaseType Var("Atlas Base Gears") Var("Atziri Gears")
-                            SetFontSize Var("Large Font Size")
-                            SetBackgroundColor Var("Atlas Color") 200
-                        Unset "Good"
-                            BaseType Var("Good Gears")
-                            SetFontSize Var("Large Font Size")
-                            SetBackgroundColor Lighten(50%)
-
-                            Mixin "Item Level"
-                                Show "High"
-                                    ItemLevel >= Prop("High Item Level")
-                                    SetBorderColor Var("High Item Level Color")
-
-            Mixin "Socket"
-                Show "6L"
-                    LinkedSockets = 6
-                    SetFontSize Var("Extra Large Font Size")
-                    SetTextColor Var("Weapon Color")
-                    SetBackgroundColor Var("Sublime BG Color")
-                    MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Sublime PlayEffect Color")
-                    PlayAlertSoundPositional Var("Sublime Sound")
-                Show "6S"
-                    Sockets = 6
-                    SetFontSize Var("Large Font Size")
-                    SetTextColor Var("Weapon Color")
-                    SetBackgroundColor Var("Lofty BG Color")
-                    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Lofty PlayEffect Color")
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Prop("5L Activity") "5L"
-                    LinkedSockets = 5
-                    SetFontSize Var("Default Font Size")
-                    SetTextColor Var("Weapon Color")
-                    SetBackgroundColor Var("Precious BG Color")
-                    MinimapIcon Small Var("Precious Minimap Icon Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Precious PlayEffect Color")
-                    PlayAlertSoundPositional Var("Precious Sound")
-    Fork "Rarity"
-        Show "Unique"
-            Rarity Unique
-            SetTextColor Var("Unique Item Color")
-        Unset "Rare"
-            Rarity Rare
-            SetTextColor Var("Rare Item Color")
-
-            Mixin "Rare BaseType"
-                Prop("Rare Jewelry Activity") "Jewelry"
-                    Class Var("Jewelries")
-                Prop("Rare Belt Activity") "Belt"
-                    Class "Belt"
-                Prop("Rare Weapon and Gear Activity") "Weapon and Gear"
-                    Class Var("Weapons") Var("Gears")
-
-            Mixin "Shaper/Elder"
-                Show "Shaper"
-                    ShaperItem True
-                    SetBackgroundColor Var("Shaper/Elder Color")
-                Show "Elder"
-                    ElderItem True
-                    SetBackgroundColor Var("Shaper/Elder Color")
-        Unset "Magic"
-            Rarity Magic
-            SetTextColor Var("Magic Item Color")
-        Unset "Normal"
-            Rarity Normal
-            SetTextColor Var("Normal Item Color")
-    Mixin "Corrupted"
-        Unset "True"
-            Corrupted True
-            SetBorderColor Var("Corrupted Color")
-    Mixin "Identified"
-        Unset "True"
-            Identified True
-
-            Mixin "Mods"
-                Show "Benche Craft"
-                    HasExplicitMod Var("Bench Craft Mods")
-                    SetBackgroundColor Var("Crafted Mod Color")
-                Show "Incursion"
-                    HasExplicitMod Var("Incursion Mods")
-                    SetBackgroundColor Var("Incursion Color")
-                Show "Delve"
-                    HasExplicitMod Var("Delve Mods")
-                    SetBackgroundColor Var("Delve Color")
-                Show "Betrayal"
-                    HasExplicitMod Var("Betrayal Mods")
-                    SetBackgroundColor Var("Betrayal Color")
-
-Unset "Cartographer's Chisel Recipe"
-    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-    Rarity Normal
-    Corrupted False
-    SetFontSize Var("Small Font Size")
-    SetTextColor Var("Hammer Color")
-    SetBackgroundColor 0 0 0 100
-    SetBorderColor Var("Hammer Color")
-
-    Mixin "Quality"
-        Prop("Cartographer's Chisel Recipe Activity") "High"
-            Quality > 10
-            SetBackgroundColor Var("Tier2 BG Color") 240
-        Prop("Cartographer's Chisel Recipe Activity") "Middle"
-            Quality > 0
-            SetBackgroundColor Var("Tier3 BG Color") 200
-
-Unset "Regal/Choas Orb Recipe"
-    Class Var("Weapons") Var("Gears")
-    Rarity Rare
-    Identified False
-    SetFontSize Var("Small Font Size")
-
-    Fork "Item Level"
-        Unset "Regal"
-            ItemLevel >= 75
-            SetTextColor Var("Regal Orb Recipe Color")
-            SetBorderColor Var("Regal Orb Recipe Color")
-        Unset "Chaos"
-            ItemLevel >= 60
-            SetTextColor Var("Choas Orb Recipe Color")
-            SetBorderColor Var("Choas Orb Recipe Color")
-
-    Fork "Class 0"
-        Unset "Weapon"
-            Class Var("Weapons")
-            SetBackgroundColor Var("Weapon Color") 200
-
-            Fork "Size"
-                Prop("Regal/Choas Orb Recipe Activity") "Small"
-                    Height <= 3
-                    Width <= 1
-        Prop("Regal/Choas Orb Recipe Activity") "Gear"
-            Class "Gloves" "Boots" "Body Armours" "Helmets"
-            SetBackgroundColor Var("Gear Color") 200
-
-            Mixin "Class 1"
-                Unset "Glove and Boot"
-                    Class "Gloves" "Boots"
-                    SetBackgroundColor Lighten(50%)
-
-Unset "Chromatic Orb Recipe"
-    Class Var("Weapons") Var("Gears")
-    SocketGroup RGB
-    SetFontSize Var("Small Font Size")
-    SetTextColor Var("Chromatic Orb Recipe Color")
-    SetBackgroundColor 0 0 0 200
-    SetBorderColor Var("Chromatic Orb Recipe Color")
-
-    Fork "Size"
-        Prop("Regal/Choas Orb Recipe Activity") "Small1"
-            Height <= 3
-            Width <= 1
-        Prop("Regal/Choas Orb Recipe Activity") "Small2"
-            Height <= 2
-            Width <= 2
-
-Hide "Other Equipments"
-    Class Var("Equipments")
-    SetFontSize Var("Small Font Size")
-    SetBackgroundColor 0 0 0 180
 
 Show "Error"
     SetFontSize Var("Extra Large Font Size")
