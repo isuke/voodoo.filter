@@ -15,10 +15,10 @@
   { "name": "Vaal Fragment Color"          , "hex": "#5d1300" },
   { "name": "Advanced Vaal Fragment Color" , "hex": "#700027" },
   { "name": "Sextant Color"                , "hex": "#c8bcb4" },
-  { "name": "Jewelry Color"                , "hex": "#0a2e26" },
-  { "name": "Belt Color"                   , "hex": "#0a2e22" },
-  { "name": "Weapon Color"                 , "hex": "#0a2e1c" },
-  { "name": "Gear Color"                   , "hex": "#0a2f0f" },
+  { "name": "Jewelry Color"                , "hex": "#112621" },
+  { "name": "Belt Color"                   , "hex": "#11261f" },
+  { "name": "Weapon Color"                 , "hex": "#11261c" },
+  { "name": "Gear Color"                   , "hex": "#112614" },
 
   { "name": "Fire Color"                   , "hex": "#960000" },
   { "name": "Cold Color"                   , "hex": "#366492" },
@@ -35,7 +35,7 @@
   { "name": "Oriath Color"                 , "hex": "#ff8e28" },
 
   { "name": "Hammer Color"                 , "hex": "#400b00" },
-  { "name": "Regal Orb Recipe Color"       , "hex": "#b5398d" },
+  { "name": "Regal Orb Recipe Color"       , "hex": "#8c326f" },
   { "name": "Choas Orb Recipe Color"       , "hex": "#707000" },
   { "name": "Chromatic Orb Recipe Color"   , "hex": "#7676d0" },
 
@@ -56,7 +56,7 @@
   { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
 
   { "name": "Sublime BG Color"             , "hex": "#ffffff" },
-  { "name": "Lofty BG Color"               , "hex": "#7a7a7a" },
+  { "name": "Lofty BG Color"               , "hex": "#606060" },
   { "name": "Precious BG Color"            , "hex": "#444444" },
   { "name": "Trivial BG Color"             , "hex": "#252525" },
   { "name": "Cheap BG Color"               , "hex": "#000000" },
