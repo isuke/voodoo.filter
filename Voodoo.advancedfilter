@@ -933,7 +933,7 @@ Show "Harbinger"
     MinimapIcon Small Blue Var("League Minimap Icon Shape")
     PlayEffect Blue
 
-    Fork "Base Type"
+    Mixin "Base Type"
         Show "Harbinger's Orb"
             BaseType "Harbinger's Orb"
             SetFontSize Var("Extra Large Font Size")
