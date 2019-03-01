@@ -140,6 +140,7 @@ Unset "Equipment"
     Fork "Rarity"
         Show "Unique"
             Rarity Unique
+            SetFontSize Var("Large Font Size")
             SetTextColor Var("Unique Item Color")
         Unset "Rare"
             Rarity Rare
