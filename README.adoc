@@ -1,0 +1,17 @@
+:chapter-label:
+:icons: font
+:lang: en
+:sectanchors:
+:sectlinks:
+:sectnums:
+:sectnumlevels: 1
+:source-highlighter: highlightjs
+:toc: preamble
+:toclevels: 1
+
+= Voodoo.filter
+
+Voodoo.filter Path of Exile's item filter.
+created by link:https://filter-of-kalandra.netlify.com/[Filter of Kalandra]
+
+link:https://github.com/isuke/voodoo.filter/releases[DOWNLOAD]
