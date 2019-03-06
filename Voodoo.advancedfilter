@@ -112,6 +112,11 @@ Unset "Equipment"
                                     ItemLevel >= Prop("High Item Level")
                                     SetBorderColor Var("High Item Level Color")
 
+                    Mixin "Labyrinth Enchantment"
+                        Show "True"
+                            AnyEnchantment True
+                            SetBackgroundColor Var("Labyrinth Color")
+
             Mixin "Socket"
                 Show "6L"
                     LinkedSockets = 6
