@@ -55,6 +55,8 @@
 
   { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
 
+  { "name": "New Divination Card Color"    , "hex": "#b84848" },
+
   { "name": "Sublime BG Color"             , "hex": "#ffffff" },
   { "name": "Lofty BG Color"               , "hex": "#606060" },
   { "name": "Precious BG Color"            , "hex": "#444444" },

@@ -471,7 +471,22 @@
 
   {
     "name": "New Divination Cards",
-    "items": []
+    "items": [
+      "The Seeker",
+      "The Messenger",
+      "The Mad King",
+      "Boon of Justice",
+      "The Journey",
+      "Arrogance of the Vaal",
+      "The Landing",
+      "Seven Years Bad Luck",
+      "The Golden Era",
+      "Monochrome",
+      "Dark Temptation",
+      "Alone in the Darkness",
+      "Sambodhi's Vow",
+      "The Lord of Celebration"
+    ]
   },
   {
     "name": "Sublime Divination Cards",
