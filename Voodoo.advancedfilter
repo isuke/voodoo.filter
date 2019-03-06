@@ -159,7 +159,7 @@ Unset "Equipment"
                 Prop("Rare Weapon and Gear Activity") "Weapon and Gear"
                     Class Var("Weapons") Var("Gears")
 
-            Mixin "Shaper/Elder"
+            Mixin "Special"
                 Show "Shaper"
                     ShaperItem True
                     SetFontSize Var("Large Font Size")
@@ -173,6 +173,20 @@ Unset "Equipment"
                     SetBackgroundColor Var("Shaper/Elder Color")
                     MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
                     PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Fractured"
+                    FracturedItem True
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Synthesis Color") 200
+                    MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
+                    PlayEffect Yellow
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Synthesised"
+                    SynthesisedItem True
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Synthesis Color")
+                    MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
+                    PlayEffect Yellow
                     PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Magic"
             Rarity Magic
