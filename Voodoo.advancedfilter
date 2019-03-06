@@ -5,7 +5,7 @@ Unset "Equipment"
     SetFontSize Var("Small Font Size")
 
     Fork "Class 0"
-        Unset "Accessory"
+        Prop("All Accessory Activity") "Accessory"
             Class Var("Accessories")
 
             Fork "Class 1"
