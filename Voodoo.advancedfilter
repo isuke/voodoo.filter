@@ -188,7 +188,7 @@ Unset "Equipment"
                     MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
                     PlayEffect Yellow
                     PlayAlertSoundPositional Var("Lofty Sound")
-        Unset "Magic"
+        Prop("Magic Equipment Activity") "Magic"
             Rarity Magic
             SetTextColor Var("Magic Item Color")
         Unset "Normal"

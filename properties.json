@@ -6,6 +6,7 @@
     "Cheap Currency Activity",
     "Trivial Currency Activity",
     "All Accessory Activity",
+    "Magic Equipment Activity",
     "Flask s Activity",
     "Flask m Activity",
     "Flask l Activity",
@@ -29,6 +30,7 @@
     [
       "Hide",
       "Hide",
+      "Unset",
       "Unset",
       "Hide",
       "Hide",
@@ -70,11 +72,13 @@
       "Show",
       "Show",
       "Show",
+      "Show",
       83
     ],
     [
       "Show",
       "Show",
+      "Unset",
       "Unset",
       "Hide",
       "Hide",
@@ -99,6 +103,7 @@
       "Show",
       "Show",
       "Unset",
+      "Unset",
       "Hide",
       "Hide",
       "Hide",
@@ -121,6 +126,7 @@
     [
       "Hide",
       "Hide",
+      "Unset",
       "Unset",
       "Hide",
       "Hide",
@@ -144,6 +150,7 @@
     [
       "Hide",
       "Hide",
+      "Unset",
       "Unset",
       "Hide",
       "Hide",
