@@ -357,7 +357,7 @@ Hide "Currency"
                     MinimapIcon Small White Var("Currency Minimap Icon Shape")
         Prop("Cheap Currency Activity") "Cheap"
             BaseType Var("Cheap Currencies")
-            SetFontSize Var("Small Font Size")
+            SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Cheap BG Color") 200
             # MinimapIcon NONE
             # PlayEffect NONE
