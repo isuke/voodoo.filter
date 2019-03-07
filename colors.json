@@ -34,10 +34,14 @@
   { "name": "Atlas Color"                  , "hex": "#413d80" },
   { "name": "Oriath Color"                 , "hex": "#ff8e28" },
 
+  { "name": "Jeweller's Orb Recipe Color"  , "hex": "#5f663d" },
   { "name": "Hammer Color"                 , "hex": "#400b00" },
   { "name": "Regal Orb Recipe Color"       , "hex": "#8c326f" },
   { "name": "Choas Orb Recipe Color"       , "hex": "#707000" },
   { "name": "Chromatic Orb Recipe Color"   , "hex": "#7676d0" },
+
+  { "name": "6L Color"                     , "hex": "#ff0000" },
+  { "name": "3L/4L/5L Color"               , "hex": "#cdbc67" },
 
   { "name": "High Item Level Color"        , "hex": "#ff0000" },
 

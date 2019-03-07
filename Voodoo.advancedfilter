@@ -123,25 +123,31 @@ Unset "Equipment"
                     SetFontSize Var("Extra Large Font Size")
                     SetTextColor Var("Weapon Color")
                     SetBackgroundColor Var("Sublime BG Color")
+                    SetBorderColor Var("6L Color")
                     MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Sublime PlayEffect Color")
                     PlayAlertSoundPositional Var("Sublime Sound")
-                Show "6S"
-                    Sockets = 6
-                    SetFontSize Var("Large Font Size")
-                    SetTextColor Var("Weapon Color")
-                    SetBackgroundColor Var("Lofty BG Color")
-                    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Lofty PlayEffect Color")
-                    PlayAlertSoundPositional Var("Lofty Sound")
                 Prop("5L Activity") "5L"
                     LinkedSockets = 5
-                    SetFontSize Var("Default Font Size")
-                    SetTextColor Var("Weapon Color")
                     SetBackgroundColor Var("Precious BG Color")
+                    SetBorderColor Var("3L/4L/5L Color")
                     MinimapIcon Small Var("Precious Minimap Icon Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Precious PlayEffect Color")
                     PlayAlertSoundPositional Var("Precious Sound")
+                Prop("4L Activity") "4L"
+                    LinkedSockets = 4
+                    SetBackgroundColor Var("Trivial BG Color")
+                    SetBorderColor Var("3L/4L/5L Color")
+                    # MinimapIcon NONE
+                    PlayEffect Var("Trivial PlayEffect Color") Temp
+                    PlayAlertSoundPositional Var("Cheap Sound")
+                Prop("3L Activity") "3L"
+                    LinkedSockets = 3
+                    SetBackgroundColor Var("Trivial BG Color")
+                    SetBorderColor Var("3L/4L/5L Color")
+                    # MinimapIcon NONE
+                    PlayEffect Var("Trivial PlayEffect Color") Temp
+                    PlayAlertSoundPositional Var("Cheap Sound")
     Fork "Rarity"
         Show "Unique"
             Rarity Unique
@@ -227,6 +233,15 @@ Unset "Equipment"
                     MinimapIcon Medium Green Var("Equipment Minimap Icon Shape")
                     PlayEffect Green
                     PlayAlertSoundPositional Var("Lofty Sound")
+
+Show "Jeweller's Orb Recipe"
+    Class Var("Equipments")
+    Sockets = 6
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Jeweller's Orb Recipe Color")
+    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+    PlayEffect Var("Lofty PlayEffect Color")
+    PlayAlertSoundPositional Var("Lofty Sound")
 
 Unset "Cartographer's Chisel Recipe"
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
