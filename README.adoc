@@ -15,3 +15,8 @@ Voodoo.filter Path of Exile's item filter.
 created by link:https://filter-of-kalandra.netlify.com/[Filter of Kalandra]
 
 link:https://github.com/isuke/voodoo.filter/releases[DOWNLOAD]
+
+== Sound Effect
+
+- [ザ・マッチメイカァズ](http://osabisi.sakura.ne.jp/m2/)
+- [魔王魂](https://maoudamashii.jokersounds.com/)

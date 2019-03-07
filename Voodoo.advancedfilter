@@ -349,7 +349,8 @@ Hide "Currency"
             Mixin "Base Type"
                 Unset "Chaos Orb"
                     BaseType "Chaos Orb"
-                    PlayAlertSound ShChaos 300
+                    # PlayAlertSound ShChaos 300
+                    CustomAlertSound "./Sounds/Chaos.wav"
         Show "Precious"
             BaseType Var("Precious Currencies")
             SetFontSize Var("Default Font Size")
