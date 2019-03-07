@@ -60,7 +60,6 @@ Unset "Equipment"
                             MinimapIcon Medium Green Var("Accessory Minimap Icon Shape")
                             PlayEffect Green
                             PlayAlertSoundPositional Var("Lofty Sound")
-
                         Unset "Good"
                             BaseType Var("Good Belts")
                             SetFontSize Var("Large Font Size")
@@ -197,9 +196,9 @@ Unset "Equipment"
         Prop("Magic Equipment Activity") "Magic"
             Rarity Magic
             SetTextColor Var("Magic Item Color")
-        Unset "Normal"
-            Rarity Normal
-            SetTextColor Var("Normal Item Color")
+        # Unset "Normal"
+        #     Rarity Normal
+        #     SetTextColor Var("Normal Item Color")
     Mixin "Corrupted"
         Unset "True"
             Corrupted True
