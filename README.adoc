@@ -16,7 +16,214 @@ created by link:https://filter-of-kalandra.netlify.com/[Filter of Kalandra]
 
 link:https://github.com/isuke/voodoo.filter/releases[DOWNLOAD]
 
+== Usage
+
+Please put the file as follows.
+
+----
+%USERPROFILE%/Documents/My Games/Path of Exile/
+├── ...
+├── Voodoo_T1.filter
+├── Voodoo_T2.filter
+├── Voodoo_T3.filter
+├── Voodoo_T4.filter
+├── Voodoo_T5.filter
+├── ...
+└── Sounds
+    ├── Chaos.wav
+    ├── Flask.wav
+    └── MapFragment.wav
+----
+
+== Files
+
+[cols="1,1,1,1,1,1", options="header"]
+|===
+| Recommended Level
+| 1 - 30
+| 25 - 65
+| 60 - 85
+| 78 - 95
+| 93 - 100
+
+| Property Name \ Script Name
+| T1
+| T2
+| T3
+| T4
+| T5
+
+| Cheap Currency Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Trivial Currency Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| All Jewelry Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Magic Equipment Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Flask s Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Flask m Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Flask l Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Flask xl Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Quality Flask Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Utility Flask Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Gem Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Low Tier Map Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Middle Tier Map Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+
+| Cheap Divination Card Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+
+| Cartographer's Chisel Recipe Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Chromatic Orb Recipe Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Regal/Choas Orb Recipe Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| 3L Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| 4L Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| 5L Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Rare Jewelry Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Rare Belt Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Rare Weapon and Gear Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| High Item Level {set:cellbgcolor:white}
+| 83
+{set:cellbgcolor!}
+| 83
+| 83
+| 84
+| 85
+|===
+
 == Sound Effect
 
-- [ザ・マッチメイカァズ](http://osabisi.sakura.ne.jp/m2/)
-- [魔王魂](https://maoudamashii.jokersounds.com/)
+- link:http://osabisi.sakura.ne.jp/m2/[ザ・マッチメイカァズ]
+- link:https://maoudamashii.jokersounds.com/[魔王魂]
