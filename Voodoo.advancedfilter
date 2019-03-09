@@ -1133,6 +1133,7 @@ Show "Quest"
     SetTextColor Var("Quest Item Color")
     SetBackgroundColor 0 0 0
     SetBorderColor Var("Quest Item Color")
+    PlayEffect Green
 
 Show "Error"
     SetFontSize Var("Extra Large Font Size")
