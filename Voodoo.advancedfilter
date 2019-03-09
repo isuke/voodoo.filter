@@ -243,7 +243,7 @@ Show "Jeweller's Orb Recipe"
     PlayEffect Var("Lofty PlayEffect Color")
     PlayAlertSoundPositional Var("Lofty Sound")
 
-Unset "Cartographer's Chisel Recipe"
+Prop("Cartographer's Chisel Recipe Activity") "Cartographer's Chisel Recipe"
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
     Rarity Normal
     Corrupted False
@@ -253,10 +253,10 @@ Unset "Cartographer's Chisel Recipe"
     SetBorderColor Var("Hammer Color")
 
     Mixin "Quality"
-        Prop("Cartographer's Chisel Recipe Activity") "High"
+        Unset "High"
             Quality > 10
             SetBackgroundColor Var("Tier2 BG Color") 240
-        Prop("Cartographer's Chisel Recipe Activity") "Middle"
+        Unset "Middle"
             Quality > 0
             SetBackgroundColor Var("Tier3 BG Color") 200
 
