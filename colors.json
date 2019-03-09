@@ -62,7 +62,7 @@
   { "name": "New Divination Card Color"    , "hex": "#b84848" },
 
   { "name": "Sublime BG Color"             , "hex": "#ffffff" },
-  { "name": "Lofty BG Color"               , "hex": "#606060" },
+  { "name": "Lofty BG Color"               , "hex": "#a2a2a2" },
   { "name": "Precious BG Color"            , "hex": "#444444" },
   { "name": "Trivial BG Color"             , "hex": "#252525" },
   { "name": "Cheap BG Color"               , "hex": "#000000" },
