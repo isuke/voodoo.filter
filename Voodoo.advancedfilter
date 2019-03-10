@@ -1141,4 +1141,5 @@ Show "Error"
     SetBackgroundColor 255 0 0
     MinimapIcon Largest Red Var("Error Minimap Icon Shape")
     PlayEffect Red
-    PlayAlertSound Var("Error Sound")
+    # PlayAlertSound Var("Error Sound")
+    CustomAlertSound "./Sounds/Error.wav"
