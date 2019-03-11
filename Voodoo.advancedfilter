@@ -378,7 +378,7 @@ Hide "Currency"
             SetBackgroundColor Var("Cheap BG Color") 200
             # MinimapIcon NONE
             # PlayEffect NONE
-            PlayAlertSoundPositional Var("Cheap Sound")
+            # PlayAlertSoundPositional Var("Cheap Sound")
 
             Mixin "Stack Size"
                 Show "High Stack Size"
@@ -430,7 +430,7 @@ Hide "Shard"
             SetBackgroundColor Var("Cheap BG Color") 200
             # MinimapIcon NONE
             # PlayEffect NONE
-            PlayAlertSoundPositional Var("Cheap Sound")
+            # PlayAlertSoundPositional Var("Cheap Sound")
 
 Show "Unique Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
