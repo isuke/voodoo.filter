@@ -243,22 +243,21 @@ Show "Jeweller's Orb Recipe"
     PlayEffect Var("Lofty PlayEffect Color")
     PlayAlertSoundPositional Var("Lofty Sound")
 
-Prop("Cartographer's Chisel Recipe Activity") "Cartographer's Chisel Recipe"
-    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-    Rarity Normal
-    Corrupted False
+Unset "Chromatic Orb Recipe"
+    Class Var("Weapons") Var("Gears")
+    SocketGroup RGB
     SetFontSize Var("Small Font Size")
-    SetTextColor Var("Hammer Color")
-    SetBackgroundColor 0 0 0 100
-    SetBorderColor Var("Hammer Color")
+    SetTextColor Var("Chromatic Orb Recipe Color")
+    SetBackgroundColor 0 0 0 200
+    SetBorderColor Var("Chromatic Orb Recipe Color")
 
-    Mixin "Quality"
-        Unset "High"
-            Quality > 10
-            SetBackgroundColor Var("Tier2 BG Color") 240
-        Unset "Middle"
-            Quality > 0
-            SetBackgroundColor Var("Tier3 BG Color") 200
+    Fork "Size"
+        Prop("Regal/Choas Orb Recipe Activity") "Small1"
+            Height <= 3
+            Width <= 1
+        Prop("Regal/Choas Orb Recipe Activity") "Small2"
+            Height <= 2
+            Width <= 2
 
 Unset "Regal/Choas Orb Recipe"
     Class Var("Weapons") Var("Gears")
@@ -294,21 +293,22 @@ Unset "Regal/Choas Orb Recipe"
                     Class "Gloves" "Boots"
                     SetBackgroundColor Lighten(50%)
 
-Unset "Chromatic Orb Recipe"
-    Class Var("Weapons") Var("Gears")
-    SocketGroup RGB
+Prop("Cartographer's Chisel Recipe Activity") "Cartographer's Chisel Recipe"
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    Rarity Normal
+    Corrupted False
     SetFontSize Var("Small Font Size")
-    SetTextColor Var("Chromatic Orb Recipe Color")
-    SetBackgroundColor 0 0 0 200
-    SetBorderColor Var("Chromatic Orb Recipe Color")
+    SetTextColor Var("Hammer Color")
+    SetBackgroundColor 0 0 0 100
+    SetBorderColor Var("Hammer Color")
 
-    Fork "Size"
-        Prop("Regal/Choas Orb Recipe Activity") "Small1"
-            Height <= 3
-            Width <= 1
-        Prop("Regal/Choas Orb Recipe Activity") "Small2"
-            Height <= 2
-            Width <= 2
+    Mixin "Quality"
+        Unset "High"
+            Quality > 10
+            SetBackgroundColor Var("Tier2 BG Color") 240
+        Unset "Middle"
+            Quality > 0
+            SetBackgroundColor Var("Tier3 BG Color") 200
 
 Hide "Other Equipments"
     Class Var("Equipments")
