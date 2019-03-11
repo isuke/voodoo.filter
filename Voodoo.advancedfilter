@@ -352,6 +352,7 @@ Hide "Currency"
                     BaseType "Chaos Orb"
                     # PlayAlertSound ShChaos 300
                     CustomAlertSound "./Sounds/Chaos.wav"
+                    DisableDropSound True
         Show "Precious"
             BaseType Var("Precious Currencies")
             SetFontSize Var("Default Font Size")
@@ -445,6 +446,7 @@ Show "Unique Flask"
 Hide "Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
     CustomAlertSound "./Sounds/Flask.wav"
+    DisableDropSound True
 
     Fork "Class"
         Prop("Utility Flask Activity") "Utility"
@@ -560,6 +562,7 @@ Prop("Gem Activity") "Gem"
 Show "Map Fragment"
     Class "Map Fragment"
     CustomAlertSound "./Sounds/MapFragment.wav"
+    DisableDropSound True
 
     Fork "Base Type"
         Show "Vaal Fragment"
@@ -1143,3 +1146,4 @@ Show "Error"
     PlayEffect Red
     # PlayAlertSound Var("Error Sound")
     CustomAlertSound "./Sounds/Error.wav"
+    DisableDropSound True
