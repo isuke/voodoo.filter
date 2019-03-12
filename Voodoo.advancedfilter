@@ -599,6 +599,14 @@ Show "Map Fragment"
                     PlayEffect Var("Sublime PlayEffect Color")
                     PlayAlertSoundPositional Var("Sublime Sound")
 
+        Show "Labyrinth"
+            BaseType Var("Labyrinth Items")
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Labyrinth Color")
+            MinimapIcon Medium Green Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Green
+
         Show "Prophecy Fragment"
             BaseType "Volkuur's Key" "Eber's Key" "Yriel's Key" "Inya's Key"
             SetFontSize Var("Default Font Size")
