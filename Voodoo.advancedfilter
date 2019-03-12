@@ -755,6 +755,23 @@ Hide "Jewel"
         Show "Abyss"
             Class "Abyss Jewel"
             SetBackgroundColor Var("Abyss Color")
+            MinimapIcon Medium Green Var("Equipment Minimap Icon Shape")
+            PlayEffect Green
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Fractured"
+            FracturedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color") 200
+            MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Synthesised"
+            SynthesisedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color")
+            MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
 
 Show "Divination Card"
     Class "Divination Card"
