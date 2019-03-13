@@ -18,7 +18,7 @@ link:https://github.com/isuke/voodoo.filter/releases[DOWNLOAD]
 
 == Usage
 
-Please put the file as follows.
+Please put downloaded files as follows.
 
 ----
 %USERPROFILE%/Documents/My Games/Path of Exile/
@@ -32,7 +32,8 @@ Please put the file as follows.
 └── Sounds
     ├── Chaos.wav
     ├── Flask.wav
-    └── MapFragment.wav
+    ├── MapFragment.wav
+    └── ...
 ----
 
 == Files
