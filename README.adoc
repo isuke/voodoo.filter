@@ -38,21 +38,21 @@ Please put downloaded files as follows.
 
 == Files
 
-[cols="1,1,1,1,1,1", options="header"]
+[cols=">h,1,1,1,1,1", options="header"]
 |===
-| Recommended Level
-| 1 - 30
-| 25 - 65
-| 60 - 85
-| 78 - 95
-| 93 - 100
-
 | Property Name \ Script Name
 | T1
 | T2
 | T3
 | T4
 | T5
+
+| Recommended Level
+| 1 - 30
+| 25 - 65
+| 60 - 85
+| 78 - 95
+| 93 - 100
 
 | Cheap Currency Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
