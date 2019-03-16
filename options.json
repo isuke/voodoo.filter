@@ -1,0 +1,6 @@
+{
+  "addDisableDropSoundToHideBlock": true,
+  "convertPlayAlertSoundPositionalToPlayAlertSound": false,
+  "removeCustomAlertSound": false,
+  "initialFontSize": "38"
+}
