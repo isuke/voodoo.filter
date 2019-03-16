@@ -36,7 +36,6 @@ Prop("All Accessory Activity") "Accessory"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
                             SetBorderColor Var("High Item Level Color")
-
         Unset "Belt"
             Class "Belt"
             SetBackgroundColor Var("Belt Color") 200
@@ -70,6 +69,8 @@ Prop("All Accessory Activity") "Accessory"
             Rarity Unique
             SetFontSize Var("Large Font Size")
             SetTextColor Var("Unique Item Color")
+            CustomAlertSound "./Sounds/Unique.wav"
+            DisableDropSound True
         Unset "Rare"
             Rarity Rare
             SetTextColor Var("Rare Item Color")
@@ -167,7 +168,6 @@ Unset "Weapon and Gear"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
                             SetBorderColor Var("High Item Level Color")
-
         Unset "Gear"
             Class Var("Gears")
             SetBackgroundColor Var("Gear Color") 200
@@ -189,7 +189,6 @@ Unset "Weapon and Gear"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
                             SetBorderColor Var("High Item Level Color")
-
             Mixin "Labyrinth Enchantment"
                 Show "True"
                     AnyEnchantment True
@@ -230,6 +229,8 @@ Unset "Weapon and Gear"
             Rarity Unique
             SetFontSize Var("Large Font Size")
             SetTextColor Var("Unique Item Color")
+            CustomAlertSound "./Sounds/Unique.wav"
+            DisableDropSound True
         Prop("Rare Weapon and Gear Activity") "Rare"
             Rarity Rare
             SetTextColor Var("Rare Item Color")
@@ -510,7 +511,8 @@ Show "Unique Flask"
     SetBorderColor Var("Unique Item Color")
     MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Flask Minimap Icon Shape")
     PlayEffect Var("Lofty PlayEffect Color")
-    PlayAlertSoundPositional Var("Lofty Sound")
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound True
 
 Hide "Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
@@ -712,7 +714,8 @@ Show "Unique Map"
     SetBorderColor Var("Unique Item Color")
     MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Map Minimap Icon Shape")
     PlayEffect Var("Lofty PlayEffect Color")
-    PlayAlertSoundPositional Var("Lofty Sound")
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound True
 
     Mixin "Base Type"
         Show "Sublime"
@@ -797,7 +800,8 @@ Show "Unique Jewel"
     SetBorderColor Var("Unique Item Color")
     MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Jewel Minimap Icon Shape")
     PlayEffect Var("Lofty PlayEffect Color")
-    PlayAlertSoundPositional Var("Lofty Sound")
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound True
 
 Hide "Jewel"
     Class "Jewel"
@@ -901,6 +905,8 @@ Show "Unique Piece"
     SetFontSize Var("Default Font Size")
     SetTextColor Var("Unique Item Color")
     SetBackgroundColor 0 0 0
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound True
 
 Show "Timeworn Reliquary Key"
     BaseType "Timeworn Reliquary Key"
