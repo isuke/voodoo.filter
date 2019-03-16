@@ -562,6 +562,8 @@ Prop("Gem Activity") "Gem"
     SetFontSize Var("Small Font Size")
     SetTextColor Var("Gem Color")
     SetBackgroundColor Var("Cheap BG Color") 200
+    CustomAlertSound "./Sounds/Gem.wav"
+    DisableDropSound True
 
     Mixin "Corrupted"
         Unset "True"
@@ -575,7 +577,6 @@ Prop("Gem Activity") "Gem"
             SetBackgroundColor Var("Tier1 BG Color")
             MinimapIcon Largest Green Var("Gem Minimap Icon Shape")
             PlayEffect Green
-            PlayAlertSoundPositional Var("Tier1 Sound")
         Show "High"
             Quality > 10
             SetFontSize Var("Default Font Size")
@@ -583,7 +584,6 @@ Prop("Gem Activity") "Gem"
             SetBackgroundColor Var("Tier2 BG Color") 240
             # MinimapIcon NONE
             PlayEffect Var("Trivial PlayEffect Color") Temp
-            PlayAlertSoundPositional Var("Trivial Sound")
         Show "Middle"
             Quality > 0
             SetFontSize Var("Default Font Size")
@@ -591,7 +591,6 @@ Prop("Gem Activity") "Gem"
             SetBackgroundColor Var("Tier3 BG Color") 200
             # MinimapIcon NONE
             PlayEffect Var("Trivial PlayEffect Color") Temp
-            PlayAlertSoundPositional Var("Trivial Sound")
 
     Mixin "Level"
         Show "Very High"
@@ -600,7 +599,6 @@ Prop("Gem Activity") "Gem"
             SetBackgroundColor Var("Tier1 BG Color")
             MinimapIcon Largest Green Var("Gem Minimap Icon Shape")
             PlayEffect Green
-            PlayAlertSoundPositional Var("Tier1 Sound")
         Show "High"
             GemLevel >= 18
             SetFontSize Var("Default Font Size")
@@ -608,7 +606,6 @@ Prop("Gem Activity") "Gem"
             SetBackgroundColor Var("Tier2 BG Color") 240
             # MinimapIcon NONE
             PlayEffect Var("Trivial PlayEffect Color") Temp
-            PlayAlertSoundPositional Var("Trivial Sound")
 
     Mixin "Special"
         Show "'E' Series Gem"
@@ -618,7 +615,6 @@ Prop("Gem Activity") "Gem"
             SetBackgroundColor Var("Lofty BG Color")
             MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Lofty PlayEffect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
         Show "Drop Only"
             BaseType Var("Drop Only Gems")
             SetFontSize Var("Default Font Size")
@@ -626,7 +622,6 @@ Prop("Gem Activity") "Gem"
             # SetBackgroundColor NONE
             MinimapIcon Small Var("Precious Minimap Icon Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Precious PlayEffect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
 
 Show "Map Fragment"
     Class "Map Fragment"
