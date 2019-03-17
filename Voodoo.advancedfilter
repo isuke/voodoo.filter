@@ -892,7 +892,7 @@ Show "Divination Card"
             PlayAlertSoundPositional Var("Cheap Sound")
 
 Show "Stacked Deck"
-    BaseType Var("Sublime Divination Cards")
+    BaseType "Stacked Deck"
     SetFontSize Var("Extra Large Font Size")
     SetTextColor Var("Divination Card Color")
     SetBackgroundColor Var("Sublime BG Color")
