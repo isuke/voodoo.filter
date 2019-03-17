@@ -36,6 +36,14 @@ Please put downloaded files as follows.
     └── ...
 ----
 
+== Rareness
+
+1. Cheap
+1. Trivial
+1. Precious
+1. Lofty
+1. Sublime
+
 == Files
 
 [cols=">h,1,1,1,1,1", options="header"]
