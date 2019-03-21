@@ -1,69 +1,37 @@
 # Voodoo Filter
 
-Prop("All Accessory Activity") "Accessory"
-    Class Var("Accessories")
+Prop("All Accessory Activity") "Jewelry"
+    Class Var("Jewelries")
     SetFontSize Var("Small Font Size")
+    SetBackgroundColor Var("Jewelry Color") 200
 
-    Fork "Class"
-        Unset "Jewelry"
-            Class Var("Jewelries")
-            SetBackgroundColor Var("Jewelry Color") 200
+    Mixin "Base Type"
+        Show "Atlas Base Accessories"
+            BaseType Var("Atlas Base Accessories")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
+            PlayEffect Red
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Talisman"
+            BaseType "Talisman"
+            SetBackgroundColor Var("Talisman Color")
+            MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Hide "Breach Ring"
+            BaseType "Breach Ring"
+            SetFontSize Var("Small Font Size")
+            SetBackgroundColor Var("Breach Color") 160
+        Unset "Good"
+            BaseType Var("Good Amulets") Var("Good Rings")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Lighten(50%)
 
-            Mixin "Base Type"
-                Show "Atlas Base Accessories"
-                    BaseType Var("Atlas Base Accessories")
-                    SetFontSize Var("Extra Large Font Size")
-                    SetBackgroundColor Var("Atlas Color")
-                    MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
-                    PlayEffect Red
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Talisman"
-                    BaseType "Talisman"
-                    SetBackgroundColor Var("Talisman Color")
-                    MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
-                    PlayEffect Yellow
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Hide "Breach Ring"
-                    BaseType "Breach Ring"
-                    SetFontSize Var("Small Font Size")
-                    SetBackgroundColor Var("Breach Color") 160
-                Unset "Good"
-                    BaseType Var("Good Amulets") Var("Good Rings")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Lighten(50%)
-
-                    Mixin "Item Level"
-                        Show "High"
-                            ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Color")
-        Unset "Belt"
-            Class "Belt"
-            SetBackgroundColor Var("Belt Color") 200
-
-            Mixin "Base Type"
-                Show "Atlas Base Accessories"
-                    BaseType Var("Atlas Base Accessories")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Atlas Color")
-                    MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
-                    PlayEffect Red
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Abyss"
-                    BaseType "Stygian Vise"
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Abyss Color")
-                    MinimapIcon Medium Green Var("Accessory Minimap Icon Shape")
-                    PlayEffect Green
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Unset "Good"
-                    BaseType Var("Good Belts")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Lighten(50%)
-
-                    Mixin "Item Level"
-                        Show "High"
-                            ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Color")
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= Prop("High Item Level")
+                    SetBorderColor Var("High Item Level Color")
     Fork "Rarity"
         Show "Unique"
             Rarity Unique
@@ -71,15 +39,119 @@ Prop("All Accessory Activity") "Accessory"
             SetTextColor Var("Unique Item Color")
             CustomAlertSound "./Sounds/Unique.wav"
             DisableDropSound True
-        Unset "Rare"
+        Prop("Rare Jewelry Activity") "Rare"
             Rarity Rare
             SetTextColor Var("Rare Item Color")
 
-            Mixin "Rare BaseType"
-                Prop("Rare Jewelry Activity") "Jewelry"
-                    Class Var("Jewelries")
-                Prop("Rare Belt Activity") "Belt"
-                    Class "Belt"
+            Mixin "Special"
+                Show "Shaper"
+                    ShaperItem True
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Shaper/Elder Color")
+                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Elder"
+                    ElderItem True
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Shaper/Elder Color")
+                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Fractured"
+                    FracturedItem True
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Synthesis Color") 200
+                    MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+                    PlayEffect Yellow
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Synthesised"
+                    SynthesisedItem True
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Synthesis Color")
+                    MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+                    PlayEffect Yellow
+                    PlayAlertSoundPositional Var("Lofty Sound")
+        Prop("Magic Equipment Activity") "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+    Mixin "Corrupted"
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+    Mixin "Identified"
+        Unset "True"
+            Identified True
+
+            Mixin "Mods"
+                Show "Benche Craft"
+                    HasExplicitMod Var("Bench Craft Mods")
+                    SetBackgroundColor Var("Crafted Mod Color")
+                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Incursion"
+                    HasExplicitMod Var("Incursion Mods")
+                    SetBackgroundColor Var("Incursion Color")
+                    MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
+                    PlayEffect Red
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Delve"
+                    HasExplicitMod Var("Delve Mods")
+                    SetBackgroundColor Var("Delve Color")
+                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Betrayal"
+                    HasExplicitMod Var("Betrayal Mods")
+                    SetBackgroundColor Var("Betrayal Color")
+                    MinimapIcon Medium Green Var("Accessory Minimap Icon Shape")
+                    PlayEffect Green
+                    PlayAlertSoundPositional Var("Lofty Sound")
+
+Prop("All Accessory Activity") "Belt"
+    Class "Belt"
+    SetFontSize Var("Small Font Size")
+    SetBackgroundColor Var("Belt Color") 200
+
+    Mixin "Base Type"
+        Show "Atlas Base Accessories"
+            BaseType Var("Atlas Base Accessories")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
+            PlayEffect Red
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Abyss"
+            BaseType "Stygian Vise"
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Abyss Color")
+            MinimapIcon Medium Green Var("Accessory Minimap Icon Shape")
+            PlayEffect Green
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Unset "Good"
+            BaseType Var("Good Belts")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Lighten(50%)
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= Prop("High Item Level")
+                    SetBorderColor Var("High Item Level Color")
+    Fork "Rarity"
+        Show "Unique"
+            Rarity Unique
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Unique Item Color")
+            CustomAlertSound "./Sounds/Unique.wav"
+            DisableDropSound True
+        Prop("Rare Belt Activity") "Rare"
+            Rarity Rare
+            SetTextColor Var("Rare Item Color")
+
             Mixin "Special"
                 Show "Shaper"
                     ShaperItem True
