@@ -316,8 +316,6 @@
   {
     "name": "Trivial Currencies",
     "items": [
-      "Armourer's Scrap",
-      "Blacksmith's Whetstone",
       "Orb of Augmentation",
       "Orb of Transmutation"
     ]
@@ -325,6 +323,8 @@
   {
     "name": "Cheap Currencies",
     "items": [
+      "Armourer's Scrap",
+      "Blacksmith's Whetstone",
       "Portal Scroll",
       "Scroll of Wisdom"
     ]
