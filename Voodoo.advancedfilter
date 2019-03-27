@@ -1267,7 +1267,8 @@ Show "Prophecy"
     # SetBorderColor NONE
     MinimapIcon Medium Red Var("League Minimap Icon Shape")
     PlayEffect Red
-    # PlayAlertSoundPositional TODO
+    CustomAlertSound "./Sounds/Prophecy.wav"
+    DisableDropSound True
 
 Show "Bestiary"
     BaseType Var("Bestiary Items")
