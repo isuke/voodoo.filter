@@ -248,7 +248,7 @@ Unset "Weapon and Gear"
                 Show "Atlas Base Gears"
                     BaseType Var("Atlas Base Gears") Var("Atziri Gears")
                     SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Atlas Color") 200
+                    SetBackgroundColor Var("Atlas Color")
                     MinimapIcon Medium Red Var("Equipment Minimap Icon Shape")
                     PlayEffect Red
                     PlayAlertSoundPositional Var("Lofty Sound")
