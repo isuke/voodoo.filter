@@ -43,7 +43,7 @@
   { "name": "6L Color"                     , "hex": "#ff0000" },
   { "name": "3L/4L/5L Color"               , "hex": "#cdbc67" },
 
-  { "name": "High Item Level Color"        , "hex": "#ff0000" },
+  { "name": "High Item Level Color"        , "hex": "#ff6265" },
 
   { "name": "Talisman Color"               , "hex": "#3d5a0c" },
   { "name": "Prophecy Color"               , "hex": "#a82dc7" },
