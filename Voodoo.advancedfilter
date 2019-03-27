@@ -480,7 +480,8 @@ Hide "Currency"
                     PlayAlertSound ShDivine 300
                 Unset "Exalted Orb"
                     BaseType "Exalted Orb"
-                    PlayAlertSound ShExalted 300
+                    CustomAlertSound "./Sounds/Exalted.wav"
+                    DisableDropSound True
         Show "Lofty"
             BaseType Var("Lofty Currencies")
             SetFontSize Var("Large Font Size")
