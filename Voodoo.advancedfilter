@@ -37,6 +37,8 @@ Prop("All Accessory Activity") "Jewelry"
             Rarity Unique
             SetFontSize Var("Large Font Size")
             SetTextColor Var("Unique Item Color")
+            MinimapIcon Largest Brown Var("Accessory Minimap Icon Shape")
+            PlayEffect Brown
             CustomAlertSound "./Sounds/Unique.wav"
             DisableDropSound True
         Prop("Rare Jewelry Activity") "Rare"
@@ -146,6 +148,8 @@ Prop("All Accessory Activity") "Belt"
             Rarity Unique
             SetFontSize Var("Large Font Size")
             SetTextColor Var("Unique Item Color")
+            MinimapIcon Largest Brown Var("Accessory Minimap Icon Shape")
+            PlayEffect Brown
             CustomAlertSound "./Sounds/Unique.wav"
             DisableDropSound True
         Prop("Rare Belt Activity") "Rare"
@@ -303,6 +307,13 @@ Unset "Weapon and Gear"
             SetTextColor Var("Unique Item Color")
             CustomAlertSound "./Sounds/Unique.wav"
             DisableDropSound True
+
+            Mixin "Drop Level"
+                Show "High"
+                    DropLevel >= 50
+                    MinimapIcon Largest Brown Var("Equipment Minimap Icon Shape")
+                    PlayEffect Brown
+
         Prop("Rare Weapon and Gear Activity") "Rare"
             Rarity Rare
             SetTextColor Var("Rare Item Color")
@@ -582,8 +593,8 @@ Show "Unique Flask"
     SetTextColor Var("Flask Color")
     SetBackgroundColor 0 0 0
     SetBorderColor Var("Unique Item Color")
-    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Flask Minimap Icon Shape")
-    PlayEffect Var("Lofty PlayEffect Color")
+    MinimapIcon Medium Brown Var("Flask Minimap Icon Shape")
+    PlayEffect Brown
     CustomAlertSound "./Sounds/Unique.wav"
     DisableDropSound True
 
@@ -785,8 +796,8 @@ Show "Unique Map"
     SetTextColor Var("Map Color")
     SetBackgroundColor 0 0 0
     SetBorderColor Var("Unique Item Color")
-    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Map Minimap Icon Shape")
-    PlayEffect Var("Lofty PlayEffect Color")
+    MinimapIcon Medium Brown Var("Map Minimap Icon Shape")
+    PlayEffect Brown
     CustomAlertSound "./Sounds/Unique.wav"
     DisableDropSound True
 
@@ -871,8 +882,8 @@ Show "Unique Jewel"
     SetTextColor Var("Jewel Color")
     SetBackgroundColor 0 0 0
     SetBorderColor Var("Unique Item Color")
-    MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Jewel Minimap Icon Shape")
-    PlayEffect Var("Lofty PlayEffect Color")
+    MinimapIcon Medium Brown Var("Jewel Minimap Icon Shape")
+    PlayEffect Brown
     CustomAlertSound "./Sounds/Unique.wav"
     DisableDropSound True
 
@@ -978,6 +989,8 @@ Show "Unique Piece"
     SetFontSize Var("Default Font Size")
     SetTextColor Var("Unique Item Color")
     SetBackgroundColor 0 0 0
+    MinimapIcon Medium Brown Var("Equipment Minimap Icon Shape")
+    PlayEffect Brown
     CustomAlertSound "./Sounds/Unique.wav"
     DisableDropSound True
 
