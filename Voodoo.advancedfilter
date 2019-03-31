@@ -1156,31 +1156,21 @@ Show "Harbinger"
     BaseType Var("Harbinger Items")
     SetFontSize Var("Default Font Size")
     SetTextColor 255 255 255
-    SetBackgroundColor Var("Harbinger Color")
+    SetBackgroundColor Var("Harbinger Color") 200
     MinimapIcon Small Blue Var("League Minimap Icon Shape")
     PlayEffect Blue
 
     Mixin "Base Type"
-        Show "Harbinger's Orb"
-            BaseType "Harbinger's Orb"
+        Show "Lofty"
+            BaseType "Ancient Orb" "Ancient Shard" "Harbinger's Orb" "Harbinger's Shard"
             SetFontSize Var("Extra Large Font Size")
-            SetBorderColor Var("Tier1 BG Color")
+            SetBackgroundColor Var("Harbinger Color")
             MinimapIcon Largest Blue Var("League Minimap Icon Shape")
             PlayEffect Blue
-        Show "Harbinger's Shard"
-            BaseType "Harbinger's Shard"
-            SetFontSize Var("Extra Large Font Size")
-            SetBorderColor Var("Tier1 BG Color")
-            MinimapIcon Largest Blue Var("League Minimap Icon Shape")
-            PlayEffect Blue
-        Show "Orb of Horizons"
+        Show "Precious"
             BaseType "Orb of Horizons"
             SetFontSize Var("Large Font Size")
-            MinimapIcon Medium Blue Var("League Minimap Icon Shape")
-            PlayEffect Blue
-        Show "Horizon Shard"
-            BaseType "Horizon Shard"
-            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Harbinger Color") 240
             MinimapIcon Medium Blue Var("League Minimap Icon Shape")
             PlayEffect Blue
 
