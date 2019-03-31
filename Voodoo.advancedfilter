@@ -1,5 +1,20 @@
 # Voodoo Filter
 
+Show "Fishing Rod"
+    Class "Fishing Rods"
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor Var("Weapon Color")
+    SetBackgroundColor Var("Sublime BG Color")
+    # SetBorderColor NONE
+    MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+    PlayEffect Var("Sublime PlayEffect Color")
+    PlayAlertSoundPositional Var("Sublime Sound")
+
+    Mixin "Rarity"
+        Show "Unique"
+            Rarity Unique
+            SetTextColor Var("Unique Item Color")
+
 Prop("All Accessory Activity") "Jewelry"
     Class Var("Jewelries")
     SetFontSize Var("Small Font Size")
