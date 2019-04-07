@@ -1305,7 +1305,7 @@ Show "Incursio1"
     SetBackgroundColor Var("Incursion Color")
     MinimapIcon Largest Red Var("League Minimap Icon Shape")
     PlayEffect Red
-    # PlayAlertSoundPositional TODO
+    PlayAlertSoundPositional Var("Lofty Sound")
 
 Show "Incursio2"
     BaseType Var("Incursion Items2")
@@ -1314,7 +1314,7 @@ Show "Incursio2"
     SetBackgroundColor Var("Incursion Color")
     MinimapIcon Medium Red Var("League Minimap Icon Shape")
     PlayEffect Red
-    # PlayAlertSoundPositional TODO
+    PlayAlertSoundPositional Var("Precious Sound")
 
 Show "Quest"
     Class "Quest Items"
