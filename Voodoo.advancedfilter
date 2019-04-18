@@ -507,10 +507,14 @@ Hide "Currency"
             Mixin "Base Type"
                 Unset "Mirror of Kalandra"
                     BaseType "Mirror of Kalandra"
-                    PlayAlertSound ShMirror 300
+                    # PlayAlertSound ShMirror 300
+                    CustomAlertSound "./Sounds/Mirror.wav"
+                    DisableDropSound True
                 Unset "Divine Orb"
                     BaseType "Divine Orb"
-                    PlayAlertSound ShDivine 300
+                    # PlayAlertSound ShDivine 300
+                    CustomAlertSound "./Sounds/Divine.wav"
+                    DisableDropSound True
                 Unset "Exalted Orb"
                     BaseType "Exalted Orb"
                     CustomAlertSound "./Sounds/Exalted.wav"
