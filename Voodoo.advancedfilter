@@ -264,12 +264,19 @@ Unset "Weapon and Gear"
             SetBackgroundColor Var("Gear Color") 200
 
             Mixin "Base Type"
-                Show "Atlas Base Gears"
-                    BaseType Var("Atlas Base Gears") Var("Atziri Gears")
+                Show "Atziri Gears"
+                    BaseType Var("Atziri Gears")
                     SetFontSize Var("Large Font Size")
                     SetBackgroundColor Var("Atlas Color")
                     MinimapIcon Medium Red Var("Equipment Minimap Icon Shape")
                     PlayEffect Red
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Atlas Base Gears"
+                    BaseType Var("Atlas Base Gears")
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Atlas Color")
+                    # MinimapIcon Small Red Var("Equipment Minimap Icon Shape")
+                    PlayEffect Red Temp
                     PlayAlertSoundPositional Var("Lofty Sound")
                 Unset "Good"
                     BaseType Var("Good Gears")
