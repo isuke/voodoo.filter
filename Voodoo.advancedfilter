@@ -510,14 +510,14 @@ Hide "Currency"
                     # PlayAlertSound ShMirror 300
                     CustomAlertSound "./Sounds/Mirror.wav"
                     DisableDropSound True
-                Unset "Divine Orb"
-                    BaseType "Divine Orb"
-                    # PlayAlertSound ShDivine 300
-                    CustomAlertSound "./Sounds/Divine.wav"
-                    DisableDropSound True
                 Unset "Exalted Orb"
                     BaseType "Exalted Orb"
                     CustomAlertSound "./Sounds/Exalted.wav"
+                    DisableDropSound True
+                Unset "Divine Orb/Orb of Annulment"
+                    BaseType "Divine Orb" "Orb of Annulment"
+                    # PlayAlertSound ShDivine 300
+                    CustomAlertSound "./Sounds/Divine.wav"
                     DisableDropSound True
         Show "Lofty"
             BaseType Var("Lofty Currencies")
