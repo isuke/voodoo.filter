@@ -12,7 +12,7 @@
 = Voodoo.filter
 
 Voodoo.filter Path of Exile's item filter.
-created by link:https://filter-of-kalandra.netlify.com/[Filter of Kalandra]
+created by link:https://filter-of-kalandra.xyz/[Filter of Kalandra]
 
 link:https://github.com/isuke/voodoo.filter/releases[DOWNLOAD]
 
