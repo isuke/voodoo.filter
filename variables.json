@@ -965,6 +965,49 @@
       "Primitive Chaotic Resonator"
     ]
   },
+  {
+    "name": "Legion Items",
+    "items": [
+      "Whispering Incubator",
+      "Fine Incubator",
+      "Singular Incubator",
+      "Cartographer's Incubator",
+      "Otherworldly Incubator",
+      "Abyssal Incubator",
+      "Fragmented Incubator",
+      "Skittering Incubator",
+      "Infused Incubator",
+      "Fossilised Incubator",
+      "Decadent Incubator",
+      "Diviner's Incubator",
+      "Primal Incubator",
+      "Enchanted Incubator",
+      "Geomancer's Incubator",
+      "Ornate Incubator",
+      "Time-Lost Incubator",
+      "Celestial Armoursmith's Incubator",
+      "Celestial Blacksmith's Incubator",
+      "Celestial Jeweller's Incubator",
+      "Eldritch Incubator",
+      "Obscured Incubator",
+      "Foreboding Incubator",
+      "Thaumaturge's Incubator",
+      "Mysterious Incubator",
+      "Gemcutter's Incubator",
+
+      "Timeless Karui Splinter",
+      "Timeless Maraketh Splinter",
+      "Timeless Eternal Empire Splinter",
+      "Timeless Templar Splinter",
+      "Timeless Vaal Splinter",
+
+      "Timeless Karui Emblem",
+      "Timeless Maraketh Emblem",
+      "Timeless Eternal Emblem",
+      "Timeless Templar Emblem",
+      "Timeless Vaal Emblem"
+    ]
+  },
 
 
 

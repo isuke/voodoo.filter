@@ -56,6 +56,7 @@
   { "name": "Delve Color"                  , "hex": "#4c50d8" },
   { "name": "Betrayal Color"               , "hex": "#599e20" },
   { "name": "Synthesis Color"              , "hex": "#e2c23c" },
+  { "name": "Legion Color"                 , "hex": "#5600b3" },
 
   { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
 

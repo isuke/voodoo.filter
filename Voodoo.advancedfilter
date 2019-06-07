@@ -815,6 +815,14 @@ Show "Map Fragment"
             MinimapIcon Medium Green Var("Map Fragment Minimap Icon Shape")
             PlayEffect Green
 
+        Show "Emblem"
+            BaseType "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Eternal Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Legion Color")
+            MinimapIcon Medium Blue Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Blue
+
 Show "Unique Map"
     Class "Map"
     Rarity Unique
@@ -1326,6 +1334,27 @@ Show "Incursio2"
     MinimapIcon Medium Red Var("League Minimap Icon Shape")
     PlayEffect Red
     PlayAlertSoundPositional Var("Precious Sound")
+
+Show "Legion"
+    BaseType Var("Legion Items")
+
+    Fork "Base Type"
+        Show "Incubators"
+            Class "Incubator"
+            SetFontSize Var("Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Legion Color")
+            MinimapIcon Medium Blue Var("League Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Precious Sound")
+
+        Show "Splinters"
+            BaseType "Splinter"
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Legion Color") 200
+            MinimapIcon Small Blue Var("League Minimap Icon Shape")
+            PlayEffect Blue
 
 Show "Quest"
     Class "Quest Items"
