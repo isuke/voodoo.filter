@@ -427,14 +427,14 @@ Unset "Chromatic Orb Recipe"
     SetBorderColor Var("Chromatic Orb Recipe Color")
 
     Fork "Size"
-        Prop("Regal/Choas Orb Recipe Activity") "Small1"
+        Prop("Regal/Chaos Orb Recipe Activity") "Small1"
             Height <= 3
             Width <= 1
-        Prop("Regal/Choas Orb Recipe Activity") "Small2"
+        Prop("Regal/Chaos Orb Recipe Activity") "Small2"
             Height <= 2
             Width <= 2
 
-Unset "Regal/Choas Orb Recipe"
+Unset "Regal/Chaos Orb Recipe"
     Class Var("Weapons") Var("Gears")
     Rarity Rare
     Identified False
@@ -447,8 +447,8 @@ Unset "Regal/Choas Orb Recipe"
             SetBorderColor Var("Regal Orb Recipe Color")
         Unset "Chaos"
             ItemLevel >= 60
-            SetTextColor Var("Choas Orb Recipe Color")
-            SetBorderColor Var("Choas Orb Recipe Color")
+            SetTextColor Var("Chaos Orb Recipe Color")
+            SetBorderColor Var("Chaos Orb Recipe Color")
 
     Fork "Class 0"
         Unset "Weapon"
@@ -456,10 +456,10 @@ Unset "Regal/Choas Orb Recipe"
             SetBackgroundColor Var("Weapon Color") 160
 
             Fork "Size"
-                Prop("Regal/Choas Orb Recipe Activity") "Small"
+                Prop("Regal/Chaos Orb Recipe Activity") "Small"
                     Height <= 3
                     Width <= 1
-        Prop("Regal/Choas Orb Recipe Activity") "Gear"
+        Prop("Regal/Chaos Orb Recipe Activity") "Gear"
             Class "Gloves" "Boots" "Body Armours" "Helmets"
             SetBackgroundColor Var("Gear Color") 160
 

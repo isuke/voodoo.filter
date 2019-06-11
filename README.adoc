@@ -174,7 +174,7 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
 
-| Regal/Choas Orb Recipe Activity {set:cellbgcolor:white}
+| Regal/Chaos Orb Recipe Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
