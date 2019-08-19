@@ -227,9 +227,9 @@ Please put downloaded files as follows.
 | 83
 {set:cellbgcolor!}
 | 83
-| 83
-| 84
 | 85
+| 86
+| 86
 |===
 
 == Sound Effect
