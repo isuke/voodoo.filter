@@ -1243,13 +1243,12 @@ Hide "Fossil"
             PlayAlertSoundPositional Var("Trivial Sound")
 
 Hide "Resonator"
-    BaseType "Resonator"
+    BaseType "Delve Stackable Socketable Currency"
     SetTextColor Var("Delve Color")
 
     Fork "Rareness"
         Show "Sublime"
             BaseType Var("Sublime Resonators")
-            BaseType Var("Sublime Fossils")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
             MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("League Minimap Icon Shape")
