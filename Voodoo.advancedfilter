@@ -1276,6 +1276,14 @@ Hide "Resonator"
             PlayEffect Var("Trivial PlayEffect Color") Temp
             PlayAlertSoundPositional Var("Trivial Sound")
 
+Show "Oil"
+    BaseType "Oil"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Blight Color")
+    MinimapIcon Small Yellow Var("League Minimap Icon Shape")
+    PlayEffect Yellow
+
 Show "Labyrinth"
     BaseType Var("Labyrinth Items")
     SetFontSize Var("Default Font Size")
