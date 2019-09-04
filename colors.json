@@ -48,7 +48,7 @@
   { "name": "Talisman Color"               , "hex": "#3d5a0c" },
   { "name": "Prophecy Color"               , "hex": "#a82dc7" },
   { "name": "Essence Color"                , "hex": "#5670d1" },
-  { "name": "Breach Color"                 , "hex": "#4b00ba" },
+  { "name": "Breach Color"                 , "hex": "#4800ad" },
   { "name": "Harbinger Color"              , "hex": "#0086bd" },
   { "name": "Abyss Color"                  , "hex": "#2c5b12" },
   { "name": "Bestiary Color"               , "hex": "#9f2600" },
@@ -56,7 +56,7 @@
   { "name": "Delve Color"                  , "hex": "#4c50d8" },
   { "name": "Betrayal Color"               , "hex": "#599e20" },
   { "name": "Synthesis Color"              , "hex": "#e2c23c" },
-  { "name": "Legion Color"                 , "hex": "#5600b3" },
+  { "name": "Legion Color"                 , "hex": "#4300c6" },
 
   { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
 
