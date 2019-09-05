@@ -909,6 +909,14 @@ Show "Map"
             PlayEffect White
             PlayAlertSoundPositional Var("Tier1 Sound")
 
+    Mixin "Blighted"
+        Show "True"
+            BlightedMap True
+            SetBackgroundColor Var("Blight Color")
+            MinimapIcon Small Yellow Var("Map Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Precious Sound")
+
 Show "Unique Jewel"
     Class "Jewel"
     Rarity Unique
