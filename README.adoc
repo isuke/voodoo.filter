@@ -239,6 +239,29 @@ Please put downloaded files as follows.
 | 86
 |===
 
+== How to Customize
+
+=== Change Custome Sounds
+
+Please replace files in the 'Sounds' directory with same name.
+
+=== Change Property
+
+. Download source code.
++
+image:https://raw.githubusercontent.com/isuke/voodoo.filter/images/howto01.png[How to 01]
++
+. Open link:https://filter-of-kalandra.xyz/[Filter of Kalandra] and import the downloaded zip file.
++
+image:https://raw.githubusercontent.com/isuke/voodoo.filter/images/howto02.png[How to 02]
+image:https://raw.githubusercontent.com/isuke/voodoo.filter/images/howto03.png[How to 03]
++
+. Select 'Property' tag, and change 'custom' column values.
+
+. Click 'Export' button.
++
+image:https://raw.githubusercontent.com/isuke/voodoo.filter/images/howto04.png[How to 04]
+
 == Sound Effect
 
 - link:http://osabisi.sakura.ne.jp/m2/[ザ・マッチメイカァズ]
