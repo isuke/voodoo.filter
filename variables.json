@@ -1033,6 +1033,38 @@
       "Timeless Vaal Emblem"
     ]
   },
+  {
+    "name": "Sublime Oils",
+    "items": [
+      "Opalescent Oil",
+      "Silver Oil",
+      "Golden Oil"
+    ]
+  },
+  {
+    "name": "Lofty Oils",
+    "items": [
+      "Violet Oil",
+      "Crimson Oil",
+      "Black Oil"
+    ]
+  },
+  {
+    "name": "Precious Oils",
+    "items": [
+      "Verdant Oil",
+      "Teal Oil",
+      "Azure Oil"
+    ]
+  },
+  {
+    "name": "Trivial Oils",
+    "items": [
+      "Clear Oil",
+      "Sepia Oil",
+      "Amber Oil"
+    ]
+  },
 
 
 

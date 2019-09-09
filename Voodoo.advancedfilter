@@ -1286,11 +1286,38 @@ Hide "Resonator"
 
 Show "Oil"
     BaseType "Oil"
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Blight Color")
-    MinimapIcon Small Yellow Var("League Minimap Icon Shape")
-    PlayEffect Yellow
+    SetTextColor Var("Blight Color")
+
+    Fork "Rareness"
+        Show "Sublime"
+            BaseType Var("Sublime Oils")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Sublime BG Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+        Show "Lofty"
+            BaseType Var("Lofty Oils")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Precious"
+            BaseType Var("Precious Oils")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Precious BG Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound")
+        Show "Trivial"
+            BaseType Var("Trivial Oils")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Trivial BG Color") 240
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Trivial PlayEffect Color")
+            PlayAlertSoundPositional Var("Trivial Sound")
+
 
 Show "Labyrinth"
     BaseType Var("Labyrinth Items")
