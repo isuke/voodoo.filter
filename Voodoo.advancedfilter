@@ -1019,12 +1019,12 @@ Show "Divination Card"
 
 Show "Stacked Deck"
     BaseType "Stacked Deck"
-    SetFontSize Var("Extra Large Font Size")
+    SetFontSize Var("Default Font Size")
     SetTextColor Var("Divination Card Color")
-    SetBackgroundColor Var("Sublime BG Color")
-    MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
-    PlayEffect Var("Sublime PlayEffect Color")
-    PlayAlertSoundPositional Var("Sublime Sound")
+    SetBackgroundColor Var("Precious BG Color")
+    MinimapIcon Small Var("Precious Minimap Icon Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Precious PlayEffect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
 
 Show "Unique Piece"
     Class "Piece"
