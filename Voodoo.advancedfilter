@@ -418,7 +418,7 @@ Show "Jeweller's Orb Recipe"
     PlayEffect Var("Lofty PlayEffect Color")
     PlayAlertSoundPositional Var("Lofty Sound")
 
-Unset "Chromatic Orb Recipe"
+Prop("Chromatic Orb Recipe Activity") "Chromatic Orb Recipe"
     Class Var("Weapons") Var("Gears")
     SocketGroup RGB
     SetFontSize Var("Small Font Size")
@@ -427,10 +427,10 @@ Unset "Chromatic Orb Recipe"
     SetBorderColor Var("Chromatic Orb Recipe Color")
 
     Fork "Size"
-        Prop("Regal/Chaos Orb Recipe Activity") "Small1"
+        Unset "Small1"
             Height <= 3
             Width <= 1
-        Prop("Regal/Chaos Orb Recipe Activity") "Small2"
+        Unset "Small2"
             Height <= 2
             Width <= 2
 
