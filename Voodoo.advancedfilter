@@ -978,39 +978,39 @@ Show "Divination Card"
 
     Mixin "Rareness"
         Show "Sublime"
-            BaseType Var("Sublime Divination Cards")
+            BaseType == Var("Sublime Divination Cards")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
             MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Sublime PlayEffect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Lofty"
-            BaseType Var("Lofty Divination Cards")
+            BaseType == Var("Lofty Divination Cards")
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Lofty BG Color")
             MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Lofty PlayEffect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
         Show "Precious"
-            BaseType Var("Precious Divination Cards")
+            BaseType == Var("Precious Divination Cards")
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Precious BG Color")
             MinimapIcon Small Var("Precious Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Precious PlayEffect Color")
             PlayAlertSoundPositional Var("Precious Sound")
-        Show "New"
-            BaseType Var("New Divination Cards")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Lofty BG Color")
-            SetBorderColor Var("New Divination Card Color")
-            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
-            PlayEffect Var("Lofty PlayEffect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
+        # Show "New"
+        #     BaseType == Var("New Divination Cards")
+        #     SetFontSize Var("Large Font Size")
+        #     SetBackgroundColor Var("Lofty BG Color")
+        #     SetBorderColor Var("New Divination Card Color")
+        #     MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Divination Card Minimap Icon Shape")
+        #     PlayEffect Var("Lofty PlayEffect Color")
+        #     PlayAlertSoundPositional Var("Lofty Sound")
 
         # Trivial is Any
 
         Prop("Cheap Divination Card Activity") "Cheap"
-            BaseType Var("Cheap Divination Cards")
+            BaseType == Var("Cheap Divination Cards")
             SetFontSize Var("Small Font Size")
             SetBackgroundColor Var("Cheap BG Color") 200
             # MinimapIcon NONE
