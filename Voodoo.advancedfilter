@@ -533,6 +533,8 @@ Hide "Currency"
                     # PlayAlertSound ShChaos 300
                     CustomAlertSound "./Sounds/Chaos.wav"
                     DisableDropSound True
+                Prop("Perandus Coin Activity") "Perandus Coin"
+                    BaseType "Perandus Coin"
         Show "Precious"
             BaseType Var("Precious Currencies")
             SetFontSize Var("Default Font Size")
@@ -540,6 +542,10 @@ Hide "Currency"
             MinimapIcon Small Var("Precious Minimap Icon Color") Var("Currency Minimap Icon Shape")
             PlayEffect Var("Precious PlayEffect Color")
             PlayAlertSoundPositional Var("Precious Sound")
+
+            Mixin "Base Type"
+                Prop("Silver Coin Activity") "Silver Coin"
+                    BaseType "Silver Coin"
         Prop("Trivial Currency Activity") "Trivial"
             BaseType Var("Trivial Currencies")
             SetFontSize Var("Default Font Size")
