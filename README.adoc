@@ -230,6 +230,20 @@ Please put downloaded files as follows.
 | Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
 
+| Perandus Coin Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+
+| Silver Coin Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+
 | High Item Level {set:cellbgcolor:white}
 | 83
 {set:cellbgcolor!}
