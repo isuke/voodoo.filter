@@ -963,6 +963,24 @@
       "Amber Oil"
     ]
   },
+  {
+    "name": "Metamorph Items",
+    "items": [
+      "Metamorph Brain",
+      "Metamorph Eye",
+      "Metamorph Liver",
+      "Metamorph Lung",
+      "Metamorph Heart",
+
+      "Turbulent Catalyst",
+      "Imbued Catalyst",
+      "Abrasive Catalyst",
+      "Tempering Catalyst",
+      "Fertile Catalyst",
+      "Prismatic Catalyst",
+      "Intrinsic Catalyst"
+    ]
+  },
 
 
 

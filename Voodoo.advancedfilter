@@ -1433,6 +1433,27 @@ Show "Legion"
             MinimapIcon Small Blue Var("League Minimap Icon Shape")
             PlayEffect Blue
 
+Show "Metamorph"
+    BaseType Var("Metamorph Items")
+
+    Fork "Base Type"
+        Show "Metamorph Samples"
+            Class "Metamorph Sample"
+            SetFontSize Var("Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Metamorph Color")
+            MinimapIcon Medium Green Var("League Minimap Icon Shape")
+            PlayEffect Green
+            PlayAlertSoundPositional Var("Precious Sound")
+
+        Show "Catalysts"
+            BaseType "Catalyst"
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Metamorph Color") 200
+            MinimapIcon Small Green Var("League Minimap Icon Shape")
+            PlayEffect Green
+
 Show "Quest"
     Class "Quest Items"
     SetFontSize Var("Extra Large Font Size")
