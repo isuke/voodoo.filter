@@ -733,6 +733,13 @@ Prop("Gem Activity") "Gem"
             SetBackgroundColor Var("Lofty BG Color")
             MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Lofty PlayEffect Color")
+        Show "Awakened Gem"
+            BaseType "Awakened"
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Gem Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            MinimapIcon Medium Var("Lofty Minimap Icon Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Lofty PlayEffect Color")
         Show "Drop Only"
             BaseType Var("Drop Only Gems")
             SetFontSize Var("Default Font Size")
