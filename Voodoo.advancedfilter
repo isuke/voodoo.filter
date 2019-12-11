@@ -1066,21 +1066,24 @@ Show "Sextant"
     SetBorderColor Var("Sextant Color")
 
     Fork "Base Type"
-        Show "Master Cartographer's Sextant"
-            BaseType "Master Cartographer's Sextant"
+        Show "Awakened Sextant"
+            # "Master Cartographer's Sextant"
+            BaseType "Awakened Sextant"
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Tier2 BG Color") 240
             MinimapIcon Medium Red Var("Currency Minimap Icon Shape")
             PlayEffect Red
             PlayAlertSoundPositional Var("Tier2 Sound")
-        Show "Journeyman Cartographer's Sextant"
-            BaseType "Journeyman Cartographer's Sextant"
+        Show "Prime Sextant"
+            # "Journeyman Cartographer's Sextant"
+            BaseType "Prime Sextant"
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Tier3 BG Color") 200
             MinimapIcon Medium Yellow Var("Currency Minimap Icon Shape")
             PlayEffect Yellow
-        Show "Apprentice Cartographer's Sextant"
-            BaseType "Apprentice Cartographer's Sextant"
+        Show "Simple Sextant"
+            # "Apprentice Cartographer's Sextant"
+            BaseType "Simple Sextant"
             SetFontSize Var("Small Font Size")
             SetBackgroundColor Var("Tier4 BG Color") 180
             MinimapIcon Medium White Var("Currency Minimap Icon Shape")
