@@ -1363,6 +1363,17 @@ Show "Pantheon Soul"
     PlayEffect Red
     # PlayAlertSoundPositional TODO
 
+Show "Ivory Watchstone"
+    Class "Atlas Region Upgrade Item"
+    BaseType "Ivory Watchstone"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Conquerors Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Red Var("League Minimap Icon Shape")
+    PlayEffect Red
+    # PlayAlertSoundPositional TODO
+
 Show "Prophecy"
     BaseType "Prophecy"
     SetFontSize Var("Default Font Size")
