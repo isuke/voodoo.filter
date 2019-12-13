@@ -804,7 +804,7 @@ Show "Map Fragment"
             MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
             PlayEffect Brown
 
-        Show "Atlas Fragment"
+        Show "Shaper Fragment"
             BaseType "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera"
             SetFontSize Var("Default Font Size")
             SetTextColor 255 255 255
@@ -812,8 +812,16 @@ Show "Map Fragment"
             MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
             PlayEffect Brown
 
-        Show "Conquerors Fragment"
-            BaseType "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness"
+        Show "Elder Fragment"
+            BaseType "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification"
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Conquerors Color")
+            MinimapIcon Medium Brown Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Brown
+
+        Show "Awakener Fragment"
+            BaseType "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness"
             SetFontSize Var("Default Font Size")
             SetTextColor 255 255 255
             SetBackgroundColor Var("Conquerors Color")
