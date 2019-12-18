@@ -36,13 +36,50 @@ Please put downloaded files as follows.
     └── ...
 ----
 
-== Rareness
+== Terms
 
-1. Cheap
-1. Trivial
-1. Precious
-1. Lofty
-1. Sublime
+=== Rareness
+
+. Cheap
+. Trivial
+. Precious
+. Lofty
+. Sublime
+
+=== Equipments
+
+* Weapons
+** One Hand Weapons
+*** Claws
+*** Daggers
+*** Rune Daggers
+*** Wands
+*** One Hand Swords
+*** Thrusting One Hand Swords
+*** One Hand Axes
+*** One Hand Maces
+*** Sceptres
+** Two Hand Weapons
+*** Bows
+*** Staves
+*** Warstaves
+*** Two Hand Swords
+*** Two Hand Axes
+*** Two Hand Maces
+*** Fishing Rods
+* Gears
+** Gloves
+** Boots
+** Body Armours
+** Helmets
+** Shields
+** Quivers
+* Accessories
+** Belts
+** Jewelries
+*** Amulets
+*** Rings
+** (not include Quivers)
 
 == Files
 
