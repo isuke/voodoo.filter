@@ -61,6 +61,13 @@ Prop("All Accessory Activity") "Jewelry"
             SetTextColor Var("Rare Item Color")
 
             Mixin "Special"
+                Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
+                    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Influence Color")
+                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Shaper"
                     ShaperItem True
                     SetFontSize Var("Large Font Size")
@@ -172,6 +179,13 @@ Prop("All Accessory Activity") "Belt"
             SetTextColor Var("Rare Item Color")
 
             Mixin "Special"
+                Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
+                    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Influence Color")
+                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Shaper"
                     ShaperItem True
                     SetFontSize Var("Large Font Size")
@@ -341,6 +355,13 @@ Unset "Weapon and Gear"
             SetTextColor Var("Rare Item Color")
 
             Mixin "Special"
+                Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
+                    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Influence Color")
+                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+                    PlayEffect Blue
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Shaper"
                     ShaperItem True
                     SetFontSize Var("Large Font Size")
