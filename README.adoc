@@ -113,54 +113,54 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 
-| All Jewelry Activity {set:cellbgcolor:white}
+| Silver Coin Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 
-| Magic Equipment Activity {set:cellbgcolor:white}
+| Perandus Coin Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 
 | Flask s Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask m Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask l Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask xl Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 
 | Quality Flask Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 
 | Utility Flask Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
@@ -204,6 +204,55 @@ Please put downloaded files as follows.
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
 
+| Magic Equipment Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Rare Jewelry Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Rare Belt Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Rare Weapon/Gear Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| 3L Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
+
+| 4L Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
+
+| 5L Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+
 | Cartographer's Chisel Recipe Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
@@ -224,62 +273,6 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
-
-| 3L Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-
-| 4L Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-
-| 5L Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-
-| Rare Jewelry Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-
-| Rare Belt Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-
-| Rare Weapon and Gear Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-| Unset {set:cellbgcolor:#fce8b2}
-
-| Perandus Coin Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-
-| Silver Coin Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
 
 | High Item Level {set:cellbgcolor:white}
 | 83
