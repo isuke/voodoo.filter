@@ -15,9 +15,28 @@ Show "Fishing Rod"
             Rarity Unique
             SetTextColor Var("Unique Item Color")
 
-Prop("All Accessory Activity") "Jewelry"
+Show "Unique Jewelry"
     Class Var("Jewelries")
+    Rarity Unique
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Unique Item Color")
+    MinimapIcon Largest Brown Var("Accessory Minimap Icon Shape")
+    PlayEffect Brown
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound True
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
+Prop("Rare Jewelry Activity") "Rare Jewelry"
+    Class Var("Jewelries")
+    Rarity Rare
     SetFontSize Var("Small Font Size")
+    SetTextColor Var("Rare Item Color")
     SetBackgroundColor Var("Jewelry Color") 200
 
     Mixin "Base Type"
@@ -41,72 +60,60 @@ Prop("All Accessory Activity") "Jewelry"
         Unset "Good"
             BaseType Var("Good Amulets") Var("Good Rings")
             SetFontSize Var("Large Font Size")
-            SetBackgroundColor Lighten(50%)
+            SetBackgroundColor Var("Jewelry Color") 255
 
             Mixin "Item Level"
                 Show "High"
                     ItemLevel >= Prop("High Item Level")
                     SetBorderColor Var("High Item Level Color")
-    Fork "Rarity"
-        Show "Unique"
-            Rarity Unique
-            SetFontSize Var("Large Font Size")
-            SetTextColor Var("Unique Item Color")
-            MinimapIcon Largest Brown Var("Accessory Minimap Icon Shape")
-            PlayEffect Brown
-            CustomAlertSound "./Sounds/Unique.wav"
-            DisableDropSound True
-        Prop("Rare Jewelry Activity") "Rare"
-            Rarity Rare
-            SetTextColor Var("Rare Item Color")
 
-            Mixin "Special"
-                Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
-                    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Influence Color")
-                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Shaper"
-                    ShaperItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Shaper/Elder Color")
-                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Elder"
-                    ElderItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Shaper/Elder Color")
-                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Fractured"
-                    FracturedItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Synthesis Color") 200
-                    MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
-                    PlayEffect Yellow
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Synthesised"
-                    SynthesisedItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Synthesis Color")
-                    MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
-                    PlayEffect Yellow
-                    PlayAlertSoundPositional Var("Lofty Sound")
-        Prop("Magic Equipment Activity") "Magic"
-            Rarity Magic
-            SetTextColor Var("Magic Item Color")
-        Unset "Normal"
-            Rarity Normal
-            SetTextColor Var("Normal Item Color")
-    Mixin "Corrupted"
+    Mixin "Special"
+        Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
+            HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Influence Color")
+            MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Shaper"
+            ShaperItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Shaper/Elder Color")
+            MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Elder"
+            ElderItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Shaper/Elder Color")
+            MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Fractured"
+            FracturedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color") 200
+            MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Synthesised"
+            SynthesisedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color")
+            MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
         Unset "True"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
-    Mixin "Identified"
+
+    Fork "Identified"
+        Unset "False"
+            Identified False
         Unset "True"
             Identified True
 
@@ -136,9 +143,64 @@ Prop("All Accessory Activity") "Jewelry"
                     PlayEffect Green
                     PlayAlertSoundPositional Var("Lofty Sound")
 
-Prop("All Accessory Activity") "Belt"
-    Class "Belt"
+Unset "Normal/Magic Jewelry"
+    Class Var("Jewelries")
     SetFontSize Var("Small Font Size")
+    SetBackgroundColor Var("Jewelry Color") 200
+
+    Mixin "Base Type"
+        Show "Atlas Base Accessories"
+            BaseType Var("Atlas Base Accessories")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
+            PlayEffect Red
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Unset "Good"
+            BaseType Var("Good Amulets") Var("Good Rings")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Jewelry Color") 255
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= Prop("High Item Level")
+                    SetBorderColor Var("High Item Level Color")
+    Fork "Rarity"
+        Prop("Magic Equipment Activity") "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
+Show "Unique Belt"
+    Class "Belt"
+    Rarity Unique
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Unique Item Color")
+    MinimapIcon Largest Brown Var("Accessory Minimap Icon Shape")
+    PlayEffect Brown
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound True
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
+Prop("Rare Belt Activity") "Rare Belt"
+    Class "Belt"
+    Rarity Rare
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Rare Item Color")
     SetBackgroundColor Var("Belt Color") 200
 
     Mixin "Base Type"
@@ -159,72 +221,60 @@ Prop("All Accessory Activity") "Belt"
         Unset "Good"
             BaseType Var("Good Belts")
             SetFontSize Var("Large Font Size")
-            SetBackgroundColor Lighten(50%)
+            SetBackgroundColor Var("Belt Color") 255
 
             Mixin "Item Level"
                 Show "High"
                     ItemLevel >= Prop("High Item Level")
                     SetBorderColor Var("High Item Level Color")
-    Fork "Rarity"
-        Show "Unique"
-            Rarity Unique
-            SetFontSize Var("Large Font Size")
-            SetTextColor Var("Unique Item Color")
-            MinimapIcon Largest Brown Var("Accessory Minimap Icon Shape")
-            PlayEffect Brown
-            CustomAlertSound "./Sounds/Unique.wav"
-            DisableDropSound True
-        Prop("Rare Belt Activity") "Rare"
-            Rarity Rare
-            SetTextColor Var("Rare Item Color")
 
-            Mixin "Special"
-                Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
-                    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Influence Color")
-                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Shaper"
-                    ShaperItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Shaper/Elder Color")
-                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Elder"
-                    ElderItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Shaper/Elder Color")
-                    MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Fractured"
-                    FracturedItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Synthesis Color") 200
-                    MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
-                    PlayEffect Yellow
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Synthesised"
-                    SynthesisedItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Synthesis Color")
-                    MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
-                    PlayEffect Yellow
-                    PlayAlertSoundPositional Var("Lofty Sound")
-        Prop("Magic Equipment Activity") "Magic"
-            Rarity Magic
-            SetTextColor Var("Magic Item Color")
-        Unset "Normal"
-            Rarity Normal
-            SetTextColor Var("Normal Item Color")
-    Mixin "Corrupted"
+    Mixin "Special"
+        Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
+            HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Influence Color")
+            MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Shaper"
+            ShaperItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Shaper/Elder Color")
+            MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Elder"
+            ElderItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Shaper/Elder Color")
+            MinimapIcon Medium Blue Var("Accessory Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Fractured"
+            FracturedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color") 200
+            MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Synthesised"
+            SynthesisedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color")
+            MinimapIcon Medium Yellow Var("Accessory Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
         Unset "True"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
-    Mixin "Identified"
+
+    Fork "Identified"
+        Unset "False"
+            Identified False
         Unset "True"
             Identified True
 
@@ -254,9 +304,102 @@ Prop("All Accessory Activity") "Belt"
                     PlayEffect Green
                     PlayAlertSoundPositional Var("Lofty Sound")
 
-Unset "Weapon and Gear"
-    Class Var("Weapons") Var("Gears")
+Unset "Normal/Magic Belt"
+    Class "Belt"
     SetFontSize Var("Small Font Size")
+    SetBackgroundColor Var("Belt Color") 200
+
+    Mixin "Base Type"
+        Show "Atlas Base Accessories"
+            BaseType Var("Atlas Base Accessories")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            MinimapIcon Medium Red Var("Accessory Minimap Icon Shape")
+            PlayEffect Red
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Unset "Good"
+            BaseType Var("Good Belts")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Belt Color") 255
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= Prop("High Item Level")
+                    SetBorderColor Var("High Item Level Color")
+
+    Fork "Rarity"
+        Prop("Magic Equipment Activity") "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
+Show "Unique Weapon/Gear"
+    Class Var("Weapons") Var("Gears")
+    Rarity Unique
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Unique Item Color")
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound True
+
+    Mixin "Drop Level"
+        Show "High"
+            DropLevel >= 50
+            MinimapIcon Largest Brown Var("Equipment Minimap Icon Shape")
+            PlayEffect Brown
+
+    Mixin "Socket"
+        Show "6L"
+            LinkedSockets = 6
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor Var("Weapon Color")
+            SetBackgroundColor Var("Sublime BG Color")
+            SetBorderColor Var("6L Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+        Prop("5L Activity") "5L"
+            LinkedSockets = 5
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("3L/4L/5L Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound")
+        Prop("4L Activity") "4L"
+            LinkedSockets = 4
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("3L/4L/5L Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Cheap Sound")
+        Prop("3L Activity") "3L"
+            LinkedSockets = 3
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("3L/4L/5L Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Cheap Sound")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
+Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
+    Class Var("Weapons") Var("Gears")
+    Rarity Rare
+    SetFontSize Var("Small Font Size")
+    SetTextColor Var("Rare Item Color")
 
     Fork "Class"
         Unset "Weapon"
@@ -267,7 +410,7 @@ Unset "Weapon and Gear"
                 Unset "Good"
                     BaseType Var("Good Weapons")
                     SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Lighten(50%)
+                    SetBackgroundColor Var("Weapon Color") 255
 
                     Mixin "Item Level"
                         Show "High"
@@ -295,13 +438,15 @@ Unset "Weapon and Gear"
                 Unset "Good"
                     BaseType Var("Good Gears")
                     SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Lighten(50%)
+                    SetBackgroundColor Var("Gear Color") 255
 
                     Mixin "Item Level"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
                             SetBorderColor Var("High Item Level Color")
-            Mixin "Labyrinth Enchantment"
+            Fork "Labyrinth Enchantment"
+                Unset "False"
+                    AnyEnchantment False
                 Show "True"
                     AnyEnchantment True
                     SetBackgroundColor Var("Labyrinth Color")
@@ -336,71 +481,54 @@ Unset "Weapon and Gear"
             # MinimapIcon NONE
             PlayEffect Var("Trivial PlayEffect Color") Temp
             PlayAlertSoundPositional Var("Cheap Sound")
-    Fork "Rarity"
-        Show "Unique"
-            Rarity Unique
+
+    Mixin "Special"
+        Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
+            HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
             SetFontSize Var("Large Font Size")
-            SetTextColor Var("Unique Item Color")
-            CustomAlertSound "./Sounds/Unique.wav"
-            DisableDropSound True
+            SetBackgroundColor Var("Influence Color")
+            MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Shaper"
+            ShaperItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Shaper/Elder Color")
+            MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Elder"
+            ElderItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Shaper/Elder Color")
+            MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+            PlayEffect Blue
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Fractured"
+            FracturedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color") 200
+            MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Synthesised"
+            SynthesisedItem True
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Synthesis Color")
+            MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
+            PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
 
-            Mixin "Drop Level"
-                Show "High"
-                    DropLevel >= 50
-                    MinimapIcon Largest Brown Var("Equipment Minimap Icon Shape")
-                    PlayEffect Brown
-
-        Prop("Rare Weapon and Gear Activity") "Rare"
-            Rarity Rare
-            SetTextColor Var("Rare Item Color")
-
-            Mixin "Special"
-                Show "Shaper/Elder/Crusader/Hunter/Redeemer/Warlord"
-                    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Influence Color")
-                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Shaper"
-                    ShaperItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Shaper/Elder Color")
-                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Elder"
-                    ElderItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Shaper/Elder Color")
-                    MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
-                    PlayEffect Blue
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Fractured"
-                    FracturedItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Synthesis Color") 200
-                    MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
-                    PlayEffect Yellow
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Synthesised"
-                    SynthesisedItem True
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Synthesis Color")
-                    MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
-                    PlayEffect Yellow
-                    PlayAlertSoundPositional Var("Lofty Sound")
-        Prop("Magic Equipment Activity") "Magic"
-            Rarity Magic
-            SetTextColor Var("Magic Item Color")
-        Unset "Normal"
-            Rarity Normal
-            SetTextColor Var("Normal Item Color")
-    Mixin "Corrupted"
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
         Unset "True"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
-    Mixin "Identified"
+
+    Fork "Identified"
+        Unset "False"
+            Identified False
         Unset "True"
             Identified True
 
@@ -429,6 +557,106 @@ Unset "Weapon and Gear"
                     MinimapIcon Medium Green Var("Equipment Minimap Icon Shape")
                     PlayEffect Green
                     PlayAlertSoundPositional Var("Lofty Sound")
+
+Unset "Magic/Normal Weapon/Gear"
+    Class Var("Weapons") Var("Gears")
+    SetFontSize Var("Small Font Size")
+
+    Fork "Class"
+        Unset "Weapon"
+            Class Var("Weapons")
+            SetBackgroundColor Var("Weapon Color") 200
+
+            Mixin "Base Type"
+                Unset "Good"
+                    BaseType Var("Good Weapons")
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Weapon Color") 255
+
+                    Mixin "Item Level"
+                        Show "High"
+                            ItemLevel >= Prop("High Item Level")
+                            SetBorderColor Var("High Item Level Color")
+        Unset "Gear"
+            Class Var("Gears")
+            SetBackgroundColor Var("Gear Color") 200
+
+            Mixin "Base Type"
+                Show "Atziri Gears"
+                    BaseType Var("Atziri Gears")
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Atlas Color")
+                    MinimapIcon Medium Red Var("Equipment Minimap Icon Shape")
+                    PlayEffect Red
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Atlas Base Gears"
+                    BaseType Var("Atlas Base Gears")
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Atlas Color")
+                    # MinimapIcon Small Red Var("Equipment Minimap Icon Shape")
+                    PlayEffect Red Temp
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Unset "Good"
+                    BaseType Var("Good Gears")
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Gear Color") 255
+
+                    Mixin "Item Level"
+                        Show "High"
+                            ItemLevel >= Prop("High Item Level")
+                            SetBorderColor Var("High Item Level Color")
+            Fork "Labyrinth Enchantment"
+                Unset "False"
+                    AnyEnchantment False
+                Show "True"
+                    AnyEnchantment True
+                    SetBackgroundColor Var("Labyrinth Color")
+    Mixin "Socket"
+        Show "6L"
+            LinkedSockets = 6
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor Var("Weapon Color")
+            SetBackgroundColor Var("Sublime BG Color")
+            SetBorderColor Var("6L Color")
+            MinimapIcon Largest Var("Sublime Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+            PlayEffect Var("Sublime PlayEffect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+        Prop("5L Activity") "5L"
+            LinkedSockets = 5
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("3L/4L/5L Color")
+            MinimapIcon Small Var("Precious Minimap Icon Color") Var("Equipment Minimap Icon Shape")
+            PlayEffect Var("Precious PlayEffect Color")
+            PlayAlertSoundPositional Var("Precious Sound")
+        Prop("4L Activity") "4L"
+            LinkedSockets = 4
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("3L/4L/5L Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Cheap Sound")
+        Prop("3L Activity") "3L"
+            LinkedSockets = 3
+            SetBackgroundColor Var("Trivial BG Color")
+            SetBorderColor Var("3L/4L/5L Color")
+            # MinimapIcon NONE
+            PlayEffect Var("Trivial PlayEffect Color") Temp
+            PlayAlertSoundPositional Var("Cheap Sound")
+
+    Fork "Rarity"
+        Prop("Magic Equipment Activity") "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
 
 Show "Jeweller's Orb Recipe"
     Class Var("Equipments")
@@ -471,7 +699,7 @@ Unset "Regal/Chaos Orb Recipe"
             SetTextColor Var("Chaos Orb Recipe Color")
             SetBorderColor Var("Chaos Orb Recipe Color")
 
-    Fork "Class 0"
+    Fork "Class"
         Unset "Weapon"
             Class Var("Weapons")
             SetBackgroundColor Var("Weapon Color") 160
@@ -483,11 +711,6 @@ Unset "Regal/Chaos Orb Recipe"
         Prop("Regal/Chaos Orb Recipe Activity") "Gear"
             Class "Gloves" "Boots" "Body Armours" "Helmets"
             SetBackgroundColor Var("Gear Color") 160
-
-            Mixin "Class 1"
-                Unset "Glove and Boot"
-                    Class "Gloves" "Boots"
-                    SetBackgroundColor Lighten(50%)
 
 Prop("Cartographer's Chisel Recipe Activity") "Cartographer's Chisel Recipe"
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
@@ -662,7 +885,7 @@ Hide "Flask"
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Utility Flask Color")
             SetBackgroundColor Var("Precious BG Color")
-        Show "Life/Mana/Hybrid"
+        Unset "Life/Mana/Hybrid"
             Class "Life Flask" "Mana Flask" "Hybrid Flask"
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Flask Color")
@@ -704,7 +927,9 @@ Prop("Gem Activity") "Gem"
     CustomAlertSound "./Sounds/Gem.wav"
     DisableDropSound True
 
-    Mixin "Corrupted"
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
         Unset "True"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
@@ -916,8 +1141,10 @@ Show "Map"
             Rarity Magic
             SetBorderColor Var("Magic Item Color")
 
-    Mixin "Corrupted"
-        Show "True"
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
@@ -950,16 +1177,20 @@ Show "Map"
             MinimapIcon Small White Var("Map Minimap Icon Shape")
             PlayAlertSoundPositional Var("Cheap Sound")
 
-    Mixin "Over Quality"
-        Show "True"
-            Quality > 20
-            SetFontSize Var("Extra Large Font Size")
-            SetBackgroundColor Var("Tier1 BG Color")
-            MinimapIcon Largest White Var("Map Minimap Icon Shape")
-            PlayEffect White
-            PlayAlertSoundPositional Var("Tier1 Sound")
+    # Fork "Over Quality"
+    #     Unset "False"
+    #         Quality <= 20
+    #     Show "True"
+    #         Quality > 20
+    #         SetFontSize Var("Extra Large Font Size")
+    #         SetBackgroundColor Var("Tier1 BG Color")
+    #         MinimapIcon Largest White Var("Map Minimap Icon Shape")
+    #         PlayEffect White
+    #         PlayAlertSoundPositional Var("Tier1 Sound")
 
-    Mixin "Blighted"
+    Fork "Blighted"
+        Unset "False"
+            BlightedMap False
         Show "True"
             BlightedMap True
             SetBackgroundColor Var("Blight Color")

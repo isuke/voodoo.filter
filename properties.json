@@ -5,205 +5,268 @@
   "propNames": [
     "Cheap Currency Activity",
     "Trivial Currency Activity",
-    "All Accessory Activity",
-    "Magic Equipment Activity",
+    "Silver Coin Activity",
+    "Perandus Coin Activity",
+
     "Flask s Activity",
     "Flask m Activity",
     "Flask l Activity",
     "Flask xl Activity",
+
     "Quality Flask Activity",
     "Utility Flask Activity",
+
     "Gem Activity",
+
     "Low Tier Map Activity",
     "Middle Tier Map Activity",
+
     "Magic Jewel Activity",
+
     "Cheap Divination Card Activity",
-    "Cartographer's Chisel Recipe Activity",
-    "Chromatic Orb Recipe Activity",
-    "Regal/Chaos Orb Recipe Activity",
+
+    "Magic Equipment Activity",
+    "Rare Jewelry Activity",
+    "Rare Belt Activity",
+    "Rare Weapon/Gear Activity",
+
     "3L Activity",
     "4L Activity",
     "5L Activity",
-    "Rare Jewelry Activity",
-    "Rare Belt Activity",
-    "Rare Weapon and Gear Activity",
-    "Perandus Coin Activity",
-    "Silver Coin Activity",
+
+    "Cartographer's Chisel Recipe Activity",
+    "Chromatic Orb Recipe Activity",
+    "Regal/Chaos Orb Recipe Activity",
+
     "High Item Level"
   ],
   "values": [
     [
       "Show",
       "Show",
+      "Show",
+      "Show",
+
+      "Ignore",
+      "Ignore",
+      "Ignore",
+      "Ignore",
+
+      "Show",
+      "Show",
+
+      "Hide",
+
+      "Show",
+      "Show",
+
+      "Show",
+
+      "Hide",
+
       "Unset",
-      "Unset",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Show",
-      "Hide",
-      "Hide",
-      "Show",
-      "Show",
-      "Hide",
-      "Hide",
-      "Show",
       "Show",
       "Show",
       "Unset",
-      "Unset",
+
+      "Ignore",
+      "Ignore",
+      "Show",
+
       "Show",
       "Show",
       "Show",
-      "Unset",
-      "Show",
-      "Show",
-      86
+
+      85
     ],
     [
       "Show",
       "Show",
       "Show",
       "Show",
+
       "Show",
       "Show",
       "Show",
       "Show",
+
+      "Show",
+      "Show",
+
+      "Show",
+
+      "Show",
+      "Show",
+
+      "Show",
+
+      "Show",
+
       "Show",
       "Show",
       "Show",
       "Show",
+
       "Show",
       "Show",
       "Show",
+
       "Show",
       "Show",
       "Show",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
+
       83
     ],
     [
       "Show",
       "Show",
-      "Unset",
-      "Unset",
+      "Show",
+      "Show",
+
       "Hide",
       "Hide",
       "Show",
       "Show",
+
       "Show",
       "Show",
+
+      "Show",
+
       "Show",
       "Show",
+
       "Show",
-      "Show",
+
       "Hide",
-      "Show",
-      "Show",
-      "Show",
+
       "Unset",
       "Show",
       "Show",
       "Show",
+
+      "Ignore",
+      "Show",
+      "Show",
+
       "Show",
       "Show",
       "Show",
-      "Show",
+
       83
     ],
     [
       "Show",
       "Show",
+      "Show",
+      "Show",
+
+      "Hide",
+      "Hide",
+      "Hide",
+      "Show",
+
+      "Show",
+      "Show",
+
+      "Hide",
+
+      "Show",
+      "Show",
+
+      "Show",
+
+      "Hide",
+
       "Unset",
-      "Unset",
-      "Hide",
-      "Hide",
-      "Hide",
       "Show",
       "Show",
       "Show",
-      "Hide",
+
+      "Ignore",
+      "Ignore",
+      "Show",
+
       "Show",
       "Show",
       "Show",
-      "Hide",
-      "Show",
-      "Show",
-      "Show",
-      "Unset",
-      "Unset",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
-      "Show",
+
       85
     ],
     [
       "Hide",
       "Show",
+      "Show",
+      "Show",
+
+      "Ignore",
+      "Ignore",
+      "Ignore",
+      "Ignore",
+
+      "Ignore",
+      "Show",
+
+      "Hide",
+
+      "Show",
+      "Show",
+
+      "Hide",
+
+      "Hide",
+
       "Unset",
-      "Unset",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Show",
-      "Hide",
-      "Show",
-      "Show",
-      "Hide",
-      "Hide",
-      "Show",
       "Show",
       "Show",
       "Unset",
+
+      "Ignore",
+      "Ignore",
       "Unset",
-      "Unset",
+
       "Show",
       "Show",
-      "Unset",
       "Show",
-      "Show",
+
       86
     ],
     [
       "Hide",
       "Hide",
-      "Unset",
-      "Unset",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Hide",
-      "Show",
-      "Hide",
-      "Hide",
-      "Unset",
-      "Unset",
-      "Unset",
-      "Unset",
-      "Unset",
-      "Unset",
-      "Unset",
-      "Unset",
-      "Unset",
       "Show",
       "Show",
+
+      "Ignore",
+      "Ignore",
+      "Ignore",
+      "Ignore",
+
+      "Ignore",
+      "Hide",
+
+      "Hide",
+
+      "Hide",
+      "Show",
+
+      "Hide",
+
+      "Hide",
+
+      "Unset",
+      "Unset",
+      "Unset",
+      "Unset",
+
+      "Ignore",
+      "Ignore",
+      "Unset",
+
+      "Unset",
+      "Unset",
+      "Unset",
+
       86
     ]
   ]
