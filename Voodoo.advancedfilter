@@ -876,6 +876,7 @@ Show "Unique Flask"
 
 Hide "Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
+    MinimapIcon Small Green Var("Flask Minimap Icon Shape")
     CustomAlertSound "./Sounds/Flask.wav"
     DisableDropSound True
 
@@ -915,9 +916,11 @@ Hide "Flask"
         Prop("Quality Flask Activity") "High"
             Quality > 10
             SetBackgroundColor Var("Tier2 BG Color") 240
+            MinimapIcon Medium Green Var("Flask Minimap Icon Shape")
         Prop("Quality Flask Activity") "Middle"
             Quality > 0
             SetBackgroundColor Var("Tier3 BG Color") 200
+            MinimapIcon Medium Green Var("Flask Minimap Icon Shape")
 
 Prop("Gem Activity") "Gem"
     Class "Gem"
