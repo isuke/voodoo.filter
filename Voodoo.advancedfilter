@@ -795,13 +795,14 @@ Hide "Currency"
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Trivial BG Color") 240
             # MinimapIcon NONE
-            PlayEffect Var("Trivial PlayEffect Color") Temp
-            PlayAlertSoundPositional Var("Trivial Sound")
+            # PlayEffect Var("Trivial PlayEffect Color") Temp
+            # PlayAlertSoundPositional Var("Trivial Sound")
 
             Mixin "Stack Size"
                 Show "High Stack Size"
                     StackSize >= 15
                     MinimapIcon Small White Var("Currency Minimap Icon Shape")
+                    PlayEffect Var("Trivial PlayEffect Color")
         Prop("Cheap Currency Activity") "Cheap"
             BaseType Var("Cheap Currencies")
             SetFontSize Var("Default Font Size")
