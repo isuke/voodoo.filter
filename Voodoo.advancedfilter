@@ -1336,6 +1336,7 @@ Show "Sextant"
     SetTextColor Var("Sextant Color")
     SetBackgroundColor Var("Cheap BG Color") 200
     SetBorderColor Var("Sextant Color")
+    CustomAlertSound "./Sounds/Sextant.wav"
 
     Fork "Base Type"
         Show "Awakened Sextant"
@@ -1345,7 +1346,6 @@ Show "Sextant"
             SetBackgroundColor Var("Tier2 BG Color") 240
             MinimapIcon Medium Red Var("Currency Minimap Icon Shape")
             PlayEffect Red
-            PlayAlertSoundPositional Var("Tier2 Sound")
         Show "Prime Sextant"
             # "Journeyman Cartographer's Sextant"
             BaseType "Prime Sextant"
