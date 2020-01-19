@@ -407,6 +407,13 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
             SetBackgroundColor Var("Weapon Color") 200
 
             Mixin "Base Type"
+                Show "Atlas Base Weapons"
+                    BaseType Var("Atlas Base Weapons")
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Atlas Color")
+                    # MinimapIcon Small Red Var("Equipment Minimap Icon Shape")
+                    PlayEffect Red Temp
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Unset "Good"
                     BaseType Var("Good Weapons")
                     SetFontSize Var("Large Font Size")
@@ -568,6 +575,13 @@ Unset "Magic/Normal Weapon/Gear"
             SetBackgroundColor Var("Weapon Color") 200
 
             Mixin "Base Type"
+                Show "Atlas Base Weapons"
+                    BaseType Var("Atlas Base Weapons")
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Atlas Color")
+                    # MinimapIcon Small Red Var("Equipment Minimap Icon Shape")
+                    PlayEffect Red Temp
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Unset "Good"
                     BaseType Var("Good Weapons")
                     SetFontSize Var("Large Font Size")
