@@ -619,7 +619,7 @@ Unset "Magic/Normal Weapon/Gear"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
                             SetBorderColor Var("High Item Level Color")
-            Fork "Labyrinth Enchantment"
+            Fork "Any Enchantment"
                 Unset "False"
                     AnyEnchantment False
                 Show "True"
