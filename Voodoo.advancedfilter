@@ -1243,6 +1243,8 @@ Hide "Jewel"
         Show "Magic"
             Rarity Magic
             SetBorderColor Var("Magic Item Color")
+        Show "Normal"
+            Rarity Normal
 
     Mixin "Special"
         Show "Abyss"
@@ -1264,6 +1266,12 @@ Hide "Jewel"
             SetBackgroundColor Var("Synthesis Color")
             MinimapIcon Medium Yellow Var("Equipment Minimap Icon Shape")
             PlayEffect Yellow
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Delirium"
+            BaseType "Cluster Jewel"
+            SetBackgroundColor Var("Delirium Color")
+            MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
+            PlayEffect Blue
             PlayAlertSoundPositional Var("Lofty Sound")
 
 Show "Divination Card"

@@ -60,6 +60,7 @@
   { "name": "Legion Color"                 , "hex": "#4300c6" },
   { "name": "Blight Color"                 , "hex": "#d9ae3a" },
   { "name": "Metamorph Color"              , "hex": "#36a62a" },
+  { "name": "Delirium Color"               , "hex": "#333f80" },
 
   { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
   { "name": "Influence Color"              , "hex": "#5b4cc4" },
