@@ -380,104 +380,54 @@
     ]
   },
 
+  { "name": "Unique Effect Color"  , "items": ["Brown"] },
 
+  { "name": "Sublime Effect Color"  , "items": ["Red"] },
+  { "name": "Lofty Effect Color"    , "items": ["Yellow"] },
+  { "name": "Precious Effect Color" , "items": ["Blue"] },
+  { "name": "Trivial Effect Color"  , "items": ["White"] },
 
-  {
-    "name": "Sublime Minimap Icon Color",
-    "items": ["Red"]
-  },
-  {
-    "name": "Lofty Minimap Icon Color",
-    "items": ["Yellow"]
-  },
-  {
-    "name": "Precious Minimap Icon Color",
-    "items": ["Blue"]
-  },
+  { "name": "Labyrinth Effect Color" , "items": ["Green"] },
+  { "name": "Atlas Effect Color"     , "items": ["Red"] },
+  { "name": "Oriath Effect Color"    , "items": ["Red"] },
+  { "name": "Conquerors Effect Color", "items": ["Green"] },
 
+  { "name": "Talisman Effect Color" , "items": ["Yellow"] },
+  { "name": "Prophecy Effect Color" , "items": ["Red"] },
+  { "name": "Essence Effect Color"  , "items": [""] },
+  { "name": "Breach Effect Color"   , "items": [""] },
+  { "name": "Harbinger Effect Color", "items": ["Blue"] },
+  { "name": "Abyss Effect Color"    , "items": ["Green"] },
+  { "name": "Bestiary Effect Color" , "items": ["Brown"] },
+  { "name": "Incursion Effect Color", "items": ["Red"] },
+  { "name": "Delve Effect Color"    , "items": ["Blue"] },
+  { "name": "Betrayal Effect Color" , "items": ["Green"] },
+  { "name": "Synthesis Effect Color", "items": ["Yellow"] },
+  { "name": "Legion Effect Color"   , "items": ["Blue"] },
+  { "name": "Blight Effect Color"   , "items": [""] },
+  { "name": "Metamorph Effect Color", "items": ["Green"] },
+  { "name": "Delirium Effect Color" , "items": ["Blue"] },
 
-
-  {
-    "name": "Currency Minimap Icon Shape",
-    "items": ["Circle"]
-  },
-  {
-    "name": "Gem Minimap Icon Shape",
-    "items": ["Triangle"]
-  },
-  {
-    "name": "Map Fragment Minimap Icon Shape",
-    "items": ["Hexagon"]
-  },
-  {
-    "name": "Map Minimap Icon Shape",
-    "items": ["Hexagon"]
-  },
-  {
-    "name": "Accessory Minimap Icon Shape",
-    "items": ["Diamond"]
-  },
-  {
-    "name": "Equipment Minimap Icon Shape",
-    "items": ["Square"]
-  },
-  {
-    "name": "League Minimap Icon Shape",
-    "items": ["Star"]
-  },
-  {
-    "name": "Flask Minimap Icon Shape",
-    "items": ["Triangle"]
-  },
-  {
-    "name": "Jewel Minimap Icon Shape",
-    "items": ["Triangle"]
-  },
-  {
-    "name": "Divination Card Minimap Icon Shape",
-    "items": ["Square"]
-  },
-  {
-    "name": "Error Minimap Icon Shape",
-    "items": ["Star"]
-  },
-
-
-  {
-    "name": "Sublime PlayEffect Color",
-    "items": ["Red"]
-  },
-  {
-    "name": "Lofty PlayEffect Color",
-    "items": ["Yellow"]
-  },
-  {
-    "name": "Precious PlayEffect Color",
-    "items": ["Blue"]
-  },
-  {
-    "name": "Trivial PlayEffect Color",
-    "items": ["White"]
-  },
+  { "name": "Shaper/Elder Effect Color", "items": ["Blue"] },
 
 
 
-  {
-    "name": "Extra Large Font Size",
-    "items": [45]
-  },
-  {
-    "name": "Large Font Size",
-    "items": [40]
-  },
-  {
-    "name": "Default Font Size",
-    "items": [37]
-  },
-  {
-    "name": "Small Font Size",
-    "items": [32]
-  },
+  { "name": "Currency Minimap Icon Shape"       , "items": ["Circle"] },
+  { "name": "Gem Minimap Icon Shape"            , "items": ["Triangle"] },
+  { "name": "Map Fragment Minimap Icon Shape"   , "items": ["Hexagon"] },
+  { "name": "Map Minimap Icon Shape"            , "items": ["Hexagon"] },
+  { "name": "Accessory Minimap Icon Shape"      , "items": ["Diamond"] },
+  { "name": "Equipment Minimap Icon Shape"      , "items": ["Square"] },
+  { "name": "League Minimap Icon Shape"         , "items": ["Star"] },
+  { "name": "Flask Minimap Icon Shape"          , "items": ["Triangle"] },
+  { "name": "Jewel Minimap Icon Shape"          , "items": ["Triangle"] },
+  { "name": "Divination Card Minimap Icon Shape", "items": ["Square"] },
+  { "name": "Error Minimap Icon Shape"          , "items": ["Star"] },
+
+  { "name": "Extra Large Font Size", "items": [45] },
+  { "name": "Large Font Size"      , "items": [40] },
+  { "name": "Default Font Size"    , "items": [37] },
+  { "name": "Small Font Size"      , "items": [32] },
 
 
 
@@ -1147,6 +1097,14 @@
       "Fertile Catalyst",
       "Prismatic Catalyst",
       "Intrinsic Catalyst"
+    ]
+  },
+  {
+    "name": "Delirium Items",
+    "items": [
+      "Delirium Orb",
+      "Simulacrum Splinter",
+      "Simulacrum"
     ]
   },
 
