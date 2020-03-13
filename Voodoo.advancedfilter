@@ -75,20 +75,6 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
             MinimapIcon Medium Var("Shaper/Elder Effect Color") Var("Accessory Minimap Icon Shape")
             PlayEffect Var("Shaper/Elder Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Shaper"
-            ShaperItem True
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Shaper/Elder Color")
-            MinimapIcon Medium Var("Shaper/Elder Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Shaper/Elder Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Elder"
-            ElderItem True
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Shaper/Elder Color")
-            MinimapIcon Medium Var("Shaper/Elder Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Shaper/Elder Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
         Show "Fractured"
             FracturedItem True
             SetFontSize Var("Large Font Size")
@@ -233,20 +219,6 @@ Prop("Rare Belt Activity") "Rare Belt"
             HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Influence Color")
-            MinimapIcon Medium Var("Shaper/Elder Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Shaper/Elder Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Shaper"
-            ShaperItem True
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Shaper/Elder Color")
-            MinimapIcon Medium Var("Shaper/Elder Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Shaper/Elder Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Elder"
-            ElderItem True
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Shaper/Elder Color")
             MinimapIcon Medium Var("Shaper/Elder Effect Color") Var("Accessory Minimap Icon Shape")
             PlayEffect Var("Shaper/Elder Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
@@ -494,20 +466,6 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
             HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Influence Color")
-            MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
-            PlayEffect Blue
-            PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Shaper"
-            ShaperItem True
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Shaper/Elder Color")
-            MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
-            PlayEffect Blue
-            PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Elder"
-            ElderItem True
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Shaper/Elder Color")
             MinimapIcon Medium Blue Var("Equipment Minimap Icon Shape")
             PlayEffect Blue
             PlayAlertSoundPositional Var("Lofty Sound")
