@@ -1067,7 +1067,7 @@ Show "Map Fragment"
             PlayEffect Green
 
         Show "Emblem"
-            BaseType "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Eternal Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
+            BaseType Var("Legion Emblems")
             SetFontSize Var("Default Font Size")
             SetTextColor 255 255 255
             SetBackgroundColor Var("Legion Color")
@@ -1652,26 +1652,22 @@ Show "Incursio2"
     PlayEffect Var("Incursion Effect Color")
     PlayAlertSoundPositional Var("Precious Sound")
 
-Show "Legion"
-    BaseType Var("Legion Items")
-
-    Fork "Base Type"
-        Show "Incubators"
-            Class "Incubator"
-            SetFontSize Var("Large Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Legion Color")
-            MinimapIcon Medium Var("Legion Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Legion Effect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
-
-        Show "Splinters"
-            BaseType "Splinter"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Legion Color") 200
-            MinimapIcon Small Var("Legion Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Legion Effect Color")
+Show "Legion Incubators"
+    Class "Incubator"
+    BaseType Var("Legion Incubators")
+    SetFontSize Var("Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Legion Color")
+    MinimapIcon Medium Var("Legion Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Legion Effect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
+Show "Legion Splinters"
+    BaseType Var("Legion Splinters")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Legion Color") 200
+    MinimapIcon Small Var("Legion Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Legion Effect Color")
 
 Show "Metamorph"
     BaseType Var("Metamorph Items")

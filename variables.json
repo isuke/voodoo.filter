@@ -1024,7 +1024,7 @@
     ]
   },
   {
-    "name": "Legion Items",
+    "name": "Legion Incubators",
     "items": [
       "Whispering Incubator",
       "Fine Incubator",
@@ -1051,14 +1051,22 @@
       "Foreboding Incubator",
       "Thaumaturge's Incubator",
       "Mysterious Incubator",
-      "Gemcutter's Incubator",
-
+      "Gemcutter's Incubator"
+    ]
+  },
+  {
+    "name": "Legion Splinters",
+    "items": [
       "Timeless Karui Splinter",
       "Timeless Maraketh Splinter",
       "Timeless Eternal Empire Splinter",
       "Timeless Templar Splinter",
-      "Timeless Vaal Splinter",
-
+      "Timeless Vaal Splinter"
+    ]
+  },
+  {
+    "name": "Legion Emblems",
+    "items": [
       "Timeless Karui Emblem",
       "Timeless Maraketh Emblem",
       "Timeless Eternal Emblem",
