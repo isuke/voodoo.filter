@@ -1690,35 +1690,29 @@ Show "Metamorph"
             MinimapIcon Small Var("Metamorph Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Metamorph Effect Color")
 
-Show "Delirium"
-    BaseType "Delirium Items"
-
-    Fork "Base Type"
-        Show "Delirium Orbs"
-            BaseType "Delirium Orb"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Delirium Color")
-            MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Delirium Effect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
-
-        Show "Simulacrums"
-            BaseType "Simulacrum"
-            SetFontSize Var("Large Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Delirium Color")
-            MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Delirium Effect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
-
-        Show "Splinters"
-            BaseType "Simulacrum Splinter"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Delirium Color") 200
-            MinimapIcon Small Var("Delirium Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Delirium Effect Color")
+Show "Delirium Orbs"
+    BaseType "Delirium Orb"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Delirium Color")
+    MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Delirium Effect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
+Show "Simulacrums"
+    BaseType "Simulacrum"
+    SetFontSize Var("Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Delirium Color")
+    MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Delirium Effect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
+Show "Simulacrum Splinters"
+    BaseType "Simulacrum Splinter"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Delirium Color") 200
+    MinimapIcon Small Var("Delirium Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Delirium Effect Color")
 
 Show "Quest"
     Class "Quest Items"
