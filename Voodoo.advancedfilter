@@ -1669,26 +1669,22 @@ Show "Legion Splinters"
     MinimapIcon Small Var("Legion Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Legion Effect Color")
 
-Show "Metamorph"
-    BaseType Var("Metamorph Items")
-
-    Fork "Base Type"
-        Show "Metamorph Samples"
-            Class "Metamorph Sample"
-            SetFontSize Var("Large Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Metamorph Color")
-            MinimapIcon Medium Var("Metamorph Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Metamorph Effect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
-
-        Show "Catalysts"
-            BaseType "Catalyst"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Metamorph Color") 200
-            MinimapIcon Small Var("Metamorph Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Metamorph Effect Color")
+Show "Metamorph Samples"
+    Class "Metamorph Sample"
+    BaseType Var("Metamorph Samples")
+    SetFontSize Var("Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Metamorph Color")
+    MinimapIcon Medium Var("Metamorph Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Metamorph Effect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
+Show "Metamorph Catalysts"
+    BaseType Var("Metamorph Catalysts")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Metamorph Color") 200
+    MinimapIcon Small Var("Metamorph Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Metamorph Effect Color")
 
 Show "Delirium Orbs"
     BaseType "Delirium Orb"

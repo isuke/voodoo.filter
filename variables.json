@@ -1107,14 +1107,18 @@
     ]
   },
   {
-    "name": "Metamorph Items",
+    "name": "Metamorph Samples",
     "items": [
       "Metamorph Brain",
       "Metamorph Eye",
       "Metamorph Liver",
       "Metamorph Lung",
-      "Metamorph Heart",
-
+      "Metamorph Heart"
+    ]
+  },
+  {
+    "name": "Metamorph Catalysts",
+    "items": [
       "Turbulent Catalyst",
       "Imbued Catalyst",
       "Abrasive Catalyst",
