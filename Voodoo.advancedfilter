@@ -1399,68 +1399,64 @@ Show "Essence"
             # PlayEffect NONE
             PlayAlertSoundPositional Var("Cheap Sound")
 
-Show "Breach"
-    BaseType Var("Breach Items")
+Show "Breach Splinters"
+    BaseType Var("Breach Splinters")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Breach Color") 200
+    MinimapIcon Small Brown Var("League Minimap Icon Shape")
+    PlayEffect Brown
 
-    Fork "Base Type"
-        Show "Splinters"
-            BaseType "Splinter"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Breach Color") 200
-            MinimapIcon Small Brown Var("League Minimap Icon Shape")
-            PlayEffect Brown
-
-            Mixin "Color"
-                Show "Black"
-                    BaseType "Splinter of Uul-Netol"
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Breach Color")
-                Show "Purple"
-                    BaseType "Splinter of Chayula"
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Breach Color")
-        Show "Blessings"
-            BaseType "Blessing"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
+    Mixin "Color"
+        Show "Black"
+            BaseType "Splinter of Uul-Netol"
+            SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Breach Color")
-            MinimapIcon Medium Brown Var("League Minimap Icon Shape")
-            PlayEffect Brown
-
-            Mixin "Color"
-                Show "Black"
-                    BaseType "Blessing of Uul-Netol"
-                    SetFontSize Var("Large Font Size")
-                Show "Purple"
-                    BaseType "Blessing of Chayula"
-                    SetFontSize Var("Large Font Size")
-        Show "Breachstone"
-            BaseType "Breachstone"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
+        Show "Purple"
+            BaseType "Splinter of Chayula"
+            SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Breach Color")
-            MinimapIcon Medium Brown Var("League Minimap Icon Shape")
-            PlayEffect Brown
+Show "Breach Blessings"
+    BaseType Var("Breach Blessings")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Breach Color")
+    MinimapIcon Medium Brown Var("League Minimap Icon Shape")
+    PlayEffect Brown
 
-            Mixin "Color"
-                Show "Black"
-                    BaseType "Uul-Netol's Breachstone"
-                    SetFontSize Var("Large Font Size")
-                Show "Purple"
-                    BaseType "Chayula's Breachstone"
-                    SetFontSize Var("Large Font Size")
-            Mixin "Tier"
-                Show "Pure"
-                    BaseType "Pure"
-                    SetFontSize Var("Extra Large Font Size")
-                    SetBorderColor Var("Tier1 BG Color")
-                Show "Charged"
-                    BaseType "Charged"
-                    SetFontSize Var("Large Font Size")
-                Show "Enriched"
-                    BaseType "Enriched"
-                    SetFontSize Var("Large Font Size")
+    Mixin "Color"
+        Show "Black"
+            BaseType "Blessing of Uul-Netol"
+            SetFontSize Var("Large Font Size")
+        Show "Purple"
+            BaseType "Blessing of Chayula"
+            SetFontSize Var("Large Font Size")
+Show "Breachstones"
+    BaseType "Breachstone"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Breach Color")
+    MinimapIcon Medium Brown Var("League Minimap Icon Shape")
+    PlayEffect Brown
+
+    Mixin "Color"
+        Show "Black"
+            BaseType "Uul-Netol's Breachstone"
+            SetFontSize Var("Large Font Size")
+        Show "Purple"
+            BaseType "Chayula's Breachstone"
+            SetFontSize Var("Large Font Size")
+    Mixin "Tier"
+        Show "Pure"
+            BaseType "Pure"
+            SetFontSize Var("Extra Large Font Size")
+            SetBorderColor Var("Tier1 BG Color")
+        Show "Charged"
+            BaseType "Charged"
+            SetFontSize Var("Large Font Size")
+        Show "Enriched"
+            BaseType "Enriched"
+            SetFontSize Var("Large Font Size")
 
 Show "Harbinger"
     BaseType Var("Harbinger Items")
