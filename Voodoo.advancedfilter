@@ -1232,6 +1232,12 @@ Hide "Jewel"
             PlayEffect Blue
             PlayAlertSoundPositional Var("Lofty Sound")
 
+            Mixin "Size"
+                Show "Medium/Small"
+                    BaseType "Medium Cluster Jewel" "Small Cluster Jewel"
+                    SetFontSize Var("Large Font Size")
+                    MinimapIcon Largest Blue Var("Equipment Minimap Icon Shape")
+
 Show "Divination Card"
     Class "Divination Card"
     SetFontSize Var("Default Font Size")
