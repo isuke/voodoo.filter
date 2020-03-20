@@ -692,7 +692,25 @@
   },
 
 
-
+  {
+    "name": "Sublime Prophecies",
+    "items": [
+      "Fated Connections",
+      "The Queen's Sacrifice",
+      "Trash to Treasure"
+    ]
+  },
+  {
+    "name": "Lofty Prophecies",
+    "items": [
+      "Darktongue's Shriek",
+      "Lost in the Pages",
+      "Song of the Sekhema",
+      "The Great Leader of the North",
+      "The Hollow Pledge",
+      "The Jeweller's Touch"
+    ]
+  },
   {
     "name": "Breach Splinters",
     "items": [

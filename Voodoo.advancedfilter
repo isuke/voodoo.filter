@@ -1625,6 +1625,22 @@ Show "Prophecy"
     CustomAlertSound "./Sounds/Prophecy.wav"
     DisableDropSound True
 
+    Mixin "Rareness"
+        Show "Sublime"
+            Prophecy == Var("Sublime Prophecies")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Sublime BG Color")
+            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Sublime Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+        Show "Lofty"
+            Prophecy == Var("Lofty Prophecies")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            MinimapIcon Medium Var("Lofty Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Lofty Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
+
 Show "Bestiary"
     BaseType Var("Bestiary Items")
     SetFontSize Var("Default Font Size")
