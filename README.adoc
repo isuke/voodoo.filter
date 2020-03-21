@@ -159,7 +159,7 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
-| Ignore {set:cellbgcolor:#f4c7c3}
+| Show {set:cellbgcolor:#b7e1cd}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Utility Flask Activity {set:cellbgcolor:white}
