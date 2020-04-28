@@ -383,7 +383,7 @@
   { "name": "Unique Effect Color"  , "items": ["Brown"] },
 
   { "name": "Utility Flask Effect Color"         , "items": ["Green"] },
-  { "name": "Life/Mana/Hybrid Flask Effect Color", "items": ["Purple"] },
+  { "name": "Life/Mana/Hybrid Flask Effect Color", "items": ["Blue"] },
   { "name": "Scarab Effect Color"                , "items": ["Green"] },
 
   { "name": "Sublime Effect Color"  , "items": ["Red"] },
