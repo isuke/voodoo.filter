@@ -1078,6 +1078,15 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Legion Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Legion Effect Color")
 
+Show "Simulacrums"
+    BaseType "Simulacrum"
+    SetFontSize Var("Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Delirium Color")
+    MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Delirium Effect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
+
 Show "Unique Map"
     Class "Map"
     Rarity Unique
@@ -1715,14 +1724,6 @@ Show "Delirium Orbs"
     SetTextColor 255 255 255
     SetBackgroundColor Var("Delirium Color")
     SetBorderColor Var("Delirium Orb Boarder Color")
-    MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Delirium Effect Color")
-    PlayAlertSoundPositional Var("Precious Sound")
-Show "Simulacrums"
-    BaseType "Simulacrum"
-    SetFontSize Var("Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Delirium Color")
     MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Delirium Effect Color")
     PlayAlertSoundPositional Var("Precious Sound")
