@@ -65,7 +65,7 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
             Mixin "Item Level"
                 Show "High"
                     ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Color")
+                    SetBorderColor Var("High Item Level Border Color")
 
     Mixin "Special"
         Show "Influence"
@@ -150,7 +150,7 @@ Unset "Normal/Magic Jewelry"
             Mixin "Item Level"
                 Show "High"
                     ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Color")
+                    SetBorderColor Var("High Item Level Border Color")
     Fork "Rarity"
         Prop("Magic Equipment Activity") "Magic"
             Rarity Magic
@@ -212,7 +212,7 @@ Prop("Rare Belt Activity") "Rare Belt"
             Mixin "Item Level"
                 Show "High"
                     ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Color")
+                    SetBorderColor Var("High Item Level Border Color")
 
     Mixin "Special"
         Show "Influence"
@@ -297,7 +297,7 @@ Unset "Normal/Magic Belt"
             Mixin "Item Level"
                 Show "High"
                     ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Color")
+                    SetBorderColor Var("High Item Level Border Color")
 
     Fork "Rarity"
         Prop("Magic Equipment Activity") "Magic"
@@ -394,7 +394,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     Mixin "Item Level"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Color")
+                            SetBorderColor Var("High Item Level Border Color")
         Unset "Gear"
             Class Var("Gears")
             SetBackgroundColor Var("Gear Color") 200
@@ -422,7 +422,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     Mixin "Item Level"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Color")
+                            SetBorderColor Var("High Item Level Border Color")
             Fork "Labyrinth Enchantment"
                 Unset "False"
                     AnyEnchantment False
@@ -548,7 +548,7 @@ Unset "Magic/Normal Weapon/Gear"
                     Mixin "Item Level"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Color")
+                            SetBorderColor Var("High Item Level Border Color")
         Unset "Gear"
             Class Var("Gears")
             SetBackgroundColor Var("Gear Color") 200
@@ -576,7 +576,7 @@ Unset "Magic/Normal Weapon/Gear"
                     Mixin "Item Level"
                         Show "High"
                             ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Color")
+                            SetBorderColor Var("High Item Level Border Color")
             Fork "Any Enchantment"
                 Unset "False"
                     AnyEnchantment False
