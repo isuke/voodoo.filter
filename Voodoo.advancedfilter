@@ -1756,6 +1756,16 @@ Show "Harvest Seeds"
             BaseType "Seed"
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Trivial BG Color") 240
+Show "Harvest Scrolls"
+    BaseType Var("Harvest Scrolls")
+    SetTextColor Var("Harvest Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+Show "Harvest Items"
+    BaseType Var("Harvest Items")
+    SetTextColor Var("Harvest Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
 
 Show "Quest"
     Class "Quest Items"

@@ -997,6 +997,23 @@
       "Simulacrum"
     ]
   },
+  {
+    "name": "Harvest Scrolls",
+    "items": [
+      "Time-light Scroll",
+      "Fragmentation Scroll",
+      "Deregulation Scroll",
+      "Electroshock Scroll",
+      "Haemocombustion Scroll",
+      "Specularity Scroll"
+    ]
+  },
+  {
+    "name": "Harvest Items",
+    "items": [
+      "Facetor's Lens"
+    ]
+  },
 
 
 
