@@ -1766,6 +1766,36 @@ Show "Harvest Items"
     SetTextColor Var("Harvest Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
+Show "Trinket"
+    Class "Trinket"
+    SetTextColor Var("Heist Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+Show "Heist Target"
+    Class "Heist Target"
+    SetTextColor Var("Heist Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+Show "Contract"
+    Class "Contract"
+    SetTextColor Var("Heist Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+Show "Blueprint"
+    Class "Blueprint"
+    SetTextColor Var("Heist Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+Show "Rogue Equipment"
+    Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+    SetTextColor Var("Heist Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+Show "Heist Items"
+    BaseType Var("Heist Items")
+    SetTextColor Var("Heist Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
 
 Show "Quest"
     Class "Quest Items"

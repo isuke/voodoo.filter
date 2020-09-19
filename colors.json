@@ -65,6 +65,7 @@
   { "name": "Metamorph Color"              , "hex": "#36a62a" },
   { "name": "Delirium Color"               , "hex": "#333f80" },
   { "name": "Harvest Color"                , "hex": "#008efa" },
+  { "name": "Heist Color"                  , "hex": "#c72800" },
 
   { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
   { "name": "Influence Color"              , "hex": "#5b4cc4" },
