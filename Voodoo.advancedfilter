@@ -973,6 +973,13 @@ Prop("Gem Activity") "Gem"
             # SetBackgroundColor NONE
             MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Precious Effect Color")
+        Show "Alternate Quality"
+            AlternateQuality True
+            SetFontSize Var("Large Font Size")
+            SetTextColor Var("Gem Color")
+            SetBackgroundColor Var("Lofty BG Color")
+            MinimapIcon Medium Var("Lofty Effect Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Lofty Effect Color")
 
 Show "Map Fragment"
     Class "Map Fragment"
