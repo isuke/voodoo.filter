@@ -412,6 +412,7 @@
   { "name": "Blight Effect Color"   , "items": ["Pink"] },
   { "name": "Metamorph Effect Color", "items": ["Green"] },
   { "name": "Delirium Effect Color" , "items": ["Blue"] },
+  { "name": "Heist Effect Color"    , "items": ["Pink"] },
 
   { "name": "Influence Effect Color", "items": ["Purple"] },
 
@@ -718,6 +719,7 @@
   },
 
 
+
   {
     "name": "Sublime Prophecies",
     "items": [
@@ -1020,8 +1022,7 @@
       "Prime Regrading Lens",
       "Secondary Regrading Lens",
       "Tempering Orb",
-      "Tailoring Orb",
-      "Rogue's Marker"
+      "Tailoring Orb"
     ]
   },
 

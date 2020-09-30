@@ -1778,31 +1778,56 @@ Show "Trinket"
     SetTextColor Var("Heist Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Heist Color")
+    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Heist Effect Color")
 Show "Heist Target"
     Class "Heist Target"
     SetTextColor Var("Heist Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Heist Color")
+    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Heist Effect Color")
+Show "Rogue's Marker"
+    BaseType "Rogue's Marker"
+    SetTextColor Var("Heist Color")
+    SetFontSize Var("Default Font Size")
+    SetBackgroundColor Var("Cheap BG Color")
+    SetBorderColor Var("Heist Color")
+    MinimapIcon Small Var("Heist Effect Color") Var("League Minimap Icon Shape")
 Show "Contract"
     Class "Contract"
     SetTextColor Var("Heist Color")
     SetFontSize Var("Large Font Size")
-    SetBackgroundColor Var("Lofty BG Color")
+    SetBackgroundColor Var("Trivial BG Color")
+    SetBorderColor Var("Heist Color")
+    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Heist Effect Color")
 Show "Blueprint"
     Class "Blueprint"
     SetTextColor Var("Heist Color")
     SetFontSize Var("Large Font Size")
-    SetBackgroundColor Var("Lofty BG Color")
+    SetBackgroundColor Var("Precious BG Color")
+    SetBorderColor Var("Heist Color")
+    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Heist Effect Color")
 Show "Rogue Equipment"
     Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
     SetTextColor Var("Heist Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Heist Color")
+    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Heist Effect Color")
 Show "Heist Items"
     BaseType Var("Heist Items")
     SetTextColor Var("Heist Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Heist Color")
+    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Heist Effect Color")
 
 Show "Quest"
     Class "Quest Items"
