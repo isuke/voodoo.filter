@@ -23,7 +23,7 @@ Show "Unique Jewelry"
     MinimapIcon Largest Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Fork "Corrupted"
         Unset "False"
@@ -173,7 +173,7 @@ Show "Unique Belt"
     MinimapIcon Largest Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Fork "Corrupted"
         Unset "False"
@@ -320,7 +320,7 @@ Show "Unique Weapon/Gear"
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Unique Item Color")
     CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Mixin "Drop Level"
         Show "High"
@@ -728,16 +728,16 @@ Hide "Currency"
                     BaseType "Mirror of Kalandra"
                     # PlayAlertSound ShMirror 300
                     CustomAlertSound "./Sounds/Mirror.wav"
-                    DisableDropSound True
+                    DisableDropSound
                 Unset "Exalted Orb"
                     BaseType "Exalted Orb"
                     CustomAlertSound "./Sounds/Exalted.wav"
-                    DisableDropSound True
+                    DisableDropSound
                 Unset "Divine Orb/Orb of Annulment"
                     BaseType "Divine Orb" "Orb of Annulment"
                     # PlayAlertSound ShDivine 300
                     CustomAlertSound "./Sounds/Divine.wav"
-                    DisableDropSound True
+                    DisableDropSound
         Show "Lofty"
             BaseType Var("Lofty Currencies")
             SetFontSize Var("Large Font Size")
@@ -751,7 +751,7 @@ Hide "Currency"
                     BaseType "Chaos Orb"
                     # PlayAlertSound ShChaos 300
                     CustomAlertSound "./Sounds/Chaos.wav"
-                    DisableDropSound True
+                    DisableDropSound
                 Prop("Perandus Coin Activity") "Perandus Coin"
                     BaseType "Perandus Coin"
         Show "Precious"
@@ -846,12 +846,12 @@ Show "Unique Flask"
     MinimapIcon Medium Var("Unique Effect Color") Var("Flask Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound True
+    DisableDropSound
 
 Hide "Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
     CustomAlertSound "./Sounds/Flask.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Fork "Class"
         Prop("Utility Flask Activity") "Utility"
@@ -905,7 +905,7 @@ Prop("Gem Activity") "Gem"
     SetTextColor Var("Gem Color")
     SetBackgroundColor Var("Cheap BG Color") 200
     CustomAlertSound "./Sounds/Gem.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Fork "Corrupted"
         Unset "False"
@@ -984,7 +984,7 @@ Prop("Gem Activity") "Gem"
 Show "Map Fragment"
     Class "Map Fragment"
     CustomAlertSound "./Sounds/MapFragment.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Fork "Base Type"
         Show "Vaal Fragment"
@@ -1104,7 +1104,7 @@ Show "Unique Map"
     MinimapIcon Medium Var("Unique Effect Color") Var("Map Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Mixin "Base Type"
         Show "Sublime"
@@ -1193,7 +1193,7 @@ Show "Unique Jewel"
     MinimapIcon Medium Var("Unique Effect Color") Var("Jewel Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound True
+    DisableDropSound
 
 Hide "Jewel"
     Class "Jewel"
@@ -1314,7 +1314,7 @@ Show "Unique Piece"
     MinimapIcon Medium Var("Unique Effect Color") Var("Equipment Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound True
+    DisableDropSound
 
 Show "Timeworn Reliquary Key"
     BaseType "Timeworn Reliquary Key"
@@ -1637,7 +1637,7 @@ Show "Prophecy"
     MinimapIcon Medium Var("Prophecy Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Prophecy Effect Color")
     CustomAlertSound "./Sounds/Prophecy.wav"
-    DisableDropSound True
+    DisableDropSound
 
     Mixin "Rareness"
         Show "Sublime"
@@ -1742,27 +1742,6 @@ Show "Simulacrum Splinters"
     MinimapIcon Small Var("Delirium Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Delirium Effect Color")
 
-Show "Harvest Seeds"
-    Class "Harvest Seed"
-    SetTextColor Var("Harvest Color")
-
-    Fork "Tier"
-        Show "Tier4"
-            BaseType "Wild Thornfruit" "Vivid Scalefruit" "Primal Blisterfruit"
-            SetFontSize Var("Extra Large Font Size")
-            SetBackgroundColor Var("Sublime BG Color")
-        Show "Tier3"
-            BaseType "Bulb"
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Lofty BG Color")
-        Show "Tier2"
-            BaseType "Grain"
-            SetFontSize Var("Default Font Size")
-            SetBackgroundColor Var("Precious BG Color")
-        Show "Tier1"
-            BaseType "Seed"
-            SetFontSize Var("Default Font Size")
-            SetBackgroundColor Var("Trivial BG Color") 240
 Show "Harvest Scrolls"
     BaseType Var("Harvest Scrolls")
     SetTextColor Var("Harvest Color")
@@ -1845,4 +1824,4 @@ Show "Error"
     PlayEffect Red
     # PlayAlertSound Var("Error Sound")
     CustomAlertSound "./Sounds/Error.wav"
-    DisableDropSound True
+    DisableDropSound
