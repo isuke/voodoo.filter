@@ -1807,6 +1807,21 @@ Show "Heist Items"
     SetBorderColor Var("Heist Color")
     MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Heist Effect Color")
+Show "Expedition Items"
+    BaseType Var("Expedition Items")
+    SetTextColor Var("Expedition Color")
+    SetFontSize Var("Default Font Size")
+    SetBackgroundColor Var("Trivial BG Color")
+    SetBorderColor Var("Expedition Color")
+    MinimapIcon Small Var("Expedition Effect Color") Var("League Minimap Icon Shape")
+Show "Expedition Logbook"
+    Class "Expedition Logbook"
+    SetTextColor Var("Expedition Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Precious BG Color")
+    SetBorderColor Var("Expedition Color")
+    MinimapIcon Medium Var("Expedition Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Expedition Effect Color")
 
 Show "Quest"
     Class "Quest Items"
