@@ -194,23 +194,29 @@
     "name": "Atlas Base Gears",
     "items": [
       "Bone Helmet",
+      "Apothecary's Gloves",
       "Spiked Gloves",
       "Gripped Gloves",
       "Fingerless Silk Gloves",
-      "Two-Toned Boots"
+      "Two-Toned Boots",
+      "Fugitive Boots",
+      "Artillery Quiver"
     ]
   },
   {
     "name": "Atlas Base Accessories",
     "items": [
-      "Marble Amulet",
       "Blue Pearl Amulet",
+      "Marble Amulet",
+      "Seaglass Amulet",
+      "Cerulean Ring",
+      "Iolite Ring",
       "Opal Ring",
+      "Prismatic Rin",
       "Steel Ring",
       "Vermillion Ring",
-      "Cerulean Ring",
-      "Vanguard Belt",
-      "Crystal Belt"
+      "Crystal Belt",
+      "Vanguard Belt"
     ]
   },
   {
@@ -314,9 +320,9 @@
       "Orb of Fusing",
       "Orb of Regret",
       "Orb of Scouring",
-      "Perandus Coin"
+      "Perandus Coin",
       "Regal Orb",
-      "Vaal Orb",
+      "Vaal Orb"
     ]
   },
   {
