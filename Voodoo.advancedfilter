@@ -57,6 +57,13 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
             BaseType "Breach Ring"
             SetFontSize Var("Small Font Size")
             SetBackgroundColor Var("Breach Color") 160
+        Show "Heist"
+            BaseType Var("Heist Base Items")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Heist Color")
+            MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Heist Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
             BaseType Var("Good Amulets") Var("Good Rings")
             SetFontSize Var("Large Font Size")

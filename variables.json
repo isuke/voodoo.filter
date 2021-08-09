@@ -1039,6 +1039,14 @@
     ]
   },
   {
+    "name": "Heist Base Items",
+    "items": [
+      "Simplex Amulet",
+      "Cogwork Ring",
+      "Geodesic Ring"
+    ]
+  },
+  {
     "name": "Expedition Items",
     "items": [
       "Exotic Coinage",
