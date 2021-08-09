@@ -1285,14 +1285,14 @@ Show "Divination Card"
             MinimapIcon Small Var("Precious Effect Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Precious Effect Color")
             PlayAlertSoundPositional Var("Precious Sound")
-        # Show "New"
-        #     BaseType == Var("New Divination Cards")
-        #     SetFontSize Var("Large Font Size")
-        #     SetBackgroundColor Var("Lofty BG Color")
-        #     SetBorderColor Var("New Divination Card Color")
-        #     MinimapIcon Medium Var("Lofty Effect Color") Var("Divination Card Minimap Icon Shape")
-        #     PlayEffect Var("Lofty Effect Color")
-        #     PlayAlertSoundPositional Var("Lofty Sound")
+        Show "New"
+            BaseType == Var("New Divination Cards")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("New Divination Card Color")
+            MinimapIcon Medium Var("Lofty Effect Color") Var("Divination Card Minimap Icon Shape")
+            PlayEffect Var("Lofty Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
 
         # Trivial is Any
 
