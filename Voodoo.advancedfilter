@@ -1699,7 +1699,6 @@ Show "Incursio2"
 
 Show "Legion Incubators"
     Class "Incubator"
-    BaseType Var("Legion Incubators")
     SetFontSize Var("Large Font Size")
     SetTextColor 255 255 255
     SetBackgroundColor Var("Legion Color")
