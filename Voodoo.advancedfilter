@@ -1092,6 +1092,14 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Legion Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Legion Effect Color")
 
+        Show "Sacred Blossom"
+            BaseType "Sacred Blossom"
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Harvest Color")
+            MinimapIcon Medium Var("Harvest Effect Color") Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Var("Harvest Effect Color")
+
 Show "Simulacrums"
     BaseType "Simulacrum"
     SetFontSize Var("Large Font Size")

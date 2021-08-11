@@ -424,6 +424,7 @@
   { "name": "Blight Effect Color"    , "items": ["Pink"] },
   { "name": "Metamorph Effect Color" , "items": ["Green"] },
   { "name": "Delirium Effect Color"  , "items": ["Blue"] },
+  { "name": "Harvest Effect Color"   , "items": ["Blue"] },
   { "name": "Heist Effect Color"     , "items": ["Pink"] },
   { "name": "Expedition Effect Color", "items": ["Blue"] },
 
