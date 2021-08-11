@@ -1733,6 +1733,11 @@ Show "Metamorph Catalysts"
     PlayEffect Var("Metamorph Effect Color")
 
     Mixin "Rareness"
+        Show "Sublime"
+            BaseType "Accelerating Catalyst" "Unstable Catalyst"
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Metamorph Color")
+            MinimapIcon Medium Var("Metamorph Effect Color") Var("League Minimap Icon Shape")
         Show "Lofty"
             BaseType "Prismatic Catalyst" "Fertile Catalyst"
             SetFontSize Var("Large Font Size")
