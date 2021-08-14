@@ -933,14 +933,14 @@ Prop("Gem Activity") "Gem"
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")
             SetBackgroundColor Var("Tier2 BG Color") 240
-            # MinimapIcon NONE
+            MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Trivial Effect Color") Temp
         Show "Middle"
             Quality > 0
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")
             SetBackgroundColor Var("Tier3 BG Color") 200
-            # MinimapIcon NONE
+            MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Trivial Effect Color") Temp
 
     Mixin "Level"
@@ -955,7 +955,7 @@ Prop("Gem Activity") "Gem"
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")
             SetBackgroundColor Var("Tier2 BG Color") 240
-            # MinimapIcon NONE
+            MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Trivial Effect Color") Temp
 
     Mixin "Special"
