@@ -1834,6 +1834,14 @@ Show "Heist Items"
     SetBorderColor Var("Heist Color")
     MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Heist Effect Color")
+Show "Ritual Items"
+    BaseType Var("Ritual Items")
+    SetTextColor Var("Ritual Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Ritual Color")
+    MinimapIcon Medium Var("Ritual Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Ritual Effect Color")
 Show "Expedition Items"
     BaseType Var("Expedition Items")
     SetTextColor Var("Expedition Color")

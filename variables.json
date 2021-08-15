@@ -426,6 +426,7 @@
   { "name": "Delirium Effect Color"  , "items": ["Blue"] },
   { "name": "Harvest Effect Color"   , "items": ["Blue"] },
   { "name": "Heist Effect Color"     , "items": ["Pink"] },
+  { "name": "Ritual Effect Color"    , "items": ["Red"]  },
   { "name": "Expedition Effect Color", "items": ["Blue"] },
 
   { "name": "Influence Effect Color", "items": ["Purple"] },
@@ -1031,6 +1032,13 @@
       "Simplex Amulet",
       "Cogwork Ring",
       "Geodesic Ring"
+    ]
+  },
+  {
+    "name": "Ritual Items",
+    "items": [
+      "Ritual Splinter",
+      "Ritual Vessel"
     ]
   },
   {
