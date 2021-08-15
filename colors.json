@@ -34,6 +34,7 @@
   { "name": "Atlas Color"                  , "hex": "#413d80" },
   { "name": "Oriath Color"                 , "hex": "#ff8e28" },
   { "name": "Conquerors Color"             , "hex": "#ff8e28" },
+  { "name": "Maven Color"                  , "hex": "#ff8e28" },
 
   { "name": "Jeweller's Orb Recipe Color"  , "hex": "#5f663d" },
   { "name": "Hammer Color"                 , "hex": "#400b00" },

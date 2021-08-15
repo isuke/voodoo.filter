@@ -408,6 +408,7 @@
   { "name": "Atlas Effect Color"     , "items": ["Orange"] },
   { "name": "Oriath Effect Color"    , "items": ["Orange"] },
   { "name": "Conquerors Effect Color", "items": ["Orange"] },
+  { "name": "Maven Effect Color"     , "items": ["Orange"] },
 
   { "name": "Talisman Effect Color"  , "items": ["Pink"] },
   { "name": "Prophecy Effect Color"  , "items": ["Purple"] },
@@ -631,6 +632,15 @@
       "Golden Key",
       "Silver Key",
       "Treasure Key"
+    ]
+  },
+
+  {
+    "name": "Maven Items",
+    "items": [
+      "Orb of Unmaking",
+      "Maven's Orb",
+      "Crescent Splinter"
     ]
   },
 

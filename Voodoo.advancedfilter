@@ -1403,6 +1403,16 @@ Show "Watchstone"
     PlayEffect Var("Conquerors Effect Color")
     # PlayAlertSoundPositional TODO
 
+Show "Maven"
+    BaseType Var("Maven Items")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Maven Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Maven Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Maven Effect Color")
+    # PlayAlertSoundPositional TODO
+
 
 
 Show "Prophecy"
