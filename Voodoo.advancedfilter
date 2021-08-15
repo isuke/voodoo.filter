@@ -1370,6 +1370,68 @@ Show "Sextant"
             MinimapIcon Medium Var("Precious Effect Color") Var("Sextant Minimap Icon Shape")
             PlayEffect Var("Precious Effect Color")
 
+
+
+Show "Labyrinth"
+    BaseType Var("Labyrinth Items")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Labyrinth Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Labyrinth Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Labyrinth Effect Color")
+    # PlayAlertSoundPositional TODO
+
+Show "Pantheon Soul"
+    Class "Pantheon Soul"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Oriath Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Oriath Effect Color") Var("Map Fragment Minimap Icon Shape")
+    PlayEffect Var("Oriath Effect Color")
+    # PlayAlertSoundPositional TODO
+
+Show "Watchstone"
+    # Class "Atlas Region Upgrade Item"
+    BaseType "Watchstone"
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Conquerors Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Conquerors Effect Color") Var("Map Fragment Minimap Icon Shape")
+    PlayEffect Var("Conquerors Effect Color")
+    # PlayAlertSoundPositional TODO
+
+
+
+Show "Prophecy"
+    BaseType "Prophecy"
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Prophecy Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Prophecy Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Prophecy Effect Color")
+    CustomAlertSound "./Sounds/Prophecy.wav"
+    DisableDropSound
+
+    Mixin "Rareness"
+        Show "Sublime"
+            Prophecy == Var("Sublime Prophecies")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Sublime BG Color")
+            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Sublime Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+        Show "Lofty"
+            Prophecy == Var("Lofty Prophecies")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            MinimapIcon Medium Var("Lofty Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Lofty Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
+
 Show "Essence"
     BaseType "Essence"
     SetFontSize Var("Small Font Size")
@@ -1542,7 +1604,6 @@ Hide "Fossil"
             # MinimapIcon NONE
             PlayEffect Var("Trivial Effect Color") Temp
             PlayAlertSoundPositional Var("Trivial Sound")
-
 Hide "Resonator"
     BaseType "Delve Stackable Socketable Currency"
     SetTextColor Var("Delve Color")
@@ -1619,65 +1680,6 @@ Show "Oil"
             PlayEffect Var("Trivial Effect Color")
             PlayAlertSoundPositional Var("Trivial Sound")
 
-
-Show "Labyrinth"
-    BaseType Var("Labyrinth Items")
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Labyrinth Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Labyrinth Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Labyrinth Effect Color")
-    # PlayAlertSoundPositional TODO
-
-Show "Pantheon Soul"
-    Class "Pantheon Soul"
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Oriath Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Oriath Effect Color") Var("Map Fragment Minimap Icon Shape")
-    PlayEffect Var("Oriath Effect Color")
-    # PlayAlertSoundPositional TODO
-
-Show "Watchstone"
-    # Class "Atlas Region Upgrade Item"
-    BaseType "Watchstone"
-    SetFontSize Var("Extra Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Conquerors Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Conquerors Effect Color") Var("Map Fragment Minimap Icon Shape")
-    PlayEffect Var("Conquerors Effect Color")
-    # PlayAlertSoundPositional TODO
-
-Show "Prophecy"
-    BaseType "Prophecy"
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Prophecy Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Prophecy Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Prophecy Effect Color")
-    CustomAlertSound "./Sounds/Prophecy.wav"
-    DisableDropSound
-
-    Mixin "Rareness"
-        Show "Sublime"
-            Prophecy == Var("Sublime Prophecies")
-            SetFontSize Var("Extra Large Font Size")
-            SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Sublime Effect Color")
-            PlayAlertSoundPositional Var("Sublime Sound")
-        Show "Lofty"
-            Prophecy == Var("Lofty Prophecies")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Lofty BG Color")
-            MinimapIcon Medium Var("Lofty Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Lofty Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
-
 Show "Bestiary"
     BaseType Var("Bestiary Items")
     SetFontSize Var("Default Font Size")
@@ -1695,7 +1697,6 @@ Show "Incursio1"
     MinimapIcon Largest Var("Incursion Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Incursion Effect Color")
     PlayAlertSoundPositional Var("Lofty Sound")
-
 Show "Incursio2"
     BaseType Var("Incursion Items2")
     SetFontSize Var("Large Font Size")
@@ -1779,6 +1780,7 @@ Show "Harvest Items"
     SetTextColor Var("Harvest Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
+
 Show "Trinket"
     Class "Trinket"
     SetTextColor Var("Heist Color")
@@ -1834,6 +1836,7 @@ Show "Heist Items"
     SetBorderColor Var("Heist Color")
     MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Heist Effect Color")
+
 Show "Ritual Items"
     BaseType Var("Ritual Items")
     SetTextColor Var("Ritual Color")
@@ -1842,6 +1845,7 @@ Show "Ritual Items"
     SetBorderColor Var("Ritual Color")
     MinimapIcon Medium Var("Ritual Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Ritual Effect Color")
+
 Show "Expedition Items"
     BaseType Var("Expedition Items")
     SetTextColor Var("Expedition Color")
