@@ -120,13 +120,6 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 
-| Perandus Coin Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-
 | Flask s Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}

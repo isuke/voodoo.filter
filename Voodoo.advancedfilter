@@ -759,8 +759,6 @@ Hide "Currency"
                     # PlayAlertSound ShChaos 300
                     CustomAlertSound "./Sounds/Chaos.wav"
                     DisableDropSound
-                Prop("Perandus Coin Activity") "Perandus Coin"
-                    BaseType "Perandus Coin"
         Show "Precious"
             BaseType Var("Precious Currencies")
             SetFontSize Var("Default Font Size")

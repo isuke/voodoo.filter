@@ -6,7 +6,6 @@
     "Cheap Currency Activity",
     "Trivial Currency Activity",
     "Silver Coin Activity",
-    "Perandus Coin Activity",
 
     "Flask s Activity",
     "Flask m Activity",
@@ -43,7 +42,6 @@
       "Show",
       "Show",
       "Show",
-      "Show",
 
       "Ignore",
       "Ignore",
@@ -76,7 +74,6 @@
       85
     ],
     [
-      "Show",
       "Show",
       "Show",
       "Show",
@@ -115,7 +112,6 @@
       "Show",
       "Show",
       "Show",
-      "Show",
 
       "Hide",
       "Hide",
@@ -148,7 +144,6 @@
       83
     ],
     [
-      "Show",
       "Show",
       "Show",
       "Show",
@@ -185,7 +180,6 @@
     ],
     [
       "Hide",
-      "Show",
       "Show",
       "Show",
 
@@ -222,7 +216,6 @@
     [
       "Hide",
       "Hide",
-      "Show",
       "Show",
 
       "Ignore",
