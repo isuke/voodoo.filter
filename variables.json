@@ -429,6 +429,7 @@
   { "name": "Heist Effect Color"     , "items": ["Pink"] },
   { "name": "Ritual Effect Color"    , "items": ["Red"]  },
   { "name": "Expedition Effect Color", "items": ["Blue"] },
+  { "name": "Scourge Effect Color"   , "items": ["Orange"] },
 
   { "name": "Influence Effect Color", "items": ["Purple"] },
 
@@ -1081,6 +1082,21 @@
       "Common Sun Artifact",
       "Greater Sun Artifact",
       "Grand Sun Artifact"
+    ]
+  },
+  {
+    "name": "Scourge Currencies",
+    "items": [
+      "Tainted Armourer's Scrap",
+      "Tainted Blacksmith's Whetstone",
+      "Tainted Blessing",
+      "Tainted Chaos Orb",
+      "Tainted Chromatic Orb",
+      "Tainted Divine Teardrop",
+      "Tainted Exalted Orb",
+      "Tainted Jeweller's Orb",
+      "Tainted Mythic Orb",
+      "Tainted Orb of Fusing"
     ]
   },
 
