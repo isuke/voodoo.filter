@@ -1546,6 +1546,10 @@ Show "Breachstones"
             BaseType "Chayula's Breachstone"
             SetFontSize Var("Large Font Size")
     Mixin "Tier"
+        Show "Flawless"
+            BaseType "Flawless"
+            SetFontSize Var("Extra Large Font Size")
+            SetBorderColor Var("Tier1 BG Color")
         Show "Pure"
             BaseType "Pure"
             SetFontSize Var("Extra Large Font Size")
