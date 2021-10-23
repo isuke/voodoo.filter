@@ -904,7 +904,7 @@ Hide "Flask"
             MinimapIcon Small Var("Trivial Effect Color") Var("Flask Minimap Icon Shape")
             PlayEffect Var("Trivial Effect Color") Temp
 
-Prop("Gem Activity") "Gem"
+Hide "Gem"
     Class "Gem"
     SetFontSize Var("Small Font Size")
     SetTextColor Var("Gem Color")
