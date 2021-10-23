@@ -1302,13 +1302,8 @@ Show "Divination Card"
 
         # Trivial is Any
 
-        Prop("Cheap Divination Card Activity") "Cheap"
+        Hide "Cheap"
             BaseType == Var("Cheap Divination Cards")
-            SetFontSize Var("Small Font Size")
-            SetBackgroundColor Var("Cheap BG Color") 200
-            # MinimapIcon NONE
-            # PlayEffect NONE
-            PlayAlertSoundPositional Var("Cheap Sound")
 
 Show "Stacked Deck"
     BaseType "Stacked Deck"

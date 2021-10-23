@@ -176,13 +176,6 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 
-| Cheap Divination Card Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
-| Hide {set:cellbgcolor:#f4c7c3}
-
 | Magic Equipment Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
