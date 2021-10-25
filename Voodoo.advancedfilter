@@ -865,6 +865,12 @@ Hide "Flask"
             SetTextColor Var("Utility Flask Color")
             SetBackgroundColor Var("Precious BG Color")
             MinimapIcon Small Var("Utility Flask Effect Color") Var("Flask Minimap Icon Shape")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= Prop("High Item Level")
+                    SetBorderColor Var("High Item Level Border Color")
+
         Unset "Life/Mana/Hybrid"
             Class "Life Flask" "Mana Flask" "Hybrid Flask"
             SetFontSize Var("Default Font Size")
@@ -875,6 +881,11 @@ Hide "Flask"
                 Prop("Flask xl Activity") "Divine/Eternal"
                     DropLevel >= 60
                     SetBackgroundColor Var("Lofty BG Color")
+
+                    Mixin "Item Level"
+                        Show "High"
+                            ItemLevel >= Prop("High Item Level")
+                            SetBorderColor Var("High Item Level Border Color")
                 Prop("Flask l Activity") "Sacred/Hallowed/Sanctified"
                     DropLevel >= 30
                     SetBackgroundColor Var("Precious BG Color")
@@ -884,7 +895,6 @@ Hide "Flask"
                 Prop("Flask s Activity") "Small/Medium"
                     DropLevel >= 0
                     SetBackgroundColor Var("Cheap BG Color") 200
-
     Mixin "Quality"
         Show "Very High"
             Quality > 20

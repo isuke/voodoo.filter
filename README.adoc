@@ -250,8 +250,8 @@ Please put downloaded files as follows.
 | 83
 {set:cellbgcolor!}
 | 83
-| 85
-| 86
+| 83
+| 83
 | 86
 |===
 
