@@ -1100,6 +1100,8 @@ Show "Unique Map"
 Show "Map"
     Class "Map"
     SetTextColor Var("Map Color")
+    CustomAlertSound "./Sounds/Map.wav"
+    DisableDropSound
 
     Mixin "Rarity"
         Unset "Rare"
@@ -1123,27 +1125,23 @@ Show "Map"
             SetBackgroundColor Var("Tier1 BG Color")
             MinimapIcon Medium Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
         Show "High"
             MapTier >= 11
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Tier2 BG Color")
             MinimapIcon Small Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
         Prop("Middle Tier Map Activity") "Middle"
             MapTier >= 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Tier3 BG Color")
             MinimapIcon Small Var("Lofty Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Lofty Effect Color") Temp
-            PlayAlertSoundPositional Var("Trivial Sound")
         Prop("Low Tier Map Activity") "Low"
             MapTier < 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Cheap BG Color") 200
             MinimapIcon Small Var("Precious Effect Color") Var("Map Minimap Icon Shape")
-            PlayAlertSoundPositional Var("Cheap Sound")
 
     Fork "Blighted"
         Unset "False"
@@ -1153,7 +1151,6 @@ Show "Map"
             SetBackgroundColor Var("Blight Color")
             MinimapIcon Small Var("Blight Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Blight Effect Color")
-            PlayAlertSoundPositional Var("Precious Sound")
 
 Show "Unique Jewel"
     Class "Jewel"
