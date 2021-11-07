@@ -243,56 +243,14 @@
   {
     "name": "Good Rings",
     "items": [
-      "Coral Ring",
-      "Diamond Ring",
-      "Two-Stone Ring",
-      "Prismatic Ring"
+      "Two-Stone Ring"
     ]
   },
   {
     "name": "Good Belts",
     "items": [
-      "Rustic Sash",
       "Heavy Belt",
       "Leather Belt"
-    ]
-  },
-  {
-    "name": "Good Weapons",
-    "items": [
-      "Despot Axe",
-      "Siege Axe",
-      "Harbinger Bow",
-      "Gemini Claw",
-      "Imperial Claw",
-      "Demon Dagger",
-      "Ambusher",
-      "Skean",
-      "Coronal Maul",
-      "Exquisite Blade",
-      "Spiraled Foil",
-      "Jewelled Foil",
-      "Harpy Rapier",
-      "Copper Kris",
-      "Golden Kris",
-      "Profane Wand",
-      "Sambar Sceptre",
-      "Void Sceptre"
-    ]
-  },
-  {
-    "name": "Good Gears",
-    "items": [
-      "Pinnacle Tower Shield",
-      "Astral Plate",
-      "Assassin's Garb",
-      "Vaal Regalia",
-      "Saintly Chainmail",
-      "Sorcerer Boots",
-      "Sorcerer Gloves",
-      "Titanium Spirit Shield",
-      "Harmonic Spirit Shield",
-      "Fossilised Spirit Shield"
     ]
   },
 

@@ -69,11 +69,6 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Jewelry Color") 255
 
-            Mixin "Item Level"
-                Show "High"
-                    ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Border Color")
-
     Mixin "Special"
         Show "Influence"
             HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
@@ -154,10 +149,6 @@ Unset "Normal/Magic Jewelry"
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Jewelry Color") 255
 
-            Mixin "Item Level"
-                Show "High"
-                    ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Border Color")
     Fork "Rarity"
         Prop("Magic Equipment Activity") "Magic"
             Rarity Magic
@@ -215,11 +206,6 @@ Prop("Rare Belt Activity") "Rare Belt"
             BaseType Var("Good Belts")
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Belt Color") 255
-
-            Mixin "Item Level"
-                Show "High"
-                    ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Border Color")
 
     Mixin "Special"
         Show "Influence"
@@ -300,11 +286,6 @@ Unset "Normal/Magic Belt"
             BaseType Var("Good Belts")
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Belt Color") 255
-
-            Mixin "Item Level"
-                Show "High"
-                    ItemLevel >= Prop("High Item Level")
-                    SetBorderColor Var("High Item Level Border Color")
 
     Fork "Rarity"
         Prop("Magic Equipment Activity") "Magic"
@@ -393,15 +374,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Atlas Effect Color") Temp
                     PlayAlertSoundPositional Var("Lofty Sound")
-                Unset "Good"
-                    BaseType Var("Good Weapons")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Weapon Color") 255
 
-                    Mixin "Item Level"
-                        Show "High"
-                            ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Border Color")
         Unset "Gear"
             Class Var("Gears")
             SetBackgroundColor Var("Gear Color") 200
@@ -421,15 +394,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Atlas Effect Color") Temp
                     PlayAlertSoundPositional Var("Lofty Sound")
-                Unset "Good"
-                    BaseType Var("Good Gears")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Gear Color") 255
 
-                    Mixin "Item Level"
-                        Show "High"
-                            ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Border Color")
             Fork "Labyrinth Enchantment"
                 Unset "False"
                     AnyEnchantment False
@@ -547,15 +512,7 @@ Unset "Magic/Normal Weapon/Gear"
                     # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Atlas Effect Color") Temp
                     PlayAlertSoundPositional Var("Lofty Sound")
-                Unset "Good"
-                    BaseType Var("Good Weapons")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Weapon Color") 255
 
-                    Mixin "Item Level"
-                        Show "High"
-                            ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Border Color")
         Unset "Gear"
             Class Var("Gears")
             SetBackgroundColor Var("Gear Color") 200
@@ -575,15 +532,7 @@ Unset "Magic/Normal Weapon/Gear"
                     # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Atlas Effect Color") Temp
                     PlayAlertSoundPositional Var("Lofty Sound")
-                Unset "Good"
-                    BaseType Var("Good Gears")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Gear Color") 255
 
-                    Mixin "Item Level"
-                        Show "High"
-                            ItemLevel >= Prop("High Item Level")
-                            SetBorderColor Var("High Item Level Border Color")
             Fork "Any Enchantment"
                 Unset "False"
                     AnyEnchantment False
