@@ -1031,6 +1031,14 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Legion Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Legion Effect Color")
 
+        Show "Simulacrums"
+            BaseType "Simulacrum"
+            SetFontSize Var("Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Delirium Color")
+            MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Delirium Effect Color")
+
         Show "Sacred Blossom"
             BaseType "Sacred Blossom"
             SetFontSize Var("Default Font Size")
@@ -1038,15 +1046,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Harvest Color")
             MinimapIcon Medium Var("Harvest Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Harvest Effect Color")
-
-Show "Simulacrums"
-    BaseType "Simulacrum"
-    SetFontSize Var("Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Delirium Color")
-    MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Delirium Effect Color")
-    PlayAlertSoundPositional Var("Precious Sound")
 
 Show "Unique Map"
     Class "Map"
