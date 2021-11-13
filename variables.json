@@ -775,7 +775,7 @@
     ]
   },
   {
-    "name": "Harbinger Items",
+    "name": "Harbinger Currencies",
     "items": [
       "Orb of Binding",
       "Orb of Horizons",
@@ -979,7 +979,7 @@
     ]
   },
   {
-    "name": "Harvest Scrolls",
+    "name": "Harbinger Scrolls",
     "items": [
       "Time-light Scroll",
       "Fragmentation Scroll",

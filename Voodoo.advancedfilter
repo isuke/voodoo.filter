@@ -1493,8 +1493,8 @@ Show "Breachstones"
             BaseType "Enriched"
             SetFontSize Var("Large Font Size")
 
-Show "Harbinger"
-    BaseType Var("Harbinger Items")
+Show "Harbinger Currencies"
+    BaseType Var("Harbinger Currencies")
     SetFontSize Var("Default Font Size")
     SetTextColor 255 255 255
     SetBackgroundColor Var("Harbinger Color") 200
@@ -1514,6 +1514,12 @@ Show "Harbinger"
             SetBackgroundColor Var("Harbinger Color") 240
             MinimapIcon Medium Var("Harbinger Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Harbinger Effect Color")
+Show "Harbinger Scrolls"
+    BaseType Var("Harbinger Scrolls")
+    SetTextColor Var("Harbinger Color")
+    SetFontSize Var("Large Font Size")
+    SetBackgroundColor Var("Lofty BG Color")
+
 
 Hide "Fossil"
     BaseType "Fossil"
@@ -1714,11 +1720,6 @@ Show "Simulacrum Splinters"
     MinimapIcon Small Var("Delirium Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Delirium Effect Color")
 
-Show "Harvest Scrolls"
-    BaseType Var("Harvest Scrolls")
-    SetTextColor Var("Harvest Color")
-    SetFontSize Var("Large Font Size")
-    SetBackgroundColor Var("Lofty BG Color")
 Show "Harvest Items"
     BaseType Var("Harvest Items")
     SetTextColor Var("Harvest Color")
