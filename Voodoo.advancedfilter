@@ -614,35 +614,6 @@ Prop("Chromatic Orb Recipe Activity") "Chromatic Orb Recipe"
             Height <= 2
             Width <= 2
 
-Unset "Regal/Chaos Orb Recipe"
-    Class Var("Weapons") Var("Gears")
-    Rarity Rare
-    Identified False
-    SetFontSize Var("Small Font Size")
-
-    Fork "Item Level"
-        Unset "Regal"
-            ItemLevel >= 75
-            SetTextColor Var("Regal Orb Recipe Color")
-            SetBorderColor Var("Regal Orb Recipe Color")
-        Unset "Chaos"
-            ItemLevel >= 60
-            SetTextColor Var("Chaos Orb Recipe Color")
-            SetBorderColor Var("Chaos Orb Recipe Color")
-
-    Fork "Class"
-        Unset "Weapon"
-            Class Var("Weapons")
-            SetBackgroundColor Var("Weapon Color") 160
-
-            Fork "Size"
-                Prop("Regal/Chaos Orb Recipe Activity") "Small"
-                    Height <= 3
-                    Width <= 1
-        Prop("Regal/Chaos Orb Recipe Activity") "Gear"
-            Class "Gloves" "Boots" "Body Armours" "Helmets"
-            SetBackgroundColor Var("Gear Color") 160
-
 Prop("Cartographer's Chisel Recipe Activity") "Cartographer's Chisel Recipe"
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
     Rarity Normal
