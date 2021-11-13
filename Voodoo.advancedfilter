@@ -959,15 +959,6 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Vaal Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Vaal Effect Color")
 
-            Mixin "Rareness"
-                Show "Lofty"
-                    BaseType "Sacrifice at Midnight"
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Lighten(50%)
-                    MinimapIcon Medium Var("Lofty Effect Color") Var("Map Fragment Minimap Icon Shape")
-                    PlayEffect Var("Lofty Effect Color")
-                    PlayAlertSoundPositional Var("Lofty Sound")
-
         Show "Advanced Vaal Fragment"
             BaseType "Mortal"
             SetFontSize Var("Default Font Size")
@@ -975,15 +966,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Advanced Vaal Fragment Color")
             MinimapIcon Medium Var("Vaal Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Vaal Effect Color")
-
-            Mixin "Rareness"
-                Show "Sublime"
-                    BaseType "Mortal Ignorance"
-                    SetFontSize Var("Extra Large Font Size")
-                    SetBackgroundColor Lighten(50%)
-                    MinimapIcon Largest Var("Sublime Effect Color") Var("Map Fragment Minimap Icon Shape")
-                    PlayEffect Var("Sublime Effect Color")
-                    PlayAlertSoundPositional Var("Sublime Sound")
 
         Show "Labyrinth"
             BaseType Var("Labyrinth Items")
