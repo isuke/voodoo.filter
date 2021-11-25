@@ -15,6 +15,9 @@
     "Quality Flask Activity",
     "Utility Flask Activity",
 
+    "Life/Mana/Hybrid High Item Level",
+    "Utility High Item Level",
+
     "Low Tier Map Activity",
     "Middle Tier Map Activity",
 
@@ -28,9 +31,7 @@
     "5L Activity",
 
     "Cartographer's Chisel Recipe Activity",
-    "Chromatic Orb Recipe Activity",
-
-    "High Item Level"
+    "Chromatic Orb Recipe Activity"
   ],
   "values": [
     [
@@ -46,6 +47,9 @@
       "Show",
       "Show",
 
+      83,
+      83,
+
       "Show",
       "Show",
 
@@ -59,9 +63,7 @@
       "Show",
 
       "Show",
-      "Show",
-
-      83
+      "Show"
     ],
     [
       "Show",
@@ -76,22 +78,23 @@
       "Show",
       "Show",
 
+      83,
+      83,
+
+      "Show",
+      "Show",
+
+      "Show",
+      "Show",
       "Show",
       "Show",
 
       "Show",
       "Show",
       "Show",
-      "Show",
 
       "Show",
-      "Show",
-      "Show",
-
-      "Show",
-      "Show",
-
-      83
+      "Show"
     ],
     [
       "Show",
@@ -106,6 +109,9 @@
       "Show",
       "Show",
 
+      83,
+      83,
+
       "Show",
       "Show",
 
@@ -119,9 +125,7 @@
       "Show",
 
       "Show",
-      "Show",
-
-      83
+      "Show"
     ],
     [
       "Show",
@@ -136,6 +140,9 @@
       "Show",
       "Show",
 
+      83,
+      83,
+
       "Show",
       "Show",
 
@@ -149,9 +156,7 @@
       "Show",
 
       "Show",
-      "Show",
-
-      83
+      "Show"
     ],
     [
       "Show",
@@ -166,6 +171,9 @@
       "Show",
       "Show",
 
+      83,
+      83,
+
       "Show",
       "Show",
 
@@ -179,9 +187,7 @@
       "Unset",
 
       "Show",
-      "Show",
-
-      83
+      "Show"
     ],
     [
       "Hide",
@@ -196,6 +202,9 @@
       "Ignore",
       "Hide",
 
+      85,
+      85,
+
       "Hide",
       "Show",
 
@@ -209,9 +218,7 @@
       "Unset",
 
       "Unset",
-      "Unset",
-
-      85
+      "Unset"
     ]
   ]
 }

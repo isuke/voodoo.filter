@@ -162,6 +162,22 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 
+| Life/Mana/Hybrid High Item Level {set:cellbgcolor:white}
+| 83
+{set:cellbgcolor!}
+| 83
+| 83
+| 83
+| 85
+
+| Utility High Item Level {set:cellbgcolor:white}
+| 83
+{set:cellbgcolor!}
+| 83
+| 83
+| 83
+| 85
+
 | Low Tier Map Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
@@ -245,19 +261,11 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
-
-| High Item Level {set:cellbgcolor:white}
-| 83
-{set:cellbgcolor!}
-| 83
-| 83
-| 83
-| 86
 |===
 
 == How to Customize
 
-=== Change Custome Sounds
+=== Change Custom Sounds
 
 Please replace files in the 'Sounds' directory with same name.
 
