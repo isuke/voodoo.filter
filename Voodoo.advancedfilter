@@ -1676,13 +1676,13 @@ Show "Metamorph Catalysts"
 
 Show "Delirium Orbs"
     BaseType "Delirium Orb"
-    SetFontSize Var("Default Font Size")
+    SetFontSize Var("Large Font Size")
     SetTextColor 255 255 255
     SetBackgroundColor Var("Delirium Color")
     SetBorderColor Var("Delirium Orb Boarder Color")
     MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Delirium Effect Color")
-    PlayAlertSoundPositional Var("Precious Sound")
+    PlayAlertSoundPositional Var("Lofty Sound")
 Show "Simulacrum Splinters"
     BaseType "Simulacrum Splinter"
     SetFontSize Var("Default Font Size")
