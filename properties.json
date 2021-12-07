@@ -21,6 +21,8 @@
     "Quality Gem Activity",
     "Level Gem Activity",
 
+    "Jewel Activity",
+
     "Low Tier Map Activity",
     "Middle Tier Map Activity",
 
@@ -57,6 +59,8 @@
       "Show",
 
       "Show",
+
+      "Show",
       "Show",
 
       "Unset",
@@ -91,6 +95,8 @@
       "Show",
 
       "Show",
+
+      "Show",
       "Show",
 
       "Show",
@@ -122,6 +128,8 @@
       83,
 
       "Show",
+      "Show",
+
       "Show",
 
       "Show",
@@ -159,6 +167,8 @@
       "Show",
 
       "Show",
+
+      "Show",
       "Show",
 
       "Unset",
@@ -190,6 +200,8 @@
       83,
 
       "Show",
+      "Show",
+
       "Show",
 
       "Show",
@@ -225,6 +237,8 @@
 
       "Unset",
       "Unset",
+
+      "Hide",
 
       "Hide",
       "Show",

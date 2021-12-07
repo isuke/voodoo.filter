@@ -1116,7 +1116,7 @@ Show "Unique Jewel"
     CustomAlertSound "./Sounds/Unique.wav"
     DisableDropSound
 
-Hide "Jewel"
+Prop("Jewel Activity") "Jewel"
     Class "Jewel"
     SetFontSize Var("Default Font Size")
     SetTextColor Var("Jewel Color")
@@ -1125,21 +1125,27 @@ Hide "Jewel"
     PlayEffect Var("Trivial Effect Color") Temp
 
     Fork "Rarity"
-        Show "Rare"
+        Unset "Rare"
             Rarity Rare
             SetBorderColor Var("Rare Item Color")
-        Show "Magic"
+        Unset "Magic"
             Rarity Magic
             SetBorderColor Var("Magic Item Color")
-        Show "Normal"
+        Unset "Normal"
             Rarity Normal
 
     Mixin "Special"
-        Show "Abyss"
+        Unset "Abyss"
             Class "Abyss Jewel"
             SetBackgroundColor Var("Abyss Color")
             MinimapIcon Medium Var("Abyss Effect Color") Var("Jewel Minimap Icon Shape")
             PlayEffect Var("Abyss Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
+        Unset "Delirium"
+            BaseType "Cluster Jewel"
+            SetBackgroundColor Var("Delirium Color")
+            MinimapIcon Medium Var("Delirium Effect Color") Var("Jewel Minimap Icon Shape")
+            PlayEffect Var("Delirium Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
         Show "Fractured"
             FracturedItem True
@@ -1155,18 +1161,7 @@ Hide "Jewel"
             MinimapIcon Medium Var("Synthesis Effect Color") Var("Jewel Minimap Icon Shape")
             PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Delirium"
-            BaseType "Cluster Jewel"
-            SetBackgroundColor Var("Delirium Color")
-            MinimapIcon Medium Var("Delirium Effect Color") Var("Jewel Minimap Icon Shape")
-            PlayEffect Var("Delirium Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
 
-            Mixin "Size"
-                Show "Medium/Small"
-                    BaseType "Medium Cluster Jewel" "Small Cluster Jewel"
-                    SetFontSize Var("Large Font Size")
-                    MinimapIcon Largest Var("Delirium Effect Color") Var("Jewel Minimap Icon Shape")
 
 Show "Divination Card"
     Class "Divination Card"
@@ -1199,14 +1194,14 @@ Show "Divination Card"
             MinimapIcon Small Var("Precious Effect Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Precious Effect Color")
             PlayAlertSoundPositional Var("Precious Sound")
-        Show "New"
-            BaseType == Var("New Divination Cards")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Lofty BG Color")
-            SetBorderColor Var("New Divination Card Color")
-            MinimapIcon Medium Var("Lofty Effect Color") Var("Divination Card Minimap Icon Shape")
-            PlayEffect Var("Lofty Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
+        # Show "New"
+        #     BaseType == Var("New Divination Cards")
+        #     SetFontSize Var("Large Font Size")
+        #     SetBackgroundColor Var("Lofty BG Color")
+        #     SetBorderColor Var("New Divination Card Color")
+        #     MinimapIcon Medium Var("Lofty Effect Color") Var("Divination Card Minimap Icon Shape")
+        #     PlayEffect Var("Lofty Effect Color")
+        #     PlayAlertSoundPositional Var("Lofty Sound")
 
         # Trivial is Any
 

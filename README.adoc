@@ -192,6 +192,13 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
 
+| Jewel Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
+
 | Low Tier Map Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
