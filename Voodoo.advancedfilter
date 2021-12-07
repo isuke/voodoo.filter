@@ -856,14 +856,14 @@ Hide "Gem"
             SetBackgroundColor Var("Tier1 BG Color")
             MinimapIcon Largest Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-        Show "High"
+        Prop("Quality Gem Activity") "High"
             Quality > 10
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")
             SetBackgroundColor Var("Tier2 BG Color") 240
             MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Trivial Effect Color") Temp
-        Show "Middle"
+        Prop("Quality Gem Activity") "Middle"
             Quality > 0
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")
@@ -878,7 +878,7 @@ Hide "Gem"
             SetBackgroundColor Var("Tier1 BG Color")
             MinimapIcon Largest Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-        Show "High"
+        Prop("Level Gem Activity") "High"
             GemLevel >= 18
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Gem Color")

@@ -178,6 +178,20 @@ Please put downloaded files as follows.
 | 83
 | 85
 
+| Quality Gem Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
+| Level Gem Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
+
 | Low Tier Map Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
