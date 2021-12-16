@@ -69,7 +69,6 @@
   { "name": "Expedition Color"             , "hex": "#76b3fc" },
   { "name": "Scourge Color"                , "hex": "#d15b00" },
 
-  { "name": "Shaper/Elder Color"           , "hex": "#5b4cc4" },
   { "name": "Influence Color"              , "hex": "#5b4cc4" },
 
   { "name": "New Divination Card Color"    , "hex": "#b84848" },
