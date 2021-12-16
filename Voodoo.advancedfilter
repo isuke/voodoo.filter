@@ -1083,13 +1083,13 @@ Show "Map"
             SetBackgroundColor Var("Tier2 BG Color")
             MinimapIcon Small Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-        Prop("Middle Tier Map Activity") "Middle"
+        Show "Middle"
             MapTier >= 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Tier3 BG Color")
             MinimapIcon Small Var("Lofty Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Lofty Effect Color") Temp
-        Prop("Low Tier Map Activity") "Low"
+        Show "Low"
             MapTier < 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Cheap BG Color") 200
