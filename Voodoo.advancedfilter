@@ -1018,6 +1018,17 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Harvest Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Harvest Effect Color")
 
+Show "Maven's Invitation"
+    Class "Map"
+    BaseType "Maven's Invitation"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Map Color")
+    SetBackgroundColor Var("Maven Color")
+    MinimapIcon Medium Var("Maven Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Maven Effect Color")
+    CustomAlertSound "./Sounds/Map.wav"
+    DisableDropSound
+
 Show "Unique Map"
     Class "Map"
     Rarity Unique
