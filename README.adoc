@@ -124,28 +124,28 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
-| Ignore {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask m Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
-| Ignore {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask l Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
-| Ignore {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask xl Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
-| Ignore {set:cellbgcolor:#f4c7c3}
+| Show {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Quality Flask Activity {set:cellbgcolor:white}

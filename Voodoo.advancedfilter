@@ -807,10 +807,10 @@ Hide "Flask"
                             ItemLevel >= Prop("Life/Mana/Hybrid High Item Level")
                             SetBorderColor Var("High Item Level Border Color")
                 Prop("Flask l Activity") "Sacred/Hallowed/Sanctified"
-                    DropLevel >= 30
+                    DropLevel >= 36
                     SetBackgroundColor Var("Precious BG Color")
                 Prop("Flask m Activity") "Large/Greater/Grand/Giant/Colossal"
-                    DropLevel >= 3
+                    DropLevel >= 6
                     SetBackgroundColor Var("Trivial BG Color") 240
                 Prop("Flask s Activity") "Small/Medium"
                     DropLevel >= 0
