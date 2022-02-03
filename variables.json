@@ -367,6 +367,7 @@
   { "name": "Oriath Effect Color"    , "items": ["Orange"] },
   { "name": "Conquerors Effect Color", "items": ["Orange"] },
   { "name": "Maven Effect Color"     , "items": ["Orange"] },
+  { "name": "Siege Effect Color"     , "items": ["Orange"] },
 
   { "name": "Talisman Effect Color"  , "items": ["Pink"] },
   { "name": "Essence Effect Color"   , "items": [""] },

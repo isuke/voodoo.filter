@@ -1288,15 +1288,15 @@ Show "Pantheon Soul"
     PlayEffect Var("Oriath Effect Color")
     # PlayAlertSoundPositional TODO
 
-Show "Watchstone"
-    # Class "Atlas Region Upgrade Item"
-    BaseType "Watchstone"
+Show "Voidstone"
+    # Class "Atlas Upgrade Item"
+    BaseType "Voidstone"
     SetFontSize Var("Extra Large Font Size")
     SetTextColor 255 255 255
-    SetBackgroundColor Var("Conquerors Color")
+    SetBackgroundColor Var("Siege Color")
     # SetBorderColor NONE
-    MinimapIcon Medium Var("Conquerors Effect Color") Var("Map Fragment Minimap Icon Shape")
-    PlayEffect Var("Conquerors Effect Color")
+    MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
+    PlayEffect Var("Siege Effect Color")
     # PlayAlertSoundPositional TODO
 
 Show "Maven"
