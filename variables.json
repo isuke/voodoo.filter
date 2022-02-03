@@ -32,7 +32,6 @@
       "Regal Orb",
       "Sacred Orb",
       "Scroll of Wisdom",
-      "Silver Coin",
       "Vaal Orb",
       "Veiled Chaos Orb"
     ]
@@ -294,8 +293,7 @@
       "Glassblower's Bauble",
       "Jeweller's Orb",
       "Orb of Alteration",
-      "Orb of Chance",
-      "Silver Coin"
+      "Orb of Chance"
     ]
   },
   {
@@ -371,7 +369,6 @@
   { "name": "Maven Effect Color"     , "items": ["Orange"] },
 
   { "name": "Talisman Effect Color"  , "items": ["Pink"] },
-  { "name": "Prophecy Effect Color"  , "items": ["Purple"] },
   { "name": "Essence Effect Color"   , "items": [""] },
   { "name": "Breach Effect Color"    , "items": ["Brown"] },
   { "name": "Harbinger Effect Color" , "items": ["Blue"] },
@@ -722,24 +719,6 @@
 
 
 
-  {
-    "name": "Sublime Prophecies",
-    "items": [
-      "Fated Connections",
-      "The Queen's Sacrifice",
-      "Trash to Treasure"
-    ]
-  },
-  {
-    "name": "Lofty Prophecies",
-    "items": [
-      "Darktongue's Shriek",
-      "Lost in the Pages",
-      "Song of the Sekhema",
-      "The Great Leader of the North",
-      "The Jeweller's Touch"
-    ]
-  },
   {
     "name": "Breach Splinters",
     "items": [

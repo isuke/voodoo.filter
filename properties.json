@@ -5,7 +5,6 @@
   "propNames": [
     "Cheap Currency Activity",
     "Trivial Currency Activity",
-    "Silver Coin Activity",
 
     "Flask s Activity",
     "Flask m Activity",
@@ -39,7 +38,6 @@
     [
       "Show",
       "Show",
-      "Show",
 
       "Ignore",
       "Ignore",
@@ -72,7 +70,6 @@
     [
       "Show",
       "Show",
-      "Show",
 
       "Show",
       "Show",
@@ -103,7 +100,6 @@
       "Show"
     ],
     [
-      "Show",
       "Show",
       "Show",
 
@@ -138,7 +134,6 @@
     [
       "Show",
       "Show",
-      "Show",
 
       "Hide",
       "Hide",
@@ -169,7 +164,6 @@
       "Show"
     ],
     [
-      "Show",
       "Show",
       "Show",
 
@@ -204,7 +198,6 @@
     [
       "Hide",
       "Hide",
-      "Show",
 
       "Ignore",
       "Ignore",

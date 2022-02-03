@@ -687,9 +687,6 @@ Hide "Currency"
             PlayEffect Var("Precious Effect Color")
             PlayAlertSoundPositional Var("Precious Sound")
 
-            Mixin "Base Type"
-                Prop("Silver Coin Activity") "Silver Coin"
-                    BaseType == "Silver Coin"
         Prop("Trivial Currency Activity") "Trivial"
             BaseType == Var("Trivial Currencies")
             SetFontSize Var("Default Font Size")
@@ -945,14 +942,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Labyrinth Color")
             MinimapIcon Medium Var("Labyrinth Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Labyrinth Effect Color")
-
-        Show "Prophecy Fragment"
-            BaseType "Volkuur's Key" "Eber's Key" "Yriel's Key" "Inya's Key"
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Prophecy Color")
-            MinimapIcon Medium Var("Prophecy Effect Color") Var("Map Fragment Minimap Icon Shape")
-            PlayEffect Var("Prophecy Effect Color")
 
         Show "Shaper Fragment"
             BaseType "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera"
@@ -1321,33 +1310,6 @@ Show "Maven"
     # PlayAlertSoundPositional TODO
 
 
-
-Show "Prophecy"
-    BaseType "Prophecy"
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Prophecy Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Prophecy Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Prophecy Effect Color")
-    CustomAlertSound "./Sounds/Prophecy.wav"
-    DisableDropSound
-
-    Mixin "Rareness"
-        Show "Sublime"
-            Prophecy == Var("Sublime Prophecies")
-            SetFontSize Var("Extra Large Font Size")
-            SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Sublime Effect Color")
-            PlayAlertSoundPositional Var("Sublime Sound")
-        Show "Lofty"
-            Prophecy == Var("Lofty Prophecies")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Lofty BG Color")
-            MinimapIcon Medium Var("Lofty Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Lofty Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
 
 Show "Essence"
     BaseType "Essence"
