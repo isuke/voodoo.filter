@@ -1251,20 +1251,6 @@ Show "Sextant"
             SetBackgroundColor Var("Tier2 BG Color")
             MinimapIcon Medium Var("Sublime Effect Color") Var("Sextant Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-        Show "Prime Sextant"
-            # "Journeyman Cartographer's Sextant"
-            BaseType "Prime Sextant"
-            SetFontSize Var("Default Font Size")
-            SetBackgroundColor Var("Tier3 BG Color")
-            MinimapIcon Medium Var("Lofty Effect Color") Var("Sextant Minimap Icon Shape")
-            PlayEffect Var("Lofty Effect Color")
-        Show "Simple Sextant"
-            # "Apprentice Cartographer's Sextant"
-            BaseType "Simple Sextant"
-            SetFontSize Var("Default Font Size")
-            SetBackgroundColor Var("Tier4 BG Color")
-            MinimapIcon Medium Var("Precious Effect Color") Var("Sextant Minimap Icon Shape")
-            PlayEffect Var("Precious Effect Color")
 
 
 
