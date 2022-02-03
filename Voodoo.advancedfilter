@@ -1304,6 +1304,15 @@ Show "Maven"
     PlayEffect Var("Maven Effect Color")
     # PlayAlertSoundPositional TODO
 
+Show "Siege"
+    BaseType Var("Siege Items")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Siege Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Siege Effect Color")
+    # PlayAlertSoundPositional TODO
 
 
 Show "Essence"
@@ -1563,6 +1572,13 @@ Show "Oil"
             MinimapIcon Small Var("Precious Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Trivial Effect Color")
             PlayAlertSoundPositional Var("Trivial Sound")
+Show "Oil Extractor"
+    BaseType "Oil Extractor"
+    SetFontSize Var("Extra Large Font Size")
+    SetBackgroundColor Var("Sublime BG Color")
+    MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Sublime Effect Color")
+    PlayAlertSoundPositional Var("Sublime Sound")
 
 Show "Bestiary"
     BaseType Var("Bestiary Items")
