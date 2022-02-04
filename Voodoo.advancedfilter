@@ -1015,14 +1015,14 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Siege Effect Color")
 
-Show "Maven's Invitation"
+Show "Invitation"
     Class "Map"
-    BaseType "Maven's Invitation"
+    BaseType "Invitation"
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Map Color")
-    SetBackgroundColor Var("Maven Color")
-    MinimapIcon Medium Var("Maven Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Maven Effect Color")
+    SetBackgroundColor Var("Siege Color")
+    MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Siege Effect Color")
     CustomAlertSound "./Sounds/Map.wav"
     DisableDropSound
 
