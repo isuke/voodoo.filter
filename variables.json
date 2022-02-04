@@ -388,6 +388,7 @@
   { "name": "Ritual Effect Color"    , "items": ["Red"]  },
   { "name": "Expedition Effect Color", "items": ["Blue"] },
   { "name": "Scourge Effect Color"   , "items": ["Orange"] },
+  { "name": "Archnemesis Effect Color", "items": ["Yellow"] },
 
   { "name": "Influence Effect Color", "items": ["Purple"] },
 
