@@ -1007,6 +1007,14 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Harvest Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Harvest Effect Color")
 
+        Show "Crest"
+            BaseType Var("Crest Items")
+            SetFontSize Var("Default Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Siege Color")
+            MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Var("Siege Effect Color")
+
 Show "Maven's Invitation"
     Class "Map"
     BaseType "Maven's Invitation"
