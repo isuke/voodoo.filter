@@ -262,8 +262,7 @@
       "Awakener's Orb",
       "Divine Orb",
       "Exalted Orb",
-      "Mirror of Kalandra",
-      "Orb of Annulment"
+      "Mirror of Kalandra"
     ]
   },
   {
@@ -276,6 +275,7 @@
       "Gemcutter's Prism",
       "Instilling Orb",
       "Orb of Alchemy",
+      "Orb of Annulment",
       "Orb of Fusing",
       "Orb of Regret",
       "Orb of Scouring",
@@ -319,8 +319,7 @@
     "name": "Sublime Shards",
     "items": [
       "Exalted Shard",
-      "Mirror Shard",
-      "Annulment Shard"
+      "Mirror Shard"
     ]
   },
   {
@@ -328,7 +327,8 @@
     "items": [
       "Chaos Shard",
       "Alchemy Shard",
-      "Regal Shard"
+      "Regal Shard",
+      "Annulment Shard"
     ]
   },
   {

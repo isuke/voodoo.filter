@@ -660,8 +660,8 @@ Hide "Currency"
                     BaseType == "Exalted Orb"
                     CustomAlertSound "./Sounds/Exalted.wav"
                     DisableDropSound
-                Unset "Divine Orb/Orb of Annulment"
-                    BaseType == "Divine Orb" "Orb of Annulment"
+                Unset "Divine Orb"
+                    BaseType == "Divine Orb"
                     # PlayAlertSound ShDivine 300
                     CustomAlertSound "./Sounds/Divine.wav"
                     DisableDropSound
