@@ -77,19 +77,15 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
             MinimapIcon Medium Var("Influence Effect Color") Var("Accessory Minimap Icon Shape")
             PlayEffect Var("Influence Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Fractured"
+        Unset "Fractured"
             FracturedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color") 200
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Synthesised"
+        Unset "Synthesised"
             SynthesisedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color")
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
 
     Fork "Corrupted"
@@ -215,19 +211,15 @@ Prop("Rare Belt Activity") "Rare Belt"
             MinimapIcon Medium Var("Influence Effect Color") Var("Accessory Minimap Icon Shape")
             PlayEffect Var("Influence Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Fractured"
+        Unset "Fractured"
             FracturedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color") 200
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Synthesised"
+        Unset "Synthesised"
             SynthesisedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color")
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
 
     Fork "Corrupted"
@@ -434,19 +426,15 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
             MinimapIcon Medium Var("Influence Effect Color") Var("Equipment Minimap Icon Shape")
             PlayEffect Var("Influence Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Fractured"
+        Unset "Fractured"
             FracturedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color") 200
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Equipment Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Synthesised"
+        Unset "Synthesised"
             SynthesisedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color")
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Equipment Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
 
     Fork "Corrupted"
@@ -1148,19 +1136,15 @@ Prop("Jewel Activity") "Jewel"
             MinimapIcon Medium Var("Delirium Effect Color") Var("Jewel Minimap Icon Shape")
             PlayEffect Var("Delirium Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Fractured"
+        Unset "Fractured"
             FracturedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color") 200
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Jewel Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Synthesised"
+        Unset "Synthesised"
             SynthesisedItem True
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Synthesis Color")
-            MinimapIcon Medium Var("Synthesis Effect Color") Var("Jewel Minimap Icon Shape")
-            PlayEffect Var("Synthesis Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
 
 
