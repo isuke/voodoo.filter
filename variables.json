@@ -818,6 +818,36 @@
     ]
   },
   {
+    "name": "Lofty Harbinger Currencies",
+    "items": [
+      "Ancient Orb",
+      "Ancient Shard",
+      "Harbinger's Orb",
+      "Harbinger's Shard"
+    ]
+  },
+  {
+    "name": "Precious Harbinger Currencies",
+    "items": [
+      "Orb of Horizons"
+    ]
+  },
+  {
+    "name": "Trivial Harbinger Currencies",
+    "items": [
+      "Horizon Shard"
+    ]
+  },
+  {
+    "name": "Cheap Harbinger Currencies",
+    "items": [
+      "Orb of Binding",
+      "Binding Shard",
+      "Engineer's Orb",
+      "Engineer's Shard"
+    ]
+  },
+  {
     "name": "Bestiary Items",
     "items": [
       "Bestiary Orb",
