@@ -926,7 +926,7 @@ Show "Map Fragment"
 
         Show "Shaper Fragment"
             BaseType "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera"
-            SetFontSize Var("Default Font Size")
+            SetFontSize Var("Large Font Size")
             SetTextColor 255 255 255
             SetBackgroundColor Var("Atlas Color")
             MinimapIcon Medium Var("Influence Effect Color") Var("Map Fragment Minimap Icon Shape")
@@ -934,19 +934,27 @@ Show "Map Fragment"
 
         Show "Elder Fragment"
             BaseType "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification"
-            SetFontSize Var("Default Font Size")
+            SetFontSize Var("Large Font Size")
             SetTextColor 255 255 255
-            SetBackgroundColor Var("Conquerors Color")
+            SetBackgroundColor Var("Atlas Color")
             MinimapIcon Medium Var("Influence Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Influence Effect Color")
 
         Show "Awakener Fragment"
             BaseType "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness"
-            SetFontSize Var("Default Font Size")
+            SetFontSize Var("Large Font Size")
             SetTextColor 255 255 255
             SetBackgroundColor Var("Conquerors Color")
             MinimapIcon Medium Var("Conquerors Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Conquerors Effect Color")
+
+        Show "Elderslayers Fragment"
+            BaseType "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
+            SetFontSize Var("Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Siege Color")
+            MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Var("Siege Effect Color")
 
         Show "Divine Vessel"
             BaseType "Divine Vessel"
@@ -987,14 +995,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Harvest Color")
             MinimapIcon Medium Var("Harvest Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Harvest Effect Color")
-
-        Show "Crest"
-            BaseType Var("Crest Items")
-            SetFontSize Var("Default Font Size")
-            SetTextColor 255 255 255
-            SetBackgroundColor Var("Siege Color")
-            MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
-            PlayEffect Var("Siege Effect Color")
 
 Show "Invitation"
     Class "Map"
