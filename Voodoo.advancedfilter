@@ -1236,7 +1236,12 @@ Show "Sextant"
             SetBackgroundColor Var("Tier2 BG Color")
             MinimapIcon Medium Var("Sublime Effect Color") Var("Sextant Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-
+        Show "Elevated Sextant"
+            BaseType "Elevated Sextant"
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Tier2 BG Color")
+            MinimapIcon Medium Var("Sublime Effect Color") Var("Sextant Minimap Icon Shape")
+            PlayEffect Var("Sublime Effect Color")
 
 
 Show "Labyrinth"
