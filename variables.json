@@ -619,10 +619,24 @@
   },
 
   {
-    "name": "Siege Items",
+    "name": "Scouting Reports and Compasses",
     "items": [
       "Surveyor's Compass",
       "Charged Compass",
+      "Singular Scouting Report",
+      "Otherworldly Scouting Report",
+      "Comprehensive Scouting Report",
+      "Vaal Scouting Report",
+      "Delirious Scouting Report",
+      "Operative's Scouting Report",
+      "Blighted Scouting Report",
+      "Influenced Scouting Report",
+      "Explorer's Scouting Report"
+    ]
+  },
+  {
+    "name": "Siege Currencies",
+    "items": [
       "Lesser Eldritch Ember",
       "Greater Eldritch Ember",
       "Grand Eldritch Ember",
@@ -635,15 +649,10 @@
       "Eldritch Chaos Orb",
       "Eldritch Exalted Orb",
       "Eldritch Orb of Annulment",
-      "Singular Scouting Report",
-      "Otherworldly Scouting Report",
-      "Comprehensive Scouting Report",
-      "Vaal Scouting Report",
-      "Delirious Scouting Report",
-      "Operative's Scouting Report",
-      "Blighted Scouting Report",
-      "Influenced Scouting Report",
-      "Explorer's Scouting Report"
+      "Crusader's Exalted Orb",
+      "Hunter's Exalted Orb",
+      "Redeemer's Exalted Orb",
+      "Warlord's Exalted Orb"
     ]
   },
 

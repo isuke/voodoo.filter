@@ -1289,11 +1289,21 @@ Show "Maven"
     PlayEffect Var("Maven Effect Color")
     # PlayAlertSoundPositional TODO
 
-Show "Siege"
-    BaseType Var("Siege Items")
+Show "Scouting Reports and Compasses"
+    BaseType Var("Scouting Reports and Compasses")
     SetFontSize Var("Default Font Size")
+    SetTextColor 0 0 0
+    SetBackgroundColor Var("Scouting Report Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
+    # PlayEffect NONE
+    # PlayAlertSoundPositional TODO
+
+Show "Siege Currencies"
+    BaseType Var("Siege Currencies")
+    SetFontSize Var("Large Font Size")
     SetTextColor 255 255 255
-    SetBackgroundColor Var("Siege Color")
+    SetBackgroundColor Var("Siege Currency Color")
     # SetBorderColor NONE
     MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Siege Effect Color")
