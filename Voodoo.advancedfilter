@@ -42,10 +42,10 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
     Mixin "Base Type"
         Show "Atlas Base Accessories"
             BaseType Var("Atlas Base Accessories")
-            SetFontSize Var("Extra Large Font Size")
+            SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Atlas Color")
-            MinimapIcon Medium Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color")
+            # MinimapIcon Small Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
+            PlayEffect Var("Atlas Effect Color") Temp
             PlayAlertSoundPositional Var("Lofty Sound")
         Show "Talisman"
             BaseType "Talisman"
@@ -135,10 +135,10 @@ Unset "Normal/Magic Jewelry"
     Mixin "Base Type"
         Show "Atlas Base Accessories"
             BaseType Var("Atlas Base Accessories")
-            SetFontSize Var("Extra Large Font Size")
+            SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Atlas Color")
-            MinimapIcon Medium Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color")
+            # MinimapIcon Small Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
+            PlayEffect Var("Atlas Effect Color") Temp
             PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
             BaseType Var("Good Amulets") Var("Good Rings")
@@ -189,7 +189,7 @@ Prop("Rare Belt Activity") "Rare Belt"
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Atlas Color")
             MinimapIcon Medium Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color")
+            PlayEffect Var("Atlas Effect Color") Temp
             PlayAlertSoundPositional Var("Lofty Sound")
         Show "Abyss"
             BaseType "Stygian Vise"
@@ -272,7 +272,7 @@ Unset "Normal/Magic Belt"
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Atlas Color")
             MinimapIcon Medium Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color")
+            PlayEffect Var("Atlas Effect Color") Temp
             PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
             BaseType Var("Good Belts")
