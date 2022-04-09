@@ -1381,15 +1381,6 @@ Show "Breach Splinters"
     MinimapIcon Small Var("Breach Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Breach Effect Color")
 
-    Mixin "Color"
-        Show "Black"
-            BaseType "Splinter of Uul-Netol"
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Breach Color")
-        Show "Purple"
-            BaseType "Splinter of Chayula"
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Breach Color")
 Show "Breach Blessings"
     BaseType Var("Breach Blessings")
     SetFontSize Var("Default Font Size")
@@ -1398,13 +1389,6 @@ Show "Breach Blessings"
     MinimapIcon Medium Var("Breach Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Breach Effect Color")
 
-    Mixin "Color"
-        Show "Black"
-            BaseType "Blessing of Uul-Netol"
-            SetFontSize Var("Large Font Size")
-        Show "Purple"
-            BaseType "Blessing of Chayula"
-            SetFontSize Var("Large Font Size")
 Show "Breachstones"
     BaseType "Breachstone"
     SetFontSize Var("Default Font Size")
@@ -1413,13 +1397,6 @@ Show "Breachstones"
     MinimapIcon Medium Var("Breach Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Breach Effect Color")
 
-    Mixin "Color"
-        Show "Black"
-            BaseType "Uul-Netol's Breachstone"
-            SetFontSize Var("Large Font Size")
-        Show "Purple"
-            BaseType "Chayula's Breachstone"
-            SetFontSize Var("Large Font Size")
     Mixin "Tier"
         Show "Flawless"
             BaseType "Flawless"
