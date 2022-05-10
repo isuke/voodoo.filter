@@ -389,6 +389,7 @@
   { "name": "Expedition Effect Color", "items": ["Blue"] },
   { "name": "Scourge Effect Color"   , "items": ["Orange"] },
   { "name": "Archnemesis Effect Color", "items": ["Yellow"] },
+  { "name": "Sentinel Effect Color"  , "items": ["Blue"] },
 
   { "name": "Influence Effect Color", "items": ["Purple"] },
 

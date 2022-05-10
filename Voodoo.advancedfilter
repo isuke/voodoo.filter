@@ -1751,6 +1751,31 @@ Show "Scourge Currencies"
     MinimapIcon Medium Var("Scourge Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Scourge Effect Color")
 
+Show "Sentinel Power Core"
+    BaseType "Power Core"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Sentinel Color")
+    # SetBackgroundColor Var("Precious BG Color")
+    SetBorderColor Var("Sentinel Color")
+    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
+    # PlayEffect Var("Sentinel Effect Color")
+Show "Sentinel Recombinator"
+    BaseType "Recombinator"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Sentinel Color")
+    SetBackgroundColor Var("Tier3 BG Color")
+    SetBorderColor Var("Sentinel Color")
+    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
+    # PlayEffect Var("Sentinel Effect Color")
+Show "Sentinel Drone"
+    Class "Sentinel Drone"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Sentinel Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Sentinel Color")
+    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Sentinel Effect Color")
+
 Show "Quest"
     Class "Quest Items"
     SetFontSize Var("Extra Large Font Size")

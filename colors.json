@@ -72,6 +72,7 @@
   { "name": "Expedition Color"             , "hex": "#76b3fc" },
   { "name": "Scourge Color"                , "hex": "#d15b00" },
   { "name": "Archnemesis Color"            , "hex": "#d1ca00" },
+  { "name": "Sentinel Color"               , "hex": "#77e7fd" },
 
   { "name": "Influence Color"              , "hex": "#5b4cc4" },
 
