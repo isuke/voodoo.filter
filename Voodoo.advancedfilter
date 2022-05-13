@@ -1,5 +1,6 @@
-# Voodoo Filter
-
+################################################################################
+# Equipments                                                                   #
+################################################################################
 Show "Fishing Rod"
     Class "Fishing Rods"
     SetFontSize Var("Extra Large Font Size")
@@ -386,6 +387,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Atlas Effect Color") Temp
                     PlayAlertSoundPositional Var("Lofty Sound")
+
     Mixin "Socket"
         Show "6L"
             LinkedSockets = 6
@@ -520,6 +522,7 @@ Unset "Magic/Normal Weapon/Gear"
                 Show "True"
                     AnyEnchantment True
                     SetBackgroundColor Var("Labyrinth Color")
+
     Mixin "Socket"
         Show "6L"
             LinkedSockets = 6
@@ -586,7 +589,6 @@ Prop("Chromatic Orb Recipe Activity") "Chromatic Orb Recipe"
     MinimapIcon Small Var("Trivial Effect Color") Var("Equipment Minimap Icon Shape")
     PlayEffect Var("Trivial Effect Color") Temp
 
-
     Fork "Size"
         Unset "Small1"
             Height <= 3
@@ -600,6 +602,9 @@ Hide "Other Equipments"
     SetFontSize Var("Small Font Size")
     SetBackgroundColor 0 0 0 180
 
+################################################################################
+# Currencies                                                                   #
+################################################################################
 Hide "Currency"
     Class "Currency"
     BaseType == Var("Currencies")
@@ -722,6 +727,9 @@ Hide "Shard"
             # PlayEffect NONE
             # PlayAlertSoundPositional Var("Cheap Sound")
 
+################################################################################
+# Flasks                                                                       #
+################################################################################
 Show "Unique Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
     Rarity Unique
@@ -795,6 +803,9 @@ Hide "Flask"
             MinimapIcon Small Var("Trivial Effect Color") Var("Flask Minimap Icon Shape")
             PlayEffect Var("Trivial Effect Color") Temp
 
+################################################################################
+# Gems                                                                         #
+################################################################################
 Hide "Gem"
     Class "Gem"
     SetFontSize Var("Small Font Size")
@@ -870,6 +881,9 @@ Hide "Gem"
             MinimapIcon Medium Var("Lofty Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Lofty Effect Color")
 
+################################################################################
+# Map Fragments                                                                #
+################################################################################
 Show "Map Fragment"
     Class "Map Fragment"
     CustomAlertSound "./Sounds/MapFragment.wav"
@@ -883,7 +897,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Vaal Fragment Color")
             MinimapIcon Medium Var("Vaal Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Vaal Effect Color")
-
         Show "Advanced Vaal Fragment"
             BaseType "Mortal"
             SetFontSize Var("Default Font Size")
@@ -891,7 +904,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Advanced Vaal Fragment Color")
             MinimapIcon Medium Var("Vaal Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Vaal Effect Color")
-
         Show "Labyrinth"
             BaseType Var("Labyrinth Items")
             SetFontSize Var("Default Font Size")
@@ -899,7 +911,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Labyrinth Color")
             MinimapIcon Medium Var("Labyrinth Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Labyrinth Effect Color")
-
         Show "Shaper Fragment"
             BaseType "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera"
             SetFontSize Var("Large Font Size")
@@ -907,7 +918,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Atlas Color")
             MinimapIcon Medium Var("Influence Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Influence Effect Color")
-
         Show "Elder Fragment"
             BaseType "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification"
             SetFontSize Var("Large Font Size")
@@ -915,7 +925,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Atlas Color")
             MinimapIcon Medium Var("Influence Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Influence Effect Color")
-
         Show "Awakener Fragment"
             BaseType "Fragment of Shape" "Fragment of Knowledge" "Fragment of Terror" "Fragment of Emptiness"
             SetFontSize Var("Large Font Size")
@@ -923,7 +932,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Conquerors Color")
             MinimapIcon Medium Var("Conquerors Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Conquerors Effect Color")
-
         Show "Elderslayers Fragment"
             BaseType "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
             SetFontSize Var("Large Font Size")
@@ -931,7 +939,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Siege Color")
             MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Siege Effect Color")
-
         Show "Divine Vessel"
             BaseType "Divine Vessel"
             SetFontSize Var("Default Font Size")
@@ -939,7 +946,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Oriath Color")
             MinimapIcon Medium Var("Oriath Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Oriath Effect Color")
-
         Show "Scarab"
             BaseType "Scarab"
             SetFontSize Var("Default Font Size")
@@ -947,7 +953,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Betrayal Color")
             MinimapIcon Medium Var("Scarab Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Scarab Effect Color")
-
         Show "Emblem"
             BaseType Var("Legion Emblems")
             SetFontSize Var("Default Font Size")
@@ -955,7 +960,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Legion Color")
             MinimapIcon Medium Var("Legion Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Legion Effect Color")
-
         Show "Simulacrums"
             BaseType "Simulacrum"
             SetFontSize Var("Large Font Size")
@@ -963,7 +967,6 @@ Show "Map Fragment"
             SetBackgroundColor Var("Delirium Color")
             MinimapIcon Medium Var("Delirium Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Delirium Effect Color")
-
         Show "Sacred Blossom"
             BaseType "Sacred Blossom"
             SetFontSize Var("Default Font Size")
@@ -972,6 +975,9 @@ Show "Map Fragment"
             MinimapIcon Medium Var("Harvest Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Harvest Effect Color")
 
+################################################################################
+# Maps and Invitations                                                         #
+################################################################################
 Show "Invitation"
     Class "Map"
     BaseType "Invitation"
@@ -1069,6 +1075,9 @@ Show "Map"
             MinimapIcon Small Var("Blight Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Blight Effect Color")
 
+################################################################################
+# Jewels                                                                       #
+################################################################################
 Show "Unique Jewel"
     Class "Jewel"
     Rarity Unique
@@ -1123,7 +1132,9 @@ Prop("Jewel Activity") "Jewel"
             SetBackgroundColor Var("Synthesis Color")
             PlayAlertSoundPositional Var("Lofty Sound")
 
-
+################################################################################
+# Divination Cards                                                             #
+################################################################################
 Show "Divination Card"
     Class "Divination Card"
     SetFontSize Var("Default Font Size")
@@ -1178,26 +1189,9 @@ Show "Stacked Deck"
     PlayEffect Var("Precious Effect Color")
     PlayAlertSoundPositional Var("Precious Sound")
 
-Show "Unique Piece"
-    Class "Piece"
-    SetFontSize Var("Default Font Size")
-    SetTextColor Var("Unique Item Color")
-    SetBackgroundColor 0 0 0
-    MinimapIcon Medium Var("Unique Effect Color") Var("Equipment Minimap Icon Shape")
-    PlayEffect Var("Unique Effect Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
-
-Show "Timeworn Reliquary Key"
-    BaseType "Timeworn Reliquary Key"
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Atlas Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Labyrinth Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Labyrinth Effect Color")
-    # PlayAlertSoundPositional TODO
-
+################################################################################
+# Sextants                                                                     #
+################################################################################
 Show "Sextant"
     BaseType "Sextant"
     SetTextColor Var("Sextant Color")
@@ -1219,7 +1213,12 @@ Show "Sextant"
             MinimapIcon Medium Var("Sublime Effect Color") Var("Sextant Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
 
-
+################################################################################
+# Major Update                                                                 #
+################################################################################
+#
+# Labyrinth
+#
 Show "Labyrinth"
     BaseType Var("Labyrinth Items")
     SetFontSize Var("Default Font Size")
@@ -1230,6 +1229,9 @@ Show "Labyrinth"
     PlayEffect Var("Labyrinth Effect Color")
     # PlayAlertSoundPositional TODO
 
+#
+# Oriath
+#
 Show "Pantheon Soul"
     Class "Pantheon Soul"
     SetFontSize Var("Default Font Size")
@@ -1240,17 +1242,9 @@ Show "Pantheon Soul"
     PlayEffect Var("Oriath Effect Color")
     # PlayAlertSoundPositional TODO
 
-Show "Voidstone"
-    # Class "Atlas Upgrade Item"
-    BaseType "Voidstone"
-    SetFontSize Var("Extra Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Siege Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
-    PlayEffect Var("Siege Effect Color")
-    # PlayAlertSoundPositional TODO
-
+#
+# Maven
+#
 Show "Orb of Dominance"
     BaseType "Orb of Dominance"
     SetFontSize Var("Default Font Size")
@@ -1270,6 +1264,19 @@ Show "Maven"
     PlayEffect Var("Maven Effect Color")
     # PlayAlertSoundPositional TODO
 
+#
+# Siege
+#
+Show "Voidstone"
+    # Class "Atlas Upgrade Item"
+    BaseType "Voidstone"
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Siege Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
+    PlayEffect Var("Siege Effect Color")
+    # PlayAlertSoundPositional TODO
 Show "Scouting Reports and Compasses"
     BaseType Var("Scouting Reports and Compasses")
     SetFontSize Var("Default Font Size")
@@ -1279,7 +1286,6 @@ Show "Scouting Reports and Compasses"
     MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
     # PlayEffect NONE
     # PlayAlertSoundPositional TODO
-
 Show "Siege Currencies"
     BaseType Var("Siege Currencies")
     SetFontSize Var("Large Font Size")
@@ -1290,7 +1296,12 @@ Show "Siege Currencies"
     PlayEffect Var("Siege Effect Color")
     # PlayAlertSoundPositional TODO
 
-
+################################################################################
+# League Items                                                                 #
+################################################################################
+#
+# Essence League
+#
 Show "Essence"
     BaseType "Essence"
     SetFontSize Var("Small Font Size")
@@ -1349,6 +1360,9 @@ Show "Essence"
             # PlayEffect NONE
             PlayAlertSoundPositional Var("Cheap Sound")
 
+#
+# Breach League
+#
 Show "Breach Splinters"
     BaseType Var("Breach Splinters")
     SetFontSize Var("Default Font Size")
@@ -1356,7 +1370,6 @@ Show "Breach Splinters"
     SetBackgroundColor Var("Breach Color") 200
     MinimapIcon Small Var("Breach Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Breach Effect Color")
-
 Show "Breach Blessings"
     BaseType Var("Breach Blessings")
     SetFontSize Var("Default Font Size")
@@ -1364,7 +1377,6 @@ Show "Breach Blessings"
     SetBackgroundColor Var("Breach Color")
     MinimapIcon Medium Var("Breach Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Breach Effect Color")
-
 Show "Breachstones"
     BaseType "Breachstone"
     SetFontSize Var("Default Font Size")
@@ -1389,6 +1401,18 @@ Show "Breachstones"
             BaseType "Enriched"
             SetFontSize Var("Large Font Size")
 
+#
+# Harbinger League
+#
+Show "Unique Piece"
+    Class "Piece"
+    SetFontSize Var("Default Font Size")
+    SetTextColor Var("Unique Item Color")
+    SetBackgroundColor 0 0 0
+    MinimapIcon Medium Var("Unique Effect Color") Var("Equipment Minimap Icon Shape")
+    PlayEffect Var("Unique Effect Color")
+    CustomAlertSound "./Sounds/Unique.wav"
+    DisableDropSound
 Show "Harbinger Currencies"
     BaseType Var("Harbinger Currencies")
     SetTextColor 255 255 255
@@ -1424,7 +1448,41 @@ Show "Harbinger Scrolls"
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
 
+#
+# Bestiary League
+#
+Show "Bestiary"
+    BaseType Var("Bestiary Items")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Bestiary Color")
+    MinimapIcon Medium Var("Bestiary Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Bestiary Effect Color")
+    # PlayAlertSoundPositional TODO
 
+#
+# Incursion League
+#
+Show "Incursio1"
+    BaseType Var("Incursion Items1")
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Incursion Color")
+    MinimapIcon Largest Var("Incursion Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Incursion Effect Color")
+    PlayAlertSoundPositional Var("Lofty Sound")
+Show "Incursio2"
+    BaseType Var("Incursion Items2")
+    SetFontSize Var("Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Incursion Color")
+    MinimapIcon Medium Var("Incursion Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Incursion Effect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
+
+#
+# Delve League
+#
 Hide "Fossil"
     BaseType "Fossil"
     SetTextColor Var("Delve Color")
@@ -1492,6 +1550,29 @@ Hide "Resonator"
             PlayEffect Var("Trivial Effect Color") Temp
             PlayAlertSoundPositional Var("Trivial Sound")
 
+#
+# Legion League
+#
+Show "Legion Incubators"
+    Class "Incubator"
+    SetFontSize Var("Large Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Legion Color")
+    SetBorderColor Var("Legion Incubator Boarder Color")
+    MinimapIcon Medium Var("Legion Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Legion Effect Color")
+    PlayAlertSoundPositional Var("Precious Sound")
+Show "Legion Splinters"
+    BaseType Var("Legion Splinters")
+    SetFontSize Var("Default Font Size")
+    SetTextColor 255 255 255
+    SetBackgroundColor Var("Legion Color") 200
+    MinimapIcon Small Var("Legion Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Legion Effect Color")
+
+#
+# Blight League
+#
 Show "Oil"
     BaseType "Oil"
     SetTextColor Var("Blight Color")
@@ -1541,49 +1622,9 @@ Show "Oil Extractor"
     PlayEffect Var("Sublime Effect Color")
     PlayAlertSoundPositional Var("Sublime Sound")
 
-Show "Bestiary"
-    BaseType Var("Bestiary Items")
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Bestiary Color")
-    MinimapIcon Medium Var("Bestiary Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Bestiary Effect Color")
-    # PlayAlertSoundPositional TODO
-
-Show "Incursio1"
-    BaseType Var("Incursion Items1")
-    SetFontSize Var("Extra Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Incursion Color")
-    MinimapIcon Largest Var("Incursion Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Incursion Effect Color")
-    PlayAlertSoundPositional Var("Lofty Sound")
-Show "Incursio2"
-    BaseType Var("Incursion Items2")
-    SetFontSize Var("Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Incursion Color")
-    MinimapIcon Medium Var("Incursion Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Incursion Effect Color")
-    PlayAlertSoundPositional Var("Precious Sound")
-
-Show "Legion Incubators"
-    Class "Incubator"
-    SetFontSize Var("Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Legion Color")
-    SetBorderColor Var("Legion Incubator Boarder Color")
-    MinimapIcon Medium Var("Legion Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Legion Effect Color")
-    PlayAlertSoundPositional Var("Precious Sound")
-Show "Legion Splinters"
-    BaseType Var("Legion Splinters")
-    SetFontSize Var("Default Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Legion Color") 200
-    MinimapIcon Small Var("Legion Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Legion Effect Color")
-
+#
+# Metamorph League
+#
 Show "Metamorph Samples"
     Class "Metamorph Sample"
     BaseType Var("Metamorph Samples")
@@ -1614,6 +1655,9 @@ Show "Metamorph Catalysts"
             SetBackgroundColor Var("Metamorph Color")
             MinimapIcon Medium Var("Metamorph Effect Color") Var("League Minimap Icon Shape")
 
+#
+# Delirium League
+#
 Show "Delirium Orbs"
     BaseType "Delirium Orb"
     SetFontSize Var("Large Font Size")
@@ -1631,12 +1675,18 @@ Show "Simulacrum Splinters"
     MinimapIcon Small Var("Delirium Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Delirium Effect Color")
 
+#
+# Harvest League
+#
 Show "Harvest Items"
     BaseType Var("Harvest Items")
     SetTextColor Var("Harvest Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
 
+#
+# Heist League
+#
 Show "Trinket"
     Class "Trinket"
     SetTextColor Var("Heist Color")
@@ -1693,6 +1743,9 @@ Show "Heist Items"
     MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Heist Effect Color")
 
+#
+# Ritual League
+#
 Show "Ritual Items"
     BaseType Var("Ritual Items")
     SetTextColor Var("Ritual Color")
@@ -1702,6 +1755,9 @@ Show "Ritual Items"
     MinimapIcon Medium Var("Ritual Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Ritual Effect Color")
 
+#
+# Expedition League
+#
 Show "Expedition Items"
     BaseType Var("Expedition Items")
     SetTextColor Var("Expedition Color")
@@ -1718,6 +1774,9 @@ Show "Expedition Logbook"
     MinimapIcon Medium Var("Expedition Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Expedition Effect Color")
 
+#
+# Scourge League
+#
 Show "Scourge Currencies"
     BaseType Var("Scourge Currencies")
     SetFontSize Var("Large Font Size")
@@ -1727,6 +1786,9 @@ Show "Scourge Currencies"
     MinimapIcon Medium Var("Scourge Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Scourge Effect Color")
 
+#
+# Sentinel league
+#
 Show "Sentinel Power Core"
     BaseType "Power Core"
     SetFontSize Var("Large Font Size")
@@ -1752,6 +1814,9 @@ Show "Sentinel Drone"
     MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Sentinel Effect Color")
 
+################################################################################
+# Quest Items                                                                  #
+################################################################################
 Show "Quest"
     Class "Quest Items"
     SetFontSize Var("Extra Large Font Size")
@@ -1760,6 +1825,9 @@ Show "Quest"
     SetBorderColor Var("Quest Item Color")
     PlayEffect Green
 
+################################################################################
+# Error                                                                        #
+################################################################################
 Show "Error"
     SetFontSize Var("Extra Large Font Size")
     SetTextColor 255 255 255
