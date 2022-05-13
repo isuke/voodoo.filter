@@ -839,13 +839,6 @@ Hide "Gem"
             SetBackgroundColor Var("Tier1 BG Color")
             MinimapIcon Largest Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-        Prop("Level Gem Activity") "High"
-            GemLevel >= 18
-            SetFontSize Var("Default Font Size")
-            SetTextColor Var("Gem Color")
-            SetBackgroundColor Var("Tier2 BG Color") 240
-            MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
-            PlayEffect Var("Trivial Effect Color") Temp
 
     Mixin "Special"
         Show "'E' Series Gem"
