@@ -1775,18 +1775,6 @@ Show "Expedition Logbook"
     PlayEffect Var("Expedition Effect Color")
 
 #
-# Scourge League
-#
-Show "Scourge Currencies"
-    BaseType Var("Scourge Currencies")
-    SetFontSize Var("Large Font Size")
-    SetTextColor Var("Scourge Color")
-    SetBackgroundColor Var("Precious BG Color")
-    SetBorderColor Var("Scourge Color")
-    MinimapIcon Medium Var("Scourge Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Scourge Effect Color")
-
-#
 # Sentinel league
 #
 Show "Sentinel Power Core"
