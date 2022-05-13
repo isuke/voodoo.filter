@@ -31,7 +31,6 @@
     "4L Activity",
     "5L Activity",
 
-    "Cartographer's Chisel Recipe Activity",
     "Chromatic Orb Recipe Activity"
   ],
   "values": [
@@ -64,7 +63,6 @@
       "Ignore",
       "Show",
 
-      "Show",
       "Show"
     ],
     [
@@ -96,7 +94,6 @@
       "Show",
       "Show",
 
-      "Show",
       "Show"
     ],
     [
@@ -128,7 +125,6 @@
       "Show",
       "Show",
 
-      "Show",
       "Show"
     ],
     [
@@ -160,7 +156,6 @@
       "Ignore",
       "Show",
 
-      "Show",
       "Show"
     ],
     [
@@ -192,7 +187,6 @@
       "Ignore",
       "Unset",
 
-      "Show",
       "Show"
     ],
     [
@@ -224,7 +218,6 @@
       "Ignore",
       "Unset",
 
-      "Unset",
       "Unset"
     ]
   ]

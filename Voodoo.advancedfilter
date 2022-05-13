@@ -595,23 +595,6 @@ Prop("Chromatic Orb Recipe Activity") "Chromatic Orb Recipe"
             Height <= 2
             Width <= 2
 
-Prop("Cartographer's Chisel Recipe Activity") "Cartographer's Chisel Recipe"
-    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-    Rarity Normal
-    Corrupted False
-    SetFontSize Var("Small Font Size")
-    SetTextColor Var("Hammer Color")
-    SetBackgroundColor 0 0 0 100
-    SetBorderColor Var("Hammer Color")
-
-    Mixin "Quality"
-        Unset "High"
-            Quality > 10
-            SetBackgroundColor Var("Tier2 BG Color") 240
-        Unset "Middle"
-            Quality > 0
-            SetBackgroundColor Var("Tier3 BG Color") 200
-
 Hide "Other Equipments"
     Class Var("Equipments")
     SetFontSize Var("Small Font Size")

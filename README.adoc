@@ -241,21 +241,7 @@ Please put downloaded files as follows.
 | Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
 
-| Cartographer's Chisel Recipe Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-
 | Chromatic Orb Recipe Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Unset {set:cellbgcolor:#fce8b2}
-
-| Regal/Chaos Orb Recipe Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
