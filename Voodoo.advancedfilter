@@ -1777,29 +1777,51 @@ Show "Expedition Logbook"
 #
 # Sentinel league
 #
+Show "Sentinel Drone"
+    Class "Sentinel Drone"
+    SetTextColor Var("Sentinel Color")
+    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Sentinel Effect Color") Temp
+
+    Fork "Rarity"
+        Unset "Unique"
+            Rarity Unique
+            SetFontSize Var("Extra Large Font Size")
+            SetBorderColor Var("Unique Item Color")
+        Unset "Rare"
+            Rarity Rare
+            SetFontSize Var("Large Font Size")
+            SetBorderColor Var("Rare Item Color")
+        Hide "Magic"
+            Rarity Magic
+            SetFontSize Var("Large Font Size")
+            SetBorderColor Var("Magic Item Color")
+        Hide "Normal"
+            Rarity Normal
+            SetFontSize Var("Default Font Size")
+            SetBorderColor Var("Normal Item Color")
+    Fork "BaseType"
+        Unset "Cheap"
+            BaseType "Rusted" "Bronze" "Cobalt" "Brimstone" "Emberstone"
+            SetBackgroundColor Var("Cheap BG Color")
+        Show "Precious"
+            BaseType "Obsidian" "Cryptic" "Primeval" "Ancient" "Cosmic"
+            SetBackgroundColor Var("Precious BG Color")
 Show "Sentinel Power Core"
     BaseType "Power Core"
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Sentinel Color")
-    # SetBackgroundColor Var("Precious BG Color")
+    SetBackgroundColor Var("Precious BG Color")
     SetBorderColor Var("Sentinel Color")
     MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
-    # PlayEffect Var("Sentinel Effect Color")
+    PlayEffect Var("Sentinel Effect Color")
 Show "Sentinel Recombinator"
     BaseType "Recombinator"
-    SetFontSize Var("Large Font Size")
-    SetTextColor Var("Sentinel Color")
-    SetBackgroundColor Var("Tier3 BG Color")
-    SetBorderColor Var("Sentinel Color")
-    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
-    # PlayEffect Var("Sentinel Effect Color")
-Show "Sentinel Drone"
-    Class "Sentinel Drone"
-    SetFontSize Var("Large Font Size")
+    SetFontSize Var("Extra Large Font Size")
     SetTextColor Var("Sentinel Color")
     SetBackgroundColor Var("Lofty BG Color")
     SetBorderColor Var("Sentinel Color")
-    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
+    MinimapIcon Largest Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Sentinel Effect Color")
 
 ################################################################################
