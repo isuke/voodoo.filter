@@ -759,9 +759,13 @@ Hide "Flask"
                 Show "High"
                     ItemLevel >= Prop("Utility High Item Level")
                     SetBorderColor Var("High Item Level Border Color")
-
-        Unset "Life/Mana/Hybrid"
-            Class "Life Flask" "Mana Flask" "Hybrid Flask"
+        Hide "Hybrid Flask"
+            Class "Hybrid Flask"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Flask Color")
+            # MinimapIcon NONE
+        Unset "Life/Mana Flask"
+            Class "Life Flask" "Mana Flask"
             SetFontSize Var("Default Font Size")
             SetTextColor Var("Flask Color")
             MinimapIcon Small Var("Life/Mana/Hybrid Flask Effect Color") Var("Flask Minimap Icon Shape")
