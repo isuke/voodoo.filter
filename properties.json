@@ -1,6 +1,6 @@
 {
   "scriptNames": [
-    "Custom", "T1", "T2", "T3", "T4", "T5"
+    "Custom", "T1", "T2", "T3", "T4", "T5", "T6", "T7"
   ],
   "propNames": [
     "Cheap Currency Activity",
@@ -159,11 +159,71 @@
 
       "Hide",
       "Hide",
+      "Show",
+      "Show",
+
+      "Show",
+      "Show",
+
+      83,
+      83,
+
+      "Show",
+
+      "Show",
+
+      "Unset",
+      "Show",
+      "Show",
+      "Unset",
+
+      "Ignore",
+      "Ignore",
+      "Show",
+
+      "Show"
+    ],
+    [
+      "Show",
+      "Show",
+
+      "Hide",
+      "Hide",
       "Hide",
       "Show",
 
       "Show",
       "Show",
+
+      83,
+      83,
+
+      "Show",
+
+      "Show",
+
+      "Unset",
+      "Show",
+      "Show",
+      "Unset",
+
+      "Ignore",
+      "Ignore",
+      "Unset",
+
+      "Show"
+    ],
+    [
+      "Hide",
+      "Show",
+
+      "Ignore",
+      "Ignore",
+      "Ignore",
+      "Ignore",
+
+      "Ignore",
+      "Hide",
 
       83,
       83,
@@ -195,7 +255,7 @@
       "Ignore",
       "Hide",
 
-      85,
+      86,
       85,
 
       "Unset",

@@ -83,7 +83,7 @@ Please put downloaded files as follows.
 
 == Files
 
-[cols=">h,1,1,1,1,1", options="header"]
+[cols=">h,1,1,1,1,1,1,1", options="header"]
 |===
 | Property Name \ Script Name
 | T1
@@ -91,15 +91,12 @@ Please put downloaded files as follows.
 | T3
 | T4
 | T5
-
-| Recommended Level
-| 1 - 30
-| 25 - 65
-| 60 - 85
-| 78 - 95
-| 93 - 100
+| T6
+| T7
 
 | Cheap Currency Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
@@ -111,6 +108,8 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 
 | Flask s Activity {set:cellbgcolor:white}
@@ -118,6 +117,8 @@ Please put downloaded files as follows.
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask m Activity {set:cellbgcolor:white}
@@ -125,13 +126,17 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask l Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#f4c7c3}
+| Show {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Flask xl Activity {set:cellbgcolor:white}
@@ -139,6 +144,8 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#f4c7c3}
+| Hide {set:cellbgcolor:#f4c7c3}
+| Ignore {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Quality Flask Activity {set:cellbgcolor:white}
@@ -146,6 +153,8 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Ignore {set:cellbgcolor:#f4c7c3}
 | Ignore {set:cellbgcolor:#f4c7c3}
 
 | Utility Flask Activity {set:cellbgcolor:white}
@@ -153,6 +162,8 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
 
 | Life/Mana/Hybrid High Item Level {set:cellbgcolor:white}
@@ -161,7 +172,9 @@ Please put downloaded files as follows.
 | 83
 | 83
 | 83
-| 85
+| 83
+| 83
+| 86
 
 | Utility High Item Level {set:cellbgcolor:white}
 | 83
@@ -169,6 +182,8 @@ Please put downloaded files as follows.
 | 83
 | 83
 | 83
+| 83
+| 85
 | 85
 
 | Quality Gem Activity {set:cellbgcolor:white}
@@ -176,9 +191,13 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
 
 | Jewel Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
@@ -191,8 +210,12 @@ Please put downloaded files as follows.
 | Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
 
 | Rare Jewelry Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
@@ -200,6 +223,8 @@ Please put downloaded files as follows.
 | Unset {set:cellbgcolor:#fce8b2}
 
 | Rare Belt Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
@@ -212,9 +237,13 @@ Please put downloaded files as follows.
 | Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
+| Unset {set:cellbgcolor:#fce8b2}
 
 | 3L Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
+| Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
 | Ignore {set:cellbgcolor:#fce8b2}
 | Ignore {set:cellbgcolor:#fce8b2}
 | Ignore {set:cellbgcolor:#fce8b2}
@@ -226,15 +255,21 @@ Please put downloaded files as follows.
 | Ignore {set:cellbgcolor:#fce8b2}
 | Ignore {set:cellbgcolor:#fce8b2}
 | Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
+| Ignore {set:cellbgcolor:#fce8b2}
 
 | 5L Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
+| Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
 
 | Chromatic Orb Recipe Activity {set:cellbgcolor:white}
+| Show {set:cellbgcolor:#b7e1cd}
+| Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
