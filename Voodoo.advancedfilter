@@ -1713,15 +1713,15 @@ Show "Rogue's Marker"
     SetFontSize Var("Default Font Size")
     SetBackgroundColor Var("Cheap BG Color")
     SetBorderColor Var("Heist Color")
-    MinimapIcon Small Var("Heist Effect Color") Var("League Minimap Icon Shape")
+    # MinimapIcon NONE
 Show "Contract"
     Class "Contract"
     SetTextColor Var("Heist Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Trivial BG Color")
     SetBorderColor Var("Heist Color")
-    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Heist Effect Color")
+    # MinimapIcon NONE
+    # PlayEffect NONE
 Show "Blueprint"
     Class "Blueprint"
     SetTextColor Var("Heist Color")
