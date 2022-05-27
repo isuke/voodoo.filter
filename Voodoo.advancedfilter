@@ -1572,7 +1572,7 @@ Show "Legion Splinters"
     SetTextColor 255 255 255
     SetBackgroundColor Var("Legion Color") 200
     MinimapIcon Small Var("Legion Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Legion Effect Color")
+    # PlayEffect NONE
 
 #
 # Blight League
