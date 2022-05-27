@@ -1373,7 +1373,7 @@ Show "Breach Splinters"
     SetTextColor 255 255 255
     SetBackgroundColor Var("Breach Color") 200
     MinimapIcon Small Var("Breach Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Breach Effect Color")
+    # PlayEffect NONE
 Show "Breach Blessings"
     BaseType Var("Breach Blessings")
     SetFontSize Var("Default Font Size")
