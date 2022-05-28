@@ -1806,10 +1806,10 @@ Show "Sentinel Drone"
             SetBorderColor Var("Normal Item Color")
     Fork "BaseType"
         Unset "Cheap"
-            BaseType "Rusted" "Bronze" "Cobalt" "Brimstone" "Emberstone"
+            BaseType "Rusted" "Bronze" "Cobalt" "Brimstone" "Emberstone" "Obsidian"
             SetBackgroundColor Var("Cheap BG Color")
         Show "Precious"
-            BaseType "Obsidian" "Cryptic" "Primeval" "Ancient" "Cosmic"
+            BaseType "Cryptic" "Primeval" "Ancient" "Cosmic"
             SetBackgroundColor Var("Precious BG Color")
 Show "Sentinel Power Core"
     BaseType "Power Core"
