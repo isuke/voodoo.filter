@@ -1796,7 +1796,7 @@ Show "Sentinel Drone"
             Rarity Rare
             SetFontSize Var("Large Font Size")
             SetBorderColor Var("Rare Item Color")
-        Hide "Magic"
+        Unset "Magic"
             Rarity Magic
             SetFontSize Var("Large Font Size")
             SetBorderColor Var("Magic Item Color")
