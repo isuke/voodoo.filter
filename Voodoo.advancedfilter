@@ -1710,14 +1710,14 @@ Show "Heist Target"
 Show "Rogue's Marker"
     BaseType "Rogue's Marker"
     SetTextColor Var("Heist Color")
-    SetFontSize Var("Default Font Size")
+    SetFontSize Var("Small Font Size")
     SetBackgroundColor Var("Cheap BG Color")
     SetBorderColor Var("Heist Color")
     # MinimapIcon NONE
 Show "Contract"
     Class "Contract"
     SetTextColor Var("Heist Color")
-    SetFontSize Var("Large Font Size")
+    SetFontSize Var("Default Font Size")
     SetBackgroundColor Var("Trivial BG Color")
     SetBorderColor Var("Heist Color")
     # MinimapIcon NONE
