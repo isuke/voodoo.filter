@@ -391,9 +391,9 @@
   { "name": "Archnemesis Effect Color", "items": ["Yellow"] },
   { "name": "Sentinel Effect Color"  , "items": ["Blue"] },
 
-  { "name": "Influence Effect Color", "items": ["Purple"] },
+  { "name": "Influence Effect Color", "items": ["Orange"] },
 
-  { "name": "Benche Craft Effect Color", "items": ["Blue"] },
+  { "name": "Bench Craft Effect Color", "items": ["Blue"] },
 
 
 

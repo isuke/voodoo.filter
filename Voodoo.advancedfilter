@@ -103,11 +103,11 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
             Identified True
 
             Mixin "Mods"
-                Show "Benche Craft"
+                Show "Bench Craft"
                     HasExplicitMod Var("Bench Craft Mods")
                     SetBackgroundColor Var("Crafted Mod Color")
-                    MinimapIcon Medium Var("Benche Craft Effect Color") Var("Accessory Minimap Icon Shape")
-                    PlayEffect Var("Benche Craft Effect Color")
+                    MinimapIcon Medium Var("Bench Craft Effect Color") Var("Accessory Minimap Icon Shape")
+                    PlayEffect Var("Bench Craft Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Incursion"
                     HasExplicitMod Var("Incursion Mods")
@@ -237,11 +237,11 @@ Prop("Rare Belt Activity") "Rare Belt"
             Identified True
 
             Mixin "Mods"
-                Show "Benche Craft"
+                Show "Bench Craft"
                     HasExplicitMod Var("Bench Craft Mods")
                     SetBackgroundColor Var("Crafted Mod Color")
-                    MinimapIcon Medium Var("Benche Craft Effect Color") Var("Accessory Minimap Icon Shape")
-                    PlayEffect Var("Benche Craft Effect Color")
+                    MinimapIcon Medium Var("Bench Craft Effect Color") Var("Accessory Minimap Icon Shape")
+                    PlayEffect Var("Bench Craft Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Incursion"
                     HasExplicitMod Var("Incursion Mods")
@@ -453,11 +453,11 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
             Identified True
 
             Mixin "Mods"
-                Show "Benche Craft"
+                Show "Bench Craft"
                     HasExplicitMod Var("Bench Craft Mods")
                     SetBackgroundColor Var("Crafted Mod Color")
-                    MinimapIcon Medium Var("Benche Craft Effect Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Benche Craft Effect Color")
+                    MinimapIcon Medium Var("Bench Craft Effect Color") Var("Equipment Minimap Icon Shape")
+                    PlayEffect Var("Bench Craft Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Incursion"
                     HasExplicitMod Var("Incursion Mods")
