@@ -1113,13 +1113,13 @@ Prop("Jewel Activity") "Jewel"
             Rarity Normal
 
     Mixin "Special"
-        Unset "Abyss"
+        Show "Abyss"
             Class "Abyss Jewel"
             SetBackgroundColor Var("Abyss Color")
             MinimapIcon Medium Var("Abyss Effect Color") Var("Jewel Minimap Icon Shape")
             PlayEffect Var("Abyss Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
-        Unset "Delirium"
+        Show "Delirium"
             BaseType "Cluster Jewel"
             SetBackgroundColor Var("Delirium Color")
             MinimapIcon Medium Var("Delirium Effect Color") Var("Jewel Minimap Icon Shape")
