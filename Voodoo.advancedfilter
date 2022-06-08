@@ -1440,7 +1440,7 @@ Show "Harbinger Currencies"
             SetBackgroundColor Var("Harbinger Color") 200
             MinimapIcon Small Var("Harbinger Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Harbinger Effect Color")
-        Show "Cheap"
+        Prop("Cheap Currency Activity") "Cheap"
             BaseType Var("Cheap Harbinger Currencies")
             SetFontSize Var("Small Font Size")
             SetBackgroundColor Var("Harbinger Color") 160
