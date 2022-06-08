@@ -856,8 +856,8 @@ Hide "Gem"
             PlayEffect Var("Sublime Effect Color")
 
     Mixin "Special"
-        Show "'E' Series Gem"
-            BaseType Var("'E' Series Gems")
+        Show "Exceptional Gem"
+            BaseType Var("Exceptional Gems")
             SetFontSize Var("Large Font Size")
             SetTextColor Var("Gem Color")
             SetBackgroundColor Var("Lofty BG Color")

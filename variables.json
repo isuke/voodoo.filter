@@ -54,7 +54,7 @@
 
 
   {
-    "name": "'E' Series Gems",
+    "name": "Exceptional Gems",
     "items": [
       "Enhance Support",
       "Enlighten Support",
@@ -71,7 +71,7 @@
   {
     "name": "Drop Only Gems",
     "items": [
-      "#'E' Series Gems",
+      "#Exceptional Gems",
       "Portal",
       "Vaal"
     ]
