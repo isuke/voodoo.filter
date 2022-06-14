@@ -69,14 +69,6 @@
     ]
   },
   {
-    "name": "Drop Only Gems",
-    "items": [
-      "#Exceptional Gems",
-      "Portal",
-      "Vaal"
-    ]
-  },
-  {
     "name": "Vendor Only Gems",
     "items": [
       "Block Chance Reduction Support",

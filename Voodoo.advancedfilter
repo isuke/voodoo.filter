@@ -858,25 +858,20 @@ Hide "Gem"
     Mixin "Special"
         Show "Exceptional Gem"
             BaseType Var("Exceptional Gems")
-            SetFontSize Var("Large Font Size")
+            SetFontSize Var("Extra Large Font Size")
             SetTextColor Var("Gem Color")
-            SetBackgroundColor Var("Lofty BG Color")
-            MinimapIcon Medium Var("Lofty Effect Color") Var("Gem Minimap Icon Shape")
-            PlayEffect Var("Lofty Effect Color")
+            SetBackgroundColor Var("Sublime BG Color")
+            MinimapIcon Medium Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Sublime Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
         Show "Awakened Gem"
             BaseType "Awakened"
-            SetFontSize Var("Large Font Size")
+            SetFontSize Var("Extra Large Font Size")
             SetTextColor Var("Gem Color")
-            SetBackgroundColor Var("Lofty BG Color")
-            MinimapIcon Medium Var("Lofty Effect Color") Var("Gem Minimap Icon Shape")
-            PlayEffect Var("Lofty Effect Color")
-        Show "Drop Only"
-            BaseType Var("Drop Only Gems")
-            SetFontSize Var("Default Font Size")
-            SetTextColor Var("Gem Color")
-            # SetBackgroundColor NONE
-            MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
-            PlayEffect Var("Precious Effect Color")
+            SetBackgroundColor Var("Sublime BG Color")
+            MinimapIcon Medium Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
+            PlayEffect Var("Sublime Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
         Show "Alternate Quality"
             AlternateQuality True
             SetFontSize Var("Large Font Size")
@@ -884,6 +879,14 @@ Hide "Gem"
             SetBackgroundColor Var("Lofty BG Color")
             MinimapIcon Medium Var("Lofty Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Lofty Effect Color")
+        Show "Vaal"
+            BaseType "Vaal"
+            SetFontSize Var("Default Font Size")
+            SetTextColor Var("Gem Color")
+            SetBorderColor Var("Corrupted Color")
+            # SetBackgroundColor NONE
+            # MinimapIcon Small Var("Precious Effect Color") Var("Gem Minimap Icon Shape")
+            # PlayEffect Var("Precious Effect Color")
 
 ################################################################################
 # Map Fragments                                                                #
