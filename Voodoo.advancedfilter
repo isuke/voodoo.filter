@@ -1158,7 +1158,8 @@ Show "Divination Card"
             SetBackgroundColor Var("Sublime BG Color")
             MinimapIcon Largest Var("Sublime Effect Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-            PlayAlertSoundPositional Var("Sublime Sound")
+            # PlayAlertSoundPositional Var("Sublime Sound")
+            CustomAlertSound "./Sounds/DivinationCard.wav"
         Show "Lofty"
             BaseType == Var("Lofty Divination Cards")
             SetFontSize Var("Large Font Size")
