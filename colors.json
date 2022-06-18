@@ -76,6 +76,7 @@
   { "name": "Influence Color"              , "hex": "#ff8e28" },
 
   { "name": "New Divination Card Color"    , "hex": "#b84848" },
+  { "name": "Betrayal Member's Mod Color"  , "hex": "#b84848" },
 
   { "name": "Sublime BG Color"             , "hex": "#ffffff" },
   { "name": "Lofty BG Color"               , "hex": "#a2a2a2" },

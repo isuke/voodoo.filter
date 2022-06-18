@@ -694,9 +694,15 @@
     ]
   },
   {
-    "name": "Betrayal Mods",
+    "name": "Betrayal General Mods",
     "items": [
       "Veiled",
+      "of the Veil"
+    ]
+  },
+  {
+    "name": "Betrayal Member's Mods",
+    "items": [
       "Leo's Veiled",
       "Catarina's Veiled",
       "Elreon's Veiled",
@@ -709,7 +715,6 @@
       "Gravicius' Veiled",
       "Korell's Veiled",
       "Rin's Veiled",
-      "of the Veil",
       "of Janus' Veil",
       "of Hillock's Veil",
       "of Jorgin's Veil",

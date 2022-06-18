@@ -121,11 +121,18 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
                     # MinimapIcon Medium Var("Delve Effect Color") Var("Accessory Minimap Icon Shape")
                     # PlayEffect Var("Delve Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Betrayal"
-                    HasExplicitMod Var("Betrayal Mods")
+                Show "Betrayal1"
+                    HasExplicitMod Var("Betrayal General Mods")
                     SetBackgroundColor Var("Betrayal Color")
                     # MinimapIcon Medium Var("Betrayal Effect Color") Var("Accessory Minimap Icon Shape")
                     # PlayEffect Var("Betrayal Effect Color")
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Betrayal2"
+                    HasExplicitMod Var("Betrayal Member's Mods")
+                    SetBorderColor Var("Betrayal Member's Mod Color")
+                    SetBackgroundColor Var("Betrayal Color")
+                    # MinimapIcon Medium Var("Betrayal Effect Color") Var("Accessory Minimap Icon Shape")
+                    PlayEffect Var("Betrayal Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
 
 Unset "Normal/Magic Jewelry"
@@ -255,11 +262,18 @@ Prop("Rare Belt Activity") "Rare Belt"
                     # MinimapIcon Medium Var("Delve Effect Color") Var("Accessory Minimap Icon Shape")
                     # PlayEffect Var("Delve Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Betrayal"
-                    HasExplicitMod Var("Betrayal Mods")
+                Show "Betrayal1"
+                    HasExplicitMod Var("Betrayal General Mods")
                     SetBackgroundColor Var("Betrayal Color")
                     # MinimapIcon Medium Var("Betrayal Effect Color") Var("Accessory Minimap Icon Shape")
                     # PlayEffect Var("Betrayal Effect Color")
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Betrayal2"
+                    HasExplicitMod Var("Betrayal Member's Mods")
+                    SetBorderColor Var("Betrayal Member's Mod Color")
+                    SetBackgroundColor Var("Betrayal Color")
+                    # MinimapIcon Medium Var("Betrayal Effect Color") Var("Accessory Minimap Icon Shape")
+                    PlayEffect Var("Betrayal Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
 
 Unset "Normal/Magic Belt"
@@ -471,11 +485,18 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     # MinimapIcon Medium Var("Delve Effect Color") Var("Equipment Minimap Icon Shape")
                     # PlayEffect Var("Delve Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Betrayal"
-                    HasExplicitMod Var("Betrayal Mods")
+                Show "Betrayal1"
+                    HasExplicitMod Var("Betrayal General Mods")
                     SetBackgroundColor Var("Betrayal Color")
-                    # MinimapIcon Medium Var("Betrayal Effect Color") Var("Equipment Minimap Icon Shape")
+                    # MinimapIcon Medium Var("Betrayal Effect Color") Var("Accessory Minimap Icon Shape")
                     # PlayEffect Var("Betrayal Effect Color")
+                    PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Betrayal2"
+                    HasExplicitMod Var("Betrayal Member's Mods")
+                    SetBorderColor Var("Betrayal Member's Mod Color")
+                    SetBackgroundColor Var("Betrayal Color")
+                    # MinimapIcon Medium Var("Betrayal Effect Color") Var("Accessory Minimap Icon Shape")
+                    PlayEffect Var("Betrayal Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
 
 Unset "Magic/Normal Weapon/Gear"
