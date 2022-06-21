@@ -996,6 +996,11 @@ Show "Invitation"
     CustomAlertSound "./Sounds/Map.wav"
     DisableDropSound
 
+    Mixin "Baset Type"
+        Show "Sublime"
+            BaseType "Screaming Invitation" "Incandescent Invitation"
+            SetFontSize Var("Extra Large Font Size")
+
 Show "Unique Map"
     Class "Map"
     Rarity Unique
