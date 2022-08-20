@@ -1811,44 +1811,6 @@ Show "Expedition Logbook"
 #
 # Sentinel league
 #
-Show "Sentinel Drone"
-    Class "Sentinel Drone"
-    SetTextColor Var("Sentinel Color")
-    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Sentinel Effect Color") Temp
-
-    Fork "Rarity"
-        Unset "Unique"
-            Rarity Unique
-            SetFontSize Var("Extra Large Font Size")
-            SetBorderColor Var("Unique Item Color")
-        Unset "Rare"
-            Rarity Rare
-            SetFontSize Var("Large Font Size")
-            SetBorderColor Var("Rare Item Color")
-        Unset "Magic"
-            Rarity Magic
-            SetFontSize Var("Large Font Size")
-            SetBorderColor Var("Magic Item Color")
-        Hide "Normal"
-            Rarity Normal
-            SetFontSize Var("Default Font Size")
-            SetBorderColor Var("Normal Item Color")
-    Fork "BaseType"
-        Unset "Cheap"
-            BaseType "Rusted" "Bronze" "Cobalt" "Brimstone" "Emberstone" "Obsidian"
-            SetBackgroundColor Var("Cheap BG Color")
-        Show "Precious"
-            BaseType "Cryptic" "Primeval" "Ancient" "Cosmic"
-            SetBackgroundColor Var("Precious BG Color")
-Show "Sentinel Power Core"
-    BaseType "Power Core"
-    SetFontSize Var("Large Font Size")
-    SetTextColor Var("Sentinel Color")
-    SetBackgroundColor Var("Precious BG Color")
-    SetBorderColor Var("Sentinel Color")
-    MinimapIcon Medium Var("Sentinel Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Sentinel Effect Color")
 Show "Sentinel Recombinator"
     BaseType "Recombinator"
     SetFontSize Var("Extra Large Font Size")
