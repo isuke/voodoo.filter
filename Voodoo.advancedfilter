@@ -1612,6 +1612,14 @@ Show "Oil"
     SetTextColor Var("Blight Color")
 
     Fork "Rareness"
+        Show "Reflective Oil"
+            BaseType "Reflective Oil"
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Sublime BG Color")
+            SetBorderColor Var("Corrupted Color")
+            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Sublime Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
         Show "Tainted Oil"
             BaseType "Tainted Oil"
             SetFontSize Var("Extra Large Font Size")
