@@ -749,6 +749,59 @@ Hide "Shard"
             # PlayAlertSoundPositional Var("Cheap Sound")
 
 ################################################################################
+# Tainted Currencies                                                           #
+################################################################################
+Show "Tainted Currency"
+    Class "Currency"
+    SetTextColor Var("Currency Color")
+
+    Fork "Rareness"
+        Show "Sublime"
+            BaseType == Var("Sublime Tainted Currencies")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Sublime BG Color")
+            SetBorderColor Var("Corrupted Color")
+            MinimapIcon Largest Var("Sublime Effect Color") Var("Currency Minimap Icon Shape")
+            PlayEffect Var("Sublime Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+
+        Show "Lofty"
+            BaseType == Var("Lofty Tainted Currencies")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            SetBorderColor Var("Corrupted Color")
+            MinimapIcon Medium Var("Lofty Effect Color") Var("Currency Minimap Icon Shape")
+            PlayEffect Var("Lofty Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
+
+        Show "Precious"
+            BaseType == Var("Precious Tainted Currencies")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Precious BG Color")
+            SetBorderColor Var("Corrupted Color")
+            MinimapIcon Small Var("Precious Effect Color") Var("Currency Minimap Icon Shape")
+            PlayEffect Var("Precious Effect Color")
+            PlayAlertSoundPositional Var("Precious Sound")
+
+        # Show "Trivial"
+        #     BaseType == Var("Trivial Tainted Currencies")
+        #     SetFontSize Var("Default Font Size")
+        #     SetBackgroundColor Var("Trivial BG Color") 240
+        #     SetBorderColor Var("Corrupted Color")
+        #     MinimapIcon Small Var("Trivial Effect Color") Var("Currency Minimap Icon Shape")
+        #     PlayEffect Var("Trivial Effect Color") Temp
+            # PlayAlertSoundPositional Var("Trivial Sound")
+
+        Show "Cheap"
+            BaseType == Var("Cheap Tainted Currencies")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Cheap BG Color") 200
+            SetBorderColor Var("Corrupted Color")
+            # MinimapIcon NONE
+            # PlayEffect NONE
+            # PlayAlertSoundPositional Var("Cheap Sound")
+
+################################################################################
 # Flasks                                                                       #
 ################################################################################
 Show "Unique Flask"

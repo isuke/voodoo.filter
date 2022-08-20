@@ -343,6 +343,40 @@
     ]
   },
 
+
+
+  {
+    "name": "Sublime Tainted Currencies",
+    "items": [
+      "Tainted Exalted Orb",
+      "Tainted Divine Teardrop",
+      "Tainted Mythic Orb"
+    ]
+  },
+  {
+    "name": "Lofty Tainted Currencies",
+    "items": [
+      "Tainted Chaos Orb",
+      "Tainted Orb of Fusing"
+    ]
+  },
+  {
+    "name": "Precious Tainted Currencies",
+    "items": [
+      "Tainted Chromatic Orb",
+      "Tainted Jeweller's Orb"
+    ]
+  },
+  {
+    "name": "Cheap Tainted Currencies",
+    "items": [
+      "Tainted Armourer's Scrap",
+      "Tainted Blacksmith's Whetstone"
+    ]
+  },
+
+
+
   { "name": "Unique Effect Color"  , "items": ["Brown"] },
 
   { "name": "Utility Flask Effect Color"         , "items": ["Green"] },
