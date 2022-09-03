@@ -417,6 +417,7 @@
   { "name": "Scourge Effect Color"   , "items": ["Orange"] },
   { "name": "Archnemesis Effect Color", "items": ["Yellow"] },
   { "name": "Sentinel Effect Color"  , "items": ["Blue"] },
+  { "name": "Kalandra Effect Color"  , "items": ["White"] },
 
   { "name": "Influence Effect Color", "items": ["Orange"] },
 

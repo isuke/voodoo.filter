@@ -72,6 +72,7 @@
   { "name": "Scourge Color"                , "hex": "#d15b00" },
   { "name": "Archnemesis Color"            , "hex": "#d1ca00" },
   { "name": "Sentinel Color"               , "hex": "#77e7fd" },
+  { "name": "Kalandra Color"               , "hex": "#c0c0c0" },
 
   { "name": "Influence Color"              , "hex": "#ff8e28" },
 
