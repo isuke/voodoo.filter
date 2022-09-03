@@ -1773,11 +1773,17 @@ Show "Simulacrum Splinters"
 #
 # Harvest League
 #
-Show "Harvest Items"
-    BaseType Var("Harvest Items")
+Show "Facetor's Lens"
+    BaseType "Facetor's Lens"
     SetTextColor Var("Harvest Color")
     SetFontSize Var("Large Font Size")
     SetBackgroundColor Var("Lofty BG Color")
+
+Show "Crystallised Lifeforce"
+    BaseType "Crystallised Lifeforce"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Harvest Color")
+    SetBorderColor Var("Harvest Color")
 
 #
 # Heist League
