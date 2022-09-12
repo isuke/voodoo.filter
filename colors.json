@@ -21,6 +21,7 @@
   { "name": "Gear Color"                   , "hex": "#001f14" },
   { "name": "Scouting Report Color"        , "hex": "#ffdb29" },
   { "name": "Siege Currency Color"         , "hex": "#ff4929" },
+  { "name": "Memory Color"                 , "hex": "#ffa629" },
 
   { "name": "Fire Color"                   , "hex": "#960000" },
   { "name": "Cold Color"                   , "hex": "#366492" },

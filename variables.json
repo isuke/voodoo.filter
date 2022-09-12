@@ -420,6 +420,7 @@
   { "name": "Kalandra Effect Color"  , "items": ["White"] },
 
   { "name": "Influence Effect Color", "items": ["Orange"] },
+  { "name": "Memory Effect Color"   , "items": ["Orange"] },
 
   { "name": "Bench Craft Effect Color", "items": ["Blue"] },
 
