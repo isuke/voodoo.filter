@@ -473,6 +473,12 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     # MinimapIcon Medium Var("Bench Craft Effect Color") Var("Equipment Minimap Icon Shape")
                     # PlayEffect Var("Bench Craft Effect Color")
                     PlayAlertSoundPositional Var("Lofty Sound")
+                Show "Abyss"
+                    HasExplicitMod Var("Abyss Mods")
+                    SetBackgroundColor Var("Abyss Color")
+                    # MinimapIcon Medium Var("Abyss Effect Color") Var("Equipment Minimap Icon Shape")
+                    # PlayEffect Var("Abyss Effect Color")
+                    PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Incursion"
                     HasExplicitMod Var("Incursion Mods")
                     SetBackgroundColor Var("Incursion Color")
