@@ -65,6 +65,13 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
             MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Heist Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
+        Show "Kalandra"
+            BaseType Var("Kalandra Rings")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Kalandra Color")
+            MinimapIcon Medium Var("Kalandra Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Kalandra Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
             BaseType Var("Good Amulets") Var("Good Rings")
             SetFontSize Var("Large Font Size")
