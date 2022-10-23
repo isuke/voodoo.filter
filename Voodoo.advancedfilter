@@ -383,11 +383,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
             Mixin "Base Type"
                 Show "Atlas Base Weapons"
                     BaseType Var("Atlas Base Weapons")
-                    SetFontSize Var("Large Font Size")
                     SetBackgroundColor Var("Atlas Color")
-                    # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Atlas Effect Color") Temp
-                    PlayAlertSoundPositional Var("Lofty Sound")
 
         Unset "Gear"
             Class Var("Gears")
@@ -403,11 +399,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
                     PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Atlas Base Gears"
                     BaseType Var("Atlas Base Gears")
-                    SetFontSize Var("Large Font Size")
                     SetBackgroundColor Var("Atlas Color")
-                    # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Atlas Effect Color") Temp
-                    PlayAlertSoundPositional Var("Lofty Sound")
 
     Mixin "Socket"
         Show "6L"
@@ -524,7 +516,6 @@ Unset "Magic/Normal Weapon/Gear"
             Mixin "Base Type"
                 Show "Atlas Base Weapons"
                     BaseType Var("Atlas Base Weapons")
-                    SetFontSize Var("Large Font Size")
                     SetBackgroundColor Var("Atlas Color")
                     # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
                     PlayEffect Var("Atlas Effect Color") Temp
@@ -544,11 +535,7 @@ Unset "Magic/Normal Weapon/Gear"
                     PlayAlertSoundPositional Var("Lofty Sound")
                 Show "Atlas Base Gears"
                     BaseType Var("Atlas Base Gears")
-                    SetFontSize Var("Large Font Size")
                     SetBackgroundColor Var("Atlas Color")
-                    # MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Atlas Effect Color") Temp
-                    PlayAlertSoundPositional Var("Lofty Sound")
 
             Fork "Any Enchantment"
                 Unset "False"
