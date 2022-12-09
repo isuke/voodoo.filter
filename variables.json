@@ -418,6 +418,7 @@
   { "name": "Archnemesis Effect Color", "items": ["Yellow"] },
   { "name": "Sentinel Effect Color"  , "items": ["Blue"] },
   { "name": "Kalandra Effect Color"  , "items": ["White"] },
+  { "name": "Sanctum Effect Color"   , "items": ["Yellow"] },
 
   { "name": "Influence Effect Color", "items": ["Orange"] },
   { "name": "Memory Effect Color"   , "items": ["Orange"] },
