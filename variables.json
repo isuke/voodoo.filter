@@ -878,11 +878,14 @@
       "Harbinger's Orb",
       "Engineer's Orb",
       "Ancient Orb",
+      "Fracturing Orb",
+
       "Binding Shard",
       "Horizon Shard",
       "Harbinger's Shard",
       "Engineer's Shard",
-      "Ancient Shard"
+      "Ancient Shard",
+      "Fracturing Shard"
     ]
   },
   {
@@ -890,8 +893,10 @@
     "items": [
       "Ancient Orb",
       "Ancient Shard",
+      "Fracturing Orb",
       "Harbinger's Orb",
-      "Harbinger's Shard"
+      "Harbinger's Shard",
+      "Fracturing Shard"
     ]
   },
   {
