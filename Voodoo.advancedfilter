@@ -1059,14 +1059,6 @@ Show "Map Fragment"
 ################################################################################
 # Maps and Invitations                                                         #
 ################################################################################
-Show "Mirrored Tablet"
-    Class "Map"
-    BaseType "Mirrored Tablet"
-    SetFontSize Var("Large Font Size")
-    SetTextColor Var("Kalandra Color")
-    MinimapIcon Medium Var("Kalandra Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Siege Effect Color")
-
 Show "Invitation"
     Class "Map"
     BaseType "Invitation"
