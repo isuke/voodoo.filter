@@ -901,26 +901,21 @@
     ]
   },
   {
-    "name": "Lofty Harbinger Currencies",
+    "name": "Sublime Harbinger Currencies",
     "items": [
-      "Ancient Orb",
-      "Ancient Shard",
       "Fracturing Orb",
-      "Harbinger's Orb",
-      "Harbinger's Shard",
       "Fracturing Shard"
-    ]
-  },
-  {
-    "name": "Precious Harbinger Currencies",
-    "items": [
-      "Orb of Horizons"
     ]
   },
   {
     "name": "Trivial Harbinger Currencies",
     "items": [
-      "Horizon Shard"
+      "Ancient Orb",
+      "Ancient Shard",
+      "Harbinger's Orb",
+      "Harbinger's Shard",
+      "Horizon Shard",
+      "Orb of Horizons"
     ]
   },
   {
