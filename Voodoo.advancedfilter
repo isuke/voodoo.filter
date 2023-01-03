@@ -985,13 +985,19 @@ Show "Map Fragment"
             SetBackgroundColor Var("Advanced Vaal Fragment Color")
             MinimapIcon Medium Var("Vaal Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Vaal Effect Color")
-        Show "Labyrinth"
-            BaseType Var("Labyrinth Items")
-            SetFontSize Var("Default Font Size")
+        Show "Goddess"
             SetTextColor 255 255 255
-            SetBackgroundColor Var("Labyrinth Color")
-            MinimapIcon Medium Var("Labyrinth Effect Color") Var("Map Fragment Minimap Icon Shape")
-            PlayEffect Var("Labyrinth Effect Color")
+
+            Fork "Base Type"
+                Show "Offering to the Goddess"
+                    BaseType "Offering to the Goddess"
+                    SetBackgroundColor Var("Labyrinth Color") 200
+                Show "Special Goddess"
+                    BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+                    SetFontSize Var("Large Font Size")
+                    SetBackgroundColor Var("Labyrinth Color")
+                    PlayEffect Var("Labyrinth Effect Color")
+                    PlayAlertSoundPositional Var("Lofty Sound")
         Show "Shaper Fragment"
             BaseType "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera"
             SetFontSize Var("Large Font Size")
