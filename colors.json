@@ -10,6 +10,7 @@
   { "name": "Divination Card Color"        , "hex": "#0ebaff" },
   { "name": "Utility Flask Color"          , "hex": "#4bff84" },
   { "name": "Flask Color"                  , "hex": "#9f3ccd" },
+  { "name": "Misc Map Color"               , "hex": "#ff0000" },
   { "name": "Map Color"                    , "hex": "#ffffff" },
   { "name": "Jewel Color"                  , "hex": "#22d99e" },
   { "name": "Vaal Fragment Color"          , "hex": "#5d1300" },

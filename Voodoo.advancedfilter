@@ -1076,6 +1076,17 @@ Show "Invitation"
             MinimapIcon Largest Var("Siege Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Siege Effect Color")
 
+Show "Misc Map"
+    Class "Map"
+    BaseType Var("Misc Maps")
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor Var("Misc Map Color")
+    SetBackgroundColor Var("Sublime BG Color")
+    CustomAlertSound "./Sounds/Map.wav"
+    MinimapIcon Medium Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
+    PlayEffect Var("Sublime Effect Color")
+    DisableDropSound
+
 Show "Unique Map"
     Class "Map"
     Rarity Unique
