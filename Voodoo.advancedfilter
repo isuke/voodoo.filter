@@ -436,11 +436,11 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
     Mixin "Special"
         Show "Influence"
             HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Influence Color")
-            MinimapIcon Medium Var("Influence Effect Color") Var("Equipment Minimap Icon Shape")
-            PlayEffect Var("Influence Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Influence Color") 200
+            # MinimapIcon Medium Var("Influence Effect Color") Var("Equipment Minimap Icon Shape")
+            # PlayEffect Var("Influence Effect Color")
+            PlayAlertSoundPositional Var("Precious Sound")
         Unset "Fractured"
             FracturedItem True
             SetFontSize Var("Large Font Size")
