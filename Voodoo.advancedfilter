@@ -1508,16 +1508,6 @@ Show "Breachstones"
             BaseType "Flawless"
             SetFontSize Var("Extra Large Font Size")
             SetBorderColor Var("Tier1 BG Color")
-        Show "Pure"
-            BaseType "Pure"
-            SetFontSize Var("Extra Large Font Size")
-            SetBorderColor Var("Tier1 BG Color")
-        Show "Charged"
-            BaseType "Charged"
-            SetFontSize Var("Large Font Size")
-        Show "Enriched"
-            BaseType "Enriched"
-            SetFontSize Var("Large Font Size")
 
 #
 # Harbinger League
