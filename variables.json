@@ -436,6 +436,8 @@
   { "name": "Sentinel Effect Color"  , "items": ["Blue"] },
   { "name": "Kalandra Effect Color"  , "items": ["White"] },
   { "name": "Sanctum Effect Color"   , "items": ["Yellow"] },
+  { "name": "Crucible Effect Color"  , "items": ["Red"] },
+
 
   { "name": "Influence Effect Color", "items": ["Orange"] },
   { "name": "Memory Effect Color"   , "items": ["Orange"] },
@@ -1168,6 +1170,14 @@
       "Gloam Ring",
       "Tenebrous Ring",
       "Shadowed Ring"
+    ]
+  },
+  {
+    "name": "Crucible Currency",
+    "items": [
+      "Igneous Geode",
+      "Crystalline Geode",
+      "Magmatic Ore"
     ]
   },
 

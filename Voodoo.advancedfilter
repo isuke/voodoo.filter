@@ -1935,6 +1935,18 @@ Show "Relic"
     MinimapIcon Medium Var("Sanctum Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Sanctum Effect Color")
 
+#
+# Crucible league
+#
+Show "Crucible Currency"
+    Class "Stackable Currency"
+    BaseType Var("Crucible Currency")
+    SetTextColor Var("Crucible Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Crucible Color")
+    MinimapIcon Medium Var("Crucible Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Crucible Effect Color")
+
 ################################################################################
 # Quest Items                                                                  #
 ################################################################################
