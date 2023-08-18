@@ -77,6 +77,7 @@
   { "name": "Kalandra Color"               , "hex": "#c0c0c0" },
   { "name": "Sanctum Color"                , "hex": "#ffd700" },
   { "name": "Crucible Color"               , "hex": "#c80000" },
+  { "name": "Ancestor Color"               , "hex": "#0071c7" },
 
   { "name": "Influence Color"              , "hex": "#ff8e28" },
 

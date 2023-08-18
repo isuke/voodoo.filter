@@ -437,6 +437,7 @@
   { "name": "Kalandra Effect Color"  , "items": ["White"] },
   { "name": "Sanctum Effect Color"   , "items": ["Yellow"] },
   { "name": "Crucible Effect Color"  , "items": ["Red"] },
+  { "name": "Ancestor Effect Color"  , "items": ["Blue"] },
 
 
   { "name": "Influence Effect Color", "items": ["Orange"] },
