@@ -1957,7 +1957,7 @@ Show "Ancestor Currency"
             SetBackgroundColor Var("Lofty BG Color")
             SetBorderColor Var("Ancestor Color")
             MinimapIcon Medium Var("Ancestor Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Crucible Effect Color")
+            PlayEffect Var("Ancestor Effect Color")
         Show "Hinekora's Lock"
             BaseType "Hinekora's Lock"
             SetFontSize Var("Large Font Size")
@@ -1965,7 +1965,7 @@ Show "Ancestor Currency"
             SetBackgroundColor Var("Lofty BG Color")
             SetBorderColor Var("Ancestor Color")
             MinimapIcon Medium Var("Ancestor Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Crucible Effect Color")
+            PlayEffect Var("Ancestor Effect Color")
         Show "Omen"
             BaseType "Omen"
             SetFontSize Var("Large Font Size")
@@ -1973,7 +1973,7 @@ Show "Ancestor Currency"
             SetBackgroundColor Var("Lofty BG Color")
             SetBorderColor Var("Ancestor Color")
             MinimapIcon Medium Var("Ancestor Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Crucible Effect Color")
+            PlayEffect Var("Ancestor Effect Color")
 
 ################################################################################
 # Quest Items                                                                  #
