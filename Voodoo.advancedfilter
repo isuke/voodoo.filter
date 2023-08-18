@@ -1906,10 +1906,10 @@ Show "Expedition Logbook"
     PlayEffect Var("Expedition Effect Color")
 
 #
-# Sanctum league
+# Sanctum League
 #
-Show "Sanctified Relic"
-    Class "Sanctified Relic"
+Show "Sanctum Research"
+    Class "Sanctum Research"
     SetFontSize Var("Extra Large Font Size")
     SetTextColor Var("Sanctum Color")
     SetBackgroundColor Var("Sublime BG Color")
