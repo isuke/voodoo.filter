@@ -1,4 +1,11 @@
 {
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": false
+  },
+
   "cSpell.ignoreWords": [
     "Aisling",
     "Archnemesis",
@@ -67,6 +74,6 @@
     "Weaponcraft",
     "Wereclaw",
     "Xopec",
-    "Xoph",
-  ],
+    "Xoph"
+  ]
 }
