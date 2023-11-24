@@ -818,8 +818,6 @@ Show "Unique Flask"
 
 Hide "Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
-    CustomAlertSound "./Sounds/Flask.wav"
-    DisableDropSound
 
     Fork "Class"
         Prop("Utility Flask Activity") "Utility"

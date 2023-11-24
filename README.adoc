@@ -31,7 +31,6 @@ Please put downloaded files as follows.
 ├── ...
 └── Sounds
     ├── Chaos.wav
-    ├── Flask.wav
     ├── MapFragment.wav
     └── ...
 ----
