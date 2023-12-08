@@ -1983,6 +1983,34 @@ Show "Ancestor Currency"
             MinimapIcon Medium Var("Ancestor Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Ancestor Effect Color")
 
+#
+# Affliction League
+#
+Show "Tincture"
+    Class "Tincture"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Affliction Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Affliction Color")
+    MinimapIcon Medium Var("Affliction Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Affliction Effect Color")
+Show "Charms"
+    Class "Charms"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Affliction Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Affliction Color")
+    MinimapIcon Medium Var("Affliction Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Affliction Effect Color")
+Show "Corpses"
+    Class "Corpses"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Affliction Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Affliction Color")
+    MinimapIcon Medium Var("Affliction Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Affliction Effect Color")
+
 ################################################################################
 # Quest Items                                                                  #
 ################################################################################

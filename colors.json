@@ -79,6 +79,7 @@
   { "name": "Sanctum Color"                , "hex": "#ffd700" },
   { "name": "Crucible Color"               , "hex": "#c80000" },
   { "name": "Ancestor Color"               , "hex": "#0071c7" },
+  { "name": "Affliction Color"             , "hex": "#5582a5" },
 
   { "name": "Influence Color"              , "hex": "#ff8e28" },
 
