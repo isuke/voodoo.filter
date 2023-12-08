@@ -229,13 +229,18 @@
       "Agate Amulet",
       "Citrine Amulet",
       "Turquoise Amulet",
-      "Onyx Amulet"
+      "Onyx Amulet",
+      "Focused Amulet"
     ]
   },
   {
     "name": "Good Rings",
     "items": [
-      "Two-Stone Ring"
+      "Two-Stone Ring",
+      "Composite Ring",
+      "Manifold Ring",
+      "Ratcheting Ring",
+      "Helical Ring"
     ]
   },
   {
