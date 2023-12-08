@@ -944,8 +944,8 @@ Hide "Gem"
             MinimapIcon Medium Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
-        Show "Alternate Quality"
-            AlternateQuality True
+        Show "Transfigured Gem"
+            TransfiguredGem True
             SetFontSize Var("Large Font Size")
             SetTextColor Var("Gem Color")
             SetBackgroundColor Var("Lofty BG Color")
