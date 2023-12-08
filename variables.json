@@ -430,6 +430,7 @@
   { "name": "Harvest Effect Color"   , "items": ["Blue"] },
   { "name": "Heist Effect Color"     , "items": ["Pink"] },
   { "name": "Ritual Effect Color"    , "items": ["Red"]  },
+  { "name": "Ultimatum Effect Color" , "items": ["Green"] },
   { "name": "Expedition Effect Color", "items": ["Blue"] },
   { "name": "Scourge Effect Color"   , "items": ["Orange"] },
   { "name": "Archnemesis Effect Color", "items": ["Yellow"] },
@@ -1128,21 +1129,6 @@
     ]
   },
   {
-    "name": "Metamorph Catalysts",
-    "items": [
-      "Turbulent Catalyst",
-      "Imbued Catalyst",
-      "Abrasive Catalyst",
-      "Tempering Catalyst",
-      "Fertile Catalyst",
-      "Prismatic Catalyst",
-      "Intrinsic Catalyst",
-      "Noxious Catalyst",
-      "Accelerating Catalyst",
-      "Unstable Catalyst"
-    ]
-  },
-  {
     "name": "Delirium Items",
     "items": [
       "Delirium Orb",
@@ -1183,6 +1169,22 @@
     "items": [
       "Ritual Splinter",
       "Ritual Vessel"
+    ]
+  },
+  {
+    "name": "Ultimatum Catalysts",
+    "items": [
+      "Tainted Catalyst",
+      "Turbulent Catalyst",
+      "Imbued Catalyst",
+      "Abrasive Catalyst",
+      "Tempering Catalyst",
+      "Fertile Catalyst",
+      "Prismatic Catalyst",
+      "Intrinsic Catalyst",
+      "Noxious Catalyst",
+      "Accelerating Catalyst",
+      "Unstable Catalyst"
     ]
   },
   {

@@ -70,6 +70,7 @@
   { "name": "Harvest Color"                , "hex": "#008efa" },
   { "name": "Heist Color"                  , "hex": "#c72800" },
   { "name": "Ritual Color"                 , "hex": "#c70000" },
+  { "name": "Ultimatum Color"              , "hex": "#36a62a" },
   { "name": "Expedition Color"             , "hex": "#76b3fc" },
   { "name": "Scourge Color"                , "hex": "#d15b00" },
   { "name": "Archnemesis Color"            , "hex": "#d1ca00" },
