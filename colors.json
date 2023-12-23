@@ -41,6 +41,8 @@
   { "name": "Maven Color"                  , "hex": "#ff8e28" },
   { "name": "Siege Color"                  , "hex": "#ff8e28" },
 
+  { "name": "Experimented Color"           , "hex": "#c0c0c0" },
+
   { "name": "Jeweller's Orb Recipe Color"  , "hex": "#5f663d" },
   { "name": "Chromatic Orb Recipe Color"   , "hex": "#7676d0" },
 
