@@ -16,6 +16,9 @@ Show "Fishing Rod"
             Rarity Unique
             SetTextColor Var("Unique Item Color")
 
+#
+# Jewelry(Amulet/Ring)
+#
 Show "Unique Jewelry"
     Class Var("Jewelries")
     Rarity Unique
@@ -33,6 +36,54 @@ Show "Unique Jewelry"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
+Show "Special Base Type Jewelry"
+    Class Var("Jewelries")
+
+    Fork "Base Type"
+        Show "Experimented"
+            BaseType Var("Experimented Base Jewelries")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Experimented Color")
+            MinimapIcon Largest Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
+            PlayEffect Var("Experimented Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    SetBorderColor Var("High Item Level Border Color")
+
+        Show "Atlas"
+            BaseType Var("Atlas Base Jewelries")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            PlayEffect Var("Atlas Effect Color") Temp
+            PlayAlertSoundPositional Var("Precious Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    MinimapIcon Small Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
+                    SetBorderColor Var("High Item Level Border Color")
+
+    Fork "Rarity"
+        Unset "Rare"
+            Rarity Rare
+            SetTextColor Var("Rare Item Color")
+        Unset "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
 Prop("Rare Jewelry Activity") "Rare Jewelry"
     Class Var("Jewelries")
     Rarity Rare
@@ -41,39 +92,17 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
     SetBackgroundColor Var("Jewelry Color") 200
 
     Mixin "Base Type"
-        Show "Atlas Base Accessories"
-            BaseType Var("Atlas Base Accessories")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Atlas Color")
-            # MinimapIcon Small Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color") Temp
-            PlayAlertSoundPositional Var("Lofty Sound")
         Show "Talisman"
             BaseType "Talisman"
             SetBackgroundColor Var("Talisman Color")
             MinimapIcon Medium Var("Talisman Effect Color") Var("Accessory Minimap Icon Shape")
             PlayEffect Var("Talisman Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
         Hide "Breach Ring"
             BaseType "Breach Ring"
             SetFontSize Var("Small Font Size")
             SetBackgroundColor Var("Breach Color") 160
-        Show "Heist"
-            BaseType Var("Heist Base Items")
-            SetFontSize Var("Extra Large Font Size")
-            SetBackgroundColor Var("Heist Color")
-            MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Heist Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
-        Show "Kalandra"
-            BaseType Var("Kalandra Rings")
-            SetFontSize Var("Extra Large Font Size")
-            SetBackgroundColor Var("Kalandra Color")
-            MinimapIcon Medium Var("Kalandra Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Kalandra Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
-            BaseType Var("Good Amulets") Var("Good Rings")
+            BaseType Var("Good Jewelries")
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Jewelry Color") 255
 
@@ -148,15 +177,8 @@ Unset "Normal/Magic Jewelry"
     SetBackgroundColor Var("Jewelry Color") 200
 
     Mixin "Base Type"
-        Show "Atlas Base Accessories"
-            BaseType Var("Atlas Base Accessories")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Atlas Color")
-            # MinimapIcon Small Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color") Temp
-            PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
-            BaseType Var("Good Amulets") Var("Good Rings")
+            BaseType Var("Good Jewelries")
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Jewelry Color") 255
 
@@ -174,6 +196,9 @@ Unset "Normal/Magic Jewelry"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
+#
+# Belt
+#
 Show "Unique Belt"
     Class "Belt"
     Rarity Unique
@@ -191,6 +216,54 @@ Show "Unique Belt"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
+Show "Special Base Type Belt"
+    Class "Belt"
+
+    Fork "Base Type"
+        Show "Experimented"
+            BaseType Var("Experimented Base Belts")
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Experimented Color")
+            MinimapIcon Largest Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
+            PlayEffect Var("Experimented Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    SetBorderColor Var("High Item Level Border Color")
+
+        Show "Atlas"
+            BaseType Var("Atlas Base Belts")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            PlayEffect Var("Atlas Effect Color") Temp
+            PlayAlertSoundPositional Var("Precious Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    MinimapIcon Small Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
+                    SetBorderColor Var("High Item Level Border Color")
+
+    Fork "Rarity"
+        Unset "Rare"
+            Rarity Rare
+            SetTextColor Var("Rare Item Color")
+        Unset "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
 Prop("Rare Belt Activity") "Rare Belt"
     Class "Belt"
     Rarity Rare
@@ -199,13 +272,6 @@ Prop("Rare Belt Activity") "Rare Belt"
     SetBackgroundColor Var("Belt Color") 200
 
     Mixin "Base Type"
-        Show "Atlas Base Accessories"
-            BaseType Var("Atlas Base Accessories")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Atlas Color")
-            MinimapIcon Medium Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color") Temp
-            PlayAlertSoundPositional Var("Lofty Sound")
         Show "Abyss"
             BaseType "Stygian Vise"
             SetFontSize Var("Large Font Size")
@@ -289,13 +355,6 @@ Unset "Normal/Magic Belt"
     SetBackgroundColor Var("Belt Color") 200
 
     Mixin "Base Type"
-        Show "Atlas Base Accessories"
-            BaseType Var("Atlas Base Accessories")
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Atlas Color")
-            MinimapIcon Medium Var("Atlas Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Atlas Effect Color") Temp
-            PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
             BaseType Var("Good Belts")
             SetFontSize Var("Large Font Size")
@@ -316,6 +375,9 @@ Unset "Normal/Magic Belt"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
+#
+# Weapon/Gear
+#
 Show "Unique Weapon/Gear"
     Class Var("Weapons") Var("Gears")
     Rarity Unique
@@ -369,6 +431,69 @@ Show "Unique Weapon/Gear"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
+Show "Special Base Type Weapon/Gear"
+    Class Var("Weapons") Var("Gears")
+
+    Fork "Base Type"
+        Show "Atziri"
+            BaseType Var("Atziri Base Gears")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            MinimapIcon Largest Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
+            PlayEffect Var("Atlas Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    SetBorderColor Var("High Item Level Border Color")
+
+        Show "Experimented"
+            BaseType Var("Experimented Base Weapons") Var("Experimented Base Gears")
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Experimented Color")
+            MinimapIcon Largest Var("Experimented Effect Color") Var("Equipment Minimap Icon Shape")
+            PlayEffect Var("Experimented Effect Color")
+            PlayAlertSoundPositional Var("Lofty Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    SetBorderColor Var("High Item Level Border Color")
+
+        Show "Atlas"
+            BaseType Var("Atlas Base Weapons") Var("Atlas Base Gears")
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Atlas Color")
+            PlayEffect Var("Atlas Effect Color") Temp
+            PlayAlertSoundPositional Var("Precious Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    MinimapIcon Small Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
+                    PlayEffect Var("Atlas Effect Color")
+                    SetBorderColor Var("High Item Level Border Color")
+
+
+    Fork "Rarity"
+        Unset "Rare"
+            Rarity Rare
+            SetTextColor Var("Rare Item Color")
+        Unset "Magic"
+            Rarity Magic
+            SetTextColor Var("Magic Item Color")
+        Unset "Normal"
+            Rarity Normal
+            SetTextColor Var("Normal Item Color")
+
+    Fork "Corrupted"
+        Unset "False"
+            Corrupted False
+        Unset "True"
+            Corrupted True
+            SetBorderColor Var("Corrupted Color")
+
 Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
     Class Var("Weapons") Var("Gears")
     Rarity Rare
@@ -380,26 +505,9 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
             Class Var("Weapons")
             SetBackgroundColor Var("Weapon Color") 200
 
-            Mixin "Base Type"
-                Show "Atlas Base Weapons"
-                    BaseType Var("Atlas Base Weapons")
-                    SetBackgroundColor Var("Atlas Color")
-
         Unset "Gear"
             Class Var("Gears")
             SetBackgroundColor Var("Gear Color") 200
-
-            Mixin "Base Type"
-                Show "Atziri Gears"
-                    BaseType Var("Atziri Gears")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Atlas Color")
-                    MinimapIcon Medium Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Atlas Effect Color")
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Atlas Base Gears"
-                    BaseType Var("Atlas Base Gears")
-                    SetBackgroundColor Var("Atlas Color")
 
     Mixin "Socket"
         Show "6L"
@@ -524,18 +632,6 @@ Unset "Magic/Normal Weapon/Gear"
         Unset "Gear"
             Class Var("Gears")
             SetBackgroundColor Var("Gear Color") 200
-
-            Mixin "Base Type"
-                Show "Atziri Gears"
-                    BaseType Var("Atziri Gears")
-                    SetFontSize Var("Large Font Size")
-                    SetBackgroundColor Var("Atlas Color")
-                    MinimapIcon Medium Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
-                    PlayEffect Var("Atlas Effect Color")
-                    PlayAlertSoundPositional Var("Lofty Sound")
-                Show "Atlas Base Gears"
-                    BaseType Var("Atlas Base Gears")
-                    SetBackgroundColor Var("Atlas Color")
 
             Fork "Any Enchantment"
                 Unset "False"

@@ -175,7 +175,8 @@
     "items": [
       "#Atlas Base Weapons",
       "#Atlas Base Gears",
-      "#Atlas Base Accessories"
+      "#Atlas Base Belts",
+      "#Atlas Base Jewelries"
     ]
   },
   {
@@ -198,30 +199,95 @@
     ]
   },
   {
-    "name": "Atlas Base Accessories",
+    "name": "Atlas Base Belts",
     "items": [
-      "Blue Pearl Amulet",
-      "Marble Amulet",
-      "Seaglass Amulet",
-      "Cerulean Ring",
-      "Iolite Ring",
-      "Opal Ring",
-      "Prismatic Rin",
-      "Steel Ring",
-      "Vermillion Ring",
       "Crystal Belt",
       "Vanguard Belt"
     ]
   },
   {
-    "name": "Atziri Gears",
+    "name": "Atlas Base Jewelries",
+    "items": [
+      "Blue Pearl Amulet",
+      "Marble Amulet",
+      "Seaglass Amulet",
+
+      "Cerulean Ring",
+      "Iolite Ring",
+      "Opal Ring",
+      "Steel Ring",
+      "Vermillion Ring"
+    ]
+  },
+
+  {
+    "name": "Atziri Base Gears",
     "items": [
       "Sacrificial Garb"
     ]
   },
 
   {
-    "name": "Good Amulets",
+    "name": "Experimented Base Items",
+    "items": [
+      "#Experimented Base Weapons",
+      "#Experimented Base Gears",
+      "#Experimented Base Belts",
+      "#Experimented Base Jewelries"
+    ]
+  },
+  {
+    "name": "Experimented Base Weapons",
+    "items": [
+      "Psychotic Axe",
+      "Apex Cleaver",
+      "Solarine Bow",
+      "Void Fangs",
+      "Pneumatic Dagger",
+      "Infernal Blade",
+      "Boom Mace",
+      "Alternating Sceptre",
+      "Impact Force Propagator",
+      "Battery Staff",
+      "Eventuality Rod",
+      "Anarchic Spiritblade",
+      "Banishing Blade",
+      "Accumulator Wand"
+    ]
+  },
+  {
+    "name": "Experimented Base Gears",
+    "items": [
+      "Heat-attuned Tower Shield",
+      "Cold-attuned Buckler",
+      "Transfer-attuned Spirit Shield"
+    ]
+  },
+  {
+    "name": "Experimented Base Belts",
+    "items": [
+      "Micro-Distillery Belt",
+      "Mechalarm Belt"
+    ]
+  },
+  {
+    "name": "Experimented Base Jewelries",
+    "items": [
+      "Focused Amulet",
+      "Simplex Amulet",
+      "Astrolabe Amulet",
+
+      "Cogwork Ring",
+      "Composite Ring",
+      "Geodesic Ring",
+      "Helical Ring",
+      "Manifold Ring",
+      "Ratcheting Ring"
+    ]
+  },
+
+  {
+    "name": "Good Jewelries",
     "items": [
       "Amber Amulet",
       "Jade Amulet",
@@ -230,17 +296,9 @@
       "Citrine Amulet",
       "Turquoise Amulet",
       "Onyx Amulet",
-      "Focused Amulet"
-    ]
-  },
-  {
-    "name": "Good Rings",
-    "items": [
+
       "Two-Stone Ring",
-      "Composite Ring",
-      "Manifold Ring",
-      "Ratcheting Ring",
-      "Helical Ring"
+      "Prismatic Ring"
     ]
   },
   {
@@ -410,6 +468,8 @@
   { "name": "Conquerors Effect Color", "items": ["Orange"] },
   { "name": "Maven Effect Color"     , "items": ["Orange"] },
   { "name": "Siege Effect Color"     , "items": ["Orange"] },
+
+  { "name": "Experimented Effect Color"  , "items": ["White"] },
 
   { "name": "Talisman Effect Color"  , "items": ["Pink"] },
   { "name": "Essence Effect Color"   , "items": [""] },
@@ -1152,14 +1212,6 @@
       "Secondary Regrading Lens",
       "Tempering Orb",
       "Tailoring Orb"
-    ]
-  },
-  {
-    "name": "Heist Base Items",
-    "items": [
-      "Simplex Amulet",
-      "Cogwork Ring",
-      "Geodesic Ring"
     ]
   },
   {
