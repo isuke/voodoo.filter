@@ -381,19 +381,12 @@
     ]
   },
 
-
-
   {
     "name": "Misc Maps",
     "items": [
-      "Archive Reliquary Key",
       "Chronicle of Atzoatl",
-      "Cosmic Reliquary Key",
-      "Decaying Reliquary Key",
-      "Forgotten Reliquary Key",
-      "Shiny Reliquary Key",
-      "Visceral Reliquary Key",
-      "Voidborn Reliquary Key"
+      "Reliquary Key",
+      "Valdo's Puzzle Box"
     ]
   },
 
