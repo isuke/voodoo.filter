@@ -271,6 +271,7 @@
       "Chaos Orb",
       "Enkindling Orb",
       "Gemcutter's Prism",
+      "Glassblower's Bauble",
       "Instilling Orb",
       "Orb of Alchemy",
       "Orb of Annulment",
@@ -288,7 +289,6 @@
     "name": "Precious Currencies",
     "items": [
       "Chromatic Orb",
-      "Glassblower's Bauble",
       "Jeweller's Orb",
       "Orb of Alteration",
       "Orb of Chance"
