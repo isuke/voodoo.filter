@@ -1212,6 +1212,27 @@
       "Magmatic Ore"
     ]
   },
+  {
+    "name": "Sublime Corpses",
+    "items": [
+      "Perfect Forest Tiger",
+      "Perfect Hulking Miscreation",
+      "Perfect Hydra",
+      "Perfect Naval Officer",
+      "Perfect Warlord"
+    ]
+  },
+  {
+    "name": "Lofty Corpses",
+    "items": [
+      "Perfect Blood Demon",
+      "Perfect Guardian Turtle",
+      "Perfect Half-remembered Goliath",
+      "Perfect Judgemental Spirit",
+      "Perfect Primal Thunderbird",
+      "Perfect Spirit of Fortune"
+    ]
+  },
 
 
 
