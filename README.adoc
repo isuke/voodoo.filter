@@ -165,26 +165,6 @@ Please put downloaded files as follows.
 | Hide {set:cellbgcolor:#f4c7c3}
 | Hide {set:cellbgcolor:#f4c7c3}
 
-| Life/Mana/Hybrid High Item Level {set:cellbgcolor:white}
-| 83
-{set:cellbgcolor!}
-| 83
-| 83
-| 83
-| 83
-| 83
-| 86
-
-| Utility High Item Level {set:cellbgcolor:white}
-| 83
-{set:cellbgcolor!}
-| 83
-| 83
-| 83
-| 83
-| 85
-| 85
-
 | Quality Gem Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}

@@ -829,7 +829,7 @@ Hide "Flask"
 
             Mixin "Item Level"
                 Show "High"
-                    ItemLevel >= Prop("Utility High Item Level")
+                    ItemLevel >= 85
                     SetBorderColor Var("High Item Level Border Color")
         Hide "Hybrid Flask"
             Class "Hybrid Flask"
@@ -849,7 +849,7 @@ Hide "Flask"
 
                     Mixin "Item Level"
                         Show "High"
-                            ItemLevel >= Prop("Life/Mana/Hybrid High Item Level")
+                            ItemLevel >= 85
                             SetBorderColor Var("High Item Level Border Color")
                 Prop("Flask l Activity") "Sacred/Hallowed/Sanctified"
                     DropLevel >= 36
