@@ -844,7 +844,7 @@ Hide "Flask"
 
             Fork "Size"
                 Prop("Flask xl Activity") "Divine/Eternal"
-                    DropLevel >= 60
+                    BaseType "Divine Life Flask" "Eternal Mana Flask"
                     SetBackgroundColor Var("Lofty BG Color")
 
                     Mixin "Item Level"
