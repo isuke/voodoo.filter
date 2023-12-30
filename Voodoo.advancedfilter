@@ -92,11 +92,10 @@ Prop("Rare Jewelry Activity") "Rare Jewelry"
     SetBackgroundColor Var("Jewelry Color") 200
 
     Mixin "Base Type"
-        Show "Talisman"
+        Hide "Talisman"
             BaseType "Talisman"
-            SetBackgroundColor Var("Talisman Color")
-            MinimapIcon Medium Var("Talisman Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Talisman Effect Color")
+            SetFontSize Var("Small Font Size")
+            SetBackgroundColor Var("Talisman Color") 160
         Hide "Breach Ring"
             BaseType "Breach Ring"
             SetFontSize Var("Small Font Size")
