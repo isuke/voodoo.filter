@@ -192,22 +192,13 @@ Please put downloaded files as follows.
 | Unset {set:cellbgcolor:#fce8b2}
 | Unset {set:cellbgcolor:#fce8b2}
 
-| Rare Jewelry Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
+| Rare Accessory Activity {set:cellbgcolor:white}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
-
-| Rare Belt Activity {set:cellbgcolor:white}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
-| Show {set:cellbgcolor:#b7e1cd}
 | Unset {set:cellbgcolor:#fce8b2}
 
 | Rare Weapon/Gear Activity {set:cellbgcolor:white}

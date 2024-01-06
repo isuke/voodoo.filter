@@ -19,8 +19,7 @@
     "Jewel Activity",
 
     "Magic Equipment Activity",
-    "Rare Jewelry Activity",
-    "Rare Belt Activity",
+    "Rare Accessory Activity",
     "Rare Weapon/Gear Activity",
 
     "3L Activity",
@@ -48,7 +47,6 @@
 
       "Unset",
       "Show",
-      "Show",
       "Unset",
 
       "Ignore",
@@ -76,7 +74,6 @@
       "Show",
       "Show",
       "Show",
-      "Show",
 
       "Show",
       "Show",
@@ -103,7 +100,6 @@
       "Unset",
       "Show",
       "Show",
-      "Show",
 
       "Ignore",
       "Show",
@@ -130,7 +126,6 @@
       "Unset",
       "Show",
       "Show",
-      "Show",
 
       "Ignore",
       "Ignore",
@@ -156,7 +151,6 @@
 
       "Unset",
       "Show",
-      "Show",
       "Unset",
 
       "Ignore",
@@ -183,7 +177,6 @@
 
       "Unset",
       "Show",
-      "Show",
       "Unset",
 
       "Ignore",
@@ -209,8 +202,7 @@
       "Show",
 
       "Unset",
-      "Show",
-      "Show",
+      "Unset",
       "Unset",
 
       "Ignore",
@@ -235,7 +227,6 @@
 
       "Hide",
 
-      "Unset",
       "Unset",
       "Unset",
       "Unset",

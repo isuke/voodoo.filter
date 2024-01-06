@@ -84,7 +84,7 @@ Show "Special Base Type Jewelry"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
-Prop("Rare Jewelry Activity") "Rare Jewelry"
+Prop("Rare Accessory Activity") "Rare Jewelry"
     Class Var("Jewelries")
     Rarity Rare
     SetFontSize Var("Small Font Size")
@@ -263,7 +263,7 @@ Show "Special Base Type Belt"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
-Prop("Rare Belt Activity") "Rare Belt"
+Prop("Rare Accessory Activity") "Rare Belt"
     Class "Belt"
     Rarity Rare
     SetFontSize Var("Small Font Size")
