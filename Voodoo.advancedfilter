@@ -1963,13 +1963,6 @@ Show "Ritual Item"
 #
 # Ultimatum League
 #
-Show "Inscribed Ultimatum"
-    BaseType "Inscribed Ultimatum"
-    SetFontSize Var("Extra Large Font Size")
-    SetTextColor 255 255 255
-    SetBackgroundColor Var("Ultimatum Color")
-    MinimapIcon Medium Var("Ultimatum Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Ultimatum Effect Color")
 Show "Ultimatum Catalyst"
     BaseType Var("Ultimatum Catalysts")
     SetFontSize Var("Default Font Size")
