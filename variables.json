@@ -1318,6 +1318,10 @@
     "items": ["14 170"]
   },
   {
+    "name": "Unique Sound",
+    "items": ["2 300"]
+  },
+  {
     "name": "Error Sound",
     "items": ["12 300"]
   }
