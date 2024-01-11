@@ -84,6 +84,18 @@ Show "Special Base Type Jewelry"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
+Hide "Talisman"
+    BaseType "Talisman"
+    SetFontSize Var("Extra Small Font Size")
+    SetTextColor Var("Rare Item Color")
+    SetBackgroundColor Var("Talisman Color") 160
+
+Hide "Breach Ring"
+    BaseType "Breach Ring"
+    SetFontSize Var("Extra Small Font Size")
+    SetTextColor Var("Rare Item Color")
+    SetBackgroundColor Var("Breach Color") 160
+
 Prop("Rare Accessory Activity") "Rare Jewelry"
     Class Var("Jewelries")
     Rarity Rare
@@ -92,14 +104,6 @@ Prop("Rare Accessory Activity") "Rare Jewelry"
     SetBackgroundColor Var("Jewelry Color") 200
 
     Mixin "Base Type"
-        Hide "Talisman"
-            BaseType "Talisman"
-            SetFontSize Var("Extra Small Font Size")
-            SetBackgroundColor Var("Talisman Color") 160
-        Hide "Breach Ring"
-            BaseType "Breach Ring"
-            SetFontSize Var("Extra Small Font Size")
-            SetBackgroundColor Var("Breach Color") 160
         Unset "Good"
             BaseType Var("Good Jewelries")
             SetFontSize Var("Large Font Size")
@@ -263,6 +267,15 @@ Show "Special Base Type Belt"
             Corrupted True
             SetBorderColor Var("Corrupted Color")
 
+Show "Stygian Vise"
+    BaseType "Stygian Vise"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Rare Item Color")
+    SetBackgroundColor Var("Abyss Color")
+    MinimapIcon Medium Var("Abyss Effect Color") Var("Accessory Minimap Icon Shape")
+    PlayEffect Var("Abyss Effect Color")
+    PlayAlertSoundPositional Var("Lofty Sound")
+
 Prop("Rare Accessory Activity") "Rare Belt"
     Class "Belt"
     Rarity Rare
@@ -271,13 +284,6 @@ Prop("Rare Accessory Activity") "Rare Belt"
     SetBackgroundColor Var("Belt Color") 200
 
     Mixin "Base Type"
-        Show "Abyss"
-            BaseType "Stygian Vise"
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Abyss Color")
-            MinimapIcon Medium Var("Abyss Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Abyss Effect Color")
-            PlayAlertSoundPositional Var("Lofty Sound")
         Unset "Good"
             BaseType Var("Good Belts")
             SetFontSize Var("Large Font Size")
