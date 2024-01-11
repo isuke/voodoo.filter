@@ -49,7 +49,7 @@
   { "name": "6L Color"                     , "hex": "#ff0000" },
   { "name": "3L/4L/5L Color"               , "hex": "#cdbc67" },
 
-  { "name": "High Item Level Border Color"  , "hex": "#ff6265" },
+  { "name": "High Item Level Border Color"  , "hex": "#52ca49" },
   { "name": "Metamorph Sample Boarder Color", "hex": "#77ff68" },
   { "name": "Legion Incubator Boarder Color", "hex": "#9a67ff" },
   { "name": "Delirium Orb Boarder Color"    , "hex": "#667eff" },
