@@ -7,7 +7,7 @@ Show "Fishing Rod"
     SetTextColor Var("Weapon Color")
     SetBackgroundColor Var("Sublime BG Color")
     # SetBorderColor NONE
-    MinimapIcon Largest Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
+    MinimapIcon Large Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
     PlayEffect Var("Sublime Effect Color")
     PlayAlertSoundPositional Var("Sublime Sound")
 
@@ -24,7 +24,7 @@ Show "Unique Jewelry"
     Rarity Unique
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Unique Item Color")
-    MinimapIcon Largest Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
+    MinimapIcon Large Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     PlayAlertSoundPositional Var("Unique Sound")
     CustomAlertSoundOptional "./Sounds/Unique.wav" 300
@@ -44,7 +44,7 @@ Show "Special Base Type Jewelry"
             BaseType Var("Experimented Base Jewelries")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Experimented Color")
-            MinimapIcon Largest Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
+            MinimapIcon Large Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
             PlayEffect Var("Experimented Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
 
@@ -203,7 +203,7 @@ Show "Unique Belt"
     Rarity Unique
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Unique Item Color")
-    MinimapIcon Largest Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
+    MinimapIcon Large Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
     PlayAlertSoundPositional Var("Unique Sound")
     CustomAlertSoundOptional "./Sounds/Unique.wav" 300
@@ -223,7 +223,7 @@ Show "Special Base Type Belt"
             BaseType Var("Experimented Base Belts")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Experimented Color")
-            MinimapIcon Largest Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
+            MinimapIcon Large Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
             PlayEffect Var("Experimented Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
 
@@ -388,7 +388,7 @@ Show "Unique Weapon/Gear"
     Mixin "Drop Level"
         Show "High"
             DropLevel >= 50
-            MinimapIcon Largest Var("Unique Effect Color") Var("Equipment Minimap Icon Shape")
+            MinimapIcon Large Var("Unique Effect Color") Var("Equipment Minimap Icon Shape")
             PlayEffect Var("Unique Effect Color")
 
     Mixin "Socket"
@@ -398,7 +398,7 @@ Show "Unique Weapon/Gear"
             SetTextColor Var("Weapon Color")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("6L Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Prop("5L Activity") "5L"
@@ -438,7 +438,7 @@ Show "Special Base Type Weapon/Gear"
             BaseType Var("Atziri Base Gears")
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Atlas Color")
-            MinimapIcon Largest Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
+            MinimapIcon Large Var("Atlas Effect Color") Var("Equipment Minimap Icon Shape")
             PlayEffect Var("Atlas Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
 
@@ -451,7 +451,7 @@ Show "Special Base Type Weapon/Gear"
             BaseType Var("Experimented Base Weapons") Var("Experimented Base Gears")
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Experimented Color")
-            MinimapIcon Largest Var("Experimented Effect Color") Var("Equipment Minimap Icon Shape")
+            MinimapIcon Large Var("Experimented Effect Color") Var("Equipment Minimap Icon Shape")
             PlayEffect Var("Experimented Effect Color")
             PlayAlertSoundPositional Var("Lofty Sound")
 
@@ -516,7 +516,7 @@ Prop("Rare Weapon/Gear Activity") "Rare Weapon/Gear"
             SetTextColor Var("Weapon Color")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("6L Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Prop("5L Activity") "5L"
@@ -647,7 +647,7 @@ Unset "Magic/Normal Weapon/Gear"
             SetTextColor Var("Weapon Color")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("6L Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Equipment Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Prop("5L Activity") "5L"
@@ -732,7 +732,7 @@ Hide "Currency"
             BaseType == Var("Sublime Currencies")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Currency Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Currency Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
 
@@ -804,7 +804,7 @@ Hide "Shard"
             BaseType Var("Sublime Shards")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Currency Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Currency Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
 
@@ -854,7 +854,7 @@ Show "Tainted Currency"
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("Corrupted Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Currency Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Currency Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
 
@@ -958,7 +958,7 @@ Hide "Flask"
             Quality > 20
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Tier1 BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Flask Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Flask Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Tier1 Sound")
         Prop("Quality Flask Activity") "High"
@@ -993,7 +993,7 @@ Hide "Gem"
             Quality > 20
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Tier1 BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
         Prop("Quality Gem Activity") "High"
             Quality > 10
@@ -1015,7 +1015,7 @@ Hide "Gem"
             GemLevel > 20
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Tier1 BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Gem Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
 
     Mixin "Special"
@@ -1166,7 +1166,7 @@ Show "Invitation"
         Show "Sublime"
             BaseType "Screaming Invitation" "Incandescent Invitation"
             SetFontSize Var("Extra Large Font Size")
-            MinimapIcon Largest Var("Siege Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Siege Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Siege Effect Color")
 
 Show "Misc Map and Vault Key"
@@ -1198,7 +1198,7 @@ Show "Unique Map"
             SetTextColor Negate()
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("Unique Item Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Lofty"
@@ -1351,7 +1351,7 @@ Show "Divination Card"
             BaseType == Var("Sublime Divination Cards")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("Divination Card Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
             CustomAlertSoundOptional "./Sounds/DivinationCard.wav" 300
@@ -1519,7 +1519,7 @@ Show "Essence"
             SetTextColor Var("Essence Color")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("Corrupted Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Special"
@@ -1527,7 +1527,7 @@ Show "Essence"
             SetFontSize Var("Extra Large Font Size")
             SetTextColor Var("Essence Color")
             SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "6, 7"
@@ -1617,14 +1617,14 @@ Show "Harbinger Currency"
             SetTextColor Var("Harbinger Color")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("Harbinger Color")
-            MinimapIcon Largest Var("Harbinger Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Harbinger Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Harbinger Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         # Show "Lofty"
         #     BaseType Var("Lofty Harbinger Currencies")
         #     SetFontSize Var("Extra Large Font Size")
         #     SetBackgroundColor Var("Harbinger Color")
-        #     MinimapIcon Largest Var("Harbinger Effect Color") Var("League Minimap Icon Shape")
+        #     MinimapIcon Large Var("Harbinger Effect Color") Var("League Minimap Icon Shape")
         #     PlayEffect Var("Harbinger Effect Color")
         # Show "Precious"
         #     BaseType Var("Precious Harbinger Currencies")
@@ -1671,7 +1671,7 @@ Show "Incursio1"
     SetFontSize Var("Extra Large Font Size")
     SetTextColor 255 255 255
     SetBackgroundColor Var("Incursion Color")
-    MinimapIcon Largest Var("Incursion Effect Color") Var("League Minimap Icon Shape")
+    MinimapIcon Large Var("Incursion Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Incursion Effect Color")
     PlayAlertSoundPositional Var("Lofty Sound")
 Show "Incursio2"
@@ -1695,7 +1695,7 @@ Hide "Fossil"
             BaseType Var("Sublime Fossils")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Lofty"
@@ -1728,7 +1728,7 @@ Hide "Resonator"
             BaseType Var("Sublime Resonators")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Lofty"
@@ -1786,7 +1786,7 @@ Show "Oil"
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("Corrupted Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Tainted Oil"
@@ -1794,14 +1794,14 @@ Show "Oil"
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
             SetBorderColor Var("Corrupted Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Sublime"
             BaseType Var("Sublime Oils")
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Sublime BG Color")
-            MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Lofty"
@@ -1829,7 +1829,7 @@ Show "Oil Extractor"
     BaseType "Oil Extractor"
     SetFontSize Var("Extra Large Font Size")
     SetBackgroundColor Var("Sublime BG Color")
-    MinimapIcon Largest Var("Sublime Effect Color") Var("League Minimap Icon Shape")
+    MinimapIcon Large Var("Sublime Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Sublime Effect Color")
     PlayAlertSoundPositional Var("Sublime Sound")
 
@@ -2114,12 +2114,12 @@ Show "Corpse"
         Show "Sublime"
             BaseType == Var("Sublime Corpses")
             SetFontSize Var("Extra Large Font Size")
-            MinimapIcon Largest Var("Affliction Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Affliction Effect Color") Var("League Minimap Icon Shape")
             PlayAlertSoundPositional Var("Sublime Sound")
         Show "Lofty"
             BaseType == Var("Lofty Corpses")
             SetFontSize Var("Large Font Size")
-            MinimapIcon Largest Var("Affliction Effect Color") Var("League Minimap Icon Shape")
+            MinimapIcon Large Var("Affliction Effect Color") Var("League Minimap Icon Shape")
             PlayAlertSoundPositional Var("Lofty Sound")
 
 ################################################################################
@@ -2140,7 +2140,7 @@ Show "Error"
     SetFontSize Var("Extra Large Font Size")
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
-    MinimapIcon Largest Red Star
+    MinimapIcon Large Red Star
     PlayEffect Red
     PlayAlertSound Var("Error Sound")
     CustomAlertSoundOptional "./Sounds/Error.wav" 300
