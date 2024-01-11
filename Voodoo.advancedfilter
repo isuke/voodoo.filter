@@ -26,8 +26,8 @@ Show "Unique Jewelry"
     SetTextColor Var("Unique Item Color")
     MinimapIcon Largest Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
+    PlayAlertSoundPositional Var("Unique Sound")
+    CustomAlertSoundOptional "./Sounds/Unique.wav" 300
 
     Fork "Corrupted"
         Unset "False"
@@ -205,8 +205,8 @@ Show "Unique Belt"
     SetTextColor Var("Unique Item Color")
     MinimapIcon Largest Var("Unique Effect Color") Var("Accessory Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
+    PlayAlertSoundPositional Var("Unique Sound")
+    CustomAlertSoundOptional "./Sounds/Unique.wav" 300
 
     Fork "Corrupted"
         Unset "False"
@@ -382,8 +382,8 @@ Show "Unique Weapon/Gear"
     Rarity Unique
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Unique Item Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
+    PlayAlertSoundPositional Var("Unique Sound")
+    CustomAlertSoundOptional "./Sounds/Unique.wav" 300
 
     Mixin "Drop Level"
         Show "High"
@@ -739,18 +739,16 @@ Hide "Currency"
             Mixin "Base Type"
                 Unset "Mirror of Kalandra"
                     BaseType == "Mirror of Kalandra"
-                    # PlayAlertSound ShMirror 300
-                    CustomAlertSound "./Sounds/Mirror.wav"
-                    DisableDropSound
+                    PlayAlertSound ShMirror 300
+                    CustomAlertSoundOptional "./Sounds/Mirror.wav" 300
                 Unset "Exalted Orb"
                     BaseType == "Exalted Orb"
-                    CustomAlertSound "./Sounds/Exalted.wav"
-                    DisableDropSound
+                    PlayAlertSound ShExalted 300
+                    CustomAlertSoundOptional "./Sounds/Exalted.wav" 300
                 Unset "Divine Orb"
                     BaseType == "Divine Orb"
-                    # PlayAlertSound ShDivine 300
-                    CustomAlertSound "./Sounds/Divine.wav"
-                    DisableDropSound
+                    PlayAlertSound ShDivine 300
+                    CustomAlertSoundOptional "./Sounds/Divine.wav" 300
         Show "Lofty"
             BaseType == Var("Lofty Currencies")
             SetFontSize Var("Large Font Size")
@@ -762,9 +760,8 @@ Hide "Currency"
             Mixin "Base Type"
                 Unset "Chaos Orb"
                     BaseType == "Chaos Orb"
-                    # PlayAlertSound ShChaos 300
-                    CustomAlertSound "./Sounds/Chaos.wav"
-                    DisableDropSound
+                    PlayAlertSound ShChaos 170
+                    CustomAlertSoundOptional "./Sounds/Chaos.wav" 300
         Show "Precious"
             BaseType == Var("Precious Currencies")
             SetFontSize Var("Default Font Size")
@@ -909,8 +906,8 @@ Show "Unique Flask"
     SetBorderColor Var("Unique Item Color")
     MinimapIcon Medium Var("Unique Effect Color") Var("Flask Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
+    PlayAlertSoundPositional Var("Unique Sound")
+    CustomAlertSoundOptional "./Sounds/Unique.wav" 300
 
 Hide "Flask"
     Class "Utility Flask" "Life Flask" "Mana Flask" "Hybrid Flask"
@@ -983,8 +980,6 @@ Hide "Gem"
     SetFontSize Var("Small Font Size")
     SetTextColor Var("Gem Color")
     SetBackgroundColor Var("Cheap BG Color") 200
-    CustomAlertSound "./Sounds/Gem.wav"
-    DisableDropSound
 
     Fork "Corrupted"
         Unset "False"
@@ -1061,8 +1056,7 @@ Hide "Gem"
 ################################################################################
 Show "Map Fragment"
     Class "Map Fragment"
-    CustomAlertSound "./Sounds/MapFragment.wav"
-    DisableDropSound
+    CustomAlertSoundOptional "./Sounds/MapFragment.wav" 300
 
     Fork "Base Type"
         Show "Vaal Fragment"
@@ -1166,8 +1160,7 @@ Show "Invitation"
     SetTextColor Var("Map Color")
     SetBackgroundColor Var("Siege Color")
     MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
-    CustomAlertSound "./Sounds/Map.wav"
-    DisableDropSound
+    CustomAlertSoundOptional "./Sounds/Map.wav" 300
 
     Mixin "Baset Type"
         Show "Sublime"
@@ -1184,8 +1177,7 @@ Show "Misc Map and Vault Key"
     SetBackgroundColor Var("Sublime BG Color")
     MinimapIcon Medium Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
     PlayEffect Var("Sublime Effect Color")
-    CustomAlertSound "./Sounds/Map.wav"
-    DisableDropSound
+    CustomAlertSoundOptional "./Sounds/Map.wav" 300
 
 Show "Unique Map"
     Class "Map"
@@ -1196,8 +1188,8 @@ Show "Unique Map"
     SetBorderColor Var("Unique Item Color")
     MinimapIcon Medium Var("Unique Effect Color") Var("Map Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
+    PlayAlertSoundPositional Var("Unique Sound")
+    CustomAlertSoundOptional "./Sounds/Unique.wav" 300
 
     Mixin "Base Type"
         Show "Sublime"
@@ -1221,8 +1213,7 @@ Show "Unique Map"
 Show "Map"
     Class "Map"
     SetTextColor Var("Map Color")
-    CustomAlertSound "./Sounds/Map.wav"
-    DisableDropSound
+    CustomAlertSoundOptional "./Sounds/Map.wav" 300
 
     Mixin "Rarity"
         Unset "Rare"
@@ -1298,8 +1289,8 @@ Show "Unique Jewel"
     SetBorderColor Var("Unique Item Color")
     MinimapIcon Medium Var("Unique Effect Color") Var("Jewel Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
+    PlayAlertSoundPositional Var("Unique Sound")
+    CustomAlertSoundOptional "./Sounds/Unique.wav" 300
 
 Prop("Jewel Activity") "Jewel"
     Class "Jewel"
@@ -1362,8 +1353,8 @@ Show "Divination Card"
             SetBackgroundColor Var("Sublime BG Color")
             MinimapIcon Largest Var("Sublime Effect Color") Var("Divination Card Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-            # PlayAlertSoundPositional Var("Sublime Sound")
-            CustomAlertSound "./Sounds/DivinationCard.wav"
+            PlayAlertSoundPositional Var("Sublime Sound")
+            CustomAlertSoundOptional "./Sounds/DivinationCard.wav" 300
         Show "Lofty"
             BaseType == Var("Lofty Divination Cards")
             SetFontSize Var("Large Font Size")
@@ -1408,7 +1399,7 @@ Show "Sextant"
     BaseType "Sextant"
     SetTextColor Var("Sextant Color")
     SetBorderColor Var("Sextant Color")
-    CustomAlertSound "./Sounds/Sextant.wav"
+    CustomAlertSoundOptional "./Sounds/Sextant.wav" 300
 
     Fork "Base Type"
         Show "Awakened Sextant"
@@ -1613,8 +1604,8 @@ Show "Unique Piece"
     SetBackgroundColor 0 0 0
     MinimapIcon Medium Var("Unique Effect Color") Var("Equipment Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
-    CustomAlertSound "./Sounds/Unique.wav"
-    DisableDropSound
+    PlayAlertSoundPositional Var("Unique Sound")
+    CustomAlertSoundOptional "./Sounds/Unique.wav" 300
 Show "Harbinger Currency"
     BaseType Var("Harbinger Currencies")
     SetTextColor 255 255 255
@@ -2151,6 +2142,5 @@ Show "Error"
     SetBackgroundColor 255 0 0
     MinimapIcon Largest Red Star
     PlayEffect Red
-    # PlayAlertSound Var("Error Sound")
-    CustomAlertSound "./Sounds/Error.wav"
-    DisableDropSound
+    PlayAlertSound Var("Error Sound")
+    CustomAlertSoundOptional "./Sounds/Error.wav" 300
