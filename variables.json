@@ -524,6 +524,7 @@
   { "name": "Large Font Size"      , "items": [40] },
   { "name": "Default Font Size"    , "items": [37] },
   { "name": "Small Font Size"      , "items": [32] },
+  { "name": "Extra Small Font Size", "items": [12] },
 
 
 

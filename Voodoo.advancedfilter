@@ -94,11 +94,11 @@ Prop("Rare Accessory Activity") "Rare Jewelry"
     Mixin "Base Type"
         Hide "Talisman"
             BaseType "Talisman"
-            SetFontSize Var("Small Font Size")
+            SetFontSize Var("Extra Small Font Size")
             SetBackgroundColor Var("Talisman Color") 160
         Hide "Breach Ring"
             BaseType "Breach Ring"
-            SetFontSize Var("Small Font Size")
+            SetFontSize Var("Extra Small Font Size")
             SetBackgroundColor Var("Breach Color") 160
         Unset "Good"
             BaseType Var("Good Jewelries")
@@ -827,14 +827,14 @@ Hide "Shard"
             PlayAlertSoundPositional Var("Precious Sound")
         Hide "Trivial"
             BaseType Var("Trivial Shards")
-            SetFontSize Var("Default Font Size")
+            SetFontSize Var("Small Font Size")
             SetBackgroundColor Var("Trivial BG Color") 240
             # MinimapIcon NONE
             PlayEffect Var("Trivial Effect Color") Temp
             PlayAlertSoundPositional Var("Trivial Sound")
         Hide "Cheap"
             BaseType Var("Cheap Shards")
-            SetFontSize Var("Small Font Size")
+            SetFontSize Var("Extra Small Font Size")
             SetBackgroundColor Var("Cheap BG Color") 200
             # MinimapIcon NONE
             # PlayEffect NONE
@@ -976,7 +976,7 @@ Hide "Flask"
 ################################################################################
 Hide "Gem"
     Class "Gem"
-    SetFontSize Var("Small Font Size")
+    SetFontSize Var("Extra Small Font Size")
     SetTextColor Var("Gem Color")
     SetBackgroundColor Var("Cheap BG Color") 200
 
@@ -1381,6 +1381,7 @@ Show "Divination Card"
 
         Hide "Cheap"
             BaseType == Var("Cheap Divination Cards")
+            SetFontSize Var("Extra Small Font Size")
 
 Show "Stacked Deck"
     BaseType "Stacked Deck"
@@ -1685,7 +1686,7 @@ Show "Incursio2"
 #
 # Delve League
 #
-Hide "Fossil"
+Show "Fossil"
     BaseType "Fossil"
     SetTextColor Var("Delve Color")
 
@@ -1718,7 +1719,7 @@ Hide "Fossil"
             # MinimapIcon NONE
             PlayEffect Var("Trivial Effect Color") Temp
             PlayAlertSoundPositional Var("Trivial Sound")
-Hide "Resonator"
+Show "Resonator"
     BaseType "Delve Stackable Socketable Currency"
     SetTextColor Var("Delve Color")
 
