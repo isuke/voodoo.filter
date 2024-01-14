@@ -800,24 +800,34 @@
     ]
   },
   {
-    "name": "Siege Currencies",
+    "name": "Sublime Siege Currencies",
     "items": [
-      "Lesser Eldritch Ember",
-      "Greater Eldritch Ember",
-      "Grand Eldritch Ember",
       "Exceptional Eldritch Ember",
-      "Lesser Eldritch Ichor",
-      "Greater Eldritch Ichor",
-      "Grand Eldritch Ichor",
       "Exceptional Eldritch Ichor",
       "Orb of Conflict",
-      "Eldritch Chaos Orb",
-      "Eldritch Exalted Orb",
-      "Eldritch Orb of Annulment",
       "Crusader's Exalted Orb",
       "Hunter's Exalted Orb",
       "Redeemer's Exalted Orb",
       "Warlord's Exalted Orb"
+    ]
+  },
+  {
+    "name": "Lofty Siege Currencies",
+    "items": [
+      "Eldritch Chaos Orb",
+      "Eldritch Exalted Orb",
+      "Eldritch Orb of Annulment"
+    ]
+  },
+  {
+    "name": "Precious Siege Currencies",
+    "items": [
+      "Lesser Eldritch Ember",
+      "Greater Eldritch Ember",
+      "Grand Eldritch Ember",
+      "Lesser Eldritch Ichor",
+      "Greater Eldritch Ichor",
+      "Grand Eldritch Ichor"
     ]
   },
 
