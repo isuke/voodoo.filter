@@ -1496,14 +1496,29 @@ Show "Scouting Report and Compasse"
     # PlayEffect NONE
     # PlayAlertSoundPositional TODO
 Show "Siege Currency"
-    BaseType Var("Siege Currencies")
-    SetFontSize Var("Large Font Size")
     SetTextColor 255 255 255
     SetBackgroundColor Var("Siege Currency Color")
     # SetBorderColor NONE
-    MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Siege Effect Color")
-    # PlayAlertSoundPositional TODO
+
+    Fork "Rareness"
+        Show "Sublime"
+            BaseType Var("Sublime Siege Currencies")
+            SetFontSize Var("Extra Large Font Size")
+            MinimapIcon Large Var("Siege Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Siege Effect Color")
+            # PlayAlertSoundPositional TODO
+        Show "Lofty"
+            BaseType Var("Lofty Siege Currencies")
+            SetFontSize Var("Large Font Size")
+            MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Siege Effect Color")
+            # PlayAlertSoundPositional TODO
+        Show "Precious"
+            BaseType Var("Precious Siege Currencies")
+            SetFontSize Var("Default Font Size")
+            MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Siege Effect Color") Temp
+            # PlayAlertSoundPositional TODO
 
 ################################################################################
 # League Items                                                                 #
