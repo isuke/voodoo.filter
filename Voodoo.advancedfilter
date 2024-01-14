@@ -908,7 +908,6 @@ Show "Unique Flask"
     Rarity Unique
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Flask Color")
-    SetBackgroundColor Var("Precious BG Color")
     SetBorderColor Var("Unique Item Color")
     MinimapIcon Medium Var("Unique Effect Color") Var("Flask Minimap Icon Shape")
     PlayEffect Var("Unique Effect Color")
