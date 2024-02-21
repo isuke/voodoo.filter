@@ -1944,14 +1944,27 @@ Show "Blueprint"
     SetBorderColor Var("Heist Color")
     MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Heist Effect Color")
-Show "Rogue Equipment"
+Hide "Rogue Equipment"
     Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
     SetTextColor Var("Heist Color")
-    SetFontSize Var("Large Font Size")
-    SetBackgroundColor Var("Lofty BG Color")
     SetBorderColor Var("Heist Color")
-    MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Heist Effect Color")
+
+    Mixin "Level"
+        Show "5"
+            DropLevel >= 83
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Lofty BG Color")
+            MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+            PlayEffect Var("Heist Effect Color")
+        Show "4"
+            DropLevel >= 80
+            SetFontSize Var("Large Font Size")
+            SetBackgroundColor Var("Precious BG Color")
+            MinimapIcon Medium Var("Heist Effect Color") Var("League Minimap Icon Shape")
+        Show "3"
+            DropLevel >= 75
+            SetFontSize Var("Default Font Size")
+            SetBackgroundColor Var("Trivial BG Color") 240
 Show "Heist Item"
     BaseType Var("Heist Items")
     SetTextColor Var("Heist Color")
