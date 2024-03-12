@@ -239,27 +239,45 @@
   {
     "name": "Experimented Base Weapons",
     "items": [
+      "Disapprobation Axe",
       "Psychotic Axe",
+      "Honed Cleaver",
       "Apex Cleaver",
+      "Foundry Bow",
       "Solarine Bow",
+      "Malign Fangs",
       "Void Fangs",
+      "Pressurised Dagger",
       "Pneumatic Dagger",
+      "Flashfire Blade",
       "Infernal Blade",
+      "Crack Mace",
       "Boom Mace",
+      "Oscillating Sceptre",
+      "Stabilising Sceptre",
       "Alternating Sceptre",
+      "Crushing Force Magnifier",
       "Impact Force Propagator",
+      "Reciprocation Staff",
       "Battery Staff",
+      "Potentiality Rod",
       "Eventuality Rod",
+      "Capricious Spiritblade",
       "Anarchic Spiritblade",
+      "Blasting Blade",
       "Banishing Blade",
+      "Congregator Wand",
       "Accumulator Wand"
     ]
   },
   {
     "name": "Experimented Base Gears",
     "items": [
+      "Magmatic Tower Shield",
       "Heat-attuned Tower Shield",
+      "Polar Buckler",
       "Cold-attuned Buckler",
+      "Subsuming Spirit Shield",
       "Transfer-attuned Spirit Shield"
     ]
   },
