@@ -536,7 +536,6 @@
   { "name": "Flask Minimap Icon Shape"          , "items": ["Raindrop"] },
   { "name": "Jewel Minimap Icon Shape"          , "items": ["Kite"] },
   { "name": "Divination Card Minimap Icon Shape", "items": ["Square"] },
-  { "name": "Sextant Minimap Icon Shape"        , "items": ["Cross"] },
 
   { "name": "Extra Large Font Size", "items": [45] },
   { "name": "Large Font Size"      , "items": [40] },
@@ -802,10 +801,8 @@
   },
 
   {
-    "name": "Scouting Reports and Compasses",
+    "name": "Scouting Reports",
     "items": [
-      "Surveyor's Compass",
-      "Charged Compass",
       "Singular Scouting Report",
       "Otherworldly Scouting Report",
       "Comprehensive Scouting Report",

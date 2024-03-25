@@ -1399,30 +1399,6 @@ Show "Stacked Deck"
     PlayAlertSoundPositional Var("Precious Sound")
 
 ################################################################################
-# Sextants                                                                     #
-################################################################################
-Show "Sextant"
-    BaseType "Sextant"
-    SetTextColor Var("Sextant Color")
-    SetBorderColor Var("Sextant Color")
-    CustomAlertSoundOptional "./Sounds/Sextant.wav" 300
-
-    Fork "Base Type"
-        Show "Awakened Sextant"
-            # "Master Cartographer's Sextant"
-            BaseType "Awakened Sextant"
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Tier2 BG Color")
-            MinimapIcon Medium Var("Sublime Effect Color") Var("Sextant Minimap Icon Shape")
-            PlayEffect Var("Sublime Effect Color")
-        Show "Elevated Sextant"
-            BaseType "Elevated Sextant"
-            SetFontSize Var("Large Font Size")
-            SetBackgroundColor Var("Tier2 BG Color")
-            MinimapIcon Medium Var("Sublime Effect Color") Var("Sextant Minimap Icon Shape")
-            PlayEffect Var("Sublime Effect Color")
-
-################################################################################
 # Major Update                                                                 #
 ################################################################################
 #
@@ -1486,8 +1462,8 @@ Show "Voidstone"
     MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
     PlayEffect Var("Siege Effect Color")
     # PlayAlertSoundPositional TODO
-Show "Scouting Report and Compasse"
-    BaseType Var("Scouting Reports and Compasses")
+Show "Scouting Report"
+    BaseType Var("Scouting Reports")
     SetFontSize Var("Default Font Size")
     SetTextColor 0 0 0
     SetBackgroundColor Var("Scouting Report Color")
