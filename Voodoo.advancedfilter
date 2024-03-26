@@ -1156,24 +1156,8 @@ Show "Map Fragment"
             PlayEffect Var("Harvest Effect Color")
 
 ################################################################################
-# Maps and Invitations                                                         #
+# Maps                                                                         #
 ################################################################################
-Show "Invitation"
-    Class "Map"
-    BaseType "Invitation"
-    SetFontSize Var("Large Font Size")
-    SetTextColor Var("Map Color")
-    SetBackgroundColor Var("Siege Color")
-    MinimapIcon Medium Var("Siege Effect Color") Var("League Minimap Icon Shape")
-    CustomAlertSoundOptional "./Sounds/Map.wav" 300
-
-    Mixin "Baset Type"
-        Show "Sublime"
-            BaseType "Screaming Invitation" "Incandescent Invitation"
-            SetFontSize Var("Extra Large Font Size")
-            MinimapIcon Large Var("Siege Effect Color") Var("League Minimap Icon Shape")
-            PlayEffect Var("Siege Effect Color")
-
 Show "Misc Map and Vault Key"
     Class "Misc Map" "Vault Key" "Currency"
     BaseType Var("Misc Maps")
