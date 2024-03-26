@@ -1119,6 +1119,13 @@ Show "Map Fragment"
             SetBackgroundColor Var("Siege Color")
             MinimapIcon Medium Var("Siege Effect Color") Var("Map Fragment Minimap Icon Shape")
             PlayEffect Var("Siege Effect Color")
+        Show "Uber Pinnacle Fragment"
+            BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment"
+            SetFontSize Var("Extra Large Font Size")
+            SetTextColor 255 255 255
+            SetBackgroundColor Var("Conquerors Color")
+            MinimapIcon Large Var("Conquerors Effect Color") Var("Map Fragment Minimap Icon Shape")
+            PlayEffect Var("Conquerors Effect Color")
         Show "Divine Vessel"
             BaseType "Divine Vessel"
             SetFontSize Var("Default Font Size")
