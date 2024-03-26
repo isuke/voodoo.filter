@@ -33,7 +33,7 @@
       "Sacred Orb",
       "Scroll of Wisdom",
       "Vaal Orb",
-      "Veiled Chaos Orb"
+      "Veiled Orb"
     ]
   },
   {
@@ -336,7 +336,8 @@
       "Awakener's Orb",
       "Divine Orb",
       "Exalted Orb",
-      "Mirror of Kalandra"
+      "Mirror of Kalandra",
+      "Veiled Orb"
     ]
   },
   {
@@ -357,8 +358,7 @@
       "Perandus Coin",
       "Regal Orb",
       "Sacred Orb",
-      "Vaal Orb",
-      "Veiled Chaos Orb"
+      "Vaal Orb"
     ]
   },
   {
