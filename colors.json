@@ -81,6 +81,7 @@
   { "name": "Crucible Color"               , "hex": "#c80000" },
   { "name": "Ancestor Color"               , "hex": "#0071c7" },
   { "name": "Affliction Color"             , "hex": "#5582a5" },
+  { "name": "Necropolis Color"             , "hex": "#8b99df" },
 
   { "name": "Influence Color"              , "hex": "#ff8e28" },
 

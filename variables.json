@@ -517,6 +517,7 @@
   { "name": "Crucible Effect Color"  , "items": ["Red"] },
   { "name": "Ancestor Effect Color"  , "items": ["Blue"] },
   { "name": "Affliction Effect Color", "items": ["Purple"] },
+  { "name": "Necropolis Effect Color", "items": ["Blue"] },
 
 
   { "name": "Influence Effect Color", "items": ["Orange"] },
