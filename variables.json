@@ -549,10 +549,6 @@
   {
     "name": "New Divination Cards",
     "items": [
-      "I See Brothers",
-      "Assassin's Gift",
-      "Eldritch Perfection",
-      "Who Asked"
     ]
   },
   {
@@ -569,6 +565,7 @@
       "Doryani's Epiphany",
       "Fire Of Unknown Origin",
       "House of Mirrors",
+      "I See Brothers",
       "Imperfect Memories",
       "Love Through Ice",
       "Luminous Trove",
@@ -630,6 +627,7 @@
       "The Sacrifice",
       "Tranquillity",
       "Void of the Elements",
+      "Who Asked",
       "Winter's Embrace"
     ]
   },
