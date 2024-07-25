@@ -2141,6 +2141,12 @@ Show "Allflame Embers"
     MinimapIcon Medium Var("Necropolis Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Necropolis Effect Color")
 
+#
+# Kalguur
+#
+Show "Gold"
+    Class "Gold"
+
 ################################################################################
 # Quest Items                                                                  #
 ################################################################################
