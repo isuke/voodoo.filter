@@ -2123,6 +2123,18 @@ Show "Corpse"
             MinimapIcon Large Var("Affliction Effect Color") Var("League Minimap Icon Shape")
             PlayAlertSoundPositional Var("Lofty Sound")
 
+Show "An Audience With The King"
+    Class "An Audience With The King"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Affliction Color")
+    SetBackgroundColor Var("Precious BG Color")
+    SetBorderColor Var("Affliction Color")
+    MinimapIcon Large Var("Affliction Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Affliction Effect Color")
+    PlayAlertSoundPositional Var("Lofty Sound")
+
+
+
 #
 # Necropolis
 #
