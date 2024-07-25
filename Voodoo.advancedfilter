@@ -1999,6 +1999,21 @@ Show "Expedition Logbook"
     PlayAlertSoundPositional Var("Precious Sound")
 
 #
+# Kalandra
+#
+Show "Reflecting Mist"
+    Class "Reflecting Mist"
+    SetFontSize Var("Extra Large Font Size")
+    SetTextColor Var("Kalandra Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Kalandra Color")
+    MinimapIcon Medium Var("Kalandra Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Kalandra Effect Color")
+    PlayAlertSoundPositional Var("Lofty Sound")
+
+
+
+#
 # Sanctum League
 #
 Show "Forbidden Tome"
