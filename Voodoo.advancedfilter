@@ -2134,7 +2134,7 @@ Show "Corpse"
             PlayAlertSoundPositional Var("Lofty Sound")
 
 Show "An Audience With The King"
-    Class "An Audience With The King"
+    BaseType "An Audience With The King"
     SetFontSize Var("Large Font Size")
     SetTextColor Var("Affliction Color")
     SetBackgroundColor Var("Precious BG Color")
