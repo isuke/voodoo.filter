@@ -1997,7 +1997,7 @@ Show "Expedition Logbook"
 # Kalandra
 #
 Show "Reflecting Mist"
-    Class "Reflecting Mist"
+    BaseType "Reflecting Mist"
     SetFontSize Var("Extra Large Font Size")
     SetTextColor Var("Kalandra Color")
     SetBackgroundColor Var("Lofty BG Color")
