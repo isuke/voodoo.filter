@@ -2098,10 +2098,12 @@ Show "Tincture"
     SetFontSize Var("Default Font Size")
     SetTextColor Var("Affliction Color")
     SetBackgroundColor Var("Precious BG Color")
-    SetBorderColor Var("Affliction Color")
-    MinimapIcon Medium Var("Affliction Effect Color") Var("League Minimap Icon Shape")
-    PlayEffect Var("Affliction Effect Color")
-    PlayAlertSoundPositional Var("Precious Sound")
+
+    Mixin "Item Level"
+        Show "High"
+            ItemLevel >= 85
+            SetBorderColor Var("High Item Level Border Color")
+
 Show "Charm"
     Class "Charms"
     SetFontSize Var("Default Font Size")
