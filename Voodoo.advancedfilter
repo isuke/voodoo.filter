@@ -1227,25 +1227,25 @@ Show "Map"
             SetBorderColor Var("Corrupted Color")
 
     Fork "Tire"
-        Show "Very High"
-            MapTier >= 16
+        Show "Purple"
+            MapTier >= 17
             SetFontSize Var("Extra Large Font Size")
             SetBackgroundColor Var("Tier1 BG Color")
             MinimapIcon Medium Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-        Show "High"
+        Show "Red"
             MapTier >= 11
             SetFontSize Var("Large Font Size")
             SetBackgroundColor Var("Tier2 BG Color")
             MinimapIcon Small Var("Sublime Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Sublime Effect Color")
-        Show "Middle"
+        Show "Yellow"
             MapTier >= 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Tier3 BG Color")
             MinimapIcon Small Var("Lofty Effect Color") Var("Map Minimap Icon Shape")
             PlayEffect Var("Lofty Effect Color") Temp
-        Show "Low"
+        Show "White"
             MapTier < 6
             SetFontSize Var("Default Font Size")
             SetBackgroundColor Var("Cheap BG Color") 200
