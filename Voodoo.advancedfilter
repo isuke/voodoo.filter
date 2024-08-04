@@ -2185,6 +2185,14 @@ Show "Gold"
     Class "Gold"
     SetFontSize Var("Default Font Size")
 
+Show "Rune"
+    BaseType == Var("Rune")
+    SetFontSize Var("Default Font Size")
+    SetTextColor Var("Kalguur Color")
+    SetBackgroundColor Var("Lofty BG Color")
+    SetBorderColor Var("Kalguur Color")
+    PlayAlertSoundPositional Var("Lofty Sound")
+
 ################################################################################
 # Quest Items                                                                  #
 ################################################################################

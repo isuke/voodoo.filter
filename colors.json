@@ -82,6 +82,7 @@
   { "name": "Ancestor Color"               , "hex": "#0071c7" },
   { "name": "Affliction Color"             , "hex": "#5582a5" },
   { "name": "Necropolis Color"             , "hex": "#8b99df" },
+  { "name": "Kalguur Color"                , "hex": "#4a4d5e" },
 
   { "name": "Influence Color"              , "hex": "#ff8e28" },
 
