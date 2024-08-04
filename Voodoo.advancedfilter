@@ -901,6 +901,19 @@ Show "Tainted Currency"
             # PlayAlertSoundPositional Var("Cheap Sound")
 
 ################################################################################
+# Maven's Chisel                                                               #
+################################################################################
+Show "Maven's Chisel"
+    Class "Currency"
+    BaseType == "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Scarabs" "Maven's Chisel of Avarice"
+    SetFontSize Var("Large Font Size")
+    SetTextColor Var("Currency Color")
+    SetBackgroundColor Var("Maven Color")
+    # SetBorderColor NONE
+    MinimapIcon Medium Var("Maven Effect Color") Var("League Minimap Icon Shape")
+    PlayEffect Var("Maven Effect Color")
+
+################################################################################
 # Flasks                                                                       #
 ################################################################################
 Show "Unique Flask"
