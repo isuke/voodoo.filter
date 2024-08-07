@@ -481,18 +481,24 @@ Show "Special Base Type Weapon/Gear"
                     PlayEffect Var("Atlas Effect Color") Temp
                     PlayAlertSoundPositional Var("Trivial Sound")
 
-        Show "Good BaseType"
-            BaseType "Warlock Boots" "Ambusher" "Ornate Quiver"
-            SetFontSize Var("Extra Large Font Size")
+        Hide "Good BaseType"
+            BaseType "Warlock Boots" "Ambusher" "Ornate Quiver" "Grasping Mail"
             SetBackgroundColor Var("Experimented Color")
-            MinimapIcon Large Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
-            PlayEffect Var("Experimented Effect Color")
-            PlayAlertSoundPositional Var("Sublime Sound")
 
             Mixin "Item Level"
                 Show "High"
                     ItemLevel >= 85
+                    SetFontSize Var("Default Font Size")
                     SetBorderColor Var("High Item Level Border Color")
+
+            Mixin "Special"
+                Show "Influence"
+                    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+                    SetFontSize Var("Default Font Size")
+                    SetBackgroundColor Var("Influence Color") 200
+                    # MinimapIcon Medium Var("Influence Effect Color") Var("Equipment Minimap Icon Shape")
+                    # PlayEffect Var("Influence Effect Color")
+                    PlayAlertSoundPositional Var("Precious Sound")
 
     Fork "Rarity"
         Unset "Rare"

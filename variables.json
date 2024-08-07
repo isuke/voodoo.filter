@@ -305,6 +305,45 @@
   },
 
   {
+    "name": "Ritual Base Gears",
+    "items": [
+      "Sorrow Mask",
+      "Atonement Mask",
+      "Penitent Mask",
+      "Imp Crown",
+      "Demon Crown",
+      "Archdemon Crown",
+      "Gale Crown",
+      "Winter Crown",
+      "Blizzard Crown",
+      "Preserving Gauntlets",
+      "Guarding Gauntlets",
+      "Thwarting Gauntlets",
+      "Tinker Gloves",
+      "Apprentice Gloves",
+      "Trapsetter Gloves",
+      "Leyline Gloves",
+      "Aetherwind Gloves",
+      "Nexus Gloves",
+      "Basemetal Treads",
+      "Darksteel Treads",
+      "Brimstone Treads",
+      "Cloudwhisper Boots",
+      "Windbreak Boots",
+      "Stormrider Boots",
+      "Duskwalk Slippers",
+      "Nightwind Slippers",
+      "Dreamquest Slippers"
+    ]
+  },
+  {
+  "name": "Ritual Base Jewelries",
+  "items": [
+      "Nameless Ring"
+    ]
+  },
+
+  {
     "name": "Good Jewelries",
     "items": [
       "Amber Amulet",
