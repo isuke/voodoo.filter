@@ -481,6 +481,18 @@ Show "Special Base Type Weapon/Gear"
                     PlayEffect Var("Atlas Effect Color") Temp
                     PlayAlertSoundPositional Var("Trivial Sound")
 
+        Show "Good BaseType"
+            BaseType "Warlock Boots" "Ambusher" "Ornate Quiver"
+            SetFontSize Var("Extra Large Font Size")
+            SetBackgroundColor Var("Experimented Color")
+            MinimapIcon Large Var("Experimented Effect Color") Var("Accessory Minimap Icon Shape")
+            PlayEffect Var("Experimented Effect Color")
+            PlayAlertSoundPositional Var("Sublime Sound")
+
+            Mixin "Item Level"
+                Show "High"
+                    ItemLevel >= 85
+                    SetBorderColor Var("High Item Level Border Color")
 
     Fork "Rarity"
         Unset "Rare"
