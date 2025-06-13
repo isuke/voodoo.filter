@@ -1292,19 +1292,6 @@ Show "Map"
             PlayEffect Var("Blight Effect Color")
 
 ################################################################################
-# Memories                                                                     #
-################################################################################
-Show "Memory"
-    Class "Memory"
-    SetFontSize Var("Default Font Size")
-    SetTextColor 0 0 0
-    SetBackgroundColor Var("Memory Color")
-    # SetBorderColor NONE
-    MinimapIcon Medium Var("Memory Effect Color") Var("Map Fragment Minimap Icon Shape")
-    PlayEffect Var("Memory Effect Color")
-    # PlayAlertSoundPositional TODO
-
-################################################################################
 # Jewels                                                                       #
 ################################################################################
 Show "Unique Jewel"
