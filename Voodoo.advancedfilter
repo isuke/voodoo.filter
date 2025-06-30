@@ -2191,6 +2191,7 @@ Show "An Audience With The King"
 #     SetBackgroundColor Var("Necropolis Color")
 #     MinimapIcon Large Var("Necropolis Effect Color") Var("League Minimap Icon Shape")
 #     PlayEffect Var("Necropolis Effect Color")
+
 Show "Allflame Embers"
     Class "Embers of the Allflame"
     SetFontSize Var("Large Font Size")
@@ -2199,20 +2200,25 @@ Show "Allflame Embers"
     MinimapIcon Medium Var("Necropolis Effect Color") Var("League Minimap Icon Shape")
     PlayEffect Var("Necropolis Effect Color")
 
+    Mixin "Rareness"
+        Show "Sublime"
+            BaseType == "Allflame Ember of the Ethereal" "Allflame Ember of the Gilded"
+            SetFontSize Var("Extra Large Font Size")
+            MinimapIcon Large Var("Necropolis Effect Color") Var("League Minimap Icon Shape")
+            PlayAlertSoundPositional Var("Sublime Sound")
+        Show "Lofty"
+            BaseType == "Allflame Ember of Kulemak"
+            SetFontSize Var("Large Font Size")
+            MinimapIcon Large Var("Necropolis Effect Color") Var("League Minimap Icon Shape")
+            PlayAlertSoundPositional Var("Lofty Sound")
+
+
 #
 # Kalguur
 #
 Show "Gold"
     Class "Gold"
     SetFontSize Var("Default Font Size")
-
-# Show "Rune"
-#     BaseType == Var("Rune")
-#     SetFontSize Var("Default Font Size")
-#     SetTextColor Var("Kalguur Color")
-#     SetBackgroundColor Var("Lofty BG Color")
-#     SetBorderColor Var("Kalguur Color")
-#     PlayAlertSoundPositional Var("Lofty Sound")
 
 ################################################################################
 # Quest Items                                                                  #
